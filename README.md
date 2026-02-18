@@ -36,7 +36,7 @@ GitHub リポジトリの Settings → Secrets and variables → Actions に登�
 
 AntennaPod を開き、以下の URL を登録：
 ```
-https://YOUR_USERNAME.github.io/newspicker/feed.xml
+https://shotarrow.github.io/newspicker/feed.xml
 ```
 
 ## 📦 依存関係・環境構築
