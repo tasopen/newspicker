@@ -50,6 +50,7 @@ def save_seen_urls(urls: list[str], path: str = SEEN_URLS_PATH) -> None:
 
 
 
+def _load_config(config_path: str = "config/sources.yml") -> dict[str, Any]:
     with open(config_path, encoding="utf-8") as f:
         return yaml.safe_load(f)
 
