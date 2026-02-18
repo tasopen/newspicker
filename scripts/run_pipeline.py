@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agents.scout import collect
+from agents.scout import collect, save_seen_urls
 from agents.editor import generate_script
 from agents.voice import synthesize, get_audio_duration
 from agents.android import update_feed
@@ -52,6 +52,9 @@ def run() -> None:
         script=script,
         duration_sec=duration_sec,
     )
+
+    # 使用済み URL を記録（次回以降の重複排除）
+    save_seen_urls([a.url for a in articles])
 
     print(f"\n=== 完了 ===")
     print(f"  MP3: {mp3_path}")

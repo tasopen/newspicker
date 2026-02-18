@@ -2,8 +2,8 @@ name: Daily AI Podcast
 
 on:
   schedule:
-    # 毎朝 7:00 JST = UTC 22:00 (前日)
-    - cron: '0 22 * * *'
+    # 毎朝 6:00 JST = UTC 21:00 (前日)
+    - cron: '0 21 * * *'
   workflow_dispatch:  # 手動実行可能
 
 permissions:

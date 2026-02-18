@@ -27,7 +27,29 @@ class Article:
     score: float = 0.0
 
 
-def _load_config(config_path: str = "config/sources.yml") -> dict[str, Any]:
+SEEN_URLS_PATH = "docs/seen_urls.txt"
+
+
+def _load_seen_urls(path: str = SEEN_URLS_PATH) -> set[str]:
+    """過去に使用した記事 URL を読み込む。"""
+    if not os.path.exists(path):
+        return set()
+    with open(path, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def save_seen_urls(urls: list[str], path: str = SEEN_URLS_PATH) -> None:
+    """選択された記事 URL を seen_urls.txt に追記する。"""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    existing = _load_seen_urls(path)
+    new_urls = [u for u in urls if u not in existing]
+    if new_urls:
+        with open(path, "a", encoding="utf-8") as f:
+            for url in new_urls:
+                f.write(url + "\n")
+
+
+
     with open(config_path, encoding="utf-8") as f:
         return yaml.safe_load(f)
 
@@ -99,7 +121,7 @@ def fetch_rss(feed_cfg: dict[str, Any], hours: int) -> list[Article]:
 
 
 def collect(config_path: str = "config/sources.yml") -> list[Article]:
-    """全ソースから記事を収集し、スコア順上位N件を返す。"""
+    """全ソースから記事を収集し、スコア順上位N件を返す（既出記事は除外）。"""
     config = _load_config(config_path)
     api_key = os.environ.get("NEWS_API_KEY", "")
     hours = config["selection"]["hours_lookback"]
@@ -122,20 +144,23 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
         except Exception as e:
             print(f"[scout] RSS error ({feed_cfg['name']}): {e}")
 
-    # 重複排除（URL ベース）
+    # 過去に使用した記事を除外
+    seen_urls = _load_seen_urls()
+
+    # 重複排除（URL ベース）＋既出除外
     seen: set[str] = set()
     unique: list[Article] = []
     for a in all_articles:
-        if a.url not in seen and a.url:
+        if a.url not in seen and a.url and a.url not in seen_urls:
             seen.add(a.url)
-            # スコアにキーワードマッチを加算
             a.score += _score(a, config)
             unique.append(a)
 
     # スコア降順でソートして上位N件
     unique.sort(key=lambda a: (a.score, a.published_at), reverse=True)
     selected = unique[:max_n]
-    print(f"[scout] {len(all_articles)} articles fetched → {len(selected)} selected")
+    skipped = len(all_articles) - len(unique)
+    print(f"[scout] {len(all_articles)} fetched → {skipped} skipped (seen) → {len(selected)} selected")
     return selected
 
 
