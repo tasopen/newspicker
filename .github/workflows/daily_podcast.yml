@@ -41,4 +41,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/
           git diff --cached --quiet || git commit -m "chore: add episode $(date -u +%Y-%m-%d) [skip ci]"
-          git push
+          # Ensure we integrate any remote updates before pushing to avoid rejects
+          git fetch origin
+          git pull --rebase origin master || true
+          git push origin master || true
