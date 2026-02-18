@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>AI ニュース Daily</title>
+    <link>https://shotarrow.github.io/newspicker</link>
+    <description>最新のAIニュースを毎朝お届けするポッドキャスト。</description>
+    <language>ja</language>
+    <lastBuildDate>Wed, 18 Feb 2026 22:35:15 +0000</lastBuildDate>
+    <item>
+      <title>AI ニュース Daily 2026-02-18</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3</guid>
+      <pubDate>Wed, 18 Feb 2026 22:35:15 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。今日もお忙しい皆さんに、最新のAIトピックをコンパクトにまとめてお届けします。
+
+最初のニュースは、アマゾンのロボット開発に関する話題です。アマゾンは、開始からわずか半年足らずで、物流支援ロボットのプロジェクト「ブルー・ジェイ」の中止を決定しました。開発された中心技術は他のロボットプロジェクトに活用され、担当していた従業員も別の部署へ配置転換されるとのことです。
+
+続いては、注目のスタートアップ「ワールド・ラボ」の大きな動きです。著名なAI研究者フェイフェイ・リー氏が率いる同社は、ソフトウェア大手のオートデスクから2億ドルの出資を受け、評価</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3" type="audio/mpeg" length="2451501" />
+      <itunes:duration>02:33</itunes:duration>
+      <itunes:summary>おはようございます、AI ニュース Daily です。今日もお忙しい皆さんに、最新のAIトピックをコンパクトにまとめてお届けします。
+
+最初のニュースは、アマゾンのロボット開発に関する話題です。アマゾンは、開始からわずか半年足らずで、物流支援ロボットのプロジェクト「ブルー・ジェイ」の中止を決定しました。開発された中心技術は他のロボットプロジェクトに活用され、担当していた従業員も別の部署へ配置転換されるとのことです。
+
+続いては、注目のスタートアップ「ワールド・ラボ」の大きな動きです。著名なAI研究者フェイフェイ・リー氏が率いる同社は、ソフトウェア大手のオートデスクから2億ドルの出資を受け、評価</itunes:summary>
+    </item>
+    <item>
+      <title>AI ニュース Daily 2026-02-18</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3</guid>
+      <pubDate>Wed, 18 Feb 2026 22:28:56 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。今日も、目まぐるしく進化を続ける人工知能の最新トピックを厳選してお届けします。
+
+まずは、グーグル・ディープマインドが提唱する、AIの「道徳性」に関する新たな評価基準についての話題です。同社は、AIがセラピストや医療アドバイザーのような役割を果たす際、その倫理的な振る舞いが単なる表面的なポーズになっていないか、数学やプログラミングの能力と同じくらい厳格に検証すべきだと主張しています。大規模言語モデルが私たちの生活に深く入り込む中で、その内面的な正しさをどう担保するかが大きな課題となっています。
+
+続いては、インドにおけるAI教育と技術普及の</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3" type="audio/mpeg" length="2398509" />
+      <itunes:duration>02:29</itunes:duration>
+      <itunes:summary>おはようございます、AI ニュース Daily です。今日も、目まぐるしく進化を続ける人工知能の最新トピックを厳選してお届けします。
+
+まずは、グーグル・ディープマインドが提唱する、AIの「道徳性」に関する新たな評価基準についての話題です。同社は、AIがセラピストや医療アドバイザーのような役割を果たす際、その倫理的な振る舞いが単なる表面的なポーズになっていないか、数学やプログラミングの能力と同じくらい厳格に検証すべきだと主張しています。大規模言語モデルが私たちの生活に深く入り込む中で、その内面的な正しさをどう担保するかが大きな課題となっています。
+
+続いては、インドにおけるAI教育と技術普及の</itunes:summary>
+    </item>
+    <item>
+      <title>AI ニュース Daily 2026-02-18</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3</guid>
+      <pubDate>Wed, 18 Feb 2026 16:35:03 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。今日もお忙しい皆さんに、最新のAIトピックをぎゅっと凝縮してお届けします。
+
+まず最初のニュースは、AIの「道徳」に関する話題です。グーグルのディープマインドは、大規模言語モデルがカウンセラーや医療アドバイザーのような役割を担う際、その道徳的な振る舞いを数学やコード生成の能力と同じくらい厳密に評価すべきだと提唱しています。AIが単に「それらしい言葉」を並べているだけなのか、それとも真に倫理的な判断を下せているのか、その真偽を厳しくチェックする仕組みが必要だとしています。
+
+続いては、教育分野でのAI活用について。オープンエーアイがインドの高</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-18.mp3" type="audio/mpeg" length="2688813" />
+      <itunes:duration>02:48</itunes:duration>
+      <itunes:summary>おはようございます、AI ニュース Daily です。今日もお忙しい皆さんに、最新のAIトピックをぎゅっと凝縮してお届けします。
+
+まず最初のニュースは、AIの「道徳」に関する話題です。グーグルのディープマインドは、大規模言語モデルがカウンセラーや医療アドバイザーのような役割を担う際、その道徳的な振る舞いを数学やコード生成の能力と同じくらい厳密に評価すべきだと提唱しています。AIが単に「それらしい言葉」を並べているだけなのか、それとも真に倫理的な判断を下せているのか、その真偽を厳しくチェックする仕組みが必要だとしています。
+
+続いては、教育分野でのAI活用について。オープンエーアイがインドの高</itunes:summary>
+    </item>
+    <itunes:author>AI News Bot</itunes:author>
+    <itunes:category text="Technology" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://shotarrow.github.io/newspicker/cover.jpg" />
+  </channel>
+</rss>
