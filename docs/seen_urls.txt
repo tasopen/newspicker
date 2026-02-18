@@ -12,3 +12,4 @@ https://techcrunch.com/2026/02/18/kana-emerges-from-stealth-with-15m-to-build-fl
 https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/
 https://techcrunch.com/2026/02/18/indian-ai-lab-sarvams-new-models-are-a-major-bet-on-the-viability-of-open-source-ai/
 https://www.theverge.com/ai-artificial-intelligence/880584/google-gemini-ai-music-maker-lyria-3-beta
+https://www.theverge.com/ai-artificial-intelligence/880513/nvidia-meta-ai-grace-vera-chips
