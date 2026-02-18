@@ -9,6 +9,5 @@ dependencies = [
   "feedparser>=6.0",
   "python-dateutil>=2.9",
   "google-genai>=1.0",
-  "pydub>=0.25",
   "PyYAML>=6.0",
 ]

@@ -1,18 +1,21 @@
 """@voice: 音声合成エージェント
 
 Gemini TTS (gemini-2.5-flash-preview-tts) を使って台本テキストを MP3 に変換する。
-出力フォーマット: PCM → WAV → MP3 (pydub + ffmpeg)
+出力フォーマット: PCM → WAV → MP3 (wave + ffmpeg subprocess)
+pydub は Python 3.13 で audioop が削除されたため使用しない。
 """
 from __future__ import annotations
 
 import io
 import os
+import struct
+import subprocess
+import tempfile
 import wave
 
 import yaml
 from google import genai
 from google.genai import types
-from pydub import AudioSegment
 
 
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -30,6 +33,28 @@ def _pcm_to_wav_bytes(pcm_data: bytes, channels: int = 1, rate: int = 24000, sam
     return buf.getvalue()
 
 
+def _wav_duration_sec(wav_bytes: bytes) -> int:
+    """WAV バイト列から再生時間（秒）を計算する。"""
+    with wave.open(io.BytesIO(wav_bytes), "rb") as wf:
+        return int(wf.getnframes() / wf.getframerate())
+
+
+def _convert_wav_to_mp3(wav_bytes: bytes, output_path: str, bitrate: str = "128k") -> None:
+    """WAV バイト列を ffmpeg で MP3 に変換して output_path に保存する。"""
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+        tmp.write(wav_bytes)
+        tmp_path = tmp.name
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", tmp_path, "-b:a", bitrate, output_path],
+            check=True,
+            capture_output=True,
+        )
+    finally:
+        os.unlink(tmp_path)
+
+
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml") -> str:
     """台本テキストを音声合成して MP3 ファイルに保存する。output_path を返す。"""
     meta = _load_meta(meta_path)
@@ -39,8 +64,6 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
 
     client = genai.Client(api_key=api_key)
 
-    # Gemini TTS はテキストをそのまま読み上げるので、
-    # プロンプトで読み上げスタイルを指示する
     tts_prompt = f"ラジオパーソナリティのトーンで、落ち着いてはっきりと日本語で読み上げてください:\n\n{script}"
 
     response = client.models.generate_content(
@@ -63,21 +86,28 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
 
     # PCM → WAV → MP3
     wav_bytes = _pcm_to_wav_bytes(pcm_data)
-    audio = AudioSegment.from_wav(io.BytesIO(wav_bytes))
-
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    audio.export(output_path, format="mp3", bitrate="128k")
+    _convert_wav_to_mp3(wav_bytes, output_path)
 
     size_kb = os.path.getsize(output_path) // 1024
-    duration_sec = int(len(audio) / 1000)
+    duration_sec = _wav_duration_sec(wav_bytes)
     print(f"[voice] Saved {output_path} ({size_kb} KB, {duration_sec}s)")
     return output_path
 
 
 def get_audio_duration(mp3_path: str) -> int:
-    """MP3 ファイルの長さを秒で返す。"""
-    audio = AudioSegment.from_mp3(mp3_path)
-    return int(len(audio) / 1000)
+    """ffprobe で MP3 ファイルの長さを秒で返す。"""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            mp3_path,
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    return int(float(result.stdout.strip()))
 
 
 if __name__ == "__main__":
