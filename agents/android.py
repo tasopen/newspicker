@@ -1,0 +1,122 @@
+"""@android: Podcast RSS フィード生成・更新エージェント
+
+エピソード情報を受け取り、iTunes/Podcast 準拠の feed.xml を更新する。
+"""
+from __future__ import annotations
+
+import os
+from datetime import datetime, timezone
+from email.utils import format_datetime
+from xml.etree import ElementTree as ET
+
+import yaml
+
+
+ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
+
+ET.register_namespace("itunes", ITUNES_NS)
+ET.register_namespace("content", CONTENT_NS)
+
+
+def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
+    with open(meta_path, encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+def _itunes(tag: str) -> str:
+    return f"{{{ITUNES_NS}}}{tag}"
+
+
+def _format_duration(seconds: int) -> str:
+    h, rem = divmod(seconds, 3600)
+    m, s = divmod(rem, 60)
+    return f"{h:02d}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
+
+
+def update_feed(
+    date_str: str,
+    mp3_path: str,
+    script: str,
+    duration_sec: int,
+    feed_path: str = "docs/feed.xml",
+    meta_path: str = "config/podcast_meta.yml",
+) -> str:
+    """feed.xml に新エピソードを追加して保存する。feed_path を返す。"""
+    meta = _load_meta(meta_path)
+    base_url = meta["base_url"].rstrip("/")
+    mp3_filename = os.path.basename(mp3_path)
+    mp3_url = f"{base_url}/episodes/{mp3_filename}"
+    mp3_size = os.path.getsize(mp3_path)
+
+    # 既存 feed.xml をパース（なければ雛形から）
+    if os.path.exists(feed_path):
+        ET.parse(feed_path)  # validate existing XML
+        tree = ET.parse(feed_path)
+        root = tree.getroot()
+        channel = root.find("channel")
+    else:
+        root = ET.Element("rss", {
+            "version": "2.0",
+            "xmlns:itunes": ITUNES_NS,
+            "xmlns:content": CONTENT_NS,
+        })
+        channel = ET.SubElement(root, "channel")
+        ET.SubElement(channel, "title").text = meta["title"]
+        ET.SubElement(channel, "link").text = base_url
+        ET.SubElement(channel, "description").text = meta["description"]
+        ET.SubElement(channel, "language").text = meta.get("language", "ja")
+        itunes_author = ET.SubElement(channel, _itunes("author"))
+        itunes_author.text = meta["author"]
+        itunes_cat = ET.SubElement(channel, _itunes("category"))
+        itunes_cat.set("text", meta.get("category", "Technology"))
+        itunes_explicit = ET.SubElement(channel, _itunes("explicit"))
+        itunes_explicit.text = meta.get("explicit", "no")
+        tree = ET.ElementTree(root)
+
+    # lastBuildDate を更新
+    now = datetime.now(timezone.utc)
+    last_build = channel.find("lastBuildDate")
+    if last_build is None:
+        last_build = ET.SubElement(channel, "lastBuildDate")
+    last_build.text = format_datetime(now)
+
+    # 新しい <item> を構築
+    item = ET.Element("item")
+    title_str = f"AI ニュース Daily {date_str}"
+    ET.SubElement(item, "title").text = title_str
+    ET.SubElement(item, "link").text = mp3_url
+    ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = mp3_url
+    ET.SubElement(item, "pubDate").text = format_datetime(now)
+    ET.SubElement(item, "description").text = script[:300]
+    ET.SubElement(item, "enclosure", {
+        "url": mp3_url,
+        "type": "audio/mpeg",
+        "length": str(mp3_size),
+    })
+    ET.SubElement(item, _itunes("duration")).text = _format_duration(duration_sec)
+    ET.SubElement(item, _itunes("summary")).text = script[:300]
+
+    # channel の先頭（lastBuildDate の後）に item を挿入
+    channel.insert(list(channel).index(last_build) + 1, item)
+
+    # 書き出し
+    os.makedirs(os.path.dirname(feed_path), exist_ok=True)
+    tree = ET.ElementTree(root)
+    ET.indent(tree, space="  ")
+    with open(feed_path, "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        tree.write(f, encoding="unicode", xml_declaration=False)
+
+    print(f"[android] feed.xml updated → {title_str}")
+    return feed_path
+
+
+if __name__ == "__main__":
+    # ローカルテスト用
+    update_feed(
+        date_str="2025-01-01",
+        mp3_path="docs/episodes/2025-01-01.mp3",
+        script="本日のAIニュースです。テスト用エピソードです。",
+        duration_sec=180,
+    )

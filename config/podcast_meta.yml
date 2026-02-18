@@ -1,0 +1,12 @@
+title: "AI ニュース Daily"
+description: "最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。"
+author: "AI News Bot"
+email: "noreply@example.com"
+language: ja
+# GitHub Pages のベースURL（リポジトリ設定後に変更してください）
+base_url: "https://YOUR_USERNAME.github.io/newspicker"
+category: "Technology"
+explicit: "no"
+voice: "Kore"
+tts_model: "gemini-2.5-flash-preview-tts"
+editor_model: "gemini-3-flash-preview"
