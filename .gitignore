@@ -6,4 +6,7 @@ __pycache__/
 venv/
 *.wav
 *.log
+*.mp3
 .secret/
+docs/seen_urls.txt
+docs/feed.xml

@@ -18,7 +18,7 @@ import urllib.error
 import json
 
 REPO_NAME = "newspicker"
-GITHUB_USER = "shotarrow"
+GITHUB_USER = "tasopen"
 
 
 def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess:
