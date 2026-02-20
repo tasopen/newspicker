@@ -162,6 +162,14 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
     selected = unique[:max_n]
     skipped = len(all_articles) - len(unique)
     print(f"[scout] {len(all_articles)} fetched → {skipped} skipped (seen) → {len(selected)} selected")
+
+    # 選択された記事の詳細をログに出力
+    print("[scout] Selected articles for script generation:")
+    for i, a in enumerate(selected):
+        print(f"  - Article {i+1}:")
+        print(f"    Title: {a.title}")
+        print(f"    Source: {a.source}")
+        print(f"    Summary: {a.summary[:150].replace('\n', ' ')}...")
     return selected
 
 

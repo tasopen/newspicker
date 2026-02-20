@@ -7,6 +7,8 @@ venv/
 *.wav
 *.log
 *.mp3
+*.srt
+*.pcm
 .secret/
 docs/seen_urls.txt
 docs/feed.xml

@@ -55,8 +55,8 @@ def _convert_wav_to_mp3(wav_bytes: bytes, output_path: str, bitrate: str = "128k
         os.unlink(tmp_path)
 
 
-def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml") -> str:
-    """台本テキストを音声合成して MP3 ファイルに保存する。output_path を返す。"""
+def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
+    """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
     tts_model = meta.get("tts_model", "gemini-2.5-flash-preview-tts")
     voice_name = meta.get("voice", "Kore")
@@ -64,7 +64,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
 
     client = genai.Client(api_key=api_key)
 
-    tts_prompt = f"ラジオパーソナリティのトーンで、落ち着いてはっきりと日本語で読み上げてください:\n\n{script}"
+    tts_prompt = f"明るく情熱的なラジオパーソナリティのトーンで、はつらつと、感情を込めて日本語で読み上げてください:\n\n{script}"
 
     response = client.models.generate_content(
         model=tts_model,
@@ -84,14 +84,27 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     # PCM バイナリを取得
     pcm_data = response.candidates[0].content.parts[0].inline_data.data
 
-    # PCM → WAV → MP3
-    wav_bytes = _pcm_to_wav_bytes(pcm_data)
-    _convert_wav_to_mp3(wav_bytes, output_path)
+    if debug:
+        pcm_path = output_path + ".pcm"
+        with open(pcm_path, "wb") as f:
+            f.write(pcm_data)
+        print(f"[voice][debug] PCM saved: {pcm_path} ({len(pcm_data)} bytes)")
 
-    size_kb = os.path.getsize(output_path) // 1024
-    duration_sec = _wav_duration_sec(wav_bytes)
-    print(f"[voice] Saved {output_path} ({size_kb} KB, {duration_sec}s)")
-    return output_path
+    # PCM → WAV or MP3
+    wav_bytes = _pcm_to_wav_bytes(pcm_data)
+    if output_format == "wav":
+        with open(output_path, "wb") as f:
+            f.write(wav_bytes)
+        size_kb = os.path.getsize(output_path) // 1024
+        duration_sec = _wav_duration_sec(wav_bytes)
+        print(f"[voice] Saved {output_path} ({size_kb} KB, {duration_sec}s)")
+        return output_path
+    else:
+        _convert_wav_to_mp3(wav_bytes, output_path)
+        size_kb = os.path.getsize(output_path) // 1024
+        duration_sec = _wav_duration_sec(wav_bytes)
+        print(f"[voice] Saved {output_path} ({size_kb} KB, {duration_sec}s)")
+        return output_path
 
 
 def get_audio_duration(mp3_path: str) -> int:
@@ -113,4 +126,5 @@ def get_audio_duration(mp3_path: str) -> int:
 if __name__ == "__main__":
     import sys
     script = sys.argv[1] if len(sys.argv) > 1 else "こんにちは、テストです。"
-    synthesize(script, "docs/episodes/test.mp3")
+    debug = "--debug" in sys.argv
+    synthesize(script, "docs/episodes/test.mp3", debug=debug)

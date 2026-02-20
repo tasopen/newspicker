@@ -7,6 +7,6 @@ language: ja
 base_url: "https://tasopen.github.io/newspicker"
 category: "Technology"
 explicit: "no"
-voice: "Kore"
+voice: "Zephyr"
 tts_model: "gemini-2.5-flash-preview-tts"
 editor_model: "gemini-3-flash-preview"

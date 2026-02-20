@@ -39,6 +39,7 @@ def update_feed(
     mp3_path: str,
     script: str,
     duration_sec: int,
+    srt_path: str | None = None,
     feed_path: str = "docs/feed.xml",
     meta_path: str = "config/podcast_meta.yml",
 ) -> str:
@@ -94,6 +95,16 @@ def update_feed(
         "type": "audio/mpeg",
         "length": str(mp3_size),
     })
+    # SRT transcript attachment if provided
+    if srt_path and os.path.exists(srt_path):
+        srt_filename = os.path.basename(srt_path)
+        srt_url = f"{base_url}/episodes/{srt_filename}"
+        srt_size = os.path.getsize(srt_path)
+        ET.SubElement(item, "enclosure", {
+            "url": srt_url,
+            "type": "application/x-subrip",
+            "length": str(srt_size),
+        })
     ET.SubElement(item, _itunes("duration")).text = _format_duration(duration_sec)
     ET.SubElement(item, _itunes("summary")).text = script[:300]
 
