@@ -1,1 +1,25 @@
- 
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="https://podcastindex.org/namespace/1.0" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>AI ニュース Daily</title>
+    <link>https://tasopen.github.io/newspicker</link>
+    <description>最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。</description>
+    <ns0:image href="https://tasopen.github.io/newspicker/podcast_cover.jpg" />
+    <language>ja</language>
+    <ns0:author>AI News Bot</ns0:author>
+    <ns0:category text="Technology" />
+    <ns0:explicit>no</ns0:explicit>
+    <lastBuildDate>Sat, 21 Feb 2026 15:55:18 +0000</lastBuildDate>
+    <item>
+      <title>AI ニュース Daily 2026-02-21 15:52:17</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.mp3</guid>
+      <pubDate>Sat, 21 Feb 2026 15:55:18 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。本日は、OpenAIが直面した凶悪事件への対応という倫理的課題や、同社初となる家庭用ハードウェア開発の噂、そして進化を続けるインドのAI市場とクリエイターエコノミーの変容についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.mp3" type="audio/mpeg" length="3369261" />
+      <ns1:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.srt" type="application/x-subrip" />
+      <ns0:duration>03:30</ns0:duration>
+      <ns0:summary>おはようございます、AI ニュース Daily です。本日は、OpenAIが直面した凶悪事件への対応という倫理的課題や、同社初となる家庭用ハードウェア開発の噂、そして進化を続けるインドのAI市場とクリエイターエコノミーの変容についてお伝えします。</ns0:summary>
+    </item>
+  </channel>
+</rss>
