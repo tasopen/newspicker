@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>AI ニュース Daily</title>
     <link>https://tasopen.github.io/newspicker</link>
     <description>最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。</description>
-      <itunes:image href="https://tasopen.github.io/newspicker/docs/podcast_cover.jpg" />
+    <ns0:image href="https://tasopen.github.io/newspicker/docs/podcast_cover.jpg" />
     <language>ja</language>
-    <itunes:author>AI News Bot</itunes:author>
-    <itunes:category text="Technology" />
-    <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sat, 21 Feb 2026 00:29:43 +0000</lastBuildDate>
-         <item>
-       <title>AI ニュース Daily 2026-02-21 02:35:27</title>
-       <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3</link>
-       <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3</guid>
-       <pubDate>Sat, 21 Feb 2026 02:35:27 +0000</pubDate>
-       <description>おはようございます、AI ニュース Daily です。
+    <ns0:author>AI News Bot</ns0:author>
+    <ns0:category text="Technology" />
+    <ns0:explicit>no</ns0:explicit>
+    <lastBuildDate>Sat, 21 Feb 2026 15:05:17 +0000</lastBuildDate>
+    <item>
+      <title>AI ニュース Daily 2026-02-21 15:03:49</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_150349.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-21_150349.mp3</guid>
+      <pubDate>Sat, 21 Feb 2026 15:05:17 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。本日は、世界最大級のテックイベント「TechCrunch Disrupt 2026」のチケット情報から、AIの電力需要増に伴う米国の環境規制緩和、そしてAmazonのAIエージェントが引き起こしたシステム障害のニュースまで、今知っておくべき3つのトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_150349.mp3" type="audio/mpeg" length="3383085" />
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_150349.srt" type="application/x-subrip" length="4757" />
+      <ns0:duration>03:31</ns0:duration>
+      <ns0:summary>おはようございます、AI ニュース Daily です。本日は、世界最大級のテックイベント「TechCrunch Disrupt 2026」のチケット情報から、AIの電力需要増に伴う米国の環境規制緩和、そしてAmazonのAIエージェントが引き起こしたシステム障害のニュースまで、今知っておくべき3つのトピックをお届けします。</ns0:summary>
+    </item>
+    <item>
+      <title>AI ニュース Daily 2026-02-21 02:35:27</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3</guid>
+      <pubDate>Sat, 21 Feb 2026 02:35:27 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。
      本日は、インドで加速する独自の AI 開発の動きや、人気映画『トイ・ストーリー』最新作が描く AI 社会への警鐘、さらには独立系映画制作における AI の功罪など、私たちの生活とテクノロジーの未来を占う 7 つのニュースをお届けします。</description>
-       <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3" type="audio/mpeg" length="6718124" />
-       <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.srt" type="application/x-subrip" length="10566" />
-       <itunes:duration>06:59</itunes:duration>
-       <itunes:summary>おはようございます、AI ニュース Daily です。
-     本日は、インドで加速する独自の AI 開発の動きや、人気映画『トイ・ストーリー』最新作が描く AI 社会への警鐘、さらには独立系映画制作における AI の功罪など、私たちの生活とテクノロジーの未来を占う 7 つのニュースをお届けします。</itunes:summary>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3" type="audio/mpeg" length="6718124" />
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.srt" type="application/x-subrip" length="10566" />
+      <ns0:duration>06:59</ns0:duration>
+      <ns0:summary>おはようございます、AI ニュース Daily です。
+     本日は、インドで加速する独自の AI 開発の動きや、人気映画『トイ・ストーリー』最新作が描く AI 社会への警鐘、さらには独立系映画制作における AI の功罪など、私たちの生活とテクノロジーの未来を占う 7 つのニュースをお届けします。</ns0:summary>
     </item>
   </channel>
 </rss>
