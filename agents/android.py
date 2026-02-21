@@ -61,9 +61,7 @@ def update_feed(
         channel = root.find("channel")
     else:
         root = ET.Element("rss", {
-            "version": "2.0",
-            "xmlns:itunes": ITUNES_NS,
-            "xmlns:content": CONTENT_NS,
+            "version": "2.0"
         })
         channel = ET.SubElement(root, "channel")
         ET.SubElement(channel, "title").text = meta["title"]
