@@ -4,27 +4,24 @@
     <title>AI ニュース Daily</title>
     <link>https://tasopen.github.io/newspicker</link>
     <description>最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。</description>
+      <itunes:image href="https://tasopen.github.io/newspicker/docs/podcast_cover.jpg" />
     <language>ja</language>
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
     <lastBuildDate>Sat, 21 Feb 2026 00:29:43 +0000</lastBuildDate>
-    <item>
-      <title>AI ニュース Daily 2026-02-21 00:25:59</title>
-      <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_002559.mp3</link>
-      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-21_002559.mp3</guid>
-      <pubDate>Sat, 21 Feb 2026 00:29:43 +0000</pubDate>
-      <description>おはようございます、AI ニュース Daily です。
-本日は、インドにおける ChatGPT の爆発的な若年層への普及、OpenAI が開発中と噂される初の家庭用デバイス、そして Google の最新 AI モデルが叩き出した驚異的な記録など、私たちの未来を占う重要なニュースを凝縮してお伝えします。
-
-まず最初のニュースは、世界最大の人口を抱えるインドからの話題です。OpenAI の発表によれば、インドにおける ChatGPT の利用者のうち、18歳から24歳の層が全体のメッセージ送信量の約50%を占めていることが明らかになりました。さらに、30歳未満という括りで見ると、利用者の割合は実に8</description>
-      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_002559.mp3" type="audio/mpeg" length="6718124" />
-      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_002559.srt" type="application/x-subrip" length="10566" />
-      <itunes:duration>06:59</itunes:duration>
-      <itunes:summary>おはようございます、AI ニュース Daily です。
-本日は、インドにおける ChatGPT の爆発的な若年層への普及、OpenAI が開発中と噂される初の家庭用デバイス、そして Google の最新 AI モデルが叩き出した驚異的な記録など、私たちの未来を占う重要なニュースを凝縮してお伝えします。
-
-まず最初のニュースは、世界最大の人口を抱えるインドからの話題です。OpenAI の発表によれば、インドにおける ChatGPT の利用者のうち、18歳から24歳の層が全体のメッセージ送信量の約50%を占めていることが明らかになりました。さらに、30歳未満という括りで見ると、利用者の割合は実に8</itunes:summary>
+         <item>
+       <title>AI ニュース Daily 2026-02-21 02:35:27</title>
+       <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3</link>
+       <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3</guid>
+       <pubDate>Sat, 21 Feb 2026 02:35:27 +0000</pubDate>
+       <description>おはようございます、AI ニュース Daily です。
+     本日は、インドで加速する独自の AI 開発の動きや、人気映画『トイ・ストーリー』最新作が描く AI 社会への警鐘、さらには独立系映画制作における AI の功罪など、私たちの生活とテクノロジーの未来を占う 7 つのニュースをお届けします。</description>
+       <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.mp3" type="audio/mpeg" length="6718124" />
+       <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_023527.srt" type="application/x-subrip" length="10566" />
+       <itunes:duration>06:59</itunes:duration>
+       <itunes:summary>おはようございます、AI ニュース Daily です。
+     本日は、インドで加速する独自の AI 開発の動きや、人気映画『トイ・ストーリー』最新作が描く AI 社会への警鐘、さらには独立系映画制作における AI の功罪など、私たちの生活とテクノロジーの未来を占う 7 つのニュースをお届けします。</itunes:summary>
     </item>
   </channel>
 </rss>

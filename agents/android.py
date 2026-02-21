@@ -75,6 +75,8 @@ def update_feed(
             ET.SubElement(channel, "title").text = meta["title"]
             ET.SubElement(channel, "link").text = base_url
             ET.SubElement(channel, "description").text = meta["description"]
+            # Add podcast cover image
+            ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/docs/podcast_cover.jpg"})
             ET.SubElement(channel, "language").text = meta.get("language", "ja")
             itunes_author = ET.SubElement(channel, _itunes("author"))
             itunes_author.text = meta["author"]
@@ -91,6 +93,8 @@ def update_feed(
         ET.SubElement(channel, "title").text = meta["title"]
         ET.SubElement(channel, "link").text = base_url
         ET.SubElement(channel, "description").text = meta["description"]
+        # Add podcast cover image
+        ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/docs/podcast_cover.jpg"})
         ET.SubElement(channel, "language").text = meta.get("language", "ja")
         itunes_author = ET.SubElement(channel, _itunes("author"))
         itunes_author.text = meta["author"]

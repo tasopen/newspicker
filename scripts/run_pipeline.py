@@ -15,7 +15,7 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from agents.scout import collect, save_seen_urls
-from agents.editor import generate_script
+from agents.editor import generate_headline_and_body
 from agents.voice import synthesize, get_audio_duration
 from agents.android import update_feed
 
@@ -73,15 +73,37 @@ def run() -> None:
     print("\n--- @scout: 収集中 ---")
     articles = collect()
     if not articles:
-        print("[pipeline] 記事が見つかりませんでした。終了します。")
-        sys.exit(1)
+        print("[pipeline] 記事が見つかりませんでした。アナウンスを生成します。")
+        headline = "本日は新しいニュースがありませんでした。"
+        body = "また明日お会いしましょう。"
+        full_script = headline + "\n" + body
 
-    # @editor: 台本生成
+        # 音声合成
+        print("\n--- @voice: 音声合成中 ---")
+        synthesize(full_script, mp3_path, debug=debug, output_format="mp3")
+
+        # RSS フィード更新
+        print("\n--- @android: RSS 更新中 ---")
+        duration_sec = get_audio_duration(mp3_path)
+        update_feed(
+            date_str=date_str,
+            mp3_path=mp3_path,
+            script=headline,
+            duration_sec=duration_sec,
+            feed_path=feed_path,
+        )
+
+        print("[pipeline] アナウンスを生成して終了しました。")
+        sys.exit(0)
+
+    # @editor: 台本生成（ヘッドラインと本文を分離）
     print("\n--- @editor: 台本生成中 ---")
-    script = generate_script(articles)
-    if not script:
+    headline, body = generate_headline_and_body(articles)
+    if not body:
         print("[pipeline] 台本生成に失敗しました。終了します。")
         sys.exit(1)
+
+    full_script = headline + "\n" + body
 
 
     # @voice: 音声合成（2分ごとに分割生成＆結合）
@@ -90,10 +112,10 @@ def run() -> None:
     # 句点・改行で分割し、各セグメントの合計文字数で近似的に2分ごとに分割
     import re
     from agents.voice_concat import concat_wav
-    # 分割バッファを約1000文字に変更
-    max_chars = 1000
+    # 分割バッファを約500文字に変更
+    max_chars = 500
     # 句点・改行で分割
-    segments = [s.strip() for s in re.split(r'[。！？\!\?\n]', script) if s.strip()]
+    segments = [s.strip() for s in re.split(r'[。！？\!\?\n]', full_script) if s.strip()]
     seg_groups = []
     buf = ""
     for seg in segments:
@@ -128,13 +150,13 @@ def run() -> None:
     print("\n--- @android: RSS 更新中 ---")
     duration_sec = get_audio_duration(mp3_path)
     srt_path = mp3_path.replace('.mp3', '.srt')
-    _write_srt(script, duration_sec, srt_path)
+    _write_srt(full_script, duration_sec, srt_path)
     # feed.xml出力先を環境変数で切り替え
     update_feed(
         date_str=date_str,
         mp3_path=mp3_path,
         srt_path=srt_path,
-        script=script,
+        script=headline,
         duration_sec=duration_sec,
         feed_path=feed_path,
     )
