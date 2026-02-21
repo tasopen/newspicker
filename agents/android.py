@@ -40,10 +40,13 @@ def update_feed(
     script: str,
     duration_sec: int,
     srt_path: str | None = None,
-    feed_path: str = "docs/feed.xml",
+    feed_path: str = None,
     meta_path: str = "config/podcast_meta.yml",
 ) -> str:
     """feed.xml に新エピソードを追加して保存する。feed_path を返す。"""
+    # feed_path: Noneなら環境変数FEED_XML_PATH、なければデフォルト
+    if feed_path is None:
+        feed_path = os.environ.get("FEED_XML_PATH", "docs/feed.xml")
     meta = _load_meta(meta_path)
     base_url = meta["base_url"].rstrip("/")
     mp3_filename = os.path.basename(mp3_path)

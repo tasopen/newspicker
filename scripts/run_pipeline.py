@@ -121,12 +121,15 @@ def run() -> None:
     duration_sec = get_audio_duration(mp3_path)
     srt_path = mp3_path.replace('.mp3', '.srt')
     _write_srt(script, duration_sec, srt_path)
+    # feed.xml出力先を環境変数で切り替え
+    feed_path = os.environ.get("FEED_XML_PATH", "docs/feed.xml")
     update_feed(
         date_str=date_str,
         mp3_path=mp3_path,
         srt_path=srt_path,
         script=script,
         duration_sec=duration_sec,
+        feed_path=feed_path,
     )
 
     # 使用済み URL を記録（次回以降の重複排除）
