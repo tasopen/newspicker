@@ -50,6 +50,9 @@ def update_feed(
     mp3_filename = os.path.basename(mp3_path)
     mp3_url = f"{base_url}/episodes/{mp3_filename}"
     mp3_size = os.path.getsize(mp3_path)
+    PODCAST_NS = "https://podcastindex.org/namespace/1.0"
+    def _podcast(tag: str) -> str:
+        return f"{{{PODCAST_NS}}}{tag}"
 
     # 既存 feed.xml をパース（なければ雛形から）
     from xml.etree.ElementTree import ParseError
@@ -69,14 +72,15 @@ def update_feed(
             root = ET.Element("rss", {
                 "version": "2.0",
                 "xmlns:itunes": ITUNES_NS,
-                "xmlns:content": CONTENT_NS
+                "xmlns:content": CONTENT_NS,
+                "xmlns:podcast": PODCAST_NS
             })
             channel = ET.SubElement(root, "channel")
             ET.SubElement(channel, "title").text = meta["title"]
             ET.SubElement(channel, "link").text = base_url
             ET.SubElement(channel, "description").text = meta["description"]
-            # Add podcast cover image
-            ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/docs/podcast_cover.jpg"})
+            # Add podcast cover image (remove /docs/)
+            ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/podcast_cover.jpg"})
             ET.SubElement(channel, "language").text = meta.get("language", "ja")
             itunes_author = ET.SubElement(channel, _itunes("author"))
             itunes_author.text = meta["author"]
@@ -87,14 +91,17 @@ def update_feed(
             tree = ET.ElementTree(root)
     else:
         root = ET.Element("rss", {
-            "version": "2.0"
+            "version": "2.0",
+            "xmlns:itunes": ITUNES_NS,
+            "xmlns:content": CONTENT_NS,
+            "xmlns:podcast": PODCAST_NS
         })
         channel = ET.SubElement(root, "channel")
         ET.SubElement(channel, "title").text = meta["title"]
         ET.SubElement(channel, "link").text = base_url
         ET.SubElement(channel, "description").text = meta["description"]
-        # Add podcast cover image
-        ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/docs/podcast_cover.jpg"})
+        # Add podcast cover image (remove /docs/)
+        ET.SubElement(channel, _itunes("image"), {"href": f"{base_url}/podcast_cover.jpg"})
         ET.SubElement(channel, "language").text = meta.get("language", "ja")
         itunes_author = ET.SubElement(channel, _itunes("author"))
         itunes_author.text = meta["author"]
@@ -124,15 +131,13 @@ def update_feed(
         "type": "audio/mpeg",
         "length": str(mp3_size),
     })
-    # SRT transcript attachment if provided
+    # Podcasting 2.0 transcript tag if provided
     if srt_path and os.path.exists(srt_path):
         srt_filename = os.path.basename(srt_path)
         srt_url = f"{base_url}/episodes/{srt_filename}"
-        srt_size = os.path.getsize(srt_path)
-        ET.SubElement(item, "enclosure", {
+        ET.SubElement(item, _podcast("transcript"), {
             "url": srt_url,
-            "type": "application/x-subrip",
-            "length": str(srt_size),
+            "type": "application/x-subrip"
         })
     ET.SubElement(item, _itunes("duration")).text = _format_duration(duration_sec)
     ET.SubElement(item, _itunes("summary")).text = script[:300]
