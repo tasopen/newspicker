@@ -15,8 +15,6 @@ import yaml
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
 
-ET.register_namespace("itunes", ITUNES_NS)
-ET.register_namespace("content", CONTENT_NS)
 
 
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -54,11 +52,37 @@ def update_feed(
     mp3_size = os.path.getsize(mp3_path)
 
     # 既存 feed.xml をパース（なければ雛形から）
+    from xml.etree.ElementTree import ParseError
     if os.path.exists(feed_path):
-        ET.parse(feed_path)  # validate existing XML
-        tree = ET.parse(feed_path)
-        root = tree.getroot()
-        channel = root.find("channel")
+        try:
+            ET.parse(feed_path)  # validate existing XML
+            tree = ET.parse(feed_path)
+            root = tree.getroot()
+            channel = root.find("channel")
+        except ParseError as e:
+            # 壊れた場合はバックアップして新規生成
+            import shutil
+            import time
+            bak_path = feed_path + ".bak_" + time.strftime("%Y%m%d_%H%M%S")
+            shutil.copy(feed_path, bak_path)
+            print(f"[android] feed.xml parse error: {e}. Backed up to {bak_path}. Regenerating...")
+            root = ET.Element("rss", {
+                "version": "2.0",
+                "xmlns:itunes": ITUNES_NS,
+                "xmlns:content": CONTENT_NS
+            })
+            channel = ET.SubElement(root, "channel")
+            ET.SubElement(channel, "title").text = meta["title"]
+            ET.SubElement(channel, "link").text = base_url
+            ET.SubElement(channel, "description").text = meta["description"]
+            ET.SubElement(channel, "language").text = meta.get("language", "ja")
+            itunes_author = ET.SubElement(channel, _itunes("author"))
+            itunes_author.text = meta["author"]
+            itunes_cat = ET.SubElement(channel, _itunes("category"))
+            itunes_cat.set("text", meta.get("category", "Technology"))
+            itunes_explicit = ET.SubElement(channel, _itunes("explicit"))
+            itunes_explicit.text = meta.get("explicit", "no")
+            tree = ET.ElementTree(root)
     else:
         root = ET.Element("rss", {
             "version": "2.0"

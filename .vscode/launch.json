@@ -4,18 +4,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Run Pipeline (FEED_XML_PATH)",
-            "type": "python",
+            "name": "Python: Run Pipeline (TEST_OUTPUT_PATH)",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/run_pipeline.py",
             "console": "integratedTerminal",
             "env": {
-                "FEED_XML_PATH": "docs/test_output/feed.xml"
+                "TEST_OUTPUT_PATH": "docs/test_output"
             }
         },
         {
             "name": "Python: Run Pipeline (Default)",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/run_pipeline.py",
             "console": "integratedTerminal"

@@ -53,8 +53,16 @@ def run() -> None:
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%Y-%m-%d %H:%M:%S")
     timestamp = now.strftime("%Y-%m-%d_%H%M%S")
-    mp3_path = f"docs/episodes/{timestamp}.mp3"
-    wav_path = f"docs/episodes/{timestamp}.wav"
+    test_output_root = os.environ.get("TEST_OUTPUT_PATH")
+    if test_output_root:
+        feed_path = f"{test_output_root}/feed.xml"
+        output_dir = f"{test_output_root}/episodes"
+    else:
+        feed_path = "docs/feed.xml"
+        output_dir = "docs/episodes"
+    os.makedirs(output_dir, exist_ok=True)
+    mp3_path = f"{output_dir}/{timestamp}.mp3"
+    wav_path = f"{output_dir}/{timestamp}.wav"
 
     # コマンドライン引数で--debugを受け付ける
     debug = getattr(run, "debug", False)
@@ -122,7 +130,6 @@ def run() -> None:
     srt_path = mp3_path.replace('.mp3', '.srt')
     _write_srt(script, duration_sec, srt_path)
     # feed.xml出力先を環境変数で切り替え
-    feed_path = os.environ.get("FEED_XML_PATH", "docs/feed.xml")
     update_feed(
         date_str=date_str,
         mp3_path=mp3_path,
