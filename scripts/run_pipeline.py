@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import sys
 import traceback
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import re
 
 # リポジトリルートを sys.path に追加（GitHub Actions での実行対応）
@@ -29,28 +29,26 @@ def _format_srt_time(ms: int) -> str:
     return f"{h:02d}:{m:02d}:{s:02d},{ms_part:03d}"
 
 
-def _write_srt(script: str, duration_sec: int, srt_path: str) -> None:
+def _write_srt(segments: list[tuple[str, int]], srt_path: str) -> None:
     os.makedirs(os.path.dirname(srt_path), exist_ok=True)
-    # 簡易的に文章を句点で分割して均等割り当てする
-    segments = [s.strip() for s in re.split(r'(?<=[。！？\!\?])\s*', script) if s.strip()]
-    if not segments:
-        segments = [script.strip()]
-    total_ms = int(duration_sec * 1000)
-    per_ms = max(1, total_ms // len(segments))
     parts: list[str] = []
-    for i, seg in enumerate(segments):
-        start_ms = i * per_ms
-        end_ms = (i + 1) * per_ms - 1 if i < len(segments) - 1 else total_ms
-        start = _format_srt_time(start_ms)
-        end = _format_srt_time(end_ms)
-        parts.append(f"{i+1}\n{start} --> {end}\n{seg}\n")
+    current_ms = 0
+    for i, (seg_text, duration_ms) in enumerate(segments):
+        start = _format_srt_time(current_ms)
+        end = _format_srt_time(current_ms + duration_ms - 1)
+        # 連続した短いセグメントなどで duration が 0 の場合を考慮
+        if duration_ms == 0:
+             end = start
+        parts.append(f"{i+1}\n{start} --> {end}\n{seg_text}\n")
+        current_ms += duration_ms
     with open(srt_path, "w", encoding="utf-8") as f:
         f.write("\n".join(parts))
     print(f"[voice] Saved SRT {srt_path}")
 
 
 def run() -> None:
-    now = datetime.now(timezone.utc)
+    jst = timezone(timedelta(hours=9))
+    now = datetime.now(jst)
     date_str = now.strftime("%Y-%m-%d %H:%M:%S")
     timestamp = now.strftime("%Y-%m-%d_%H%M%S")
     test_output_root = os.environ.get("TEST_OUTPUT_PATH")
@@ -112,27 +110,37 @@ def run() -> None:
     # 句点・改行で分割し、各セグメントの合計文字数で近似的に2分ごとに分割
     import re
     from agents.voice_concat import concat_wav
-    # 分割バッファを約500文字に変更
-    max_chars = 500
+    from agents.voice import _wav_exact_duration_ms
+    # 分割バッファを約300文字に変更（より細かいSRTタイミングのため）
+    max_chars = 300
     # 句点・改行で分割
-    segments = [s.strip() for s in re.split(r'[。！？\!\?\n]', full_script) if s.strip()]
+    segments = [s.strip() for s in re.split(r'(?<=[。！？\!\?\n])', full_script) if s.strip()]
     seg_groups = []
     buf = ""
     for seg in segments:
         if len(buf) + len(seg) > max_chars and buf:
-            seg_groups.append(buf)
+            seg_groups.append(buf.strip())
             buf = seg
         else:
-            buf += ("。" if buf else "") + seg
+            buf += seg
     if buf:
-        seg_groups.append(buf)
+        seg_groups.append(buf.strip())
+    
     wav_parts = []
-    for i, seg in enumerate(seg_groups):
+    srt_segments = []
+    for i, seg_text in enumerate(seg_groups):
         part_path = wav_path.replace('.wav', f'_part{i+1}.wav')
-        print(f"  [voice] {i+1}/{len(seg_groups)}: {len(seg)} chars")
+        print(f"  [voice] {i+1}/{len(seg_groups)}: {len(seg_text)} chars")
         # synthesizeでWAV出力
-        synthesize(seg, part_path, debug=debug, output_format="wav")
+        synthesize(seg_text, part_path, debug=debug, output_format="wav")
         wav_parts.append(part_path)
+        
+        # 正確なミリ秒を取得してSRT配列に追加
+        with open(part_path, "rb") as f:
+            b = f.read()
+            dur_ms = _wav_exact_duration_ms(b)
+            srt_segments.append((seg_text, dur_ms))
+
     if len(wav_parts) == 1:
         os.rename(wav_parts[0], wav_path)
     else:
@@ -150,7 +158,7 @@ def run() -> None:
     print("\n--- @android: RSS 更新中 ---")
     duration_sec = get_audio_duration(mp3_path)
     srt_path = mp3_path.replace('.mp3', '.srt')
-    _write_srt(full_script, duration_sec, srt_path)
+    _write_srt(srt_segments, srt_path)
     # feed.xml出力先を環境変数で切り替え
     update_feed(
         date_str=date_str,

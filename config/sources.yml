@@ -32,3 +32,4 @@ rss_feeds:
 selection:
   max_articles: 7
   hours_lookback: 24
+  max_per_source: 3

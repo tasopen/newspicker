@@ -39,6 +39,12 @@ def _wav_duration_sec(wav_bytes: bytes) -> int:
         return int(wf.getnframes() / wf.getframerate())
 
 
+def _wav_exact_duration_ms(wav_bytes: bytes) -> int:
+    """WAV バイト列から再生時間（ミリ秒）を正確に計算する。"""
+    with wave.open(io.BytesIO(wav_bytes), "rb") as wf:
+        return int((wf.getnframes() / wf.getframerate()) * 1000)
+
+
 def _convert_wav_to_mp3(wav_bytes: bytes, output_path: str, bitrate: str = "128k") -> None:
     """WAV バイト列を ffmpeg で MP3 に変換して output_path に保存する。"""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

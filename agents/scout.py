@@ -25,6 +25,7 @@ class Article:
     published_at: datetime
     source: str
     score: float = 0.0
+    origin: str = ""
 
 
 SEEN_URLS_PATH = "docs/seen_urls.txt"
@@ -91,6 +92,7 @@ def fetch_newsapi(config: dict[str, Any], api_key: str) -> list[Article]:
                 summary=item.get("description") or item.get("content") or "",
                 published_at=pub,
                 source=item.get("source", {}).get("name", "NewsAPI"),
+                origin="NewsAPI",
             )
         )
     return articles
@@ -116,6 +118,7 @@ def fetch_rss(feed_cfg: dict[str, Any], hours: int) -> list[Article]:
                 published_at=pub,
                 source=feed_cfg["name"],
                 score=feed_cfg.get("weight", 1.0),
+                origin="RSS",
             )
         )
     return articles
@@ -157,9 +160,21 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
             a.score += _score(a, config)
             unique.append(a)
 
-    # スコア降順でソートして上位N件
+    # スコア降順でソートして上位N件をソース上限付きで選択
     unique.sort(key=lambda a: (a.score, a.published_at), reverse=True)
-    selected = unique[:max_n]
+    selected = []
+    source_counts = {}
+    
+    max_per_source = config["selection"].get("max_per_source", 3)
+    
+    for a in unique:
+        if len(selected) >= max_n:
+            break
+        count = source_counts.get(a.source, 0)
+        if count < max_per_source:
+            selected.append(a)
+            source_counts[a.source] = count + 1
+
     skipped = len(all_articles) - len(unique)
     print(f"[scout] {len(all_articles)} fetched → {skipped} skipped (seen) → {len(selected)} selected")
 
@@ -168,7 +183,7 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
     for i, a in enumerate(selected):
         print(f"  - Article {i+1}:")
         print(f"    Title: {a.title}")
-        print(f"    Source: {a.source}")
+        print(f"    Source: [{a.origin}] {a.source}")
         print(f"    Summary: {a.summary[:150].replace('\n', ' ')}...")
     return selected
 
@@ -176,4 +191,4 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
 if __name__ == "__main__":
     articles = collect()
     for a in articles:
-        print(f"  [{a.source}] {a.title} ({a.published_at.date()})")
+        print(f"  [{a.origin} | {a.source}] {a.title} ({a.published_at.date()})")

@@ -5,7 +5,7 @@
 from __future__ import annotations
 
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 from xml.etree import ElementTree as ET
 
@@ -116,7 +116,8 @@ def update_feed(
         tree = ET.ElementTree(root)
 
     # lastBuildDate を更新
-    now = datetime.now(timezone.utc)
+    jst = timezone(timedelta(hours=9))
+    now = datetime.now(jst)
     last_build = channel.find("lastBuildDate")
     if last_build is None:
         last_build = ET.SubElement(channel, "lastBuildDate")
