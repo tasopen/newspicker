@@ -1,5 +1,6 @@
-title: "AI ニュース Daily"
-description: "最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。"
+title: "朝刊ワールドAIニュース"
+short_title: "ワールド AI ニュース"
+description: "世界から最新のAIニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin."
 author: "AI News Bot"
 email: "noreply@example.com"
 language: ja
@@ -10,3 +11,7 @@ explicit: "no"
 voice: "Zephyr"
 tts_model: "gemini-2.5-flash-preview-tts"
 editor_model: "gemini-3-flash-preview"
+
+# 台本プロンプトテンプレート（カテゴリ変更時にここを変える）
+prompt_persona: "あなたは{category}専門のラジオパーソナリティです。"
+prompt_greeting: "おはようございます、{short_title} です。"

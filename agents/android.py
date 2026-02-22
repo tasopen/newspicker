@@ -125,7 +125,8 @@ def update_feed(
 
     # 新しい <item> を構築
     item = ET.Element("item")
-    title_str = f"AI ニュース Daily {date_str}"
+    short_title = meta.get("short_title", meta.get("title", "ニュース"))
+    title_str = f"{short_title} {date_str}"
     ET.SubElement(item, "title").text = title_str
     ET.SubElement(item, "link").text = mp3_url
     ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = mp3_url

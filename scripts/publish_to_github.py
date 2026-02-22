@@ -131,16 +131,13 @@ def main() -> None:
     print(f"  https://github.com/{GITHUB_USER}/{REPO_NAME}/settings/secrets/actions")
     print()
 
-    news_key = os.environ.get("NEWS_API_KEY", "")
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
-    if news_key and gemini_key:
+    if gemini_key:
         # libsodium が使えれば自動登録も可能だが、依存を避けて案内のみ
-        print(f"  NEWS_API_KEY   = {news_key[:8]}...")
         print(f"  GEMINI_API_KEY = {gemini_key[:8]}...")
         print("  （.secret/apikeys.txt の値をそのまま使えます）")
     else:
         print("  SECRET 名         | 取得元")
-        print("  NEWS_API_KEY      | https://newsapi.org")
         print("  GEMINI_API_KEY    | https://aistudio.google.com/apikey")
 
     print(f"""

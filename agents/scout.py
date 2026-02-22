@@ -1,7 +1,6 @@
-"""@scout: AIニュース収集エージェント
+"""@scout: ニュース収集エージェント
 
-NewsAPI と RSS フィードから過去24時間のAI記事を収集し、
-重要度スコアで上位N件を返す。
+RSS フィードから記事を収集し、キーワードスコアで上位N件を返す。
 """
 from __future__ import annotations
 
@@ -57,45 +56,10 @@ def _load_config(config_path: str = "config/sources.yml") -> dict[str, Any]:
 
 
 def _score(article: Article, config: dict[str, Any]) -> float:
-    keywords = [kw.lower() for kw in config["newsapi"]["keywords"]]
+    """キーワードマッチによるスコアリング。"""
+    keywords = [kw.lower() for kw in config.get("keywords", [])]
     text = (article.title + " " + article.summary).lower()
     return sum(1.0 for kw in keywords if kw in text)
-
-
-def fetch_newsapi(config: dict[str, Any], api_key: str) -> list[Article]:
-    """NewsAPI から記事を取得する。"""
-    since = (datetime.now(timezone.utc) - timedelta(hours=config["selection"]["hours_lookback"])).strftime(
-        "%Y-%m-%dT%H:%M:%SZ"
-    )
-    params = {
-        "q": " OR ".join(config["newsapi"]["keywords"]),
-        "language": config["newsapi"]["language"],
-        "from": since,
-        "pageSize": config["newsapi"]["page_size"],
-        "sortBy": "publishedAt",
-        "apiKey": api_key,
-    }
-    resp = requests.get("https://newsapi.org/v2/everything", params=params, timeout=15)
-    resp.raise_for_status()
-    articles = []
-    for item in resp.json().get("articles", []):
-        if not item.get("url") or "[Removed]" in (item.get("title") or ""):
-            continue
-        try:
-            pub = dtparser.parse(item["publishedAt"]).replace(tzinfo=timezone.utc)
-        except Exception:
-            continue
-        articles.append(
-            Article(
-                title=item.get("title") or "",
-                url=item["url"],
-                summary=item.get("description") or item.get("content") or "",
-                published_at=pub,
-                source=item.get("source", {}).get("name", "NewsAPI"),
-                origin="NewsAPI",
-            )
-        )
-    return articles
 
 
 def fetch_rss(feed_cfg: dict[str, Any], hours: int) -> list[Article]:
@@ -127,18 +91,10 @@ def fetch_rss(feed_cfg: dict[str, Any], hours: int) -> list[Article]:
 def collect(config_path: str = "config/sources.yml") -> list[Article]:
     """全ソースから記事を収集し、スコア順上位N件を返す（既出記事は除外）。"""
     config = _load_config(config_path)
-    api_key = os.environ.get("NEWS_API_KEY", "")
     hours = config["selection"]["hours_lookback"]
     max_n = config["selection"]["max_articles"]
 
     all_articles: list[Article] = []
-
-    # NewsAPI
-    if api_key:
-        try:
-            all_articles.extend(fetch_newsapi(config, api_key))
-        except Exception as e:
-            print(f"[scout] NewsAPI error: {e}")
 
     # RSS フィード
     for feed_cfg in config.get("rss_feeds", []):
@@ -184,7 +140,7 @@ def collect(config_path: str = "config/sources.yml") -> list[Article]:
         print(f"  - Article {i+1}:")
         print(f"    Title: {a.title}")
         print(f"    Source: [{a.origin}] {a.source}")
-        print(f"    Summary: {a.summary[:150].replace('\n', ' ')}...")
+        print(f"    Summary: {a.summary[:150].replace(chr(10), ' ')}...")
     return selected
 
 

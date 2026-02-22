@@ -1,6 +1,7 @@
 """@editor: 台本生成エージェント
 
-収集記事リストを受け取り、Gemini 3 Flash でラジオ台本（日本語）を生成する。
+収集記事リストを受け取り、Gemini でラジオ台本（日本語）を生成する。
+podcast_meta.yml のテンプレートに従い、任意のニュースカテゴリに対応。
 """
 from __future__ import annotations
 
@@ -32,17 +33,27 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
 
     client = genai.Client(api_key=api_key)
 
+    # メタデータからプロンプトテンプレートを展開
+    category = meta.get("category", "Technology")
+    short_title = meta.get("short_title", meta.get("title", "ニュース"))
+    persona = meta.get("prompt_persona", "あなたは{category}専門のラジオパーソナリティです。").format(
+        category=category, short_title=short_title
+    )
+    greeting = meta.get("prompt_greeting", "おはようございます、{short_title} です。").format(
+        category=category, short_title=short_title
+    )
+
     articles_text = "\n\n".join(
         f"【記事{i+1}】\nタイトル: {a.title}\nソース: {a.source}\n概要: {a.summary}"
         for i, a in enumerate(articles)
     )
 
-    prompt = f"""あなたはAIニュース専門のラジオパーソナリティです。
-以下のAI関連ニュース記事をもとに、日本語のポッドキャスト台本を生成してください。
+    prompt = f"""{persona}
+以下のニュース記事をもとに、日本語のポッドキャスト台本を生成してください。
 
 【要件】
-- **ヘッドライン**: 「おはようございます、AI ニュース Daily です」から始め、その日のニュースのヘッドラインを1〜2文で手短に紹介してください。
-- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、情報源（メディア名）をまとめて紹介し、「本日のAIニュースは以上です。また明日お会いしましょう」で締めくくってください。
+- **ヘッドライン**: 「{greeting}」から始め、その日のニュースのヘッドラインを1〜2文で手短に紹介してください。
+- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、情報源（メディア名）をまとめて紹介し、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
 - **出力形式**: 以下のフォーマットで出力してください。
 ヘッドライン:
 （ここにヘッドライン）
@@ -84,5 +95,6 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
 if __name__ == "__main__":
     from agents.scout import collect
     articles = collect()
-    script = generate_script(articles)
-    print(script)
+    headline, body = generate_headline_and_body(articles)
+    print(f"Headline: {headline}")
+    print(f"Body: {body}")

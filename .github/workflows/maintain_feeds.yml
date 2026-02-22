@@ -1,16 +1,16 @@
-name: Daily AI Podcast
+name: Weekly Feed Maintenance
 
 on:
   schedule:
-    # 毎朝 6:00 JST = UTC 21:00 (前日)
-    - cron: '0 21 * * *'
+    # 毎週日曜 12:00 JST = UTC 03:00
+    - cron: '0 3 * * 0'
   workflow_dispatch:  # 手動実行可能
 
 permissions:
-  contents: write  # docs/ への git push に必要
+  contents: write
 
 jobs:
-  build:
+  maintain:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,29 +23,20 @@ jobs:
           version: "latest"
           enable-cache: true
 
-      - name: Install ffmpeg
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --fix-missing ffmpeg
-
       - name: Install dependencies
         run: uv sync
 
-      - name: Run pipeline
+      - name: Run feed maintenance
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          set -x
-          uv run python scripts/run_pipeline.py
+        run: uv run python scripts/maintain_feeds.py --auto-add
 
-      - name: Commit and push episode
+      - name: Commit and push changes
         run: |
-          set -x
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          git diff --cached --quiet || git commit -m "chore: add episode $(date -u +%Y-%m-%d) [skip ci]"
-          # Ensure we integrate any remote updates before pushing to avoid rejects
+          git add config/
+          git diff --cached --quiet || git commit -m "chore: weekly feed maintenance [skip ci]"
           git fetch origin
           git pull --rebase origin master || true
           git push origin master || true
