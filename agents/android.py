@@ -14,6 +14,11 @@ import yaml
 
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
+PODCAST_NS = "https://podcastindex.org/namespace/1.0"
+
+ET.register_namespace("itunes", ITUNES_NS)
+ET.register_namespace("content", CONTENT_NS)
+ET.register_namespace("podcast", PODCAST_NS)
 
 
 
@@ -50,7 +55,6 @@ def update_feed(
     mp3_filename = os.path.basename(mp3_path)
     mp3_url = f"{base_url}/episodes/{mp3_filename}"
     mp3_size = os.path.getsize(mp3_path)
-    PODCAST_NS = "https://podcastindex.org/namespace/1.0"
     def _podcast(tag: str) -> str:
         return f"{{{PODCAST_NS}}}{tag}"
 
@@ -137,7 +141,8 @@ def update_feed(
         srt_url = f"{base_url}/episodes/{srt_filename}"
         ET.SubElement(item, _podcast("transcript"), {
             "url": srt_url,
-            "type": "application/x-subrip"
+            "type": "application/x-subrip",
+            "rel": "captions"
         })
     ET.SubElement(item, _itunes("duration")).text = _format_duration(duration_sec)
     ET.SubElement(item, _itunes("summary")).text = script[:300]

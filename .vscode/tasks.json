@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Pipeline",
+            "type": "shell",
+            "command": "python scripts/run_pipeline.py",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "options": {
+                "env": {
+                    "NEWS_API_KEY": "YOUR_API_KEY_HERE"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}
