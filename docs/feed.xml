@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Mon, 23 Feb 2026 01:44:42 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 06:07:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-02-23 06:05:43</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-23_060543.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-23_060543.mp3</guid>
+      <pubDate>Mon, 23 Feb 2026 06:07:31 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Googleによる12兆円超の巨額投資が示唆するAI格差の拡大と、シリコンバレーで「忠誠心」が消え、数千億円規模の人材争奪戦が加速している実態、そしてAIの「しつけ」を仏教的視点で捉えるユニークな考察についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-23_060543.mp3" type="audio/mpeg" length="3222573" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-23_060543.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:21</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Googleによる12兆円超の巨額投資が示唆するAI格差の拡大と、シリコンバレーで「忠誠心」が消え、数千億円規模の人材争奪戦が加速している実態、そしてAIの「しつけ」を仏教的視点で捉えるユニークな考察についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-23 01:42:06</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-23_014206.mp3</link>
