@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>AI ニュース Daily</title>
     <link>https://tasopen.github.io/newspicker</link>
     <description>最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。</description>
-    <ns0:image href="https://tasopen.github.io/newspicker/podcast_cover.jpg" />
+    <itunes:image href="https://tasopen.github.io/newspicker/podcast_cover.jpg" />
     <language>ja</language>
-    <ns0:author>AI News Bot</ns0:author>
-    <ns0:category text="Technology" />
-    <ns0:explicit>no</ns0:explicit>
-    <lastBuildDate>Sat, 21 Feb 2026 21:06:02 +0000</lastBuildDate>
+    <itunes:author>AI News Bot</itunes:author>
+    <itunes:category text="Technology" />
+    <itunes:explicit>no</itunes:explicit>
+    <lastBuildDate>Sun, 22 Feb 2026 09:57:19 +0000</lastBuildDate>
+    <item>
+      <title>AI ニュース Daily 2026-02-22 09:56:34</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-22_095634.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-22_095634.mp3</guid>
+      <pubDate>Sun, 22 Feb 2026 09:57:19 +0000</pubDate>
+      <description>おはようございます、AI ニュース Daily です。本日は、OpenAIのサム・アルトマン氏が語った、AIのエネルギー消費と「人間を育てるコスト」を比較するユニークな視点についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-22_095634.mp3" type="audio/mpeg" length="1583661" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-22_095634.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>01:38</itunes:duration>
+      <itunes:summary>おはようございます、AI ニュース Daily です。本日は、OpenAIのサム・アルトマン氏が語った、AIのエネルギー消費と「人間を育てるコスト」を比較するユニークな視点についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>AI ニュース Daily 2026-02-21 21:04:42</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-21_210442.mp3</link>
@@ -17,9 +28,9 @@
       <pubDate>Sat, 21 Feb 2026 21:06:02 +0000</pubDate>
       <description>おはようございます、AI ニュース Daily です。本日は、Google幹部が警鐘を鳴らすAIスタートアップの生存危機、そしてマイクロソフトのゲーム部門が打ち出した「AIによる質の低下」への対抗姿勢という、二つの重要なニュースをお届けします。</description>
       <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_210442.mp3" type="audio/mpeg" length="2356653" />
-      <ns1:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-21_210442.srt" type="application/x-subrip" />
-      <ns0:duration>02:27</ns0:duration>
-      <ns0:summary>おはようございます、AI ニュース Daily です。本日は、Google幹部が警鐘を鳴らすAIスタートアップの生存危機、そしてマイクロソフトのゲーム部門が打ち出した「AIによる質の低下」への対抗姿勢という、二つの重要なニュースをお届けします。</ns0:summary>
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-21_210442.srt" type="application/x-subrip" />
+      <itunes:duration>02:27</itunes:duration>
+      <itunes:summary>おはようございます、AI ニュース Daily です。本日は、Google幹部が警鐘を鳴らすAIスタートアップの生存危機、そしてマイクロソフトのゲーム部門が打ち出した「AIによる質の低下」への対抗姿勢という、二つの重要なニュースをお届けします。</itunes:summary>
     </item>
     <item>
       <title>AI ニュース Daily 2026-02-21 15:52:17</title>
@@ -28,9 +39,9 @@
       <pubDate>Sat, 21 Feb 2026 15:55:18 +0000</pubDate>
       <description>おはようございます、AI ニュース Daily です。本日は、OpenAIが直面した凶悪事件への対応という倫理的課題や、同社初となる家庭用ハードウェア開発の噂、そして進化を続けるインドのAI市場とクリエイターエコノミーの変容についてお伝えします。</description>
       <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.mp3" type="audio/mpeg" length="3369261" />
-      <ns1:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.srt" type="application/x-subrip" />
-      <ns0:duration>03:30</ns0:duration>
-      <ns0:summary>おはようございます、AI ニュース Daily です。本日は、OpenAIが直面した凶悪事件への対応という倫理的課題や、同社初となる家庭用ハードウェア開発の噂、そして進化を続けるインドのAI市場とクリエイターエコノミーの変容についてお伝えします。</ns0:summary>
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-21_155217.srt" type="application/x-subrip" />
+      <itunes:duration>03:30</itunes:duration>
+      <itunes:summary>おはようございます、AI ニュース Daily です。本日は、OpenAIが直面した凶悪事件への対応という倫理的課題や、同社初となる家庭用ハードウェア開発の噂、そして進化を続けるインドのAI市場とクリエイターエコノミーの変容についてお伝えします。</itunes:summary>
     </item>
   </channel>
 </rss>
