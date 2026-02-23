@@ -11,6 +11,7 @@ import os
 import struct
 import subprocess
 import tempfile
+import time
 import wave
 
 import yaml
@@ -68,26 +69,88 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     voice_name = meta.get("voice", "Kore")
     api_key = os.environ["GEMINI_API_KEY"]
 
+    persona_instruction = "指示: 明るく情熱的なラジオパーソナリティとして、はつらつと感情を込めて日本語で読み上げてください。指示内容は読み上げず、以下の台本部分のみを音声にしてください。\n\n---\n台本:\n"
     client = genai.Client(api_key=api_key)
 
-    tts_prompt = f"明るく情熱的なラジオパーソナリティのトーンで、はつらつと、感情を込めて日本語で読み上げてください:\n\n{script}"
+    tts_prompt = f"{persona_instruction}{script}"
 
-    response = client.models.generate_content(
-        model=tts_model,
-        contents=tts_prompt,
-        config=types.GenerateContentConfig(
-            response_modalities=["AUDIO"],
-            speech_config=types.SpeechConfig(
-                voice_config=types.VoiceConfig(
-                    prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                        voice_name=voice_name,
-                    )
-                )
-            ),
-        ),
-    )
+    response = None
+    last_exception = None
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model=tts_model,
+                contents=tts_prompt,
+                config=types.GenerateContentConfig(
+                    response_modalities=["AUDIO"],
+                    safety_settings=[
+                        types.SafetySetting(
+                            category=types.HarmCategory.HARM_CATEGORY_HARASSMENT,
+                            threshold=types.HarmBlockThreshold.BLOCK_ONLY_HIGH,
+                        ),
+                        types.SafetySetting(
+                            category=types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+                            threshold=types.HarmBlockThreshold.BLOCK_ONLY_HIGH,
+                        ),
+                        types.SafetySetting(
+                            category=types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+                            threshold=types.HarmBlockThreshold.BLOCK_ONLY_HIGH,
+                        ),
+                        types.SafetySetting(
+                            category=types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+                            threshold=types.HarmBlockThreshold.BLOCK_ONLY_HIGH,
+                        ),
+                        types.SafetySetting(
+                            category=types.HarmCategory.HARM_CATEGORY_CIVIC_INTEGRITY,
+                            threshold=types.HarmBlockThreshold.BLOCK_NONE,
+                        ),
+                    ],
+                    speech_config=types.SpeechConfig(
+                        voice_config=types.VoiceConfig(
+                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                                voice_name=voice_name,
+                            )
+                        )
+                    ),
+                ),
+            )
+            if response.candidates and response.candidates[0].content:
+                break
+            
+            reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
+            print(f"[voice] TTS attempt {attempt+1} failed (Reason: {reason}). Retrying...")
+            time.sleep(2)
+        except Exception as e:
+            last_exception = e
+            print(f"[voice] TTS attempt {attempt+1} error: {e}. Retrying...")
+            time.sleep(2)
 
     # PCM バイナリを取得
+    # 極めて慎重に階層をチェック
+    if (not response or 
+        not response.candidates or 
+        len(response.candidates) == 0 or 
+        not response.candidates[0].content or 
+        not response.candidates[0].content.parts or 
+        len(response.candidates[0].content.parts) == 0 or
+        not response.candidates[0].content.parts[0].inline_data or
+        not response.candidates[0].content.parts[0].inline_data.data):
+        
+        reason = response.candidates[0].finish_reason if (response and response.candidates and len(response.candidates) > 0) else "Unknown"
+        print(f"[voice] ERROR: TTS failed to return valid audio data after {max_retries} attempts.")
+        if last_exception:
+            print(f"[voice] Last exception: {last_exception}")
+        print(f"[voice] Script segment: \"{script[:100]}...\"")
+        print(f"[voice] Finish reason: {reason}")
+        if response:
+            print(f"[voice] Full Response: {response}")
+            if response.candidates and len(response.candidates) > 0:
+                if response.candidates[0].safety_ratings:
+                    print(f"[voice] Safety ratings: {response.candidates[0].safety_ratings}")
+        
+        raise RuntimeError(f"TTS API returned no audio data. Reason: {reason}. Exception: {last_exception}")
+
     pcm_data = response.candidates[0].content.parts[0].inline_data.data
 
     if debug:

@@ -5,7 +5,9 @@ podcast_meta.yml のテンプレートに従い、任意のニュースカテゴ
 """
 from __future__ import annotations
 
+import glob
 import os
+import re
 from typing import TYPE_CHECKING
 
 import yaml
@@ -19,6 +21,38 @@ if TYPE_CHECKING:
 def _load_meta(meta_path: str = "config/podcast_meta.yml") -> dict:
     with open(meta_path, encoding="utf-8") as f:
         return yaml.safe_load(f)
+
+
+def _load_recent_srt(episodes_dir: str = "docs/episodes", max_count: int = 6) -> str:
+    """過去の放送SRTファイルからテキスト部分を抽出して返す。"""
+    srt_files = sorted(glob.glob(os.path.join(episodes_dir, "*.srt")), reverse=True)
+    srt_files = srt_files[:max_count]
+    if not srt_files:
+        return ""
+    past_texts: list[str] = []
+    for srt_path in srt_files:
+        try:
+            with open(srt_path, encoding="utf-8") as f:
+                content = f.read()
+            # SRT形式からテキスト行のみ抽出（番号行・タイムスタンプ行・空行を除去）
+            lines = []
+            for line in content.splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                if re.match(r'^\d+$', line):
+                    continue
+                if re.match(r'\d{2}:\d{2}:\d{2},\d{3}\s*-->\s*\d{2}:\d{2}:\d{2},\d{3}', line):
+                    continue
+                lines.append(line)
+            filename = str(os.path.basename(str(srt_path)))
+            date_label = filename.replace('.srt', '')
+            past_texts.append(f"[{date_label}]\n" + "\n".join(lines))
+        except Exception as e:
+            print(f"[editor] Warning: failed to read {srt_path}: {e}")
+    count = len(past_texts)
+    print(f"[editor] Loaded {count} past SRT(s) for duplicate avoidance")
+    return "\n\n".join(past_texts)
 
 
 
@@ -48,18 +82,25 @@ def generate_headline_and_body(articles: list["Article"], meta_path: str = "conf
         for i, a in enumerate(articles)
     )
 
+    # 過去SRTを参照して重複回避
+    past_srt_text = _load_recent_srt()
+    past_srt_section = ""
+    if past_srt_text:
+        past_srt_section = f"""\n【過去の放送内容（参考）】\n以下は過去の放送で取り上げた内容です。これらと重複する記事は除外するか、続報がある場合のみ簡潔に触れる程度にしてください。\n{past_srt_text}\n"""
+
     prompt = f"""{persona}
 以下のニュース記事をもとに、日本語のポッドキャスト台本を生成してください。
 
 【要件】
 - **ヘッドライン**: 「{greeting}」から始め、その日のニュースのヘッドラインを1〜2文で手短に紹介してください。
-- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、情報源（メディア名）をまとめて紹介し、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
+- **本文**: 各記事について、提供された概要をもとに、リスナーが内容を深く理解できるよう、背景情報や重要性を補足しながら、それぞれ300〜400字程度の詳細な解説を加えてください。各記事の解説の冒頭には、ニュースソース名を短く入れてください（例: 「TechCrunchによりますと…」「36Krが報じたところでは…」）。記事から次の記事に移る際には、自然なつなぎの言葉を入れてください。最後にエンディングとして、「本日の{short_title}は以上です。また明日お会いしましょう」で締めくくってください。
+- **重複回避**: 過去の放送内容が参考として提供されている場合、すでに取り上げた話題と実質的に同じ内容の記事は省略してください。
 - **出力形式**: 以下のフォーマットで出力してください。
 ヘッドライン:
 （ここにヘッドライン）
 本文:
 （ここに本文）
-
+{past_srt_section}
 【本日の記事】
 {articles_text}
 """

@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import sys
 import traceback
+import time
 from datetime import datetime, timezone, timedelta
 import re
 
@@ -111,8 +112,8 @@ def run() -> None:
     import re
     from agents.voice_concat import concat_wav
     from agents.voice import _wav_exact_duration_ms
-    # 分割バッファを約300文字に変更（より細かいSRTタイミングのため）
-    max_chars = 300
+    # 分割バッファを約100文字に変更（音声品質向上＋SRT字幕の適切な長さのため）
+    max_chars = 100
     # 句点・改行で分割
     segments = [s.strip() for s in re.split(r'(?<=[。！？\!\?\n])', full_script) if s.strip()]
     seg_groups = []
@@ -130,16 +131,26 @@ def run() -> None:
     srt_segments = []
     for i, seg_text in enumerate(seg_groups):
         part_path = wav_path.replace('.wav', f'_part{i+1}.wav')
-        print(f"  [voice] {i+1}/{len(seg_groups)}: {len(seg_text)} chars")
-        # synthesizeでWAV出力
-        synthesize(seg_text, part_path, debug=debug, output_format="wav")
-        wav_parts.append(part_path)
+        print(f"  [voice] Converting segment {i+1}/{len(seg_groups)} ({len(seg_text)} chars)...")
         
-        # 正確なミリ秒を取得してSRT配列に追加
-        with open(part_path, "rb") as f:
-            b = f.read()
-            dur_ms = _wav_exact_duration_ms(b)
-            srt_segments.append((seg_text, dur_ms))
+        try:
+            # synthesizeでWAV出力
+            synthesize(seg_text, part_path, debug=debug, output_format="wav")
+            wav_parts.append(part_path)
+            
+            # 正確なミリ秒を取得してSRT配列に追加
+            with open(part_path, "rb") as f:
+                b = f.read()
+                dur_ms = _wav_exact_duration_ms(b)
+                srt_segments.append((seg_text, dur_ms))
+        except Exception as e:
+            print(f"\n[pipeline] ERROR at segment {i+1}:")
+            print(f"Text content: \"{seg_text}\"")
+            raise e
+        
+        # クォータ（RPM）制限を避けるため十分な待機を入れる
+        if i < len(seg_groups) - 1:
+            time.sleep(1)
 
     if len(wav_parts) == 1:
         os.rename(wav_parts[0], wav_path)

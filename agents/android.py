@@ -43,13 +43,14 @@ def update_feed(
     script: str,
     duration_sec: int,
     srt_path: str | None = None,
-    feed_path: str = None,
+    feed_path: str | None = None,
     meta_path: str = "config/podcast_meta.yml",
 ) -> str:
     """feed.xml に新エピソードを追加して保存する。feed_path を返す。"""
     # feed_path: Noneなら環境変数FEED_XML_PATH、なければデフォルト
     if feed_path is None:
         feed_path = os.environ.get("FEED_XML_PATH", "docs/feed.xml")
+    assert feed_path is not None
     meta = _load_meta(meta_path)
     base_url = meta["base_url"].rstrip("/")
     mp3_filename = os.path.basename(mp3_path)
@@ -80,6 +81,8 @@ def update_feed(
                 "xmlns:podcast": PODCAST_NS
             })
             channel = ET.SubElement(root, "channel")
+            if channel is None:
+                raise RuntimeError("Failed to create RSS channel")
             ET.SubElement(channel, "title").text = meta["title"]
             ET.SubElement(channel, "link").text = base_url
             ET.SubElement(channel, "description").text = meta["description"]
@@ -118,6 +121,9 @@ def update_feed(
     # lastBuildDate を更新
     jst = timezone(timedelta(hours=9))
     now = datetime.now(jst)
+    if channel is None:
+         raise RuntimeError("Channel is None - failed to parse or create feed")
+
     last_build = channel.find("lastBuildDate")
     if last_build is None:
         last_build = ET.SubElement(channel, "lastBuildDate")
@@ -138,6 +144,7 @@ def update_feed(
         "length": str(mp3_size),
     })
     # Podcasting 2.0 transcript tag if provided
+    assert feed_path is not None
     if srt_path and os.path.exists(srt_path):
         srt_filename = os.path.basename(srt_path)
         srt_url = f"{base_url}/episodes/{srt_filename}"

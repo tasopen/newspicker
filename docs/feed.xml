@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>AI ニュース Daily</title>
+    <title>朝刊ワールドAIニュース</title>
     <link>https://tasopen.github.io/newspicker</link>
     <description>最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。</description>
     <itunes:image href="https://tasopen.github.io/newspicker/podcast_cover.jpg" />
