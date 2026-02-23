@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Mon, 23 Feb 2026 06:07:31 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 01:10:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-02-24 01:06:36</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-24_010636.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-24_010636.mp3</guid>
+      <pubDate>Tue, 24 Feb 2026 01:10:40 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIの巨大プロジェクト「スターゲート」が直面する停滞の危機や、インドで開催中のAIサミットでサム・アルトマン氏が語った過激な未来予測、そしてAIの経済貢献を可視化する新たな指標についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-24_010636.mp3" type="audio/mpeg" length="4291629" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-24_010636.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIの巨大プロジェクト「スターゲート」が直面する停滞の危機や、インドで開催中のAIサミットでサム・アルトマン氏が語った過激な未来予測、そしてAIの経済貢献を可視化する新たな指標についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-23 06:05:43</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-23_060543.mp3</link>
