@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Tue, 24 Feb 2026 01:10:40 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 06:14:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-02-25 06:10:35</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-25_061035.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-25_061035.mp3</guid>
+      <pubDate>Wed, 25 Feb 2026 06:14:09 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIエージェントの企業導入が抱える現実的な壁や、防衛分野での活用を巡る倫理的葛藤、そして音楽やヘルスケア領域で進む専門特化型AIの最新動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-25_061035.mp3" type="audio/mpeg" length="5975469" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-25_061035.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:13</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIエージェントの企業導入が抱える現実的な壁や、防衛分野での活用を巡る倫理的葛藤、そして音楽やヘルスケア領域で進む専門特化型AIの最新動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-24 01:06:36</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-24_010636.mp3</link>
