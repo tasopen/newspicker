@@ -1,6 +1,6 @@
 # newspicker — 多言語 RSS Podcast Generator
 
-最新のニュース（AI、技術、自動車など）を RSS から自動収集・要約・音声化して、GitHub Pages 上で Podcast として配信するシステムです。NewsAPI に依存せず、RSS と Gemini Grounding Search を活用した自動メンテナンス機能を備えています。
+最新のニュース（AI、技術、自動車など）を RSS から自動収集・要約・音声化して、GitHub Pages 上で Podcast として配信するシステムです。RSS と Gemini Grounding Search を活用した自動メンテナンス機能を備えています。
 
 ## 🏗 アーキテクチャ
 
@@ -9,7 +9,7 @@
     │
     ├─ @scout    agents/scout.py   → 多言語 RSS (日・中・英) → 上位 7 記事
     ├─ @editor   agents/editor.py  → Gemini 3 Flash → カテゴリ別・動的台本生成
-    ├─ @voice    agents/voice.py   → Gemini TTS → MP3 & SRT (字幕)
+    ├─ @voice    agents/voice.py   → Gemini TTS(gemini-2.5-flash-preview-tts) → MP3 & SRT (字幕)
     └─ @android  agents/android.py → Podcast RSS (feed.xml) 更新
                        │
 毎週日曜 12:00 JST
@@ -75,5 +75,23 @@ uv run python scripts/run_pipeline.py
 # フィードメンテナンスの手動実行
 uv run python scripts/maintain_feeds.py --auto-add
 ```
+
+## 🛠 開発とデバッグ
+
+### デバッグモードの利用
+パイプライン実行時に `--debug` フラグを付けることで、デバッグ情報が出力され、中間データが保存されます。
+
+```bash
+uv run python scripts/run_pipeline.py --debug
+```
+
+- **PCMデータの保存**: `docs/episodes/` 内に、TTSから返された生の音声データ (`.pcm`) が保存されます。音声品質の確認に利用できます。
+- **詳細なエラーログ**: APIレスポンスの詳細（finish_reason や安全しきい値の状態など）が出力されます。
+
+### 便利な環境変数
+ローカルでの開発・テスト時に以下の環境変数を設定することで、動作をカスタマイズできます。
+
+- `GEMINI_API_KEY`: 必須。
+- `TEST_OUTPUT_PATH`: 出力先（通常は `docs/`）を一時的に別の場所に変更したい場合に使用します。
 
 > ffmpeg が必要です。GitHub Actions には標準搭載されています。

@@ -112,8 +112,8 @@ def run() -> None:
     import re
     from agents.voice_concat import concat_wav
     from agents.voice import _wav_exact_duration_ms
-    # 分割バッファを約100文字に変更（音声品質向上＋SRT字幕の適切な長さのため）
-    max_chars = 100
+    # 分割バッファは300文字ごととする
+    max_chars = 300
     # 句点・改行で分割
     segments = [s.strip() for s in re.split(r'(?<=[。！？\!\?\n])', full_script) if s.strip()]
     seg_groups = []

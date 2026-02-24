@@ -47,9 +47,9 @@ def update_feed(
     meta_path: str = "config/podcast_meta.yml",
 ) -> str:
     """feed.xml に新エピソードを追加して保存する。feed_path を返す。"""
-    # feed_path: Noneなら環境変数FEED_XML_PATH、なければデフォルト
+    # feed_path: Noneならデフォルト値を使用
     if feed_path is None:
-        feed_path = os.environ.get("FEED_XML_PATH", "docs/feed.xml")
+        feed_path = "docs/feed.xml"
     assert feed_path is not None
     meta = _load_meta(meta_path)
     base_url = meta["base_url"].rstrip("/")
