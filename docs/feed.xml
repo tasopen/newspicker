@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Wed, 25 Feb 2026 06:14:09 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 06:13:08 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-02-26 06:10:18</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-26_061018.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-26_061018.mp3</guid>
+      <pubDate>Thu, 26 Feb 2026 06:13:08 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIが「思考」しているのかを問う最新の研究や、OpenAIが模索する新たな広告モデル、そして1万年の保存を可能にするガラスストレージ技術など、知能の深淵から未来のインフラまで幅広いニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-26_061018.mp3" type="audio/mpeg" length="5301165" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-26_061018.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:31</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIが「思考」しているのかを問う最新の研究や、OpenAIが模索する新たな広告モデル、そして1万年の保存を可能にするガラスストレージ技術など、知能の深淵から未来のインフラまで幅広いニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-25 06:10:35</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-25_061035.mp3</link>
