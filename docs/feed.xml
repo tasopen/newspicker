@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Thu, 26 Feb 2026 06:13:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 06:13:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-02-27 06:11:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-27_061100.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-27_061100.mp3</guid>
+      <pubDate>Fri, 27 Feb 2026 06:13:49 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、進化する動画生成AIの比較検証や、大手コンサルとAI企業の提携、そして「引退したAI」がライターとしてデビューするというユニークな話題まで、最新のテクノロジー動向をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-27_061100.mp3" type="audio/mpeg" length="4876461" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-27_061100.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:04</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、進化する動画生成AIの比較検証や、大手コンサルとAI企業の提携、そして「引退したAI」がライターとしてデビューするというユニークな話題まで、最新のテクノロジー動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-26 06:10:18</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-26_061018.mp3</link>
