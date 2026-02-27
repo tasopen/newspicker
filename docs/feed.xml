@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Fri, 27 Feb 2026 06:13:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 06:09:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-02-28 06:07:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-02-28_060700.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-02-28_060700.mp3</guid>
+      <pubDate>Sat, 28 Feb 2026 06:09:50 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIが調達した天文学的な資金と驚異的なユーザー数、イーロン・マスク氏との法廷闘争の行方、そして「LLMはもう古い」とされる次世代AIへの転換など、業界の勢力図を塗り替える最新トピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-02-28_060700.mp3" type="audio/mpeg" length="5225517" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-02-28_060700.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIが調達した天文学的な資金と驚異的なユーザー数、イーロン・マスク氏との法廷闘争の行方、そして「LLMはもう古い」とされる次世代AIへの転換など、業界の勢力図を塗り替える最新トピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-27 06:11:00</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-27_061100.mp3</link>
