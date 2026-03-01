@@ -3,6 +3,7 @@
     // on launch.json configuration.
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Python: Run Pipeline (TEST_OUTPUT_PATH)",
             "type": "debugpy",

@@ -40,10 +40,6 @@ rss_feeds:
   url: https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml
   language: ja
   weight: 1.0
-- name: Zenn 機械学習
-  url: https://zenn.dev/topics/machinelearning/feed
-  language: ja
-  weight: 1.0
 - name: 机器之心 (Machine Heart)
   url: https://jiqizhixin.com/rss
   language: zh

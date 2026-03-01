@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sun, 01 Mar 2026 11:20:40 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 12:14:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-01 12:11:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-01_121114.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-01_121114.mp3</guid>
+      <pubDate>Sun, 01 Mar 2026 12:14:00 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、米国防総省がAnthropicを「リスク」指定した衝撃の展開や、OpenAIとAmazonが挑む次世代AI基盤の詳細、そしてハードウェア市場を揺るがすメモリ価格の高騰についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-01_121114.mp3" type="audio/mpeg" length="4281644" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-01_121114.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:27</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、米国防総省がAnthropicを「リスク」指定した衝撃の展開や、OpenAIとAmazonが挑む次世代AI基盤の詳細、そしてハードウェア市場を揺るがすメモリ価格の高騰についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-01 11:18:16</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-01_111816.mp3</link>

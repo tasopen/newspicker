@@ -186,6 +186,11 @@ def discover_new_feeds(language: str, keywords: list[str], existing_names: set[s
         f"Find popular and reliable RSS feed URLs for {lang_label} news sites "
         f"covering topics: {category_hint}. "
         f"Exclude these already-known sources: {existing_list}. "
+        f"Only include professional news organizations."
+        f"Exclude personal blogs and community platforms."
+        f"Prioritize feeds with an {category_hint} specific category."
+        f"Prefer feeds from established media companies or recognized {category_hint} industry publications."
+
         f"Return a JSON array of objects with 'name', 'url', and 'weight' (1.0-1.3) fields. "
         f"Only include feeds that are currently active and frequently updated. "
         f"Return at most 3 new feeds. Return ONLY valid JSON, no markdown formatting."
