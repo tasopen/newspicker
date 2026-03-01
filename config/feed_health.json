@@ -1,27 +1,27 @@
 {
   "https://techcrunch.com/category/artificial-intelligence/feed/": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "TechCrunch AI"
   },
   "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "MIT Technology Review AI"
   },
   "https://venturebeat.com/category/ai/feed/": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "VentureBeat AI"
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "The Verge AI"
   },
   "https://feeds.arstechnica.com/arstechnica/technology-lab": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "Ars Technica AI"
   },
   "https://ledge.ai/feed": {
@@ -32,12 +32,12 @@
   },
   "https://ainow.ai/feed/": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "AINOW"
   },
   "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "ITmedia NEWS"
   },
   "https://zenn.dev/topics/machinelearning/feed": {
@@ -46,9 +46,10 @@
     "name": "Zenn 機械学習"
   },
   "https://jiqizhixin.com/rss": {
-    "fail_count": 0,
+    "fail_count": 1,
     "last_success": "2026-02-22T15:58:39.274675+00:00",
-    "name": "机器之心 (Machine Heart)"
+    "name": "机器之心 (Machine Heart)",
+    "last_failure": "2026-03-01T03:51:52.866645+00:00"
   },
   "https://rsshub.app/qbitai": {
     "fail_count": 1,
@@ -58,17 +59,23 @@
   },
   "https://36kr.com/feed": {
     "fail_count": 0,
-    "last_success": "2026-02-22T15:58:39.274675+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "36Kr"
   },
   "https://ledge.ai/feed/": {
-    "fail_count": 0,
+    "fail_count": 1,
     "last_success": "2026-02-22T16:00:47.938768+00:00",
-    "name": "Ledge.ai"
+    "name": "Ledge.ai",
+    "last_failure": "2026-03-01T03:51:52.866645+00:00"
   },
   "https://www.qbitai.com/feed": {
     "fail_count": 0,
-    "last_success": "2026-02-22T16:01:20.540910+00:00",
+    "last_success": "2026-03-01T03:51:52.866645+00:00",
     "name": "量子位 (QbitAI)"
+  },
+  "https://www.jiqizhixin.com/rss": {
+    "fail_count": 0,
+    "last_success": "2026-03-01T03:55:30.113177+00:00",
+    "name": "机器之心 (Machine Heart)"
   }
 }
