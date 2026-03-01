@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sat, 28 Feb 2026 06:09:50 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 11:20:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-01 11:18:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-01_111816.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-01_111816.mp3</guid>
+      <pubDate>Sun, 01 Mar 2026 11:20:40 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIが米国国防総省との提携で見せた「現実的な安全策」の行方、アリババが仕掛けるAIウェアラブル市場への本格参入、そしてLLMを「魔法」ではなく「確率モデル」として捉え直す技術的本質についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-01_111816.mp3" type="audio/mpeg" length="3479085" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-01_111816.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:37</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIが米国国防総省との提携で見せた「現実的な安全策」の行方、アリババが仕掛けるAIウェアラブル市場への本格参入、そしてLLMを「魔法」ではなく「確率モデル」として捉え直す技術的本質についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-02-28 06:07:00</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-02-28_060700.mp3</link>
