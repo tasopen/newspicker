@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Mon, 02 Mar 2026 06:07:41 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 06:12:48 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-03 06:10:15</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-03_061015.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-03_061015.mp3</guid>
+      <pubDate>Tue, 03 Mar 2026 06:12:48 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、国防総省（こくぼうしょうしょう）との対立を背景に人気が急上昇したAI「Claude（クロード）」の動向や、Apple（アップル）とGoogle（グーグル）が模索する次世代Siri（シリ）のインフラ戦略についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-03_061015.mp3" type="audio/mpeg" length="3733677" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-03_061015.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:53</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、国防総省（こくぼうしょうしょう）との対立を背景に人気が急上昇したAI「Claude（クロード）」の動向や、Apple（アップル）とGoogle（グーグル）が模索する次世代Siri（シリ）のインフラ戦略についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-02 06:04:41</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-02_060441.mp3</link>
