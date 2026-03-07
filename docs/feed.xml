@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sat, 07 Mar 2026 06:10:31 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 06:06:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-08 06:03:57</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-08_060357.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-08_060357.mp3</guid>
+      <pubDate>Sun, 08 Mar 2026 06:06:20 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。今日は、中東で発生したデータセンターへのドローン攻撃という衝撃のニュースや、国防総省（こくぼうしょう）との提携を巡る OpenAI（オープンエーアイ）幹部の電撃辞任（でんげきじにん）、そして注目を集める ChatGPT（チャットジーピーティー）の「成人向けモード」再延期についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-08_060357.mp3" type="audio/mpeg" length="3611181" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-08_060357.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。今日は、中東で発生したデータセンターへのドローン攻撃という衝撃のニュースや、国防総省（こくぼうしょう）との提携を巡る OpenAI（オープンエーアイ）幹部の電撃辞任（でんげきじにん）、そして注目を集める ChatGPT（チャットジーピーティー）の「成人向けモード」再延期についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-07 06:07:43</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-07_060743.mp3</link>
