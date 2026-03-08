@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sun, 08 Mar 2026 06:06:20 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 06:07:48 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-09 06:05:07</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-09_060507.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-09_060507.mp3</guid>
+      <pubDate>Mon, 09 Mar 2026 06:07:48 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。今日は、AI競争の鍵を握る「電力」を巡る中国の攻勢や、匿名アカウントを暴く新たなサイバー脅威、そして日本企業における「DX（デジタルトランスフォーメーション）」という言葉の終焉（しゅうえん）についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-09_060507.mp3" type="audio/mpeg" length="4139181" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-09_060507.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:18</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。今日は、AI競争の鍵を握る「電力」を巡る中国の攻勢や、匿名アカウントを暴く新たなサイバー脅威、そして日本企業における「DX（デジタルトランスフォーメーション）」という言葉の終焉（しゅうえん）についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-08 06:03:57</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-08_060357.mp3</link>
