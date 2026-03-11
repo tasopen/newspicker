@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Wed, 11 Mar 2026 06:11:14 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 06:12:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-12 06:09:08</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-12_060908.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-12_060908.mp3</guid>
+      <pubDate>Thu, 12 Mar 2026 06:12:49 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Nvidia（エヌビディア）による 260 億ドル規模の独自 AI モデル開発計画や、米国国防総省（こくぼうしょう）との提携（ていけい）を巡る OpenAI（オープンエーアイ）へのボイコット運動、そしてアリババクラウドによる日本市場への攻勢といったニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-12_060908.mp3" type="audio/mpeg" length="4621485" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-12_060908.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:48</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Nvidia（エヌビディア）による 260 億ドル規模の独自 AI モデル開発計画や、米国国防総省（こくぼうしょう）との提携（ていけい）を巡る OpenAI（オープンエーアイ）へのボイコット運動、そしてアリババクラウドによる日本市場への攻勢といったニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-11 06:08:43</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-11_060843.mp3</link>
