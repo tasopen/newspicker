@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Thu, 12 Mar 2026 06:12:49 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 06:12:39 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-13 06:09:58</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-13_060958.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-13_060958.mp3</guid>
+      <pubDate>Fri, 13 Mar 2026 06:12:39 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、米国国防総省（こくぼうしょう）と対立する Anthropic（アンソロピック）を Microsoft（マイクロソフト）や OpenAI（オープンエーアイ）ら競合が異例の結束で支援する動きや、AI の顔認証（かおにんしょう）ミスによって無実の女性が半年間投獄（とうごく）された衝撃的な事件、そして最新の AI モデルが抱える「意外な弱点」に関する調査結果をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-13_060958.mp3" type="audio/mpeg" length="4550445" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-13_060958.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:44</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、米国国防総省（こくぼうしょう）と対立する Anthropic（アンソロピック）を Microsoft（マイクロソフト）や OpenAI（オープンエーアイ）ら競合が異例の結束で支援する動きや、AI の顔認証（かおにんしょう）ミスによって無実の女性が半年間投獄（とうごく）された衝撃的な事件、そして最新の AI モデルが抱える「意外な弱点」に関する調査結果をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-12 06:09:08</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-12_060908.mp3</link>
