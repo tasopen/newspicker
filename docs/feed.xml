@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Fri, 13 Mar 2026 06:12:39 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 06:12:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-14 06:09:24</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-14_060924.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-14_060924.mp3</guid>
+      <pubDate>Sat, 14 Mar 2026 06:12:19 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Google（グーグル）の最新モデル「Gemini（ジェミニ）」が示した驚異的な論理推論能力や、中国美団（メイトゥアン）が提唱する「物理世界と AI」の融合、そして著作権（ちょさくけん）を守る作家たちの新たな抵抗運動についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-14_060924.mp3" type="audio/mpeg" length="3496749" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-14_060924.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:38</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Google（グーグル）の最新モデル「Gemini（ジェミニ）」が示した驚異的な論理推論能力や、中国美団（メイトゥアン）が提唱する「物理世界と AI」の融合、そして著作権（ちょさくけん）を守る作家たちの新たな抵抗運動についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-13 06:09:58</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-13_060958.mp3</link>
