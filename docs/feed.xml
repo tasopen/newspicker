@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sat, 14 Mar 2026 06:12:19 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 06:09:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-15 06:07:15</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-15_060715.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-15_060715.mp3</guid>
+      <pubDate>Sun, 15 Mar 2026 06:09:58 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が直面する巨大データセンター計画の暗雲（あんうん）や、中国での「アップル税（ぜい）」引き下げ、そして AI がメンタルヘルスに及ぼす意外なリスクについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-15_060715.mp3" type="audio/mpeg" length="3549357" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-15_060715.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:41</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が直面する巨大データセンター計画の暗雲（あんうん）や、中国での「アップル税（ぜい）」引き下げ、そして AI がメンタルヘルスに及ぼす意外なリスクについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-14 06:09:24</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-14_060924.mp3</link>
