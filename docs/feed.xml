@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Sun, 15 Mar 2026 06:09:58 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 06:14:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-16 06:06:44</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-16_060644.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-16_060644.mp3</guid>
+      <pubDate>Mon, 16 Mar 2026 06:14:50 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、日本の金融機関が挑む AI エージェントによる UI（ユーアイ）の革新や、生成 AI の台頭（たいとう）で囁（ささや）かれる「SaaS（サース）の死」という議論、そしてイランで人々の心を動かしている AI 歌手の話題などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-16_060644.mp3" type="audio/mpeg" length="4377645" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-16_060644.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:33</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、日本の金融機関が挑む AI エージェントによる UI（ユーアイ）の革新や、生成 AI の台頭（たいとう）で囁（ささや）かれる「SaaS（サース）の死」という議論、そしてイランで人々の心を動かしている AI 歌手の話題などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-15 06:07:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-15_060715.mp3</link>
