@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Mon, 16 Mar 2026 06:14:50 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 06:18:18 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-17 06:14:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-17_061416.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-17_061416.mp3</guid>
+      <pubDate>Tue, 17 Mar 2026 06:18:18 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏（し）率（ひき）いる xAI（エックスエーアイ）への深刻（しんこく）な提訴（ていそ）や、辞書（じしょ）の権威（けんい）が OpenAI（オープンエーアイ）を訴（うった）えた著作権（ちょさくけん）訴訟（そしょう）、そして ChatGPT（チャットジーピーティー）の「アダルトモード」の実態（じったい）などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-17_061416.mp3" type="audio/mpeg" length="3837357" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-17_061416.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:59</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏（し）率（ひき）いる xAI（エックスエーアイ）への深刻（しんこく）な提訴（ていそ）や、辞書（じしょ）の権威（けんい）が OpenAI（オープンエーアイ）を訴（うった）えた著作権（ちょさくけん）訴訟（そしょう）、そして ChatGPT（チャットジーピーティー）の「アダルトモード」の実態（じったい）などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-16 06:06:44</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-16_060644.mp3</link>
