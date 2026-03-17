@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Tue, 17 Mar 2026 06:18:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 06:16:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-18 06:12:17</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-18_061217.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-18_061217.mp3</guid>
+      <pubDate>Wed, 18 Mar 2026 06:16:26 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Nvidia（エヌビディア）が発表した次世代チップ「Rubin（ルビン）」と驚異の収益予測、OpenAI（オープンエーアイ）の最新小型モデル「GPT-5.4 mini（ジーピーティー・ゴーテンヨン・ミニ）」の登場、そしてアリババによる「Token（トークン）」中心の組織改編など、世界を揺るがす最新ニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-18_061217.mp3" type="audio/mpeg" length="5175981" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-18_061217.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:23</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Nvidia（エヌビディア）が発表した次世代チップ「Rubin（ルビン）」と驚異の収益予測、OpenAI（オープンエーアイ）の最新小型モデル「GPT-5.4 mini（ジーピーティー・ゴーテンヨン・ミニ）」の登場、そしてアリババによる「Token（トークン）」中心の組織改編など、世界を揺るがす最新ニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-17 06:14:16</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-17_061416.mp3</link>
