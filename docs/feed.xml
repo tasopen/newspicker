@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Wed, 18 Mar 2026 06:16:26 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 06:15:14 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-19 06:11:32</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-19_061132.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-19_061132.mp3</guid>
+      <pubDate>Thu, 19 Mar 2026 06:15:14 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、中国企業による米国 AI モデルの「ただ乗り」疑惑や、激化する推論専用チップの開発競争、そして AI モデルの格付けを左右する「アリーナ」の存在感など、最新のテックニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-19_061132.mp3" type="audio/mpeg" length="4314285" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-19_061132.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:29</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、中国企業による米国 AI モデルの「ただ乗り」疑惑や、激化する推論専用チップの開発競争、そして AI モデルの格付けを左右する「アリーナ」の存在感など、最新のテックニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-18 06:12:17</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-18_061217.mp3</link>
