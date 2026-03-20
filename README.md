@@ -29,6 +29,7 @@
    - `scripts/publish_to_github.py` は現在の Git 情報から owner/repo を自動判定するので、通常は追加修正不要
 2. **番組メタ情報を変える**
    - `config/podcast_meta.yml` の `title`, `short_title`, `description`, `author`, `category` を更新
+   - Apple Podcasts / Spotify 向けに `name` と `email` を設定すると、RSS に `itunes:owner` と `atom:link rel="self"` が入る
    - `prompt_persona`, `prompt_greeting` を新テーマ向けの語り口に合わせる
    - 配信先URLが変わったら、既存の `docs/feed.xml` と `docs/index.html` は再生成される前提で扱う
 3. **ニュースソースを入れ替える**
