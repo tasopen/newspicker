@@ -9,7 +9,18 @@
     <itunes:author>AI News Bot</itunes:author>
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
-    <lastBuildDate>Fri, 20 Mar 2026 06:14:17 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 14:46:01 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-20 14:41:50</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-20_144150.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-20_144150.mp3</guid>
+      <pubDate>Fri, 20 Mar 2026 14:46:01 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が開発を進めるデスクトップ版「スーパーアプリ」構想や、謎の高性能モデルの正体だった小米（シャオミ）の最新 AI、そして感情を読み取る AI ブレスレットなど、最新のテックニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-20_144150.mp3" type="audio/mpeg" length="4721325" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-20_144150.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:55</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が開発を進めるデスクトップ版「スーパーアプリ」構想や、謎の高性能モデルの正体だった小米（シャオミ）の最新 AI、そして感情を読み取る AI ブレスレットなど、最新のテックニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-20 06:10:59</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-20_061059.mp3</link>
