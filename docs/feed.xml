@@ -3,7 +3,7 @@
   <channel>
     <title>朝刊ワールドAIニュース</title>
     <link>https://tasopen.github.io/newspicker</link>
-    <description>最新のAIニュースを毎朝お届けするポッドキャスト。Gemini が収集・要約し、音声でお伝えします。</description>
+    <description>世界から最新のAIニュースを毎朝お届けするポッドキャスト。Gemini AI が収集・要約し、音声でお伝えします。Presented by Tasogare Penguin.</description>
     <atom:link href="https://tasopen.github.io/newspicker/feed.xml" rel="self" type="application/rss+xml" />
     <itunes:image href="https://tasopen.github.io/newspicker/podcast_cover.jpg" />
     <language>ja</language>
@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 20 Mar 2026 14:46:01 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 06:11:18 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-21 06:07:46</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-21_060746.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-21_060746.mp3</guid>
+      <pubDate>Sat, 21 Mar 2026 06:11:18 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が挑む「完全自動 AI 研究員」の開発計画や、Meta（メタ）の AI エージェントが引き起こした機密情報流出、そして AI 依存の疑いで出版中止となったホラー小説の話題など、最新のテックニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-21_060746.mp3" type="audio/mpeg" length="4313517" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-21_060746.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:29</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が挑む「完全自動 AI 研究員」の開発計画や、Meta（メタ）の AI エージェントが引き起こした機密情報流出、そして AI 依存の疑いで出版中止となったホラー小説の話題など、最新のテックニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-20 14:41:50</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-20_144150.mp3</link>
