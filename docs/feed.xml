@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 21 Mar 2026 06:11:18 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 06:09:14 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-22 06:06:01</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-22_060601.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-22_060601.mp3</guid>
+      <pubDate>Sun, 22 Mar 2026 06:09:14 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、米国のデータ分析巨頭（きょとう）Palantir（パランティア）の躍進（やくしん）と中国企業の苦悩（くのう）、そして英国政府と OpenAI（オープンエーアイ）の提携（ていけい）の現状（げんじょう）など、最新のテックニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-22_060601.mp3" type="audio/mpeg" length="4404525" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-22_060601.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:35</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、米国のデータ分析巨頭（きょとう）Palantir（パランティア）の躍進（やくしん）と中国企業の苦悩（くのう）、そして英国政府と OpenAI（オープンエーアイ）の提携（ていけい）の現状（げんじょう）など、最新のテックニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-21 06:07:46</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-21_060746.mp3</link>
