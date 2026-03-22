@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 22 Mar 2026 06:09:14 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 06:09:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-23 06:06:48</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-23_060648.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-23_060648.mp3</guid>
+      <pubDate>Mon, 23 Mar 2026 06:09:58 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、世界半導体売上高が単月で初めて800億ドルを突破したという歴史的なニュースや、イーロン・マスク氏による巨大チップ工場「テラファブ」の建設計画、そしてAmazon（アマゾン）の独自チップを巡る最新動向など、AIインフラの劇的な変化を中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-23_060648.mp3" type="audio/mpeg" length="4245165" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-23_060648.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、世界半導体売上高が単月で初めて800億ドルを突破したという歴史的なニュースや、イーロン・マスク氏による巨大チップ工場「テラファブ」の建設計画、そしてAmazon（アマゾン）の独自チップを巡る最新動向など、AIインフラの劇的な変化を中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-22 06:06:01</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-22_060601.mp3</link>
