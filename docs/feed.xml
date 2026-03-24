@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 24 Mar 2026 06:14:43 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 06:15:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-25 06:12:19</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-25_061219.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-25_061219.mp3</guid>
+      <pubDate>Wed, 25 Mar 2026 06:15:20 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIの倫理（りんり）を巡るAnthropic（アンソロピック）と米国（べいこく）国防省（こくぼうしょう）の法廷（ほうてい）闘争（とうそう）、Arm（アーム）による独自（どくじ）チップ製造（せいぞう）への参入（さんにゅう）、そしてChatGPT（チャットジーピーティー）の広告（こうこく）事業（じぎょう）本格化（ほんかくか）など、業界のパワーバランスを揺（ゆ）るがす最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-25_061219.mp3" type="audio/mpeg" length="3499053" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-25_061219.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:38</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIの倫理（りんり）を巡るAnthropic（アンソロピック）と米国（べいこく）国防省（こくぼうしょう）の法廷（ほうてい）闘争（とうそう）、Arm（アーム）による独自（どくじ）チップ製造（せいぞう）への参入（さんにゅう）、そしてChatGPT（チャットジーピーティー）の広告（こうこく）事業（じぎょう）本格化（ほんかくか）など、業界のパワーバランスを揺（ゆ）るがす最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-24 06:11:10</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-24_061110.mp3</link>
