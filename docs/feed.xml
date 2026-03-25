@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 25 Mar 2026 06:15:20 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 06:13:53 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-26 06:11:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-26_061100.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-26_061100.mp3</guid>
+      <pubDate>Thu, 26 Mar 2026 06:13:53 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）による衝撃（しょうげき）の動画（どうが）生成（せいせい）AI「Sora（ソラ）」の提供（ていきょう）終了（しゅうりょう）と、AIエージェントの台頭（たいとう）によって揺（ゆ）れるSaaS（サース）業界（ぎょうかい）の地殻（ちかく）変動（へんどう）を中心（ちゅうしん）にお伝（つた）えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-26_061100.mp3" type="audio/mpeg" length="3252909" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-26_061100.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:23</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）による衝撃（しょうげき）の動画（どうが）生成（せいせい）AI「Sora（ソラ）」の提供（ていきょう）終了（しゅうりょう）と、AIエージェントの台頭（たいとう）によって揺（ゆ）れるSaaS（サース）業界（ぎょうかい）の地殻（ちかく）変動（へんどう）を中心（ちゅうしん）にお伝（つた）えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-25 06:12:19</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-25_061219.mp3</link>
