@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 30 Mar 2026 06:14:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 06:18:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-03-31 06:15:02</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-03-31_061502.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-03-31_061502.mp3</guid>
+      <pubDate>Tue, 31 Mar 2026 06:18:19 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、動画生成AIが「物理法則」を学び始めたという画期的な研究や、AIが単なる生成から「タスクの完遂」へと進化する新たなパラダイム、そして医療データと連携する最新のヘルスケアAIの動向を中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-03-31_061502.mp3" type="audio/mpeg" length="5249709" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-03-31_061502.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、動画生成AIが「物理法則」を学び始めたという画期的な研究や、AIが単なる生成から「タスクの完遂」へと進化する新たなパラダイム、そして医療データと連携する最新のヘルスケアAIの動向を中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-30 06:08:26</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-30_060826.mp3</link>
