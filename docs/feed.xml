@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 31 Mar 2026 06:18:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 06:15:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-01 06:12:12</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-01_061212.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-01_061212.mp3</guid>
+      <pubDate>Wed, 01 Apr 2026 06:15:00 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が達成した約128兆円という驚異的な企業評価額と巨額資金調達、そして出版大手ペンギン・ランダムハウスによる著作権侵害の提訴、さらにソフトウェア開発の現場で起きている劇的な構造変化を中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-01_061212.mp3" type="audio/mpeg" length="3227181" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-01_061212.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:21</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が達成した約128兆円という驚異的な企業評価額と巨額資金調達、そして出版大手ペンギン・ランダムハウスによる著作権侵害の提訴、さらにソフトウェア開発の現場で起きている劇的な構造変化を中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-03-31 06:15:02</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-03-31_061502.mp3</link>
