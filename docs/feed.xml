@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 01 Apr 2026 06:15:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 06:18:10 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-02 06:15:07</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-02_061507.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-02_061507.mp3</guid>
+      <pubDate>Thu, 02 Apr 2026 06:18:10 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、日本政府が18万人規模で始動させる独自のAI基盤「源内（げんない）」の実証実験や、AIブームの意外な副作用によるゲーム機の値上げ、そして次世代の鍵を握る「コンテキストエンジニアリング」の重要性についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-02_061507.mp3" type="audio/mpeg" length="4484397" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-02_061507.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:40</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、日本政府が18万人規模で始動させる独自のAI基盤「源内（げんない）」の実証実験や、AIブームの意外な副作用によるゲーム機の値上げ、そして次世代の鍵を握る「コンテキストエンジニアリング」の重要性についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-01 06:12:12</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-01_061212.mp3</link>
