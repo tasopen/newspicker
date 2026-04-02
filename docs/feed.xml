@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 02 Apr 2026 06:18:10 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 06:14:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-03 06:11:07</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-03_061107.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-03_061107.mp3</guid>
+      <pubDate>Fri, 03 Apr 2026 06:14:31 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）によるメディア企業買収の衝撃や、開発現場で進む「人月（にんげつ）ビジネス」からの脱却（だっきゃく）、そしてAI依存がもたらす知的な変化についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-03_061107.mp3" type="audio/mpeg" length="5314605" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-03_061107.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:32</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）によるメディア企業買収の衝撃や、開発現場で進む「人月（にんげつ）ビジネス」からの脱却（だっきゃく）、そしてAI依存がもたらす知的な変化についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-02 06:15:07</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-02_061507.mp3</link>
