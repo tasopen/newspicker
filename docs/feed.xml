@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 07 Apr 2026 06:15:31 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 06:19:17 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-08 06:16:48</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-08_061648.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-08_061648.mp3</guid>
+      <pubDate>Wed, 08 Apr 2026 06:19:17 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、NVIDIA（エヌビディア）が発表した手術支援（しゅじゅつしえん）ロボット向けの最新AIモデルや、Arm（アーム）による自社開発のサーバー向けCPU、さらにAI開発の裏側にある過酷（かこく）な労働実態（ろうどうじったい）についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-08_061648.mp3" type="audio/mpeg" length="3208365" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-08_061648.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:20</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、NVIDIA（エヌビディア）が発表した手術支援（しゅじゅつしえん）ロボット向けの最新AIモデルや、Arm（アーム）による自社開発のサーバー向けCPU、さらにAI開発の裏側にある過酷（かこく）な労働実態（ろうどうじったい）についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-07 06:12:13</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-07_061213.mp3</link>
