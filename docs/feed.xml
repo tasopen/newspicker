@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 08 Apr 2026 06:19:17 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:19:33 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-09 06:16:09</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-09_061609.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-09_061609.mp3</guid>
+      <pubDate>Thu, 09 Apr 2026 06:19:33 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、米（べい）中（ちゅう）のAI大手（おおて）が火花（ひばな）を散（ち）らす技術（ぎじゅつ）流出（りゅうしゅつ）を巡（めぐ）る攻防（こうぼう）や、Anthropic（アンソロピック）が開発（かいはつ）した最強（さいきょう）のセキュリティ診断（しんだん）モデル、さらにOpenAI（オープンエーアイ）を揺（ゆ）るがす法的（ほうてき）な訴訟（そしょう）のリスクについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-09_061609.mp3" type="audio/mpeg" length="3748653" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-09_061609.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:54</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、米（べい）中（ちゅう）のAI大手（おおて）が火花（ひばな）を散（ち）らす技術（ぎじゅつ）流出（りゅうしゅつ）を巡（めぐ）る攻防（こうぼう）や、Anthropic（アンソロピック）が開発（かいはつ）した最強（さいきょう）のセキュリティ診断（しんだん）モデル、さらにOpenAI（オープンエーアイ）を揺（ゆ）るがす法的（ほうてき）な訴訟（そしょう）のリスクについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-08 06:16:48</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-08_061648.mp3</link>
