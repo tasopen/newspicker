@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 10 Apr 2026 06:20:05 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 06:14:53 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-11 06:11:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-11_061114.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-11_061114.mp3</guid>
+      <pubDate>Sat, 11 Apr 2026 06:14:53 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）の巨大（きょだい）プロジェクト「星門（せいもん）」を巡（めぐ）る中核（ちゅうかく）幹部（かんぶ）の相次（あいつ）ぐ離脱（りだつ）や、月額（げつがく）100ドルの新（しん）プラン発表（はっぴょう）、さらにAIが自（みずか）らプログラミング言語（げんご）を設計（せっけい）する驚（おどろ）きの検証（けんしょう）結果（けっか）についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-11_061114.mp3" type="audio/mpeg" length="4238253" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-11_061114.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:24</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）の巨大（きょだい）プロジェクト「星門（せいもん）」を巡（めぐ）る中核（ちゅうかく）幹部（かんぶ）の相次（あいつ）ぐ離脱（りだつ）や、月額（げつがく）100ドルの新（しん）プラン発表（はっぴょう）、さらにAIが自（みずか）らプログラミング言語（げんご）を設計（せっけい）する驚（おどろ）きの検証（けんしょう）結果（けっか）についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-10 06:16:24</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-10_061624.mp3</link>
