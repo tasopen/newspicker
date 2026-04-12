@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 12 Apr 2026 06:12:06 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 06:13:33 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-13 06:09:54</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-13_060954.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-13_060954.mp3</guid>
+      <pubDate>Mon, 13 Apr 2026 06:13:33 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、全米（ぜんべい）で巻き起こるデータセンター建設（けんせつ）への激（はげ）しい反発（はんぱつ）や、AGI（汎用（はんよう）人工（じんこう）知能（ちのう））への新（あら）たなアプローチ「シンボリック学習（がくしゅう）」の可能性（かのうせい）についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-13_060954.mp3" type="audio/mpeg" length="4249389" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-13_060954.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、全米（ぜんべい）で巻き起こるデータセンター建設（けんせつ）への激（はげ）しい反発（はんぱつ）や、AGI（汎用（はんよう）人工（じんこう）知能（ちのう））への新（あら）たなアプローチ「シンボリック学習（がくしゅう）」の可能性（かのうせい）についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-12 06:08:54</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-12_060854.mp3</link>
