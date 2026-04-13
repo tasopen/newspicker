@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 13 Apr 2026 06:13:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:12:45 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-14 07:09:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-14_070916.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-14_070916.mp3</guid>
+      <pubDate>Tue, 14 Apr 2026 07:12:45 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、金融大手ゴールドマン・サックスが警戒を強める最強のセキュリティAIの衝撃や、AIの現状を冷静に分析した最新の年次報告書「AI インデックス 2026」についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-14_070916.mp3" type="audio/mpeg" length="4523949" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-14_070916.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:42</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、金融大手ゴールドマン・サックスが警戒を強める最強のセキュリティAIの衝撃や、AIの現状を冷静に分析した最新の年次報告書「AI インデックス 2026」についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-13 06:09:54</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-13_060954.mp3</link>
