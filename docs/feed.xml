@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 14 Apr 2026 07:12:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 06:20:39 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-15 06:17:15</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-15_061715.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-15_061715.mp3</guid>
+      <pubDate>Wed, 15 Apr 2026 06:20:39 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）による家計（かけい）管理（かんり）分野への進出や、イーロン・マスク氏率（ひき）いるxAI（エックスエーアイ）を巡（めぐ）る環境（かんきょう）汚染（おせん）訴訟（そしょう）などのニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-15_061715.mp3" type="audio/mpeg" length="3918765" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-15_061715.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:04</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）による家計（かけい）管理（かんり）分野への進出や、イーロン・マスク氏率（ひき）いるxAI（エックスエーアイ）を巡（めぐ）る環境（かんきょう）汚染（おせん）訴訟（そしょう）などのニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-14 07:09:16</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-14_070916.mp3</link>
