@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 15 Apr 2026 06:20:39 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 06:54:15 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-16 06:50:52</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-16_065052.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-16_065052.mp3</guid>
+      <pubDate>Thu, 16 Apr 2026 06:54:15 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が放つ新（あら）たなセキュリティモデル「GPT-5.4-Cyber（ジーピーティー・ゴーテンヨン・サイバー）」や、中国（ちゅうごく）のAI企業（きぎょう）DeepSeek（ディープシーク）による大規模（だいきぼ）データセンター構築（こうちく）の動（うご）きなど、最新（さいしん）のAIトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-16_065052.mp3" type="audio/mpeg" length="3714477" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-16_065052.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:52</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が放つ新（あら）たなセキュリティモデル「GPT-5.4-Cyber（ジーピーティー・ゴーテンヨン・サイバー）」や、中国（ちゅうごく）のAI企業（きぎょう）DeepSeek（ディープシーク）による大規模（だいきぼ）データセンター構築（こうちく）の動（うご）きなど、最新（さいしん）のAIトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-15 06:17:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-15_061715.mp3</link>
