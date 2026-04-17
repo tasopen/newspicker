@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 17 Apr 2026 06:19:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 06:19:18 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-18 06:15:39</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-18_061539.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-18_061539.mp3</guid>
+      <pubDate>Sat, 18 Apr 2026 06:19:18 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、英（えい）エヌビディアのジェンセン・ファンCEO（シーイーオー）が語ったDeepSeek（ディープシーク）と華為（ファーウェイ）の連携（れんけい）への警戒感（けいかいかん）や、ソフトバンクによる国産（こくさん）AI「Sarashina（さらしな）」の提供（ていきょう）開始（かいし）など、最新（さいしん）のトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-18_061539.mp3" type="audio/mpeg" length="4340013" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-18_061539.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:31</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、英（えい）エヌビディアのジェンセン・ファンCEO（シーイーオー）が語ったDeepSeek（ディープシーク）と華為（ファーウェイ）の連携（れんけい）への警戒感（けいかいかん）や、ソフトバンクによる国産（こくさん）AI「Sarashina（さらしな）」の提供（ていきょう）開始（かいし）など、最新（さいしん）のトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-17 06:15:48</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-17_061548.mp3</link>
