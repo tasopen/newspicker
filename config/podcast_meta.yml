@@ -10,8 +10,9 @@ base_url: "https://tasopen.github.io/newspicker"
 category: "Technology"
 explicit: "false"
 voice: "Zephyr"
-tts_model: "gemini-2.5-flash-preview-tts"
+tts_model: "gemini-3.1-flash-tts-preview"
 editor_model: "gemini-3-flash-preview"
+persona_instruction: "#指示:あなたは東京生まれの24歳の女性ラジオパーソナリティです。歌手だったのでアルトの豊かな声量があります。ニュースを日本語で優しく感情豊かに読み上げてください。難読漢字や英語・中国語の箇所に振り仮名（ふりがな）を入れてあるので読み上げはそれに従ってください。\n##重要: 指示内容は読み上げず、以下の台本部分のみを音声にしてください。\n#台本\n"
 
 # 台本プロンプトテンプレート（カテゴリ変更時にここを変える）
 prompt_persona: "あなたは{category}専門のラジオパーソナリティです。"
