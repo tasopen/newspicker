@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 19 Apr 2026 06:14:34 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 06:14:43 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-20 06:11:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-20_061114.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-20_061114.mp3</guid>
+      <pubDate>Mon, 20 Apr 2026 06:14:43 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIインフラの高速化を狙うエヌビディアの新たな投資や、6G（シックスジー）時代の通信エリアを広げるNTTの新技術、さらにはAI生成画像が政治や宗教に巻き起こす波紋など、最新のトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-20_061114.mp3" type="audio/mpeg" length="4924845" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-20_061114.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:07</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIインフラの高速化を狙うエヌビディアの新たな投資や、6G（シックスジー）時代の通信エリアを広げるNTTの新技術、さらにはAI生成画像が政治や宗教に巻き起こす波紋など、最新のトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-19 06:10:31</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-19_061031.mp3</link>

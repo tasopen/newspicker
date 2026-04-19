@@ -414,3 +414,10 @@
 2026-04-18T21:14:34.731721+00:00	https://36kr.com/p/3770155029398018?f=rss
 2026-04-18T21:14:34.731721+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03184/
 2026-04-18T21:14:34.731722+00:00	https://www.theguardian.com/technology/2026/apr/17/liz-kendall-urges-uk-public-to-embrace-ai-as-government-makes-first-500m-fund-investment
+2026-04-19T21:14:43.638151+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11648/
+2026-04-19T21:14:43.638151+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02928/041300092/
+2026-04-19T21:14:43.638151+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02156/040700365/
+2026-04-19T21:14:43.638151+00:00	https://www.theguardian.com/us-news/2026/apr/19/trump-religious-right-pope-feud-ai-jesus-posts
+2026-04-19T21:14:43.638151+00:00	https://techcrunch.com/2026/04/19/the-12-month-window/
+2026-04-19T21:14:43.638151+00:00	https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/
+2026-04-19T21:14:43.638151+00:00	https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/
