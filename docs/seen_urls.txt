@@ -421,3 +421,10 @@
 2026-04-19T21:14:43.638151+00:00	https://techcrunch.com/2026/04/19/the-12-month-window/
 2026-04-19T21:14:43.638151+00:00	https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/
 2026-04-19T21:14:43.638151+00:00	https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/
+2026-04-20T21:20:07.675504+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00678/041000179/
+2026-04-20T21:20:07.675504+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03556/041500004/
+2026-04-20T21:20:07.675504+00:00	https://www.theguardian.com/politics/ng-interactive/2026/apr/20/five-signs-richard-tice-picture-ai-manipulated
+2026-04-20T21:20:07.675504+00:00	https://ai.watch.impress.co.jp/docs/news/2102925.html
+2026-04-20T21:20:07.675504+00:00	https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/
+2026-04-20T21:20:07.675504+00:00	https://ainow.ai/2026/04/20/277977/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e7%25a4%25be%25e5%2586%2585%25e6%25b5%25b8%25e9%2580%258f%25e3%2582%2592%25e6%2588%2590%25e5%258a%259f%25e3%2581%2595%25e3%2581%259b%25e3%2582%258b7%25e3%2581%25a4%25e3%2581%25ae%25e6%2596%25bd%25e7%25ad%2596%25ef%25bc%2581%25e5%2588%25a9%25e7%2594%25a8%25e7%258e%2587%25e3%2582%2592
+2026-04-20T21:20:07.675504+00:00	https://ainow.ai/2026/04/20/277973/?utm_source=rss&utm_medium=rss&utm_campaign=%25e3%2580%25905%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597%25e3%2580%2591%25e7%2594%259f%25e6%2588%2590ai%25e5%25b0%258e%25e5%2585%25a5%25e3%2582%25b9%25e3%2582%25b1%25e3%2582%25b8%25e3%2583%25a5%25e3%2583%25bc%25e3%2583%25ab%25e3%2581%25ae%25e7%25ab%258b%25e3%2581%25a6%25e6%2596%25b9%25ef%25bc%2581

@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 20 Apr 2026 06:14:43 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 06:20:07 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-21 06:16:43</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-21_061643.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-21_061643.mp3</guid>
+      <pubDate>Tue, 21 Apr 2026 06:20:07 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、アメリカ国家安全保障局が導入した極秘AIモデルの話題や、エヌビディアが量子コンピューターの精度を劇的に高める新技術を公開したニュースなどをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-21_061643.mp3" type="audio/mpeg" length="5043885" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-21_061643.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、アメリカ国家安全保障局が導入した極秘AIモデルの話題や、エヌビディアが量子コンピューターの精度を劇的に高める新技術を公開したニュースなどをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-20 06:11:14</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-20_061114.mp3</link>
