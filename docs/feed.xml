@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 21 Apr 2026 06:20:07 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 06:19:35 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-22 06:16:22</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-22_061622.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-22_061622.mp3</guid>
+      <pubDate>Wed, 22 Apr 2026 06:19:35 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIが発表した最新の画像生成モデル「Images 2.0」の驚くべき進化や、対話型AIが人間との口論で暴言を吐くようになるという衝撃の研究結果などをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-22_061622.mp3" type="audio/mpeg" length="4589613" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-22_061622.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:46</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIが発表した最新の画像生成モデル「Images 2.0」の驚くべき進化や、対話型AIが人間との口論で暴言を吐くようになるという衝撃の研究結果などをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-21 06:16:43</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-21_061643.mp3</link>
