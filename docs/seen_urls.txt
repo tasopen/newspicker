@@ -435,3 +435,10 @@
 2026-04-21T21:19:35.403307+00:00	https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/
 2026-04-21T21:19:35.403307+00:00	https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2
 2026-04-21T21:19:35.403307+00:00	https://www.theguardian.com/us-news/2026/apr/21/healthcare-nurses-gig-work-ai-apps
+2026-04-22T21:21:10.872981+00:00	https://ai.watch.impress.co.jp/docs/news/2103591.html
+2026-04-22T21:21:10.872981+00:00	https://www.theguardian.com/technology/2026/apr/21/spacex-cursor-ai-startup
+2026-04-22T21:21:10.872981+00:00	https://www.theguardian.com/us-news/2026/apr/21/florida-openai-chatgpt-investigation
+2026-04-22T21:21:10.872981+00:00	https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots
+2026-04-22T21:21:10.872981+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03589/041400001/
+2026-04-22T21:21:10.872981+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03532/030300005/
+2026-04-22T21:21:10.872981+00:00	https://www.theguardian.com/technology/2026/apr/22/what-is-anthropic-mythos-ai-threat-global-cybersecurity
