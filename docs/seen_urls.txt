@@ -442,3 +442,10 @@
 2026-04-22T21:21:10.872981+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03589/041400001/
 2026-04-22T21:21:10.872981+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03532/030300005/
 2026-04-22T21:21:10.872981+00:00	https://www.theguardian.com/technology/2026/apr/22/what-is-anthropic-mythos-ai-threat-global-cybersecurity
+2026-04-23T21:19:23.356790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00682/042200206/
+2026-04-23T21:19:23.356790+00:00	https://ai.watch.impress.co.jp/docs/news/2104091.html
+2026-04-23T21:19:23.356790+00:00	https://ainow.ai/2026/04/24/277996/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e6%25b4%25bb%25e7%2594%25a8%25e3%2581%25ae%25e3%2583%25a2%25e3%2583%2581%25e3%2583%2599%25e3%2583%25bc%25e3%2582%25b7%25e3%2583%25a7%25e3%2583%25b3%25e3%2581%258c%25e7%25b6%259a%25e3%2581%258b%25e3%2581%25aa%25e3%2581%2584%25e5%258e%259f%25e5%259b%25a0%25e3%2581%25a8%25e7%25b6%25ad%25e6%258c%2581
+2026-04-23T21:19:23.356790+00:00	https://ainow.ai/2026/04/23/277984/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e5%25b0%258e%25e5%2585%25a5%25e3%2581%25a7%25e6%25b3%2595%25e5%258b%2599%25e3%2581%258c%25e6%258a%25bc%25e3%2581%2595%25e3%2581%2588%25e3%2582%258b%25e3%2581%25b9%25e3%2581%258d7%25e3%2581%25a4%25e3%2581%25ae%25e8%25ab%2596%25e7%2582%25b9%25e3%2581%25a8%25e5%25af%25be%25e5%25bf%259c
+2026-04-23T21:19:23.356790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03589/041400002/
+2026-04-23T21:19:23.356790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03603/042100001/
+2026-04-23T21:19:23.356790+00:00	https://www.theguardian.com/commentisfree/2026/apr/23/the-guardian-view-on-anthropics-claude-mythos-when-ai-finds-every-flaw-who-controls-the-internet
