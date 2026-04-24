@@ -449,3 +449,10 @@
 2026-04-23T21:19:23.356790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03589/041400002/
 2026-04-23T21:19:23.356790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03603/042100001/
 2026-04-23T21:19:23.356790+00:00	https://www.theguardian.com/commentisfree/2026/apr/23/the-guardian-view-on-anthropics-claude-mythos-when-ai-finds-every-flaw-who-controls-the-internet
+2026-04-24T21:21:03.906078+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03192/
+2026-04-24T21:21:03.906078+00:00	https://ai.watch.impress.co.jp/docs/news/2104394.html
+2026-04-24T21:21:03.906078+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100112/042100136/
+2026-04-24T21:21:03.906078+00:00	https://36kr.com/p/3780375304312072?f=rss
+2026-04-24T21:21:03.906078+00:00	https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model
+2026-04-24T21:21:03.906078+00:00	https://www.theguardian.com/technology/2026/apr/24/officials-hugely-underestimated-impact-of-ai-datacentres-on-uk-carbon-emissions
+2026-04-24T21:21:03.906078+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11696/
