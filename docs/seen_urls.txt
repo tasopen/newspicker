@@ -456,3 +456,10 @@
 2026-04-24T21:21:03.906078+00:00	https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model
 2026-04-24T21:21:03.906078+00:00	https://www.theguardian.com/technology/2026/apr/24/officials-hugely-underestimated-impact-of-ai-datacentres-on-uk-carbon-emissions
 2026-04-24T21:21:03.906078+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11696/
+2026-04-25T21:15:54.631151+00:00	https://www.theguardian.com/technology/ng-interactive/2026/apr/25/gen-z-entrepreneurs-business-ai
+2026-04-25T21:15:54.631151+00:00	https://www.theguardian.com/us-news/2026/apr/24/xai-colorado-elon-musk-trump
+2026-04-25T21:15:54.631151+00:00	https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/
+2026-04-25T21:15:54.631151+00:00	https://36kr.com/p/3781532841581576?f=rss
+2026-04-25T21:15:54.631151+00:00	https://www.theguardian.com/uk-news/2026/apr/25/met-police-investigates-hundreds-officers-palantir-ai-tool
+2026-04-25T21:15:54.631151+00:00	https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/
+2026-04-25T21:15:54.631151+00:00	https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/
