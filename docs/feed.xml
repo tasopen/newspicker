@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 26 Apr 2026 06:15:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 06:15:25 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-27 06:11:58</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-27_061158.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-27_061158.mp3</guid>
+      <pubDate>Mon, 27 Apr 2026 06:15:25 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、カンヌで産声を上げたAI映画祭の衝撃や、現実世界を動かす「フィジカルAI」の最新動向、そしてChatGPTからプライバシーを取り戻す具体的な方法などをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-27_061158.mp3" type="audio/mpeg" length="5038893" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-27_061158.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:14</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、カンヌで産声を上げたAI映画祭の衝撃や、現実世界を動かす「フィジカルAI」の最新動向、そしてChatGPTからプライバシーを取り戻す具体的な方法などをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-26 06:11:48</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-26_061148.mp3</link>
