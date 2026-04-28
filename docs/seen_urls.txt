@@ -477,3 +477,10 @@
 2026-04-27T21:25:31.827703+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03577/040700002/
 2026-04-27T21:25:31.827703+00:00	https://www.theguardian.com/money/2026/apr/27/how-ai-job-scams-are-destroying-peoples-hopes
 2026-04-27T21:25:31.827703+00:00	https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/
+2026-04-28T21:27:27.715939+00:00	https://www.theguardian.com/technology/2026/apr/28/google-classified-ai-deal-pentagon
+2026-04-28T21:27:27.715939+00:00	https://ai.watch.impress.co.jp/docs/news/2105356.html
+2026-04-28T21:27:27.715939+00:00	https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/
+2026-04-28T21:27:27.715939+00:00	https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
+2026-04-28T21:27:27.715939+00:00	https://www.theguardian.com/technology/2026/apr/28/sam-altman-open-ai-elon-musk-trial
+2026-04-28T21:27:27.715939+00:00	https://www.theguardian.com/technology/2026/apr/28/uk-must-seize-ai-initiative-or-be-left-at-the-mercy-of-the-future-liz-kendall-warns
+2026-04-28T21:27:27.715939+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11690/

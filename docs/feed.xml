@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 28 Apr 2026 06:25:31 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 06:27:27 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-04-29 06:24:08</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-04-29_062408.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-04-29_062408.mp3</guid>
+      <pubDate>Wed, 29 Apr 2026 06:27:27 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、グーグルによるアメリカ国防総省との機密契約や、マイクロソフトによるOpenAI製品の独占販売権の終了、そして証言台に立ったイーロン・マスク氏の法廷闘争の詳報など、テック業界のパワーバランスを塗り替える最新ニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-04-29_062408.mp3" type="audio/mpeg" length="4480173" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-04-29_062408.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:39</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、グーグルによるアメリカ国防総省との機密契約や、マイクロソフトによるOpenAI製品の独占販売権の終了、そして証言台に立ったイーロン・マスク氏の法廷闘争の詳報など、テック業界のパワーバランスを塗り替える最新ニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-28 06:22:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-28_062215.mp3</link>
