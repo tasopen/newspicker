@@ -484,3 +484,10 @@
 2026-04-28T21:27:27.715939+00:00	https://www.theguardian.com/technology/2026/apr/28/sam-altman-open-ai-elon-musk-trial
 2026-04-28T21:27:27.715939+00:00	https://www.theguardian.com/technology/2026/apr/28/uk-must-seize-ai-initiative-or-be-left-at-the-mercy-of-the-future-liz-kendall-warns
 2026-04-28T21:27:27.715939+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11690/
+2026-04-29T21:29:00.305326+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11708/
+2026-04-29T21:29:00.305326+00:00	https://ai.watch.impress.co.jp/docs/news/2105491.html
+2026-04-29T21:29:00.305326+00:00	https://36kr.com/p/3788151000751364?f=rss
+2026-04-29T21:29:00.305326+00:00	https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit
+2026-04-29T21:29:00.305326+00:00	https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo
+2026-04-29T21:29:00.305326+00:00	https://www.theguardian.com/technology/2026/apr/29/elon-musk-openai-sam-altman-lawsuit
+2026-04-29T21:29:00.305326+00:00	https://www.theguardian.com/technology/2026/apr/29/meet-the-ai-jailbreakers-i-see-the-worst-things-humanity-has-produced
