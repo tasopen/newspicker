@@ -491,3 +491,10 @@
 2026-04-29T21:29:00.305326+00:00	https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo
 2026-04-29T21:29:00.305326+00:00	https://www.theguardian.com/technology/2026/apr/29/elon-musk-openai-sam-altman-lawsuit
 2026-04-29T21:29:00.305326+00:00	https://www.theguardian.com/technology/2026/apr/29/meet-the-ai-jailbreakers-i-see-the-worst-things-humanity-has-produced
+2026-04-30T22:51:29.867892+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041600243/041600001/
+2026-04-30T22:51:29.867892+00:00	https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/
+2026-04-30T22:51:29.867892+00:00	https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/
+2026-04-30T22:51:29.867892+00:00	https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/
+2026-04-30T22:51:29.867892+00:00	https://www.leiphone.com/category/yanxishe/rT2PkHFzmsUrpPbo.html
+2026-04-30T22:51:29.867892+00:00	https://www.leiphone.com/category/ai/55omS4DRgRAktha9.html
+2026-04-30T22:51:29.867892+00:00	https://www.leiphone.com/category/ai/1eWcsFy0rw6OMIEe.html

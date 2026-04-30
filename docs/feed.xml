@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 30 Apr 2026 06:29:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 07:51:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-01 07:47:23</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-01_074723.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-01_074723.mp3</guid>
+      <pubDate>Fri, 01 May 2026 07:51:29 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、アップルのティム・クックCEO退任という歴史的転換点や、OpenAIの動画生成AI「Sora」生みの親の電撃移籍、そしてAIが自らの「隠し事」を告白する画期的な新技術など、業界を揺るがす最新動向をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-01_074723.mp3" type="audio/mpeg" length="6339117" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-01_074723.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:36</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、アップルのティム・クックCEO退任という歴史的転換点や、OpenAIの動画生成AI「Sora」生みの親の電撃移籍、そしてAIが自らの「隠し事」を告白する画期的な新技術など、業界を揺るがす最新動向をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-04-30 06:23:40</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-04-30_062340.mp3</link>
