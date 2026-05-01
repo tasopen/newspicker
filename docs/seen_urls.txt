@@ -498,3 +498,10 @@
 2026-04-30T22:51:29.867892+00:00	https://www.leiphone.com/category/yanxishe/rT2PkHFzmsUrpPbo.html
 2026-04-30T22:51:29.867892+00:00	https://www.leiphone.com/category/ai/55omS4DRgRAktha9.html
 2026-04-30T22:51:29.867892+00:00	https://www.leiphone.com/category/ai/1eWcsFy0rw6OMIEe.html
+2026-05-01T21:20:56.817858+00:00	https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai
+2026-05-01T21:20:56.817858+00:00	https://ai.watch.impress.co.jp/docs/news/2106260.html
+2026-05-01T21:20:56.817858+00:00	https://www.itmedia.co.jp/news/articles/2605/01/news071.html
+2026-05-01T21:20:56.817858+00:00	https://www.theguardian.com/society/2026/may/01/un-warns-women-in-public-life-face-increasingly-sophisticated-online-violence
+2026-05-01T21:20:56.817858+00:00	https://ai.watch.impress.co.jp/docs/news/2106247.html
+2026-05-01T21:20:56.817858+00:00	https://ai.watch.impress.co.jp/docs/news/2106221.html
+2026-05-01T21:20:56.817858+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041600243/041600003/
