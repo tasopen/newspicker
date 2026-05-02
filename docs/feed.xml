@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 02 May 2026 06:20:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 06:18:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-03 06:14:39</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-03_061439.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-03_061439.mp3</guid>
+      <pubDate>Sun, 03 May 2026 06:18:30 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏が法廷で自社AIによる「ChatGPTの模倣」を認めた衝撃の展開や、Anthropicによる歴史的な巨額資金調達の動き、そしてAppleがVision Proの開発を事実上棚上げしたという驚きのニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-03_061439.mp3" type="audio/mpeg" length="5613357" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-03_061439.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:50</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏が法廷で自社AIによる「ChatGPTの模倣」を認めた衝撃の展開や、Anthropicによる歴史的な巨額資金調達の動き、そしてAppleがVision Proの開発を事実上棚上げしたという驚きのニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-02 06:17:32</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-02_061732.mp3</link>
