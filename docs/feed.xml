@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 03 May 2026 06:18:30 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 06:18:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-04 06:15:10</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-04_061510.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-04_061510.mp3</guid>
+      <pubDate>Mon, 04 May 2026 06:18:57 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、泥沼化するマスク氏とOpenAIの法廷闘争の続報や、韓国政府によるAIスタートアップへの巨額投資、そしてGoogleがGeminiに広告を導入する計画などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-04_061510.mp3" type="audio/mpeg" length="5397933" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-04_061510.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:37</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、泥沼化するマスク氏とOpenAIの法廷闘争の続報や、韓国政府によるAIスタートアップへの巨額投資、そしてGoogleがGeminiに広告を導入する計画などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-03 06:14:39</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-03_061439.mp3</link>
