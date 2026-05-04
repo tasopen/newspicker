@@ -519,3 +519,10 @@
 2026-05-03T21:18:57.109393+00:00	https://36kr.com/newsflashes/3793154827000832?f=rss
 2026-05-03T21:18:57.109393+00:00	https://www.tmtpost.com/7975795.html
 2026-05-03T21:18:57.109393+00:00	https://www.tmtpost.com/7975690.html
+2026-05-04T21:27:23.758842+00:00	https://ai.watch.impress.co.jp/docs/serial/glossary/2105688.html
+2026-05-04T21:27:23.758842+00:00	https://www.zdnet.com/article/chatgpt-advanced-account-security/
+2026-05-04T21:27:23.758842+00:00	https://www.theguardian.com/technology/2026/may/04/ai-platforms-nigel-farage-prompted-uk-politics-study
+2026-05-04T21:27:23.758842+00:00	https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/
+2026-05-04T21:27:23.758842+00:00	https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/
+2026-05-04T21:27:23.758842+00:00	https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/
+2026-05-04T21:27:23.758842+00:00	https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/
