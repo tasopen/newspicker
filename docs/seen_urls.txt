@@ -526,3 +526,10 @@
 2026-05-04T21:27:23.758842+00:00	https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/
 2026-05-04T21:27:23.758842+00:00	https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/
 2026-05-04T21:27:23.758842+00:00	https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/
+2026-05-05T21:25:58.745457+00:00	https://www.theverge.com/ai-artificial-intelligence/924225/openai-chatgpt-default-model-gpt-5-5-instant
+2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/openai-president-personal-diary-musk-altman-case
+2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt
+2026-05-05T21:25:58.745457+00:00	https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
+2026-05-05T21:25:58.745457+00:00	https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo
+2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai
+2026-05-05T21:25:58.745457+00:00	https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/

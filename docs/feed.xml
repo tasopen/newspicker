@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 05 May 2026 06:27:23 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 06:25:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-06 06:22:17</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-06_062217.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-06_062217.mp3</guid>
+      <pubDate>Wed, 06 May 2026 06:25:58 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIが「幻覚」を大幅に減らした新モデルを発表したほか、アメリカ政府によるAIの事前審査制度の導入、そして著名な生物学者がAIの「意識」を認める発言をしたニュースなどをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-06_062217.mp3" type="audio/mpeg" length="5655213" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-06_062217.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:53</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIが「幻覚」を大幅に減らした新モデルを発表したほか、アメリカ政府によるAIの事前審査制度の導入、そして著名な生物学者がAIの「意識」を認める発言をしたニュースなどをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-05 06:24:19</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-05_062419.mp3</link>
