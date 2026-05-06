@@ -533,3 +533,10 @@
 2026-05-05T21:25:58.745457+00:00	https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo
 2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai
 2026-05-05T21:25:58.745457+00:00	https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/
+2026-05-06T21:29:29.408542+00:00	https://www.theguardian.com/technology/2026/may/06/no-flattery-please-claude-im-british
+2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400001/
+2026-05-06T21:29:29.408542+00:00	https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit
+2026-05-06T21:29:29.408542+00:00	https://36kr.com/p/3797041945304327?f=rss
+2026-05-06T21:29:29.408542+00:00	https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
+2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03577/040700003/
+2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11703/

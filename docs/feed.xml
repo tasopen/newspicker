@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 06 May 2026 06:25:58 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 06:29:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-07 06:25:29</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-07_062529.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-07_062529.mp3</guid>
+      <pubDate>Thu, 07 May 2026 06:29:29 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIを巡る泥沼の裁判で元CTOのミラ・ムラティ氏が放った衝撃の証言や、AppleがSiriのAI改修の遅れを巡る訴訟で巨額の和解金を支払うことになったニュース、そして中国で人気のAIアプリ「豆包」の収益化への動きなどをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-07_062529.mp3" type="audio/mpeg" length="5621805" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-07_062529.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:51</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIを巡る泥沼の裁判で元CTOのミラ・ムラティ氏が放った衝撃の証言や、AppleがSiriのAI改修の遅れを巡る訴訟で巨額の和解金を支払うことになったニュース、そして中国で人気のAIアプリ「豆包」の収益化への動きなどをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-06 06:22:17</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-06_062217.mp3</link>
