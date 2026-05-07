@@ -540,3 +540,10 @@
 2026-05-06T21:29:29.408542+00:00	https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
 2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03577/040700003/
 2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11703/
+2026-05-07T21:25:33.818039+00:00	https://36kr.com/p/3798462137637892?f=rss
+2026-05-07T21:25:33.818039+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/042600057/
+2026-05-07T21:25:33.818039+00:00	https://ai.watch.impress.co.jp/docs/news/2106779.html
+2026-05-07T21:25:33.818039+00:00	https://ai.watch.impress.co.jp/docs/news/2106739.html
+2026-05-07T21:25:33.818039+00:00	https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/
+2026-05-07T21:25:33.818039+00:00	https://www.leiphone.com/category/zaobao/hStD94lQmS7vzJG3.html
+2026-05-07T21:25:33.818039+00:00	https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/
