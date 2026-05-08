@@ -547,3 +547,10 @@
 2026-05-07T21:25:33.818039+00:00	https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/
 2026-05-07T21:25:33.818039+00:00	https://www.leiphone.com/category/zaobao/hStD94lQmS7vzJG3.html
 2026-05-07T21:25:33.818039+00:00	https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/
+2026-05-08T21:25:44.784215+00:00	https://ai.watch.impress.co.jp/docs/news/2107225.html
+2026-05-08T21:25:44.784215+00:00	https://ai.watch.impress.co.jp/docs/news/2107116.html
+2026-05-08T21:25:44.784215+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/050700176/
+2026-05-08T21:25:44.784215+00:00	https://36kr.com/p/3799028783439111?f=rss
+2026-05-08T21:25:44.784215+00:00	https://www.itmedia.co.jp/news/articles/2605/08/news054.html
+2026-05-08T21:25:44.784215+00:00	https://ai.watch.impress.co.jp/docs/news/2107332.html
+2026-05-08T21:25:44.784215+00:00	https://www.theguardian.com/news/audio/2026/may/08/the-ai-jailbreakers-podcast
