@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 09 May 2026 06:25:44 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 06:19:05 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-10 06:16:15</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-10_061615.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-10_061615.mp3</guid>
+      <pubDate>Sun, 10 May 2026 06:19:05 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、中国のDeepSeekが国内最大規模となる1兆円超えの資金調達に動く背景や、イーロン・マスク氏とOpenAIの裁判で明かされた驚きの引き抜き工作、そしてパラメータ更新を不要にするAIの新しい学習パラダイムについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-10_061615.mp3" type="audio/mpeg" length="3563565" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-10_061615.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:42</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、中国のDeepSeekが国内最大規模となる1兆円超えの資金調達に動く背景や、イーロン・マスク氏とOpenAIの裁判で明かされた驚きの引き抜き工作、そしてパラメータ更新を不要にするAIの新しい学習パラダイムについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-09 06:22:24</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-09_062224.mp3</link>
