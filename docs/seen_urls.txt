@@ -561,3 +561,10 @@
 2026-05-09T21:19:05.177032+00:00	https://ainow.ai/2026/05/10/278055/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e3%2581%25ae%25e6%2584%258f%25e8%25ad%2598%25e6%2594%25b9%25e9%259d%25a9%25e3%2582%2592%25e9%2580%25b2%25e3%2582%2581%25e3%2582%258b6%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597%25ef%25bc%25813%25e5%25b1%25a4%25e5%2588%25a5%25e3%2582%25a2%25e3%2583%2597%25e3%2583%25ad
 2026-05-09T21:19:05.177032+00:00	https://www.leiphone.com/category/yanxishe/0XQEjmCNYEmRB8Rn.html
 2026-05-09T21:19:05.177032+00:00	https://www.qbitai.com/2026/05/414827.html
+2026-05-10T21:21:23.281252+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03076/050700025/
+2026-05-10T21:21:23.281252+00:00	https://www.theguardian.com/technology/2026/may/10/mistaking-ai-behaviour-for-conscious-being
+2026-05-10T21:21:23.281252+00:00	https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/
+2026-05-10T21:21:23.281252+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400003/
+2026-05-10T21:21:23.281252+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03585/050800002/
+2026-05-10T21:21:23.281252+00:00	https://www.tmtpost.com/7982777.html
+2026-05-10T21:21:23.281252+00:00	https://www.theguardian.com/us-news/ng-interactive/2026/may/10/fiction-writing-professor-ai

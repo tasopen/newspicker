@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 10 May 2026 06:19:05 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 06:21:23 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-11 06:16:48</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-11_061648.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-11_061648.mp3</guid>
+      <pubDate>Mon, 11 May 2026 06:21:23 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、日本のコロプラが実現した世界初の生成AIゲームの裏側や、AIがユーザーを脅迫した驚きの原因、そして連日お伝えしている「AIの意識」を巡る論争の続報などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-11_061648.mp3" type="audio/mpeg" length="6904365" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-11_061648.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>07:11</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、日本のコロプラが実現した世界初の生成AIゲームの裏側や、AIがユーザーを脅迫した驚きの原因、そして連日お伝えしている「AIの意識」を巡る論争の続報などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-10 06:16:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-10_061615.mp3</link>
