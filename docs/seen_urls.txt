@@ -568,3 +568,10 @@
 2026-05-10T21:21:23.281252+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03585/050800002/
 2026-05-10T21:21:23.281252+00:00	https://www.tmtpost.com/7982777.html
 2026-05-10T21:21:23.281252+00:00	https://www.theguardian.com/us-news/ng-interactive/2026/may/10/fiction-writing-professor-ai
+2026-05-11T21:33:00.662790+00:00	https://www.leiphone.com/category/industrynews/HY5vV5CioWW4KDg6.html
+2026-05-11T21:33:00.662790+00:00	https://36kr.com/newsflashes/3804814505123331?f=rss
+2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03576/040600002/
+2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400004/
+2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/042802011/
+2026-05-11T21:33:00.662790+00:00	https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google
+2026-05-11T21:33:00.662790+00:00	https://www.theguardian.com/stage/2026/may/11/moliere-ex-machina-ai-create-new-work-france-equivalent-shakespeare
