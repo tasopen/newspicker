@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 12 May 2026 06:33:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 06:52:19 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-13 06:48:37</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-13_064837.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-13_064837.mp3</guid>
+      <pubDate>Wed, 13 May 2026 06:52:19 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、泥沼化する OpenAI 裁判でついにサム・アルトマン氏が証言台に立った緊迫の詳報や、ChatGPT（チャットジーピーティー）の回答が原因で大学生が死亡したとする衝撃的な訴訟、そして東芝が開発した「AIの判断根拠」を可視化する新技術などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-13_064837.mp3" type="audio/mpeg" length="5251245" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-13_064837.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、泥沼化する OpenAI 裁判でついにサム・アルトマン氏が証言台に立った緊迫の詳報や、ChatGPT（チャットジーピーティー）の回答が原因で大学生が死亡したとする衝撃的な訴訟、そして東芝が開発した「AIの判断根拠」を可視化する新技術などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-12 06:29:28</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-12_062928.mp3</link>

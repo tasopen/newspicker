@@ -575,3 +575,10 @@
 2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/042802011/
 2026-05-11T21:33:00.662790+00:00	https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google
 2026-05-11T21:33:00.662790+00:00	https://www.theguardian.com/stage/2026/may/11/moliere-ex-machina-ai-create-new-work-france-equivalent-shakespeare
+2026-05-12T21:52:19.668951+00:00	https://www.theguardian.com/us-news/2026/may/11/musk-v-openai-altman-trial
+2026-05-12T21:52:19.668951+00:00	https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose
+2026-05-12T21:52:19.668951+00:00	https://www.theguardian.com/technology/2026/may/12/sam-altman-openai-trial-elon-musk
+2026-05-12T21:52:19.668951+00:00	https://www.theguardian.com/technology/2026/may/12/florida-students-boo-graduation-speaker-ai
+2026-05-12T21:52:19.668951+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03218/
+2026-05-12T21:52:19.668951+00:00	https://ai.watch.impress.co.jp/docs/news/2108015.html
+2026-05-12T21:52:19.668951+00:00	https://ai.watch.impress.co.jp/docs/news/2107875.html
