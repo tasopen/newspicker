@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 13 May 2026 06:52:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 06:40:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-14 06:37:21</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-14_063721.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-14_063721.mp3</guid>
+      <pubDate>Thu, 14 May 2026 06:40:49 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、ソフトバンクグループが掲げた「人工超知能」への壮大なビジョンや、中国で起きたAI解雇を巡る画期的な判決、そして巨大データセンター建設が引き起こした深刻な摩擦などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-14_063721.mp3" type="audio/mpeg" length="5498925" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-14_063721.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:43</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、ソフトバンクグループが掲げた「人工超知能」への壮大なビジョンや、中国で起きたAI解雇を巡る画期的な判決、そして巨大データセンター建設が引き起こした深刻な摩擦などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-13 06:48:37</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-13_064837.mp3</link>

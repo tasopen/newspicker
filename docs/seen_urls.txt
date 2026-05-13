@@ -582,3 +582,10 @@
 2026-05-12T21:52:19.668951+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03218/
 2026-05-12T21:52:19.668951+00:00	https://ai.watch.impress.co.jp/docs/news/2108015.html
 2026-05-12T21:52:19.668951+00:00	https://ai.watch.impress.co.jp/docs/news/2107875.html
+2026-05-13T21:40:49.571825+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00187/
+2026-05-13T21:40:49.571825+00:00	https://ainow.ai/2026/05/14/278079/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e3%2582%2592%25e7%25b5%258c%25e5%2596%25b6%25e6%2588%25a6%25e7%2595%25a5%25e3%2581%25ab%25e7%25b5%2584%25e3%2581%25bf%25e8%25be%25bc%25e3%2582%2580%25e6%2596%25b9%25e6%25b3%2595%25ef%25bc%25816%25e3%2581%25a4%25e3%2581%25ae%25e6%25b4%25bb%25e7%2594%25a8%25e9%25a0%2598%25e5%259f%259f
+2026-05-13T21:40:49.571825+00:00	https://www.theguardian.com/world/2026/may/13/china-court-awards-compensation-sacked-worker-replaced-by-ai
+2026-05-13T21:40:49.571825+00:00	https://ai.watch.impress.co.jp/docs/news/2108428.html
+2026-05-13T21:40:49.571825+00:00	https://www.theguardian.com/us-news/2026/may/13/utah-approves-datacenter-backlash
+2026-05-13T21:40:49.571825+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11737/
+2026-05-13T21:40:49.571825+00:00	https://www.theguardian.com/lifeandstyle/2026/may/13/chelsea-flower-show-garden-designers-clash-over-ai
