@@ -589,3 +589,10 @@
 2026-05-13T21:40:49.571825+00:00	https://www.theguardian.com/us-news/2026/may/13/utah-approves-datacenter-backlash
 2026-05-13T21:40:49.571825+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11737/
 2026-05-13T21:40:49.571825+00:00	https://www.theguardian.com/lifeandstyle/2026/may/13/chelsea-flower-show-garden-designers-clash-over-ai
+2026-05-14T21:35:08.521332+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/051400188/
+2026-05-14T21:35:08.521332+00:00	https://www.theguardian.com/commentisfree/2026/may/14/richard-dawkins-ai-atheist
+2026-05-14T21:35:08.521332+00:00	https://ai.watch.impress.co.jp/docs/news/2108695.html
+2026-05-14T21:35:08.521332+00:00	https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview
+2026-05-14T21:35:08.521332+00:00	https://www.itmedia.co.jp/news/articles/2605/14/news054.html
+2026-05-14T21:35:08.521332+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03505/030500009/
+2026-05-14T21:35:08.521332+00:00	https://www.theguardian.com/technology/2026/may/14/ai-agents-behaviour-arson-safety
