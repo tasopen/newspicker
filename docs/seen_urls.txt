@@ -596,3 +596,10 @@
 2026-05-14T21:35:08.521332+00:00	https://www.itmedia.co.jp/news/articles/2605/14/news054.html
 2026-05-14T21:35:08.521332+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03505/030500009/
 2026-05-14T21:35:08.521332+00:00	https://www.theguardian.com/technology/2026/may/14/ai-agents-behaviour-arson-safety
+2026-05-15T21:25:56.243294+00:00	https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies
+2026-05-15T21:25:56.243294+00:00	https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech
+2026-05-15T21:25:56.243294+00:00	https://ai.watch.impress.co.jp/docs/news/2109162.html
+2026-05-15T21:25:56.243294+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11746/
+2026-05-15T21:25:56.243294+00:00	https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
+2026-05-15T21:25:56.243294+00:00	https://www.wired.com/story/openai-reorg-greg-brockman-product/
+2026-05-15T21:25:56.243294+00:00	https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection
