@@ -603,3 +603,10 @@
 2026-05-15T21:25:56.243294+00:00	https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
 2026-05-15T21:25:56.243294+00:00	https://www.wired.com/story/openai-reorg-greg-brockman-product/
 2026-05-15T21:25:56.243294+00:00	https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection
+2026-05-16T21:20:01.460796+00:00	https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/
+2026-05-16T21:20:01.460796+00:00	https://36kr.com/newsflashes/3811623947476489?f=rss
+2026-05-16T21:20:01.460796+00:00	https://36kr.com/p/3811265856626440?f=rss
+2026-05-16T21:20:01.460796+00:00	https://www.itmedia.co.jp/news/articles/2605/16/news027.html
+2026-05-16T21:20:01.460796+00:00	https://www.theguardian.com/us-news/2026/may/16/what-we-learned-elon-musk-sam-altman
+2026-05-16T21:20:01.460796+00:00	https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/
+2026-05-16T21:20:01.460796+00:00	https://www.theguardian.com/film/2026/may/16/john-lennon-last-interview-review-steven-soderbergh
