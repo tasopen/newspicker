@@ -610,3 +610,10 @@
 2026-05-16T21:20:01.460796+00:00	https://www.theguardian.com/us-news/2026/may/16/what-we-learned-elon-musk-sam-altman
 2026-05-16T21:20:01.460796+00:00	https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/
 2026-05-16T21:20:01.460796+00:00	https://www.theguardian.com/film/2026/may/16/john-lennon-last-interview-review-steven-soderbergh
+2026-05-17T21:21:10.328755+00:00	https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/
+2026-05-17T21:21:10.328755+00:00	https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/
+2026-05-17T21:21:10.328755+00:00	https://www.qbitai.com/2026/05/418822.html
+2026-05-17T21:21:10.328755+00:00	https://36kr.com/p/3813040859258373?f=rss
+2026-05-17T21:21:10.328755+00:00	https://36kr.com/p/3812925591887368?f=rss
+2026-05-17T21:21:10.328755+00:00	https://www.tmtpost.com/7990953.html
+2026-05-17T21:21:10.328755+00:00	https://36kr.com/p/3812800346742274?f=rss

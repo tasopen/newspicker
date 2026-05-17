@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 17 May 2026 06:20:01 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 06:21:10 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-18 06:18:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-18_061800.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-18_061800.mp3</guid>
+      <pubDate>Mon, 18 May 2026 06:21:10 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、3人のチームが1ヶ月で2億円近いAI使用料を支払った驚きの開発事例や、論文執筆を調査から査読まで自動化する「AIパイプライン」の登場、そしてOpenAIのスマホ製造パートナーと目される中国企業の躍進についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-18_061800.mp3" type="audio/mpeg" length="4257453" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-18_061800.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、3人のチームが1ヶ月で2億円近いAI使用料を支払った驚きの開発事例や、論文執筆を調査から査読まで自動化する「AIパイプライン」の登場、そしてOpenAIのスマホ製造パートナーと目される中国企業の躍進についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-17 06:17:19</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-17_061719.mp3</link>
