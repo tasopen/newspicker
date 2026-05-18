@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 18 May 2026 06:21:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 06:31:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-19 06:27:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-19_062714.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-19_062714.mp3</guid>
+      <pubDate>Tue, 19 May 2026 06:31:50 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏との泥沼の法廷闘争でサム・アルトマン氏が勝ち取った歴史的な勝訴判決や、ローマ教皇が発表するAI時代の倫理指針、そして200兆円規模に膨らむ半導体市場の最新予測についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-19_062714.mp3" type="audio/mpeg" length="4993197" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-19_062714.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:12</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏との泥沼の法廷闘争でサム・アルトマン氏が勝ち取った歴史的な勝訴判決や、ローマ教皇が発表するAI時代の倫理指針、そして200兆円規模に膨らむ半導体市場の最新予測についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-18 06:18:00</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-18_061800.mp3</link>
