@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 20 May 2026 06:34:44 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 06:40:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-21 06:35:22</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-21_063522.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-21_063522.mp3</guid>
+      <pubDate>Thu, 21 May 2026 06:40:58 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Google DeepMind（グーグル・ディープマインド）で巻き起こる軍事利用への抗議と労働組合結成の動き、そして選挙を揺るがすAIの誤情報問題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-21_063522.mp3" type="audio/mpeg" length="5645997" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-21_063522.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:52</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Google DeepMind（グーグル・ディープマインド）で巻き起こる軍事利用への抗議と労働組合結成の動き、そして選挙を揺るがすAIの誤情報問題についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-20 06:31:13</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-20_063113.mp3</link>

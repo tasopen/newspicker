@@ -1,10 +1,3 @@
-2026-04-20T21:20:07.675504+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00678/041000179/
-2026-04-20T21:20:07.675504+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03556/041500004/
-2026-04-20T21:20:07.675504+00:00	https://www.theguardian.com/politics/ng-interactive/2026/apr/20/five-signs-richard-tice-picture-ai-manipulated
-2026-04-20T21:20:07.675504+00:00	https://ai.watch.impress.co.jp/docs/news/2102925.html
-2026-04-20T21:20:07.675504+00:00	https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/
-2026-04-20T21:20:07.675504+00:00	https://ainow.ai/2026/04/20/277977/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e7%25a4%25be%25e5%2586%2585%25e6%25b5%25b8%25e9%2580%258f%25e3%2582%2592%25e6%2588%2590%25e5%258a%259f%25e3%2581%2595%25e3%2581%259b%25e3%2582%258b7%25e3%2581%25a4%25e3%2581%25ae%25e6%2596%25bd%25e7%25ad%2596%25ef%25bc%2581%25e5%2588%25a9%25e7%2594%25a8%25e7%258e%2587%25e3%2582%2592
-2026-04-20T21:20:07.675504+00:00	https://ainow.ai/2026/04/20/277973/?utm_source=rss&utm_medium=rss&utm_campaign=%25e3%2580%25905%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597%25e3%2580%2591%25e7%2594%259f%25e6%2588%2590ai%25e5%25b0%258e%25e5%2585%25a5%25e3%2582%25b9%25e3%2582%25b1%25e3%2582%25b8%25e3%2583%25a5%25e3%2583%25bc%25e3%2583%25ab%25e3%2581%25ae%25e7%25ab%258b%25e3%2581%25a6%25e6%2596%25b9%25ef%25bc%2581
 2026-04-21T21:19:35.403307+00:00	https://www.theguardian.com/technology/2026/apr/21/chatgpt-abusive-language-when-fed-real-life-arguments-study
 2026-04-21T21:19:35.403307+00:00	https://www.theguardian.com/science/audio/2026/apr/21/mythos-are-fears-over-new-ai-model-panic-or-pr-podcast
 2026-04-21T21:19:35.403307+00:00	https://www.zdnet.com/article/chatgpt-images-2-hands-on-testing/
@@ -208,3 +201,10 @@
 2026-05-19T21:34:44.543982+00:00	https://www.theguardian.com/news/video/2026/may/19/musk-v-altman-tech-bros-at-war-over-openai-the-latest
 2026-05-19T21:34:44.543982+00:00	https://www.theguardian.com/technology/audio/2026/may/19/musk-v-altman-tech-bros-at-war-over-openai-the-latest
 2026-05-19T21:34:44.543982+00:00	https://ai.watch.impress.co.jp/docs/news/2109814.html
+2026-05-20T21:40:58.717607+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400011/
+2026-05-20T21:40:58.717607+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03605/042800004/
+2026-05-20T21:40:58.717607+00:00	https://www.theguardian.com/technology/2026/may/20/ai-chatbots-chatgpt-replika-grok-gemini-misinformation-scottish-election-demos
+2026-05-20T21:40:58.717607+00:00	https://www.theguardian.com/technology/2026/may/20/google-deepmind-talks-uk-unions-ai-use-israel-us-defence
+2026-05-20T21:40:58.717607+00:00	https://www.theguardian.com/lifeandstyle/2026/may/20/i-dont-worry-about-a-robot-takeover-ai-expert-michael-wooldridge-on-big-techs-real-dangers-and-occasional-blessings
+2026-05-20T21:40:58.717607+00:00	https://ai.watch.impress.co.jp/docs/news/2110343.html
+2026-05-20T21:40:58.717607+00:00	https://ai.watch.impress.co.jp/docs/news/2110243.html
