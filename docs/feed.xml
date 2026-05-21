@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 21 May 2026 06:40:58 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 06:35:52 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-22 06:31:55</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-22_063155.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-22_063155.mp3</guid>
+      <pubDate>Fri, 22 May 2026 06:35:52 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が成し遂げた80年来の数学の難問解決や、アリババが実現した「対話だけで完結するAI買い物体験」の衝撃についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-22_063155.mp3" type="audio/mpeg" length="4977453" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-22_063155.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:11</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が成し遂げた80年来の数学の難問解決や、アリババが実現した「対話だけで完結するAI買い物体験」の衝撃についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-21 06:35:22</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-21_063522.mp3</link>
