@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 22 May 2026 06:35:52 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 06:30:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-23 06:25:46</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-23_062546.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-23_062546.mp3</guid>
+      <pubDate>Sat, 23 May 2026 06:30:30 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Googleが放った16連発のAI新機能による「飽和攻撃」の全貌と、AIモデル企業として世界初の黒字化が見えてきたAnthropic（アンソロピック）の躍進についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-23_062546.mp3" type="audio/mpeg" length="6945837" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-23_062546.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>07:14</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Googleが放った16連発のAI新機能による「飽和攻撃」の全貌と、AIモデル企業として世界初の黒字化が見えてきたAnthropic（アンソロピック）の躍進についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-22 06:31:55</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-22_063155.mp3</link>
