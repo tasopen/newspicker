@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 23 May 2026 06:30:30 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 06:21:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-24 06:18:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-24_061814.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-24_061814.mp3</guid>
+      <pubDate>Sun, 24 May 2026 06:21:09 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、トランプ大統領によるAI規制案の電撃撤回と、中国の百川智能（バイチュアン・インテリジェンス）が踏み切った「AI医師」への全力シフトについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-24_061814.mp3" type="audio/mpeg" length="4132653" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-24_061814.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:18</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、トランプ大統領によるAI規制案の電撃撤回と、中国の百川智能（バイチュアン・インテリジェンス）が踏み切った「AI医師」への全力シフトについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-23 06:25:46</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-23_062546.mp3</link>
