@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 24 May 2026 06:21:09 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 06:23:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-25 06:19:32</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-25_061932.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-25_061932.mp3</guid>
+      <pubDate>Mon, 25 May 2026 06:23:09 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIの収益化を担う「Codex」の再始動と、実態のないAI化を謳う「AIウォッシング」への警戒、そして自分のPCでAIを動かす「ローカルLLM」の潮流についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-25_061932.mp3" type="audio/mpeg" length="5729325" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-25_061932.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:58</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIの収益化を担う「Codex」の再始動と、実態のないAI化を謳う「AIウォッシング」への警戒、そして自分のPCでAIを動かす「ローカルLLM」の潮流についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-24 06:18:14</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-24_061814.mp3</link>
