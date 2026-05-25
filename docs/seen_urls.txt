@@ -1,10 +1,3 @@
-2026-04-25T21:15:54.631151+00:00	https://www.theguardian.com/technology/ng-interactive/2026/apr/25/gen-z-entrepreneurs-business-ai
-2026-04-25T21:15:54.631151+00:00	https://www.theguardian.com/us-news/2026/apr/24/xai-colorado-elon-musk-trump
-2026-04-25T21:15:54.631151+00:00	https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/
-2026-04-25T21:15:54.631151+00:00	https://36kr.com/p/3781532841581576?f=rss
-2026-04-25T21:15:54.631151+00:00	https://www.theguardian.com/uk-news/2026/apr/25/met-police-investigates-hundreds-officers-palantir-ai-tool
-2026-04-25T21:15:54.631151+00:00	https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/
-2026-04-25T21:15:54.631151+00:00	https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/
 2026-04-26T21:15:25.832234+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03589/041400003/
 2026-04-26T21:15:25.832234+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11692/
 2026-04-26T21:15:25.832234+00:00	https://www.zdnet.com/article/chatgpt-privacy-settings-guide/
@@ -208,3 +201,10 @@
 2026-05-24T21:23:09.546220+00:00	https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand
 2026-05-24T21:23:09.546220+00:00	https://www.theguardian.com/technology/2026/may/24/cinematic-toolbox-ai-fault-lines-cannes
 2026-05-24T21:23:09.546220+00:00	https://www.theguardian.com/commentisfree/2026/may/24/ai-tools-thinking-human-hard-coding-writing-technology
+2026-05-25T21:29:27.324679+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03575/051800003/
+2026-05-25T21:29:27.324679+00:00	https://ai.watch.impress.co.jp/docs/news/2111479.html
+2026-05-25T21:29:27.324679+00:00	https://www.leiphone.com/category/industrynews/y43AcoPMgWtTOuzg.html
+2026-05-25T21:29:27.324679+00:00	https://www.itmedia.co.jp/news/articles/2605/25/news102.html
+2026-05-25T21:29:27.324679+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03600/042100002/
+2026-05-25T21:29:27.324679+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03624/051900002/
+2026-05-25T21:29:27.324679+00:00	https://www.theguardian.com/commentisfree/2026/may/25/the-guardian-view-on-the-pope-and-claude-encyclical-on-ai-is-right-to-put-humanity-first
