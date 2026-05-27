@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 27 May 2026 06:59:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 06:38:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-28 06:35:01</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-28_063501.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-28_063501.mp3</guid>
+      <pubDate>Thu, 28 May 2026 06:38:09 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、シリコンバレーで過熱する「トークン消費量」を競う異様な文化と、日本の鉄道インフラを支える最新の気象AIエージェントの話題をお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-28_063501.mp3" type="audio/mpeg" length="4368045" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-28_063501.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:32</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、シリコンバレーで過熱する「トークン消費量」を競う異様な文化と、日本の鉄道インフラを支える最新の気象AIエージェントの話題をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-27 06:54:04</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-27_065404.mp3</link>
