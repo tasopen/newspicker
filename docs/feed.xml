@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 28 May 2026 06:38:09 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 06:42:55 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-29 06:38:36</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-29_063836.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-29_063836.mp3</guid>
+      <pubDate>Fri, 29 May 2026 06:42:55 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Anthropic（アンソロピック）の時価総額がOpenAI（オープンエーアイ）を抜き世界最大のAI企業となった衝撃のニュースと、Amazon（アマゾン）のクラウド部門がOpenAIのモデル提供を開始するという、業界の勢力図を塗り替える大きな動きをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-29_063836.mp3" type="audio/mpeg" length="6083757" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-29_063836.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:20</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Anthropic（アンソロピック）の時価総額がOpenAI（オープンエーアイ）を抜き世界最大のAI企業となった衝撃のニュースと、Amazon（アマゾン）のクラウド部門がOpenAIのモデル提供を開始するという、業界の勢力図を塗り替える大きな動きをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-28 06:35:01</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-28_063501.mp3</link>
