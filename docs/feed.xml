@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 29 May 2026 06:42:55 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 06:37:47 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-30 06:34:46</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-30_063446.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-30_063446.mp3</guid>
+      <pubDate>Sat, 30 May 2026 06:37:47 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Anthropic（アンソロピック）が放つ次世代モデル「Mythos（ミュトス）」の衝撃と、AIプログラミング市場で火花を散らす「三つ巴」の戦略についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-30_063446.mp3" type="audio/mpeg" length="3889197" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-30_063446.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:03</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Anthropic（アンソロピック）が放つ次世代モデル「Mythos（ミュトス）」の衝撃と、AIプログラミング市場で火花を散らす「三つ巴」の戦略についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-29 06:38:36</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-29_063836.mp3</link>

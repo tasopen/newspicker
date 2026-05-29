@@ -1,10 +1,3 @@
-2026-04-29T21:29:00.305326+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11708/
-2026-04-29T21:29:00.305326+00:00	https://ai.watch.impress.co.jp/docs/news/2105491.html
-2026-04-29T21:29:00.305326+00:00	https://36kr.com/p/3788151000751364?f=rss
-2026-04-29T21:29:00.305326+00:00	https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit
-2026-04-29T21:29:00.305326+00:00	https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo
-2026-04-29T21:29:00.305326+00:00	https://www.theguardian.com/technology/2026/apr/29/elon-musk-openai-sam-altman-lawsuit
-2026-04-29T21:29:00.305326+00:00	https://www.theguardian.com/technology/2026/apr/29/meet-the-ai-jailbreakers-i-see-the-worst-things-humanity-has-produced
 2026-04-30T22:51:29.867892+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041600243/041600001/
 2026-04-30T22:51:29.867892+00:00	https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/
 2026-04-30T22:51:29.867892+00:00	https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/
@@ -208,3 +201,10 @@
 2026-05-28T21:42:55.327196+00:00	https://www.theguardian.com/technology/2026/may/28/anthropic-ai-valuation
 2026-05-28T21:42:55.327196+00:00	https://www.theguardian.com/technology/2026/may/28/ai-is-changing-how-we-think-not-replacing-it
 2026-05-28T21:42:55.327196+00:00	https://www.theguardian.com/technology/2026/may/28/meeting-the-popes-call-to-put-humanity-first-in-a-world-of-artificial-intelligence
+2026-05-29T21:37:47.241877+00:00	https://www.leiphone.com/category/ai/DGsFC1G8m120jBZ6.html
+2026-05-29T21:37:47.241877+00:00	https://www.leiphone.com/category/ai/3bJjZs6OI76QGKNw.html
+2026-05-29T21:37:47.241877+00:00	https://www.leiphone.com/category/ai/Ofx0aNHZ8iUJlvTN.html
+2026-05-29T21:37:47.241877+00:00	https://www.theguardian.com/commentisfree/2026/may/29/pope-ai-encyclical
+2026-05-29T21:37:47.241877+00:00	https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/
+2026-05-29T21:37:47.241877+00:00	https://ai.watch.impress.co.jp/docs/news/2113028.html
+2026-05-29T21:37:47.241877+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03623/052900006/
