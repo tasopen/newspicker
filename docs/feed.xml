@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 30 May 2026 06:37:47 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 06:25:02 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-05-31 06:21:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-05-31_062116.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-05-31_062116.mp3</guid>
+      <pubDate>Sun, 31 May 2026 06:25:02 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が発表したバイオ防衛特化型モデル「GPT-Rosalind（ジーピーティー・ロザリンド）」と、バチカンとAI企業の奇妙な連携を巡る議論についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-05-31_062116.mp3" type="audio/mpeg" length="4345005" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-05-31_062116.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:31</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）が発表したバイオ防衛特化型モデル「GPT-Rosalind（ジーピーティー・ロザリンド）」と、バチカンとAI企業の奇妙な連携を巡る議論についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-05-30 06:34:46</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-05-30_063446.mp3</link>
