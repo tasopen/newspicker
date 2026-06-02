@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 02 Jun 2026 07:05:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 07:01:29 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-03 06:58:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-03_065816.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-03_065816.mp3</guid>
+      <pubDate>Wed, 03 Jun 2026 07:01:29 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、マイクロソフトが放つ自社開発の推論特化型AIモデルの衝撃や、戦場に投入された人型ロボット軍団の計画、そしてAIビジネスの成長を阻む「決済の壁」についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-03_065816.mp3" type="audio/mpeg" length="4328877" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-03_065816.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:30</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、マイクロソフトが放つ自社開発の推論特化型AIモデルの衝撃や、戦場に投入された人型ロボット軍団の計画、そしてAIビジネスの成長を阻む「決済の壁」についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-02 07:02:27</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-02_070227.mp3</link>
