@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 03 Jun 2026 07:01:29 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 07:02:16 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-04 06:59:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-04_065900.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-04_065900.mp3</guid>
+      <pubDate>Thu, 04 Jun 2026 07:02:16 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、ウォール街で日給約400万円を叩き出す「AI実装官」の正体や、欧州が警戒する技術的な「キルスウィッチ」の脅威、そしてOpenAIが直面する経営の転換期についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-04_065900.mp3" type="audio/mpeg" length="4087725" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-04_065900.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、ウォール街で日給約400万円を叩き出す「AI実装官」の正体や、欧州が警戒する技術的な「キルスウィッチ」の脅威、そしてOpenAIが直面する経営の転換期についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-03 06:58:16</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-03_065816.mp3</link>
