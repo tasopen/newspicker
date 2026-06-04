@@ -1,10 +1,3 @@
-2026-05-05T21:25:58.745457+00:00	https://www.theverge.com/ai-artificial-intelligence/924225/openai-chatgpt-default-model-gpt-5-5-instant
-2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/openai-president-personal-diary-musk-altman-case
-2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt
-2026-05-05T21:25:58.745457+00:00	https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
-2026-05-05T21:25:58.745457+00:00	https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo
-2026-05-05T21:25:58.745457+00:00	https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai
-2026-05-05T21:25:58.745457+00:00	https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/
 2026-05-06T21:29:29.408542+00:00	https://www.theguardian.com/technology/2026/may/06/no-flattery-please-claude-im-british
 2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400001/
 2026-05-06T21:29:29.408542+00:00	https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit
@@ -208,3 +201,10 @@
 2026-06-03T22:02:16.911970+00:00	https://ai.watch.impress.co.jp/docs/news/2114151.html
 2026-06-03T22:02:16.911970+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03250/
 2026-06-03T22:02:16.911970+00:00	https://ai.watch.impress.co.jp/docs/news/2114088.html
+2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114439.html
+2026-06-04T21:36:40.025375+00:00	https://36kr.com/p/3838454229027072?f=rss
+2026-06-04T21:36:40.025375+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/052700059/
+2026-06-04T21:36:40.025375+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03079/060400038/
+2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114589.html
+2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114510.html
+2026-06-04T21:36:40.025375+00:00	https://www.theguardian.com/technology/2026/jun/04/my-year-with-robots-joanna-stern-ai
