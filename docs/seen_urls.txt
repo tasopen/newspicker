@@ -1,10 +1,3 @@
-2026-05-06T21:29:29.408542+00:00	https://www.theguardian.com/technology/2026/may/06/no-flattery-please-claude-im-british
-2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400001/
-2026-05-06T21:29:29.408542+00:00	https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit
-2026-05-06T21:29:29.408542+00:00	https://36kr.com/p/3797041945304327?f=rss
-2026-05-06T21:29:29.408542+00:00	https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
-2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03577/040700003/
-2026-05-06T21:29:29.408542+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11703/
 2026-05-07T21:25:33.818039+00:00	https://36kr.com/p/3798462137637892?f=rss
 2026-05-07T21:25:33.818039+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/042600057/
 2026-05-07T21:25:33.818039+00:00	https://ai.watch.impress.co.jp/docs/news/2106779.html
@@ -208,3 +201,10 @@
 2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114589.html
 2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114510.html
 2026-06-04T21:36:40.025375+00:00	https://www.theguardian.com/technology/2026/jun/04/my-year-with-robots-joanna-stern-ai
+2026-06-05T21:34:54.838296+00:00	https://www.leiphone.com/category/industrynews/0P8KvQPzWQpU9F40.html
+2026-06-05T21:34:54.838296+00:00	https://ai.watch.impress.co.jp/docs/news/2114939.html
+2026-06-05T21:34:54.838296+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/060400178/
+2026-06-05T21:34:54.838296+00:00	https://www.leiphone.com/category/industrynews/bwyozCVtFIOJynck.html
+2026-06-05T21:34:54.838296+00:00	https://www.itmedia.co.jp/news/articles/2606/05/news091.html
+2026-06-05T21:34:54.838296+00:00	https://www.theguardian.com/technology/2026/jun/05/labour-will-make-ai-work-for-workers-liz-kendall
+2026-06-05T21:34:54.838296+00:00	https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks

@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 05 Jun 2026 06:36:40 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 06:34:54 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-06 06:31:25</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-06_063125.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-06_063125.mp3</guid>
+      <pubDate>Sat, 06 Jun 2026 06:34:54 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AI業界の評価軸を根底から変える「コーディング能力」の衝撃と、OpenAI（オープンエーアイ）が5年ぶりに再参戦するロボティクス戦略、そしてChatGPTに導入される「時間の概念」についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-06_063125.mp3" type="audio/mpeg" length="4964013" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-06_063125.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:10</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AI業界の評価軸を根底から変える「コーディング能力」の衝撃と、OpenAI（オープンエーアイ）が5年ぶりに再参戦するロボティクス戦略、そしてChatGPTに導入される「時間の概念」についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-05 06:33:04</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-05_063304.mp3</link>
