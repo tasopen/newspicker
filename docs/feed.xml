@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 06 Jun 2026 06:34:54 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 06:26:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-07 06:23:35</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-07_062335.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-07_062335.mp3</guid>
+      <pubDate>Sun, 07 Jun 2026 06:26:36 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、トランプ政権によるOpenAI（オープンエーアイ）への出資検討や、データセンター建設を巡る全米規模の法的逆風、そして巧妙化するAI偽動画の脅威についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-07_062335.mp3" type="audio/mpeg" length="4332717" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-07_062335.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:30</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、トランプ政権によるOpenAI（オープンエーアイ）への出資検討や、データセンター建設を巡る全米規模の法的逆風、そして巧妙化するAI偽動画の脅威についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-06 06:31:25</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-06_063125.mp3</link>

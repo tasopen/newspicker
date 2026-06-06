@@ -1,10 +1,3 @@
-2026-05-07T21:25:33.818039+00:00	https://36kr.com/p/3798462137637892?f=rss
-2026-05-07T21:25:33.818039+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/042600057/
-2026-05-07T21:25:33.818039+00:00	https://ai.watch.impress.co.jp/docs/news/2106779.html
-2026-05-07T21:25:33.818039+00:00	https://ai.watch.impress.co.jp/docs/news/2106739.html
-2026-05-07T21:25:33.818039+00:00	https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/
-2026-05-07T21:25:33.818039+00:00	https://www.leiphone.com/category/zaobao/hStD94lQmS7vzJG3.html
-2026-05-07T21:25:33.818039+00:00	https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/
 2026-05-08T21:25:44.784215+00:00	https://ai.watch.impress.co.jp/docs/news/2107225.html
 2026-05-08T21:25:44.784215+00:00	https://ai.watch.impress.co.jp/docs/news/2107116.html
 2026-05-08T21:25:44.784215+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/050700176/
@@ -208,3 +201,10 @@
 2026-06-05T21:34:54.838296+00:00	https://www.itmedia.co.jp/news/articles/2606/05/news091.html
 2026-06-05T21:34:54.838296+00:00	https://www.theguardian.com/technology/2026/jun/05/labour-will-make-ai-work-for-workers-liz-kendall
 2026-06-05T21:34:54.838296+00:00	https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks
+2026-06-06T21:26:36.582683+00:00	https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/
+2026-06-06T21:26:36.582683+00:00	https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/
+2026-06-06T21:26:36.582683+00:00	https://www.zdnet.com/article/beginner-ai-image-prompt-tip-chatgpt-gemini/
+2026-06-06T21:26:36.582683+00:00	https://www.tmtpost.com/8017330.html
+2026-06-06T21:26:36.582683+00:00	https://www.theguardian.com/us-news/2026/jun/06/stratos-datacenter-utah-suit
+2026-06-06T21:26:36.582683+00:00	https://www.theguardian.com/us-news/2026/jun/06/new-york-datacenter-temporary-ban
+2026-06-06T21:26:36.582683+00:00	https://www.theguardian.com/global-development/2026/jun/06/african-leader-speech-decolonisation-ai-generated-fake-president-namibia-africa-caribbean
