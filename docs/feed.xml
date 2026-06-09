@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 09 Jun 2026 06:38:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 06:37:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-10 06:34:24</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-10_063424.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-10_063424.mp3</guid>
+      <pubDate>Wed, 10 Jun 2026 06:37:36 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。今日は、AIプログラミングのコストを98％削減する画期的な新プロジェクトや、AIの誤診に対する医師の法的責任を巡る議論、そしてトランプ氏によるAI成長戦略の加速についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-10_063424.mp3" type="audio/mpeg" length="4253613" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-10_063424.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。今日は、AIプログラミングのコストを98％削減する画期的な新プロジェクトや、AIの誤診に対する医師の法的責任を巡る議論、そしてトランプ氏によるAI成長戦略の加速についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-09 06:34:13</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-09_063413.mp3</link>
