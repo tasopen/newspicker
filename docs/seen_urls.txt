@@ -1,10 +1,3 @@
-2026-05-11T21:33:00.662790+00:00	https://www.leiphone.com/category/industrynews/HY5vV5CioWW4KDg6.html
-2026-05-11T21:33:00.662790+00:00	https://36kr.com/newsflashes/3804814505123331?f=rss
-2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03576/040600002/
-2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400004/
-2026-05-11T21:33:00.662790+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/042802011/
-2026-05-11T21:33:00.662790+00:00	https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google
-2026-05-11T21:33:00.662790+00:00	https://www.theguardian.com/stage/2026/may/11/moliere-ex-machina-ai-create-new-work-france-equivalent-shakespeare
 2026-05-12T21:52:19.668951+00:00	https://www.theguardian.com/us-news/2026/may/11/musk-v-openai-altman-trial
 2026-05-12T21:52:19.668951+00:00	https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose
 2026-05-12T21:52:19.668951+00:00	https://www.theguardian.com/technology/2026/may/12/sam-altman-openai-trial-elon-musk
@@ -208,3 +201,10 @@
 2026-06-09T21:37:36.190240+00:00	https://www.theguardian.com/technology/2026/jun/08/trump-ai-growth-anthropic
 2026-06-09T21:37:36.190240+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11811/
 2026-06-09T21:37:36.190240+00:00	https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report
+2026-06-10T21:45:28.628298+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00190/
+2026-06-10T21:45:28.628298+00:00	https://www.theguardian.com/technology/2026/jun/09/anthropic-claude-mythos-ai-model
+2026-06-10T21:45:28.628298+00:00	https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/
+2026-06-10T21:45:28.628298+00:00	https://www.itmedia.co.jp/news/articles/2606/10/news128.html
+2026-06-10T21:45:28.628298+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03617/060200005/
+2026-06-10T21:45:28.628298+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03444/061000026/
+2026-06-10T21:45:28.628298+00:00	https://ai.watch.impress.co.jp/docs/news/2116099.html
