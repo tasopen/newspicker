@@ -208,3 +208,10 @@
 2026-06-11T21:54:41.177975+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03632/060400006/
 2026-06-11T21:54:41.177975+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02653/060800073/
 2026-06-11T21:54:41.177975+00:00	https://www.theguardian.com/technology/2026/jun/11/elon-musk-engineer-fired-grok-lawsuit
+2026-06-12T21:37:50.822829+00:00	https://36kr.com/p/3849942472512769?f=rss
+2026-06-12T21:37:50.822829+00:00	https://www.theguardian.com/technology/2026/jun/12/police-officer-under-criminal-investigation-over-alleged-use-of-ai
+2026-06-12T21:37:50.822829+00:00	https://www.theguardian.com/science/2026/jun/12/spacex-stock-market-debut
+2026-06-12T21:37:50.822829+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03585/061200025/
+2026-06-12T21:37:50.822829+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03585/061200024/
+2026-06-12T21:37:50.822829+00:00	https://www.theguardian.com/lifeandstyle/picture/2026/jun/12/behind-the-scenes-at-openai-hq-the-stephen-collins-cartoon
+2026-06-12T21:37:50.822829+00:00	https://ai.watch.impress.co.jp/docs/serial/beginner/2115158.html

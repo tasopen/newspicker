@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 12 Jun 2026 06:54:41 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 06:37:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-13 06:34:20</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-13_063420.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-13_063420.mp3</guid>
+      <pubDate>Sat, 13 Jun 2026 06:37:50 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏率いるSpaceX（スペースエックス）が史上最大のIPOを実施したニュースや、イギリスの警察官がAIで証拠を捏造した疑いで捜査を受けている衝撃的な事件についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-13_063420.mp3" type="audio/mpeg" length="5205933" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-13_063420.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:25</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、イーロン・マスク氏率いるSpaceX（スペースエックス）が史上最大のIPOを実施したニュースや、イギリスの警察官がAIで証拠を捏造した疑いで捜査を受けている衝撃的な事件についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-12 06:41:41</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-12_064141.mp3</link>
