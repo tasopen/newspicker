@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 15 Jun 2026 06:31:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 06:56:39 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-16 06:52:19</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-16_065219.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-16_065219.mp3</guid>
+      <pubDate>Tue, 16 Jun 2026 06:56:39 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIが物理法則を学ぶ「世界モデル」の最前線や、史上最大のIPOを果たしたスペースエックスへの辛口な評価、そして「SaaS（サース）の死」が囁かれるビジネス界の地殻変動についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-16_065219.mp3" type="audio/mpeg" length="5612205" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-16_065219.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:50</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIが物理法則を学ぶ「世界モデル」の最前線や、史上最大のIPOを果たしたスペースエックスへの辛口な評価、そして「SaaS（サース）の死」が囁かれるビジネス界の地殻変動についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-15 06:28:42</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-15_062842.mp3</link>
