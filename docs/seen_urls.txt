@@ -208,3 +208,10 @@
 2026-06-18T21:45:47.376625+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03079/061800039/
 2026-06-18T21:45:47.376625+00:00	https://www.theguardian.com/technology/2026/jun/18/ai-threatens-gig-work-rise
 2026-06-18T21:45:47.376625+00:00	https://ai.watch.impress.co.jp/docs/news/2118218.html
+2026-06-19T21:28:52.257411+00:00	https://ai.watch.impress.co.jp/docs/news/2118417.html
+2026-06-19T21:28:52.257411+00:00	https://www.itmedia.co.jp/news/articles/2606/19/news062.html
+2026-06-19T21:28:52.257411+00:00	https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/
+2026-06-19T21:28:52.257411+00:00	https://ai.watch.impress.co.jp/docs/news/2118691.html
+2026-06-19T21:28:52.257411+00:00	https://ai.watch.impress.co.jp/docs/news/2118538.html
+2026-06-19T21:28:52.257411+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100112/061200140/
+2026-06-19T21:28:52.257411+00:00	https://ainow.ai/2026/06/20/278188/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e3%2582%2592%25e6%25b4%25bb%25e7%2594%25a8%25e3%2581%2597%25e3%2581%259f%25e5%2595%2586%25e5%2593%2581%25e9%2596%258b%25e7%2599%25ba%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25ba%258b%25e4%25be%258b12%25e9%2581%25b8%25e3%2581%25a8%25e3%2583%25a1%25e3%2583%25aa%25e3%2583%2583

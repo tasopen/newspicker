@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 19 Jun 2026 06:45:47 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 06:28:52 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-20 06:25:20</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-20_062520.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-20_062520.mp3</guid>
+      <pubDate>Sat, 20 Jun 2026 06:28:52 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、ChatGPT（よみ：チャットジーピーティー）がついに開始した広告表示の衝撃や、LLMの計算限界を突破したというスタートアップの野心的な主張、そして私たちの仕事がいかにAIに依存し始めているかという実態についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-20_062520.mp3" type="audio/mpeg" length="4964013" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-20_062520.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:10</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、ChatGPT（よみ：チャットジーピーティー）がついに開始した広告表示の衝撃や、LLMの計算限界を突破したというスタートアップの野心的な主張、そして私たちの仕事がいかにAIに依存し始めているかという実態についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-19 06:42:10</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-19_064210.mp3</link>
