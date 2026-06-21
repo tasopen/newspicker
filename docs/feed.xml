@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 21 Jun 2026 06:32:31 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 06:32:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-22 06:28:59</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-22_062859.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-22_062859.mp3</guid>
+      <pubDate>Mon, 22 Jun 2026 06:32:13 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、日本のIT業界を支えてきた「人月商売」の終焉や、Appleが挑む「Siri AI」の壁、そしてSNSに潜むAIインフルエンサーの正体についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-22_062859.mp3" type="audio/mpeg" length="4469037" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-22_062859.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:39</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、日本のIT業界を支えてきた「人月商売」の終焉や、Appleが挑む「Siri AI」の壁、そしてSNSに潜むAIインフルエンサーの正体についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-21 06:29:06</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-21_062906.mp3</link>
