@@ -1,10 +1,3 @@
-2026-05-23T21:21:09.636249+00:00	https://36kr.com/p/3821521291038856?f=rss
-2026-05-23T21:21:09.636249+00:00	https://www.theguardian.com/technology/2026/may/23/trump-ai-order-big-tech
-2026-05-23T21:21:09.636249+00:00	https://36kr.com/p/3821177784881541?f=rss
-2026-05-23T21:21:09.636249+00:00	https://www.qbitai.com/2026/05/423179.html
-2026-05-23T21:21:09.636249+00:00	https://www.tmtpost.com/7999911.html
-2026-05-23T21:21:09.636249+00:00	https://36kr.com/p/3821714896408713?f=rss
-2026-05-23T21:21:09.636249+00:00	https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video
 2026-05-24T21:23:09.546220+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03600/042100001/
 2026-05-24T21:23:09.546220+00:00	https://www.tmtpost.com/8000341.html
 2026-05-24T21:23:09.546220+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03624/051900001/
@@ -208,3 +201,10 @@
 2026-06-21T21:32:13.861264+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00086/00409/
 2026-06-21T21:32:13.861264+00:00	https://www.theguardian.com/technology/2026/jun/21/brands-using-ai-generated-influencers-to-promote-products-on-social-media
 2026-06-21T21:32:13.861264+00:00	https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/
+2026-06-22T21:46:45.831409+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600007/061200219/
+2026-06-22T21:46:45.831409+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600009/061200225/
+2026-06-22T21:46:45.831409+00:00	https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/
+2026-06-22T21:46:45.831409+00:00	https://36kr.com/p/3864065855706120?f=rss
+2026-06-22T21:46:45.831409+00:00	https://36kr.com/p/3864054145209602?f=rss
+2026-06-22T21:46:45.831409+00:00	https://www.itmedia.co.jp/news/articles/2606/18/news020.html
+2026-06-22T21:46:45.831409+00:00	https://www.theguardian.com/technology/2026/jun/22/artificial-intelligence-law-firm-wins-court-case-in-england-for-first-time

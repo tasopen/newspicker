@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 22 Jun 2026 06:32:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 06:46:45 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-23 06:42:55</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-23_064255.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-23_064255.mp3</guid>
+      <pubDate>Tue, 23 Jun 2026 06:46:45 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIが発表した大規模なサイバーセキュリティ対策や、イギリスで起きた「AI弁護士」による初の勝訴、そして就職活動のあり方を根本から変える「AI検索対策」の重要性についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-23_064255.mp3" type="audio/mpeg" length="4935597" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-23_064255.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:08</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIが発表した大規模なサイバーセキュリティ対策や、イギリスで起きた「AI弁護士」による初の勝訴、そして就職活動のあり方を根本から変える「AI検索対策」の重要性についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-22 06:28:59</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-22_062859.mp3</link>
