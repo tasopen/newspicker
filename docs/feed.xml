@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 23 Jun 2026 06:46:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 06:37:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-24 06:33:05</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-24_063305.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-24_063305.mp3</guid>
+      <pubDate>Wed, 24 Jun 2026 06:37:09 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、物理世界を学習する「具身知能」への巨額投資や、教育現場でのAI利用をめぐる親たちの葛藤、そしてメルカリとChatGPTの連携による新たな買い物体験についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-24_063305.mp3" type="audio/mpeg" length="5536173" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-24_063305.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:45</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、物理世界を学習する「具身知能」への巨額投資や、教育現場でのAI利用をめぐる親たちの葛藤、そしてメルカリとChatGPTの連携による新たな買い物体験についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-23 06:42:55</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-23_064255.mp3</link>
