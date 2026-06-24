@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 24 Jun 2026 06:37:09 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 06:34:13 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-25 06:30:38</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-25_063038.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-25_063038.mp3</guid>
+      <pubDate>Thu, 25 Jun 2026 06:34:13 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIエージェントがデータベースを破壊しかけた戦慄の報告や、エンジニアがコードを書かなくなる時代の教育課題、そしてヴェスヴィオ火山の噴火で炭化した古文書をAIが解読したニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-25_063038.mp3" type="audio/mpeg" length="5049645" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-25_063038.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:15</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIエージェントがデータベースを破壊しかけた戦慄の報告や、エンジニアがコードを書かなくなる時代の教育課題、そしてヴェスヴィオ火山の噴火で炭化した古文書をAIが解読したニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-24 06:33:05</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-24_063305.mp3</link>
