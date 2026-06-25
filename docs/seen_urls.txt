@@ -208,3 +208,10 @@
 2026-06-24T21:34:13.852294+00:00	https://www.theguardian.com/technology/2026/jun/24/ai-read-papyrus-scroll-burnt-vesuvius-eruption
 2026-06-24T21:34:13.852294+00:00	https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/
 2026-06-24T21:34:13.852294+00:00	https://www.theguardian.com/technology/2026/jun/24/meta-pauses-employee-tracker-for-ai-training-amid-privacy-concerns
+2026-06-25T21:37:03.420053+00:00	https://www.leiphone.com/category/yanxishe/vzVNtknYIRqTX0Wv.html
+2026-06-25T21:37:03.420053+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00989/062200211/
+2026-06-25T21:37:03.420053+00:00	https://ai.watch.impress.co.jp/docs/news/2120023.html
+2026-06-25T21:37:03.420053+00:00	https://ai.watch.impress.co.jp/docs/news/2119900.html
+2026-06-25T21:37:03.420053+00:00	https://www.itmedia.co.jp/news/articles/2606/25/news062.html
+2026-06-25T21:37:03.420053+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00257/00078/
+2026-06-25T21:37:03.420053+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/062500191/

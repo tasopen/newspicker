@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 25 Jun 2026 06:34:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 06:37:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-26 06:32:53</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-26_063253.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-26_063253.mp3</guid>
+      <pubDate>Fri, 26 Jun 2026 06:37:03 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Anthropicがアリババを「知能の盗用」で非難した激震のニュースや、OpenAIが独自に開発したAIチップ「Jalapeño」、そして国内企業の7割が直面する「シャドーAI」のリスクについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-26_063253.mp3" type="audio/mpeg" length="5806125" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-26_063253.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:02</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Anthropicがアリババを「知能の盗用」で非難した激震のニュースや、OpenAIが独自に開発したAIチップ「Jalapeño」、そして国内企業の7割が直面する「シャドーAI」のリスクについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-25 06:30:38</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-25_063038.mp3</link>
