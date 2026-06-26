@@ -1,10 +1,3 @@
-2026-05-26T21:59:51.254220+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03624/051900003/
-2026-05-26T21:59:51.254220+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03575/051800004/
-2026-05-26T21:59:51.254220+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03600/042100003/
-2026-05-26T21:59:51.254220+00:00	https://ai.watch.impress.co.jp/docs/news/2111631.html
-2026-05-26T21:59:51.254220+00:00	https://36kr.com/p/3825834410333062?f=rss
-2026-05-26T21:59:51.254220+00:00	https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/
-2026-05-26T21:59:51.254220+00:00	https://www.theguardian.com/technology/2026/may/26/students-boo-pro-ai-graduation-speakers
 2026-05-27T21:38:09.867056+00:00	https://36kr.com/p/3826390617870984?f=rss
 2026-05-27T21:38:09.867056+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03600/042100004/
 2026-05-27T21:38:09.867056+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03624/051900004/
@@ -215,3 +208,10 @@
 2026-06-25T21:37:03.420053+00:00	https://www.itmedia.co.jp/news/articles/2606/25/news062.html
 2026-06-25T21:37:03.420053+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00257/00078/
 2026-06-25T21:37:03.420053+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/062500191/
+2026-06-26T21:32:41.598597+00:00	https://www.theguardian.com/technology/2026/jun/26/openai-ai-model-release-trump-us-sam-altman-gpt-anthropic-mythos
+2026-06-26T21:32:41.598597+00:00	https://36kr.com/p/3869243269387269?f=rss
+2026-06-26T21:32:41.598597+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03664/062600003/
+2026-06-26T21:32:41.598597+00:00	https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/
+2026-06-26T21:32:41.598597+00:00	https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
+2026-06-26T21:32:41.598597+00:00	https://www.tmtpost.com/8042826.html
+2026-06-26T21:32:41.598597+00:00	https://36kr.com/p/3866837793952769?f=rss
