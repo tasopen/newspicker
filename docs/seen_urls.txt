@@ -1,10 +1,3 @@
-2026-05-27T21:38:09.867056+00:00	https://36kr.com/p/3826390617870984?f=rss
-2026-05-27T21:38:09.867056+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03600/042100004/
-2026-05-27T21:38:09.867056+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03624/051900004/
-2026-05-27T21:38:09.867056+00:00	https://ai.watch.impress.co.jp/docs/news/2112214.html
-2026-05-27T21:38:09.867056+00:00	https://ai.watch.impress.co.jp/docs/news/2112155.html
-2026-05-27T21:38:09.867056+00:00	https://ai.watch.impress.co.jp/docs/news/2112095.html
-2026-05-27T21:38:09.867056+00:00	https://ainow.ai/2026/05/28/278115/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590aix%25e4%25b8%258d%25e5%258b%2595%25e7%2594%25a3%25e3%2581%25ae%25e6%25b4%25bb%25e7%2594%25a8%25e4%25ba%258b%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e3%2583%25a1%25e3%2583%25aa%25e3%2583%2583%25e3%2583%2588%25e3%2582%2584%25e8%25aa%25b2%25e9%25a1%258c%25e3%2580%2581%25e5%25b0%258e
 2026-05-28T21:42:55.327196+00:00	https://ai.watch.impress.co.jp/docs/news/2112526.html
 2026-05-28T21:42:55.327196+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/052800189/
 2026-05-28T21:42:55.327196+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/052101438/
@@ -215,3 +208,10 @@
 2026-06-26T21:32:41.598597+00:00	https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
 2026-06-26T21:32:41.598597+00:00	https://www.tmtpost.com/8042826.html
 2026-06-26T21:32:41.598597+00:00	https://36kr.com/p/3866837793952769?f=rss
+2026-06-27T21:27:41.376102+00:00	https://www.theguardian.com/business/2026/jun/27/ai-bubble-crash-tech-firms-stock-markets
+2026-06-27T21:27:41.376102+00:00	https://www.theguardian.com/australia-news/video/2026/jun/27/australian-rescue-team-uses-ai-powered-drone-to-find-lost-hikers-video
+2026-06-27T21:27:41.376102+00:00	https://www.theguardian.com/australia-news/2026/jun/27/ai-drone-rescue-kosciuszko-national-park-hikers-fire-rescue-nsw
+2026-06-27T21:27:41.376102+00:00	https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
+2026-06-27T21:27:41.376102+00:00	https://www.leiphone.com/category/weiwu/xwKJa2OJ5xsHkTRs.html
+2026-06-27T21:27:41.376102+00:00	https://www.tmtpost.com/8043432.html
+2026-06-27T21:27:41.376102+00:00	https://36kr.com/p/3870720040588295?f=rss
