@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 28 Jun 2026 06:27:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 06:28:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-06-29 06:23:32</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-06-29_062332.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-06-29_062332.mp3</guid>
+      <pubDate>Mon, 29 Jun 2026 06:28:31 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、NVIDIA（よみ：エヌビディア）などが採用する最新の学習手法「オンポリシー蒸留」や、AIの限界に直面したフォードのベテラン技術者再雇用、そして裁判の証拠となったChatGPTの利用履歴についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-06-29_062332.mp3" type="audio/mpeg" length="7155885" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-06-29_062332.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>07:27</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、NVIDIA（よみ：エヌビディア）などが採用する最新の学習手法「オンポリシー蒸留」や、AIの限界に直面したフォードのベテラン技術者再雇用、そして裁判の証拠となったChatGPTの利用履歴についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-06-28 06:23:53</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-06-28_062353.mp3</link>
