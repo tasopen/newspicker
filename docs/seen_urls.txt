@@ -208,3 +208,10 @@
 2026-06-30T21:36:39.275137+00:00	https://www.theguardian.com/technology/2026/jun/30/ai-chatbot-use-anti-vaccine-myths-poll
 2026-06-30T21:36:39.275137+00:00	https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/
 2026-06-30T21:36:39.275137+00:00	https://ai.watch.impress.co.jp/docs/news/2121288.html
+2026-07-01T21:36:59.300487+00:00	https://www.leiphone.com/category/industrynews/92jlrAw30yRS1lnt.html
+2026-07-01T21:36:59.300487+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03655/062600004/
+2026-07-01T21:36:59.300487+00:00	https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/
+2026-07-01T21:36:59.300487+00:00	https://www.leiphone.com/category/industrynews/ft5tFfCB8Zh0ZFo8.html
+2026-07-01T21:36:59.300487+00:00	https://www.leiphone.com/category/industrynews/u9oriAZ94JFFmnxR.html
+2026-07-01T21:36:59.300487+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03633/062000003/
+2026-07-01T21:36:59.300487+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03664/070100008/
