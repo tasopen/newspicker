@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 02 Jul 2026 06:36:59 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 06:29:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-03 06:25:40</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-03_062540.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-03_062540.mp3</guid>
+      <pubDate>Fri, 03 Jul 2026 06:29:49 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAIが米国政府へ株式を譲渡するとの衝撃的な交渉、そしてSpaceXによるAIエディタ「Cursor」の買収など、AIの覇権を巡る国家と企業の新たな動きをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-03_062540.mp3" type="audio/mpeg" length="6092973" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-03_062540.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:20</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAIが米国政府へ株式を譲渡するとの衝撃的な交渉、そしてSpaceXによるAIエディタ「Cursor」の買収など、AIの覇権を巡る国家と企業の新たな動きをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-02 06:32:11</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-02_063211.mp3</link>
