@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 03 Jul 2026 06:29:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 07:04:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-04 07:00:32</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-04_070032.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-04_070032.mp3</guid>
+      <pubDate>Sat, 04 Jul 2026 07:04:20 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、AIによる児童への性的虐待リスクへの警告や、細胞内部を「世界モデル」で解明する最新研究、そしてオーストラリア政府がOpenAI（オープンエーアイ）誘致で見せた複雑な胸中などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-04_070032.mp3" type="audio/mpeg" length="6188205" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-04_070032.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:26</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、AIによる児童への性的虐待リスクへの警告や、細胞内部を「世界モデル」で解明する最新研究、そしてオーストラリア政府がOpenAI（オープンエーアイ）誘致で見せた複雑な胸中などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-03 06:25:40</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-03_062540.mp3</link>
