@@ -1,10 +1,3 @@
-2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114439.html
-2026-06-04T21:36:40.025375+00:00	https://36kr.com/p/3838454229027072?f=rss
-2026-06-04T21:36:40.025375+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/052700059/
-2026-06-04T21:36:40.025375+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03079/060400038/
-2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114589.html
-2026-06-04T21:36:40.025375+00:00	https://ai.watch.impress.co.jp/docs/news/2114510.html
-2026-06-04T21:36:40.025375+00:00	https://www.theguardian.com/technology/2026/jun/04/my-year-with-robots-joanna-stern-ai
 2026-06-05T21:34:54.838296+00:00	https://www.leiphone.com/category/industrynews/0P8KvQPzWQpU9F40.html
 2026-06-05T21:34:54.838296+00:00	https://ai.watch.impress.co.jp/docs/news/2114939.html
 2026-06-05T21:34:54.838296+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/060400178/
@@ -208,3 +201,10 @@
 2026-07-03T22:04:20.111677+00:00	https://ai.watch.impress.co.jp/docs/news/2122207.html
 2026-07-03T22:04:20.111677+00:00	https://ai.watch.impress.co.jp/docs/news/2122157.html
 2026-07-03T22:04:20.111677+00:00	https://www.qbitai.com/2026/07/442746.html
+2026-07-04T21:55:42.860348+00:00	https://www.theguardian.com/technology/2026/jul/04/openai-apparent-failure-visit-key-site-questions-stargate-uk-project
+2026-07-04T21:55:42.860348+00:00	https://www.theguardian.com/books/ng-interactive/2026/jul/04/future-of-fiction-next-great-novel-ai-language-chat-gpt
+2026-07-04T21:55:42.860348+00:00	https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/
+2026-07-04T21:55:42.860348+00:00	https://www.tmtpost.com/8052577.html
+2026-07-04T21:55:42.860348+00:00	https://ainow.ai/2026/07/04/278232/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e6%25a5%25ad%25e5%258b%2599%25e5%258a%25b9%25e7%258e%2587%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%2595%25ef%25bc%2581%25e5%2590%2591%25e3%2581%2584%25e3%2581%25a6%25e3%2581%2584%25e3%2582%258b
+2026-07-04T21:55:42.860348+00:00	https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector
+2026-07-04T21:55:42.860348+00:00	https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health

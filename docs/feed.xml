@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 04 Jul 2026 07:04:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 06:55:42 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-05 06:52:37</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-05_065237.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-05_065237.mp3</guid>
+      <pubDate>Sun, 05 Jul 2026 06:55:42 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）による英国への巨額投資計画の頓挫や、NHS（エヌ・エイチ・エス）が導入するAIによる患者の振り分けシステム、そしてChatGPT（チャットジーピーティー）が本格始動させる広告ビジネスの舞台裏についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-05_065237.mp3" type="audio/mpeg" length="4575405" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-05_065237.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:45</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI（オープンエーアイ）による英国への巨額投資計画の頓挫や、NHS（エヌ・エイチ・エス）が導入するAIによる患者の振り分けシステム、そしてChatGPT（チャットジーピーティー）が本格始動させる広告ビジネスの舞台裏についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-04 07:00:32</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-04_070032.mp3</link>
