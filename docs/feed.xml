@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 06 Jul 2026 06:59:38 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 07:13:38 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-07 07:09:42</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-07_070942.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-07_070942.mp3</guid>
+      <pubDate>Tue, 07 Jul 2026 07:13:38 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、既存の主要モデルを凌駕するロボット用統一脳「ACE-Brain-0.5」の登場や、ChatGPTを悪用したサイバー犯罪による国内での逮捕劇、そして幼稚園の事務負担を劇的に減らしたAIエージェントの活用事例などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-07_070942.mp3" type="audio/mpeg" length="5286573" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-07_070942.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:30</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、既存の主要モデルを凌駕するロボット用統一脳「ACE-Brain-0.5」の登場や、ChatGPTを悪用したサイバー犯罪による国内での逮捕劇、そして幼稚園の事務負担を劇的に減らしたAIエージェントの活用事例などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-06 06:55:43</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-06_065543.mp3</link>
