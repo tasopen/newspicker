@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 07 Jul 2026 07:13:38 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 07:11:24 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-08 07:07:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-08_070714.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-08_070714.mp3</guid>
+      <pubDate>Wed, 08 Jul 2026 07:11:24 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、動画生成AIで驚異的な収益を上げるバイトダンスの躍進や、AIによる「欺瞞」へのオーストラリア政府の警告、そして国内企業の7割が直面するシャドーAIの課題などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-08_070714.mp3" type="audio/mpeg" length="5884077" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-08_070714.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:07</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、動画生成AIで驚異的な収益を上げるバイトダンスの躍進や、AIによる「欺瞞」へのオーストラリア政府の警告、そして国内企業の7割が直面するシャドーAIの課題などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-07 07:09:42</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-07_070942.mp3</link>
