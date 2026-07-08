@@ -1,10 +1,3 @@
-2026-06-08T21:38:00.668599+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/060302035/
-2026-06-08T21:38:00.668599+00:00	https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/
-2026-06-08T21:38:00.668599+00:00	https://www.zdnet.com/article/chatgpts-new-memory-upgrade-is-powerful-and-could-poison-every-answer-it-gives-you/
-2026-06-08T21:38:00.668599+00:00	https://www.wired.com/story/openai-confidentially-files-for-ipo/
-2026-06-08T21:38:00.668599+00:00	https://36kr.com/p/3844018911889924?f=rss
-2026-06-08T21:38:00.668599+00:00	https://36kr.com/p/3843764238174729?f=rss
-2026-06-08T21:38:00.668599+00:00	https://www.itmedia.co.jp/news/articles/2606/08/news094.html
 2026-06-09T21:37:36.190240+00:00	https://www.theguardian.com/technology/2026/jun/08/openai-ipo-files-for-public-stock-market
 2026-06-09T21:37:36.190240+00:00	https://36kr.com/p/3845645258541319?f=rss
 2026-06-09T21:37:36.190240+00:00	https://www.itmedia.co.jp/news/articles/2606/09/news074.html
@@ -208,3 +201,10 @@
 2026-07-07T22:11:24.212481+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/070600009/
 2026-07-07T22:11:24.212481+00:00	https://www.theguardian.com/uk-news/2026/jul/07/london-campaign-planned-ai-datacentre-brick-lane
 2026-07-07T22:11:24.212481+00:00	https://www.theguardian.com/books/2026/jul/07/we-are-not-machines-by-sarah-oconnor-review-can-dignity-at-work-survive-the-tech-revolution
+2026-07-08T22:05:42.339104+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00192/
+2026-07-08T22:05:42.339104+00:00	https://www.zdnet.com/article/ai-model-release-tracker/
+2026-07-08T22:05:42.339104+00:00	https://www.leiphone.com/category/private/7a2o088m7EXWQXv5.html
+2026-07-08T22:05:42.339104+00:00	https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live
+2026-07-08T22:05:42.339104+00:00	https://ai.watch.impress.co.jp/docs/serial/dojo/2123223.html
+2026-07-08T22:05:42.339104+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03670/070100004/
+2026-07-08T22:05:42.339104+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11877/

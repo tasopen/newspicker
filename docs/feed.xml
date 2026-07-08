@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 08 Jul 2026 07:11:24 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 07:05:42 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-09 07:01:07</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-09_070107.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-09_070107.mp3</guid>
+      <pubDate>Thu, 09 Jul 2026 07:05:42 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI の新音声モデル「GPT-Live-1（じーぴーてぃーらいぶわん）」の登場や、世界最高峰の学会で報告された新たな AI 攻撃手法、そして「AI バブル」の是非を問う戦略的視点などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-09_070107.mp3" type="audio/mpeg" length="6229293" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-09_070107.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:29</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI の新音声モデル「GPT-Live-1（じーぴーてぃーらいぶわん）」の登場や、世界最高峰の学会で報告された新たな AI 攻撃手法、そして「AI バブル」の是非を問う戦略的視点などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-08 07:07:14</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-08_070714.mp3</link>
