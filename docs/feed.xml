@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 09 Jul 2026 07:05:42 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 07:19:22 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-10 07:15:59</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-10_071559.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-10_071559.mp3</guid>
+      <pubDate>Fri, 10 Jul 2026 07:19:22 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、サイバーセキュリティー上の懸念から公開が遅れていた OpenAI の最新モデル GPT-5.6（じーぴーてぃーごーてんろく） の正式リリースや、著作権訴訟を巡る ニューヨーク・タイムズ と OpenAI の対立激化、そして中国の AI スタートアップへの大規模投資などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-10_071559.mp3" type="audio/mpeg" length="4568493" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-10_071559.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:45</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、サイバーセキュリティー上の懸念から公開が遅れていた OpenAI の最新モデル GPT-5.6（じーぴーてぃーごーてんろく） の正式リリースや、著作権訴訟を巡る ニューヨーク・タイムズ と OpenAI の対立激化、そして中国の AI スタートアップへの大規模投資などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-09 07:01:07</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-09_070107.mp3</link>
