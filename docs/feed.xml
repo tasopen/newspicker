@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 10 Jul 2026 07:19:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 06:59:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-11 06:55:50</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-11_065550.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-11_065550.mp3</guid>
+      <pubDate>Sat, 11 Jul 2026 06:59:49 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI によるハードウェア戦略への本格参入と Apple との法廷闘争、さらに AWS による巨額の現場支援体制など、AI の覇権争いが新たな局面を迎えたニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-11_065550.mp3" type="audio/mpeg" length="5255085" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-11_065550.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI によるハードウェア戦略への本格参入と Apple との法廷闘争、さらに AWS による巨額の現場支援体制など、AI の覇権争いが新たな局面を迎えたニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-10 07:15:59</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-10_071559.mp3</link>
