@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 11 Jul 2026 06:59:49 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 06:46:21 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-12 06:42:42</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-12_064242.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-12_064242.mp3</guid>
+      <pubDate>Sun, 12 Jul 2026 06:46:21 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、中国の AI スタートアップ 智譜（ちふ）による「タッチ・ハイ」計画の発表や、MiniMax（みにまっくす）による巨額の資金調達、さらに OpenAI が目指す家庭向け AI 戦略など、知能の進化と市場拡大に関する最新ニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-12_064242.mp3" type="audio/mpeg" length="4987053" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-12_064242.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:11</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、中国の AI スタートアップ 智譜（ちふ）による「タッチ・ハイ」計画の発表や、MiniMax（みにまっくす）による巨額の資金調達、さらに OpenAI が目指す家庭向け AI 戦略など、知能の進化と市場拡大に関する最新ニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-11 06:55:50</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-11_065550.mp3</link>

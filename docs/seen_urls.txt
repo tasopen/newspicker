@@ -208,3 +208,10 @@
 2026-07-10T21:59:49.815561+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03303/
 2026-07-10T21:59:49.815561+00:00	https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
 2026-07-10T21:59:49.815561+00:00	https://www.leiphone.com/category/industrycloud/AC2Hfio9HDh57dBk.html
+2026-07-11T21:46:21.381845+00:00	https://36kr.com/p/3891132709206784?f=rss
+2026-07-11T21:46:21.381845+00:00	https://www.theguardian.com/technology/2026/jul/10/apple-sues-openai-trade-secrets
+2026-07-11T21:46:21.381845+00:00	https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
+2026-07-11T21:46:21.381845+00:00	https://36kr.com/p/3890553690192384?f=rss
+2026-07-11T21:46:21.381845+00:00	https://36kr.com/newsflashes/3890734361377539?f=rss
+2026-07-11T21:46:21.381845+00:00	https://www.wired.com/story/openai-head-of-safety-leaving/
+2026-07-11T21:46:21.381845+00:00	https://www.itmedia.co.jp/news/articles/2607/11/news038.html
