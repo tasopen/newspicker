@@ -1,27 +1,27 @@
 {
   "https://techcrunch.com/category/artificial-intelligence/feed/": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "TechCrunch AI"
   },
   "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "MIT Technology Review AI"
   },
   "https://venturebeat.com/category/ai/feed/": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "VentureBeat AI"
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "The Verge AI"
   },
   "https://feeds.arstechnica.com/arstechnica/technology-lab": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "Ars Technica AI"
   },
   "https://ledge.ai/feed": {
@@ -32,12 +32,12 @@
   },
   "https://ainow.ai/feed/": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "AINOW"
   },
   "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "ITmedia NEWS"
   },
   "https://zenn.dev/topics/machinelearning/feed": {
@@ -59,7 +59,7 @@
   },
   "https://36kr.com/feed": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "36Kr"
   },
   "https://ledge.ai/feed/": {
@@ -70,22 +70,22 @@
   },
   "https://www.qbitai.com/feed": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "量子位 (QbitAI)"
   },
   "https://www.theguardian.com/technology/artificialintelligenceai/rss": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "The Guardian - Artificial Intelligence"
   },
   "https://www.zdnet.com/topic/artificial-intelligence/rss.xml": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "ZDNet - Artificial Intelligence"
   },
   "https://www.wired.com/feed/tag/ai/latest/rss": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "Wired - AI"
   },
   "https://rsshub.app/jiqizhixin/index": {
@@ -96,17 +96,17 @@
   },
   "https://xtech.nikkei.com/rss/xtech-it.rdf": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "Nikkei Cross Tech (xTECH) - IT"
   },
   "https://www.leiphone.com/feed": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "雷锋网 (Leiphone)"
   },
   "https://www.tmtpost.com/rss.xml": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "钛媒体 (TMTPost)"
   },
   "https://rsshub.app/jiqizhixin": {
@@ -117,7 +117,7 @@
   },
   "https://ai.watch.impress.co.jp/data/rss/1.0/aiw/feed.rdf": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "AI Watch"
   },
   "https://www.jiqizhixin.com/rss`)": {
@@ -134,7 +134,7 @@
   },
   "https://www.tmtpost.com/rss": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "钛媒体 (TMTPost)"
   },
   "https://www.jiqizhixin.com/rss`.": {
@@ -163,7 +163,7 @@
   },
   "https://decemberpei.cyou/rssbox/wechat-jiqizhixin.xml": {
     "fail_count": 0,
-    "last_success": "2026-07-05T04:24:17.264758+00:00",
+    "last_success": "2026-07-12T05:51:17.528464+00:00",
     "name": "机器之心 (Machine Heart)"
   }
 }
