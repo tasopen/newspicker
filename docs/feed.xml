@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 12 Jul 2026 06:46:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 06:54:21 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-14 06:49:52</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-14_064952.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-14_064952.mp3</guid>
+      <pubDate>Tue, 14 Jul 2026 06:54:21 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、アクセンチュアが提唱するコンサル不要論を打破する新職種や、OpenAI によるデスクトップアプリの大幅な刷新、そして地球規模の課題に挑むネイチャーテックの最前線など、AI がもたらす産業構造の変化を中心にお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-14_064952.mp3" type="audio/mpeg" length="6044205" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-14_064952.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:17</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、アクセンチュアが提唱するコンサル不要論を打破する新職種や、OpenAI によるデスクトップアプリの大幅な刷新、そして地球規模の課題に挑むネイチャーテックの最前線など、AI がもたらす産業構造の変化を中心にお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-12 06:42:42</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-12_064242.mp3</link>
