@@ -1,10 +1,3 @@
-2026-06-15T21:56:39.288627+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/061202049/
-2026-06-15T21:56:39.288627+00:00	https://36kr.com/p/3853016586359817?f=rss
-2026-06-15T21:56:39.288627+00:00	https://36kr.com/p/3853670570743040?f=rss
-2026-06-15T21:56:39.288627+00:00	https://www.theguardian.com/australia-news/2026/jun/15/andrew-hastie-ai-artificial-intelligence-power-cold-war-nuclear-arms-race-comparison-australia
-2026-06-15T21:56:39.288627+00:00	https://ai.watch.impress.co.jp/docs/news/2117222.html
-2026-06-15T21:56:39.288627+00:00	https://ai.watch.impress.co.jp/docs/news/2117145.html
-2026-06-15T21:56:39.288627+00:00	https://ainow.ai/2026/06/16/278172/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e3%2581%25a7%25e8%25b3%2587%25e6%2596%2599%25e4%25bd%259c%25e6%2588%2590%25e3%2582%2592%25e5%258a%25b9%25e7%258e%2587%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%2595%25ef%25bc%2581%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%2581%25e3%2583%2584%25e3%2583%25bc
 2026-06-16T21:55:58.911516+00:00	https://xtech.nikkei.com/atcl/nxt/special/18/00001/060300084/
 2026-06-16T21:55:58.911516+00:00	https://www.leiphone.com/category/zaobao/0CjtuLA0scX0iZQc.html
 2026-06-16T21:55:58.911516+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03610/051200003/
@@ -201,3 +194,10 @@
 2026-07-14T21:56:54.739265+00:00	https://36kr.com/p/3895355856403456?f=rss
 2026-07-14T21:56:54.739265+00:00	https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device
 2026-07-14T21:56:54.739265+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03648/070300002/
+2026-07-15T22:44:07.777391+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020900021/070700221/
+2026-07-15T22:44:07.777391+00:00	https://ai.watch.impress.co.jp/docs/news/2124678.html
+2026-07-15T22:44:07.777391+00:00	https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
+2026-07-15T22:44:07.777391+00:00	https://www.theguardian.com/australia-news/2026/jul/16/albanese-ai-plan-tech-giants-regulating-social-media-analysis
+2026-07-15T22:44:07.777391+00:00	https://ai.watch.impress.co.jp/docs/news/2125296.html
+2026-07-15T22:44:07.777391+00:00	https://www.leiphone.com/category/industrynews/fIqCGTasgYRN21d4.html
+2026-07-15T22:44:07.777391+00:00	https://www.itmedia.co.jp/news/articles/2607/15/news060.html

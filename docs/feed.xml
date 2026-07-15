@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 15 Jul 2026 06:56:54 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 07:44:07 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-16 07:39:46</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-16_073946.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-16_073946.mp3</guid>
+      <pubDate>Thu, 16 Jul 2026 07:44:07 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI が開発したハッカー AI による安全性強化や、ビジネス向けエージェントを巡る OpenAI と Anthropic（あんすろぴっく）の激しい主導権争い、そして AI エージェント時代を支える新たな通信技術の動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-16_073946.mp3" type="audio/mpeg" length="5407533" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-16_073946.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:37</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI が開発したハッカー AI による安全性強化や、ビジネス向けエージェントを巡る OpenAI と Anthropic（あんすろぴっく）の激しい主導権争い、そして AI エージェント時代を支える新たな通信技術の動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-15 06:52:34</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-15_065234.mp3</link>
