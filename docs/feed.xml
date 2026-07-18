@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 18 Jul 2026 06:49:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 06:47:22 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-19 06:43:31</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-19_064331.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-19_064331.mp3</guid>
+      <pubDate>Sun, 19 Jul 2026 06:47:22 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、上海で開催中の世界人工知能大会で示された「現実世界の生産性」への転換や、金山办公（きんざんばんこう）が描く AI ネイティブな事務作業の未来、そして推論コストを劇的に下げる次世代チップの戦略についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-19_064331.mp3" type="audio/mpeg" length="5129133" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-19_064331.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:20</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、上海で開催中の世界人工知能大会で示された「現実世界の生産性」への転換や、金山办公（きんざんばんこう）が描く AI ネイティブな事務作業の未来、そして推論コストを劇的に下げる次世代チップの戦略についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-18 06:44:31</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-18_064431.mp3</link>
