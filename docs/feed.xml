@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 20 Jul 2026 06:48:09 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 07:01:31 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-21 06:56:55</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-21_065655.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-21_065655.mp3</guid>
+      <pubDate>Tue, 21 Jul 2026 07:01:31 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、上海で開催中の世界人工知能大会から届いた「物理的な AI 」の最新議論や、採用 AI が生む新たな偏見のリスクについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-21_065655.mp3" type="audio/mpeg" length="6089517" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-21_065655.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:20</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、上海で開催中の世界人工知能大会から届いた「物理的な AI 」の最新議論や、採用 AI が生む新たな偏見のリスクについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-20 06:44:49</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-20_064449.mp3</link>

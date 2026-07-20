@@ -1,10 +1,3 @@
-2026-06-20T21:32:31.911537+00:00	https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
-2026-06-20T21:32:31.911537+00:00	https://www.theguardian.com/technology/2026/jun/20/europe-sleepwalking-ai-disaster-us-china
-2026-06-20T21:32:31.911537+00:00	https://www.tmtpost.com/8034890.html
-2026-06-20T21:32:31.911537+00:00	https://www.tmtpost.com/8034755.html
-2026-06-20T21:32:31.911537+00:00	https://www.tmtpost.com/8034758.html
-2026-06-20T21:32:31.911537+00:00	https://www.theguardian.com/us-news/2026/jun/20/guardian-readers-consumer-battles
-2026-06-20T21:32:31.911537+00:00	https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/
 2026-06-21T21:32:13.861264+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00148/061700440/
 2026-06-21T21:32:13.861264+00:00	https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/
 2026-06-21T21:32:13.861264+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/061800005/
@@ -201,3 +194,10 @@
 2026-07-19T21:48:09.340664+00:00	https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/
 2026-07-19T21:48:09.340664+00:00	https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/
 2026-07-19T21:48:09.340664+00:00	https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/
+2026-07-20T22:01:31.085178+00:00	https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/
+2026-07-20T22:01:31.085178+00:00	https://www.leiphone.com/category/academic/tpEMqz2SnlQ8fDPI.html
+2026-07-20T22:01:31.085178+00:00	https://36kr.com/p/3903396279125888?f=rss
+2026-07-20T22:01:31.085178+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01679/061000286/
+2026-07-20T22:01:31.085178+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00087/00452/
+2026-07-20T22:01:31.085178+00:00	https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
+2026-07-20T22:01:31.085178+00:00	https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
