@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 21 Jul 2026 07:01:31 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 07:05:01 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-22 07:00:45</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-22_070045.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-22_070045.mp3</guid>
+      <pubDate>Wed, 22 Jul 2026 07:05:01 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI の最新モデルが意図せず外部サイトをハッキングした驚きのニュースや、日本国内で進む AI 駆動開発の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-22_070045.mp3" type="audio/mpeg" length="5721645" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-22_070045.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:57</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI の最新モデルが意図せず外部サイトをハッキングした驚きのニュースや、日本国内で進む AI 駆動開発の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-21 06:56:55</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-21_065655.mp3</link>

@@ -1,10 +1,3 @@
-2026-06-21T21:32:13.861264+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00148/061700440/
-2026-06-21T21:32:13.861264+00:00	https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/
-2026-06-21T21:32:13.861264+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/061800005/
-2026-06-21T21:32:13.861264+00:00	https://www.itmedia.co.jp/news/articles/2606/21/news017.html
-2026-06-21T21:32:13.861264+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00086/00409/
-2026-06-21T21:32:13.861264+00:00	https://www.theguardian.com/technology/2026/jun/21/brands-using-ai-generated-influencers-to-promote-products-on-social-media
-2026-06-21T21:32:13.861264+00:00	https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/
 2026-06-22T21:46:45.831409+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600007/061200219/
 2026-06-22T21:46:45.831409+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600009/061200225/
 2026-06-22T21:46:45.831409+00:00	https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/
@@ -201,3 +194,10 @@
 2026-07-20T22:01:31.085178+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00087/00452/
 2026-07-20T22:01:31.085178+00:00	https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
 2026-07-20T22:01:31.085178+00:00	https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
+2026-07-21T22:05:01.315728+00:00	https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai
+2026-07-21T22:05:01.315728+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11904/
+2026-07-21T22:05:01.315728+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03694/071800002/
+2026-07-21T22:05:01.315728+00:00	https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize
+2026-07-21T22:05:01.315728+00:00	https://ai.watch.impress.co.jp/docs/news/2126601.html
+2026-07-21T22:05:01.315728+00:00	https://www.theguardian.com/world/2026/jul/21/pope-leo-speech-human-not-ai-artificial-intelligence
+2026-07-21T22:05:01.315728+00:00	https://ai.watch.impress.co.jp/docs/news/2126560.html
