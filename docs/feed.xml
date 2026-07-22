@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 22 Jul 2026 07:05:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 07:04:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-23 07:01:04</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-23_070104.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-23_070104.mp3</guid>
+      <pubDate>Thu, 23 Jul 2026 07:04:40 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、バイドゥの AI エージェントが世界一に輝いたニュースや、スマートフォンの概念を書き換える「AI 原生（げんせい）OS」の登場、そして JR 東日本による窓口業務の AI 化についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-23_070104.mp3" type="audio/mpeg" length="4543917" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-23_070104.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:43</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、バイドゥの AI エージェントが世界一に輝いたニュースや、スマートフォンの概念を書き換える「AI 原生（げんせい）OS」の登場、そして JR 東日本による窓口業務の AI 化についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-22 07:00:45</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-22_070045.mp3</link>
