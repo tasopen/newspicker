@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 23 Jul 2026 07:04:40 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 07:03:58 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-24 07:00:31</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-24_070031.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-24_070031.mp3</guid>
+      <pubDate>Fri, 24 Jul 2026 07:03:58 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、OpenAI が全米で ChatGPT Health を公開し、臨床医を超える推論能力を主張したニュースや、AI の「思春期」における制御の難しさを論じた最新の研究成果をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-24_070031.mp3" type="audio/mpeg" length="3705645" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-24_070031.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:51</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、OpenAI が全米で ChatGPT Health を公開し、臨床医を超える推論能力を主張したニュースや、AI の「思春期」における制御の難しさを論じた最新の研究成果をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-23 07:01:04</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-23_070104.mp3</link>

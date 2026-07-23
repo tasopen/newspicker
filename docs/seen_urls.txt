@@ -1,10 +1,3 @@
-2026-06-23T21:37:09.033085+00:00	https://www.theguardian.com/education/2026/jun/23/ai-us-schools-students
-2026-06-23T21:37:09.033085+00:00	https://ai.watch.impress.co.jp/docs/news/2119401.html
-2026-06-23T21:37:09.033085+00:00	https://36kr.com/p/3865630193030145?f=rss
-2026-06-23T21:37:09.033085+00:00	https://www.itmedia.co.jp/news/articles/2606/23/news134.html
-2026-06-23T21:37:09.033085+00:00	https://www.itmedia.co.jp/news/articles/2606/23/news075.html
-2026-06-23T21:37:09.033085+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03630/052700001/
-2026-06-23T21:37:09.033085+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00676/061800227/
 2026-06-24T21:34:13.852294+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00191/
 2026-06-24T21:34:13.852294+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/061700555/061700002/
 2026-06-24T21:34:13.852294+00:00	https://www.leiphone.com/category/yanxishe/oG2mZO3y4nGNbORu.html
@@ -201,3 +194,10 @@
 2026-07-22T22:04:40.493309+00:00	https://www.leiphone.com/category/ai/t0fM6SFQ2W7BojX3.html
 2026-07-22T22:04:40.493309+00:00	https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/
 2026-07-22T22:04:40.493309+00:00	https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/
+2026-07-23T22:03:58.309837+00:00	https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/
+2026-07-23T22:03:58.309837+00:00	https://www.leiphone.com/category/yanxishe/wFiCjuoj6zqG5WZ7.html
+2026-07-23T22:03:58.309837+00:00	https://www.leiphone.com/category/yanxishe/QYg8NFOX1UYDWoXQ.html
+2026-07-23T22:03:58.309837+00:00	https://www.leiphone.com/category/private/snYSQ8HJOem57FAm.html
+2026-07-23T22:03:58.309837+00:00	https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims
+2026-07-23T22:03:58.309837+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03679/070800003/
+2026-07-23T22:03:58.309837+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03079/072300041/
