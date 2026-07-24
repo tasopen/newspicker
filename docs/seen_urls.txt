@@ -1,10 +1,3 @@
-2026-06-24T21:34:13.852294+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00191/
-2026-06-24T21:34:13.852294+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/061700555/061700002/
-2026-06-24T21:34:13.852294+00:00	https://www.leiphone.com/category/yanxishe/oG2mZO3y4nGNbORu.html
-2026-06-24T21:34:13.852294+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03242/062400026/
-2026-06-24T21:34:13.852294+00:00	https://www.theguardian.com/technology/2026/jun/24/ai-read-papyrus-scroll-burnt-vesuvius-eruption
-2026-06-24T21:34:13.852294+00:00	https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/
-2026-06-24T21:34:13.852294+00:00	https://www.theguardian.com/technology/2026/jun/24/meta-pauses-employee-tracker-for-ai-training-amid-privacy-concerns
 2026-06-25T21:37:03.420053+00:00	https://www.leiphone.com/category/yanxishe/vzVNtknYIRqTX0Wv.html
 2026-06-25T21:37:03.420053+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00989/062200211/
 2026-06-25T21:37:03.420053+00:00	https://ai.watch.impress.co.jp/docs/news/2120023.html
@@ -201,3 +194,10 @@
 2026-07-23T22:03:58.309837+00:00	https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims
 2026-07-23T22:03:58.309837+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03679/070800003/
 2026-07-23T22:03:58.309837+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03079/072300041/
+2026-07-24T22:02:54.446360+00:00	https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker
+2026-07-24T22:02:54.446360+00:00	https://ai.watch.impress.co.jp/docs/news/2127627.html
+2026-07-24T22:02:54.446360+00:00	https://ai.watch.impress.co.jp/docs/news/2127562.html
+2026-07-24T22:02:54.446360+00:00	https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/
+2026-07-24T22:02:54.446360+00:00	https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/
+2026-07-24T22:02:54.446360+00:00	https://www.itmedia.co.jp/news/articles/2607/24/news078.html
+2026-07-24T22:02:54.446360+00:00	https://www.theguardian.com/commentisfree/2026/jul/24/apology-ai-boss-sam-altman-rogue-openai-startup-pentagon
