@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 25 Jul 2026 07:02:54 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 06:51:33 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-26 06:47:34</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-26_064734.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-26_064734.mp3</guid>
+      <pubDate>Sun, 26 Jul 2026 06:51:33 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、性能を維持しつつコストを半減させた Claude Opus 5（くろーど・おーぱす・ふぁいぶ）の登場や、フィールズ賞受賞者が OpenAI に電撃加入したニュース、そして AI が繋いだ家族の再会の物語をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-26_064734.mp3" type="audio/mpeg" length="5425965" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-26_064734.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:39</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、性能を維持しつつコストを半減させた Claude Opus 5（くろーど・おーぱす・ふぁいぶ）の登場や、フィールズ賞受賞者が OpenAI に電撃加入したニュース、そして AI が繋いだ家族の再会の物語をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-25 06:59:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-25_065915.mp3</link>
