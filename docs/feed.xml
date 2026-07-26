@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 26 Jul 2026 06:51:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:55:15 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-27 06:53:26</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-27_065326.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-27_065326.mp3</guid>
+      <pubDate>Mon, 27 Jul 2026 06:55:15 +0900</pubDate>
+      <description>おはようございます、ワールド AI ニュース です。本日は、Samsung と OpenAI による半導体協力の会談や、数学の難問を応用した AI のブラックボックス対策、そして動作をトークン化する最新の 具身智能（ぐしんちのう）についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-27_065326.mp3" type="audio/mpeg" length="1340205" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-27_065326.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>01:23</itunes:duration>
+      <itunes:summary>おはようございます、ワールド AI ニュース です。本日は、Samsung と OpenAI による半導体協力の会談や、数学の難問を応用した AI のブラックボックス対策、そして動作をトークン化する最新の 具身智能（ぐしんちのう）についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-26 06:47:34</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-26_064734.mp3</link>
