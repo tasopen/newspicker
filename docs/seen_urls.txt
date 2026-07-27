@@ -1,3 +1,10 @@
+2026-06-26T21:32:41.598597+00:00	https://www.theguardian.com/technology/2026/jun/26/openai-ai-model-release-trump-us-sam-altman-gpt-anthropic-mythos
+2026-06-26T21:32:41.598597+00:00	https://36kr.com/p/3869243269387269?f=rss
+2026-06-26T21:32:41.598597+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03664/062600003/
+2026-06-26T21:32:41.598597+00:00	https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/
+2026-06-26T21:32:41.598597+00:00	https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
+2026-06-26T21:32:41.598597+00:00	https://www.tmtpost.com/8042826.html
+2026-06-26T21:32:41.598597+00:00	https://36kr.com/p/3866837793952769?f=rss
 2026-06-27T21:27:41.376102+00:00	https://www.theguardian.com/business/2026/jun/27/ai-bubble-crash-tech-firms-stock-markets
 2026-06-27T21:27:41.376102+00:00	https://www.theguardian.com/australia-news/video/2026/jun/27/australian-rescue-team-uses-ai-powered-drone-to-find-lost-hikers-video
 2026-06-27T21:27:41.376102+00:00	https://www.theguardian.com/australia-news/2026/jun/27/ai-drone-rescue-kosciuszko-national-park-hikers-fire-rescue-nsw
@@ -194,10 +201,3 @@
 2026-07-25T21:51:33.560320+00:00	https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/
 2026-07-25T21:51:33.560320+00:00	https://36kr.com/p/3910351337821318?f=rss
 2026-07-25T21:51:33.560320+00:00	https://www.itmedia.co.jp/news/articles/2607/25/news016.html
-2026-07-26T21:55:15.874329+00:00	https://www.leiphone.com/category/yanxishe/e05vwo1DgZf3HnFZ.html
-2026-07-26T21:55:15.874329+00:00	https://36kr.com/newsflashes/3912076178789766?f=rss
-2026-07-26T21:55:15.874329+00:00	https://36kr.com/p/3911162147640456?f=rss
-2026-07-26T21:55:15.874329+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03650/061800001/
-2026-07-26T21:55:15.874329+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11869/
-2026-07-26T21:55:15.874329+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02805/071700031/
-2026-07-26T21:55:15.874329+00:00	https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/
