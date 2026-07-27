@@ -80,7 +80,7 @@ def _clean_text_for_tts(text: str) -> str:
     """音声合成用に、漢字（フリガナ）や英語（フリガナ）の表記から読み部分のみを抽出する。"""
     import re
 
-    pattern = r'(?<![A-Za-z0-9\u4e00-\u9faf\u30a0-\u30ff])([A-Za-z0-9\.\-\_]+(?:\s+[A-Za-z0-9\.\-\_]+)*|[\u4e00-\u9faf\u30a0-\u30ff々ヶ\u30fc\.\-_]+)[（(]([^）)（）()]+)(?:[：:][^）)（）()]+)?[）)]'
+    pattern = r'(?<![A-Za-z0-9\u4e00-\u9faf\u30a0-\u30ff\u00C0-\u024F])([A-Za-z0-9\u00C0-\u024F\.\-\_]+(?:\s+[A-Za-z0-9\u00C0-\u024F\.\-\_]+)*|[\u4e00-\u9faf\u30a0-\u30ff々ヶ\u30fc\.\-_]+)[（(]([^）)（）()]+)(?:[：:][^）)（）()]+)?[）)]'
 
     def replace(match: re.Match[str]) -> str:
         reading = match.group(2).strip()
@@ -159,7 +159,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
             reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
             print(f"[voice] TTS attempt {attempt+1} failed (Reason: {reason}). Retrying...")
             time.sleep(2)
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             last_exception = e
             print(f"[voice] TTS attempt {attempt+1} error: {e}. Retrying...")
             time.sleep(2)
@@ -176,9 +176,8 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
         print(f"[voice] Finish reason: {reason}")
         if response:
             print(f"[voice] Full Response: {response}")
-            if response.candidates and len(response.candidates) > 0:
-                if response.candidates[0].safety_ratings:
-                    print(f"[voice] Safety ratings: {response.candidates[0].safety_ratings}")
+            if response.candidates and response.candidates[0].safety_ratings:
+                print(f"[voice] Safety ratings: {response.candidates[0].safety_ratings}")
         
         raise RuntimeError(f"TTS API returned no audio data. Reason: {reason}. Exception: {last_exception}")
 

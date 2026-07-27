@@ -5,7 +5,7 @@ author: "TasogarePenguin"
 name: "TasogarePenguin"
 email: "tasopenservices@gmail.com"
 language: ja
-# GitHub Pages のベースURL（リポジトリ設定後に変更してください）
+# GitHub Pages のベースURL（リポジトリ設定に変更してください）
 base_url: "https://tasopen.github.io/newspicker"
 category: "Technology"
 explicit: "false"
@@ -16,7 +16,7 @@ persona_instruction: "#指示:あなたは東京生まれの24歳の女性ラジ
 
 # 台本プロンプトテンプレート（カテゴリ変更時にここを変える）
 prompt_persona: "あなたは{category}専門のラジオパーソナリティです。"
-prompt_greeting: "おはようございます、{short_title} です。"
+prompt_greeting: "おはようございます。{date}の{short_title}です。"
 
 editor_prompt_template: |
   {persona}
@@ -54,4 +54,3 @@ editor_prompt_template: |
   {past_srt_section}
   【本日の記事】
   {articles_text}
-
