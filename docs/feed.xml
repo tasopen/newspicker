@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 27 Jul 2026 22:42:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:04:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-28 06:59:45</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-28_065945.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-28_065945.mp3</guid>
+      <pubDate>Tue, 28 Jul 2026 07:04:20 +0900</pubDate>
+      <description>おはようございます。7月28日のワールド AI ニュースです。本日は、OpenAI の AI が競技プログラミングで人間を圧倒した驚きのニュースや、ロボット開発を加速させるビデオ生成モデルの活用、そして半導体市場の爆発的な成長についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-28_065945.mp3" type="audio/mpeg" length="5940525" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-28_065945.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:11</itunes:duration>
+      <itunes:summary>おはようございます。7月28日のワールド AI ニュースです。本日は、OpenAI の AI が競技プログラミングで人間を圧倒した驚きのニュースや、ロボット開発を加速させるビデオ生成モデルの活用、そして半導体市場の爆発的な成長についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-27 22:37:32</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-27_223732.mp3</link>
