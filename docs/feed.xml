@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 28 Jul 2026 07:04:20 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 07:01:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-29 06:57:37</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-29_065737.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-29_065737.mp3</guid>
+      <pubDate>Wed, 29 Jul 2026 07:01:26 +0900</pubDate>
+      <description>おはようございます。7月29日のワールド AI ニュースです。本日は、Nvidia による OpenAI への ２５００ 億ドル規模の巨額支援のニュースや、AI モデルの開放を巡る Anthropic と業界の対立、そして中国から登場した驚異的な規模のオープンソースモデルについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-29_065737.mp3" type="audio/mpeg" length="4652205" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-29_065737.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:50</itunes:duration>
+      <itunes:summary>おはようございます。7月29日のワールド AI ニュースです。本日は、Nvidia による OpenAI への ２５００ 億ドル規模の巨額支援のニュースや、AI モデルの開放を巡る Anthropic と業界の対立、そして中国から登場した驚異的な規模のオープンソースモデルについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-28 06:59:45</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-28_065945.mp3</link>
