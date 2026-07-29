@@ -1,10 +1,3 @@
-2026-06-29T21:35:17.729004+00:00	https://www.leiphone.com/category/industrynews/WqCn3r8LHkqFKmhZ.html
-2026-06-29T21:35:17.729004+00:00	https://www.leiphone.com/category/ai/Ql6vKtKEYLm7Tuin.html
-2026-06-29T21:35:17.729004+00:00	https://36kr.com/p/3873965241931014?f=rss
-2026-06-29T21:35:17.729004+00:00	https://www.itmedia.co.jp/news/articles/2606/29/news114.html
-2026-06-29T21:35:17.729004+00:00	https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/062300318/
-2026-06-29T21:35:17.729004+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03230/062500015/
-2026-06-29T21:35:17.729004+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03655/062000002/
 2026-06-30T21:36:39.275137+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03655/062000003/
 2026-06-30T21:36:39.275137+00:00	https://www.theguardian.com/technology/2026/jun/30/artificial-intelligence-shares
 2026-06-30T21:36:39.275137+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/062900006/
@@ -201,3 +194,10 @@
 2026-07-28T22:01:26.442731+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/072700013/
 2026-07-28T22:01:26.442731+00:00	https://www.theguardian.com/technology/2026/jul/27/silicon-valley-ai-open-source-china
 2026-07-28T22:01:26.442731+00:00	https://ai.watch.impress.co.jp/docs/news/2128648.html
+2026-07-29T21:58:45.606844+00:00	https://www.theguardian.com/technology/2026/jul/29/rogue-openai-agent-that-hacked-startup-tried-to-attack-other-firms
+2026-07-29T21:58:45.606844+00:00	https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview
+2026-07-29T21:58:45.606844+00:00	https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning
+2026-07-29T21:58:45.606844+00:00	https://www.theguardian.com/technology/2026/jul/29/meta-earnings-mark-zuckerberg
+2026-07-29T21:58:45.606844+00:00	https://ai.watch.impress.co.jp/docs/news/2128872.html
+2026-07-29T21:58:45.606844+00:00	https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/
+2026-07-29T21:58:45.606844+00:00	https://www.zdnet.com/article/open-weight-ai-civil-war/
