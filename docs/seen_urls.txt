@@ -1,10 +1,3 @@
-2026-06-30T21:36:39.275137+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03655/062000003/
-2026-06-30T21:36:39.275137+00:00	https://www.theguardian.com/technology/2026/jun/30/artificial-intelligence-shares
-2026-06-30T21:36:39.275137+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/062900006/
-2026-06-30T21:36:39.275137+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11828/
-2026-06-30T21:36:39.275137+00:00	https://www.theguardian.com/technology/2026/jun/30/ai-chatbot-use-anti-vaccine-myths-poll
-2026-06-30T21:36:39.275137+00:00	https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/
-2026-06-30T21:36:39.275137+00:00	https://ai.watch.impress.co.jp/docs/news/2121288.html
 2026-07-01T21:36:59.300487+00:00	https://www.leiphone.com/category/industrynews/92jlrAw30yRS1lnt.html
 2026-07-01T21:36:59.300487+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03655/062600004/
 2026-07-01T21:36:59.300487+00:00	https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/
@@ -201,3 +194,10 @@
 2026-07-29T21:58:45.606844+00:00	https://ai.watch.impress.co.jp/docs/news/2128872.html
 2026-07-29T21:58:45.606844+00:00	https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/
 2026-07-29T21:58:45.606844+00:00	https://www.zdnet.com/article/open-weight-ai-civil-war/
+2026-07-30T22:05:32.448035+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100112/072300143/
+2026-07-30T22:05:32.448035+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02653/072700081/
+2026-07-30T22:05:32.448035+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/073000194/
+2026-07-30T22:05:32.448035+00:00	https://www.theguardian.com/commentisfree/2026/jul/30/alive-body-life-experience
+2026-07-30T22:05:32.448035+00:00	https://ai.watch.impress.co.jp/docs/news/2129303.html
+2026-07-30T22:05:32.448035+00:00	https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/
+2026-07-30T22:05:32.448035+00:00	https://36kr.com/p/3917362478148993?f=rss

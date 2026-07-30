@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 30 Jul 2026 06:58:45 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 07:05:32 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-07-31 07:01:04</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-07-31_070104.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-07-31_070104.mp3</guid>
+      <pubDate>Fri, 31 Jul 2026 07:05:32 +0900</pubDate>
+      <description>おはようございます。7月31日のワールド AI ニュースです。本日は、マイクロソフトによる OpenAI への宣戦布告とも取れる戦略転換や、業界のトップたちが名を連ねた AI 規制への共同声明、そして中国の有力スタートアップによる巨額調達と日本市場への展開についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-07-31_070104.mp3" type="audio/mpeg" length="6038445" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-07-31_070104.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:17</itunes:duration>
+      <itunes:summary>おはようございます。7月31日のワールド AI ニュースです。本日は、マイクロソフトによる OpenAI への宣戦布告とも取れる戦略転換や、業界のトップたちが名を連ねた AI 規制への共同声明、そして中国の有力スタートアップによる巨額調達と日本市場への展開についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-07-30 06:54:29</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-07-30_065429.mp3</link>
