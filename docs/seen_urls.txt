@@ -1,10 +1,3 @@
-2026-07-02T21:29:49.556522+00:00	https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman
-2026-07-02T21:29:49.556522+00:00	https://www.leiphone.com/category/private/sADR0wFJaCQinCZr.html
-2026-07-02T21:29:49.556522+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/062900061/
-2026-07-02T21:29:49.556522+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/070200192/
-2026-07-02T21:29:49.556522+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/063000556/063000001/
-2026-07-02T21:29:49.556522+00:00	https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/
-2026-07-02T21:29:49.556522+00:00	https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/
 2026-07-03T22:04:20.111677+00:00	https://www.theguardian.com/technology/2026/jul/03/nsw-government-openai-arrives-sydney-terminator-films
 2026-07-03T22:04:20.111677+00:00	https://www.theguardian.com/society/2026/jul/03/ai-prey-watchdogs-telling-parents-protect-children-nudification-apps
 2026-07-03T22:04:20.111677+00:00	https://www.theguardian.com/technology/2026/jul/03/we-can-debate-the-ethics-of-ai-but-cant-seem-to-change-course
@@ -201,3 +194,10 @@
 2026-07-31T22:04:58.606420+00:00	https://www.leiphone.com/category/ai/3UBe8gjtw8tFTQvJ.html
 2026-07-31T22:04:58.606420+00:00	https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/
 2026-07-31T22:04:58.606420+00:00	https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/
+2026-08-01T21:51:20.135536+00:00	https://www.theguardian.com/technology/2026/aug/01/china-silicon-valley-white-house
+2026-08-01T21:51:20.135536+00:00	https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/
+2026-08-01T21:51:20.135536+00:00	https://36kr.com/newsflashes/3920415886061193?f=rss
+2026-08-01T21:51:20.135536+00:00	https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/
+2026-08-01T21:51:20.135536+00:00	https://www.qbitai.com/2026/08/464693.html
+2026-08-01T21:51:20.135536+00:00	https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/
+2026-08-01T21:51:20.135536+00:00	https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/
