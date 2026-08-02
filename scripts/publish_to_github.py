@@ -9,13 +9,13 @@ GitHub リポジトリ作成 & push スクリプト
   取得: https://github.com/settings/tokens/new
   必要なスコープ: repo, workflow
 """
+import getpass
+import json
 import os
 import subprocess
 import sys
-import getpass
-import urllib.request
 import urllib.error
-import json
+import urllib.request
 from pathlib import Path
 
 DEFAULT_GITHUB_USER = "tasopen"
@@ -104,8 +104,6 @@ def set_github_secret(token: str, secret_name: str, secret_value: str) -> None:
     """GitHub API でリポジトリ Secret を登録する（暗号化なし簡易版）。
     Note: 実際の API は sodium 暗号化が必要なため、ここでは案内のみ。
     """
-    pass  # 後述の案内で対応
-
 
 def main() -> None:
     github_user, repo_name = infer_repo_context()
