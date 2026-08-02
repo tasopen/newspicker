@@ -201,3 +201,10 @@
 2026-08-01T21:51:20.135536+00:00	https://www.qbitai.com/2026/08/464693.html
 2026-08-01T21:51:20.135536+00:00	https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/
 2026-08-01T21:51:20.135536+00:00	https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/
+2026-08-02T21:54:44.439676+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03604/072800014/
+2026-08-02T21:54:44.439676+00:00	https://www.tmtpost.com/8088267.html
+2026-08-02T21:54:44.439676+00:00	https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties
+2026-08-02T21:54:44.439676+00:00	https://www.itmedia.co.jp/news/article/2608/02/2000000346/
+2026-08-02T21:54:44.439676+00:00	https://www.theguardian.com/australia-news/live/2026/aug/03/australia-news-live-fuel-excise-cut-jim-chalmers-cost-of-living-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb
+2026-08-02T21:54:44.439676+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02421/072800126/
+2026-08-02T21:54:44.439676+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00086/00414/
