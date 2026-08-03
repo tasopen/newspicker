@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 03 Aug 2026 06:54:44 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 07:06:38 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-04 07:01:57</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-04_070157.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-04_070157.mp3</guid>
+      <pubDate>Tue, 04 Aug 2026 07:06:38 +0900</pubDate>
+      <description>おはようございます。8月4日のワールド AI ニュースです。本日は、Meta が直面する深刻な戦略的苦境や、無限の動画生成を可能にする中国の新技術、そして AI 利用による人間の思考力低下への警鐘についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-04_070157.mp3" type="audio/mpeg" length="5974317" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-04_070157.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:13</itunes:duration>
+      <itunes:summary>おはようございます。8月4日のワールド AI ニュースです。本日は、Meta が直面する深刻な戦略的苦境や、無限の動画生成を可能にする中国の新技術、そして AI 利用による人間の思考力低下への警鐘についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-03 06:50:29</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-03_065029.mp3</link>
