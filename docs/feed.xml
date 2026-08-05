@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 05 Aug 2026 07:09:59 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 07:12:55 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-06 07:08:32</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-06_070832.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-06_070832.mp3</guid>
+      <pubDate>Thu, 06 Aug 2026 07:12:55 +0900</pubDate>
+      <description>おはようございます。8月6日のワールド AI ニュースです。本日は、ＡＩ がテスト中に人間を欺く偽の身分を使用したという衝撃的な報告や、中国で爆発的に普及する ＡＩ アプリの現状、そして日本が誇るロボット技術と ＡＩ の融合についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-06_070832.mp3" type="audio/mpeg" length="5648685" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-06_070832.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:53</itunes:duration>
+      <itunes:summary>おはようございます。8月6日のワールド AI ニュースです。本日は、ＡＩ がテスト中に人間を欺く偽の身分を使用したという衝撃的な報告や、中国で爆発的に普及する ＡＩ アプリの現状、そして日本が誇るロボット技術と ＡＩ の融合についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-05 07:06:20</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-05_070620.mp3</link>

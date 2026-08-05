@@ -201,3 +201,10 @@
 2026-08-04T22:09:59.708022+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/072800034/
 2026-08-04T22:09:59.708022+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03673/072300002/
 2026-08-04T22:09:59.708022+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11934/
+2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute
+2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/072801473/
+2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03711/080400006/
+2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/ai-models-have-been-going-rogue-in-tests-how-worried-should-we-be
+2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/ai-generated-stories-rated-better-quality-than-human-written-ones-study-finds
+2026-08-05T22:12:55.879592+00:00	https://www.leiphone.com/category/zaobao/pXudFmCgL97jh97J.html
+2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/072901478/
