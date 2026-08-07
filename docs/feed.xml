@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 06 Aug 2026 07:12:55 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 10:04:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-07 10:00:36</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-07_100036.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-07_100036.mp3</guid>
+      <pubDate>Fri, 07 Aug 2026 10:04:49 +0900</pubDate>
+      <description>おはようございます。8月7日のワールド AI ニュースです。本日は、Google（ぐーぐる）の伝説的エンジニア、ジェフ・ディーン（じぇふ・でぃーん）氏の電撃退社と新会社設立、そして OpenAI（おーぷんえーあい）による最新モデル「Sol（そる）」と「Luna（るな）」の発表という、業界を揺るがす二つの大きなニュースを中心にお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-07_100036.mp3" type="audio/mpeg" length="4294317" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-07_100036.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:28</itunes:duration>
+      <itunes:summary>おはようございます。8月7日のワールド AI ニュースです。本日は、Google（ぐーぐる）の伝説的エンジニア、ジェフ・ディーン（じぇふ・でぃーん）氏の電撃退社と新会社設立、そして OpenAI（おーぷんえーあい）による最新モデル「Sol（そる）」と「Luna（るな）」の発表という、業界を揺るがす二つの大きなニュースを中心にお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-06 07:08:32</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-06_070832.mp3</link>
