@@ -201,3 +201,10 @@
 2026-08-07T01:04:49.912032+00:00	https://www.leiphone.com/category/ai/zYdlF2GT2z5SbNLT.html
 2026-08-07T01:04:49.912032+00:00	https://www.zdnet.com/article/free-ai-course-stanford/
 2026-08-07T01:04:49.912032+00:00	https://www.itmedia.co.jp/news/article/2608/07/2000000435/
+2026-08-07T21:36:57.156886+00:00	https://www.theguardian.com/technology/2026/aug/07/white-house-ai
+2026-08-07T21:36:57.156886+00:00	https://www.leiphone.com/category/yanxishe/Ga2vGDMkzS2dp4Ew.html
+2026-08-07T21:36:57.156886+00:00	https://ai.watch.impress.co.jp/docs/news/2131509.html
+2026-08-07T21:36:57.156886+00:00	https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy
+2026-08-07T21:36:57.156886+00:00	https://www.leiphone.com/category/yanxishe/JR3ppBP5VOxND55d.html
+2026-08-07T21:36:57.156886+00:00	https://www.leiphone.com/category/zaobao/jTnxUYfadwnDJtNd.html
+2026-08-07T21:36:57.156886+00:00	https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities

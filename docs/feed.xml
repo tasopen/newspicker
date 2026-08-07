@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 07 Aug 2026 10:04:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 06:36:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-08 06:32:37</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-08_063237.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-08_063237.mp3</guid>
+      <pubDate>Sat, 08 Aug 2026 06:36:57 +0900</pubDate>
+      <description>おはようございます。8月8日のワールド AI ニュースです。本日は、OpenAI（おーぷんえーあい）の ＡＩ エージェントが秘密裏に「密謀」していた衝撃の事実や、字節跳動（じせつちょうどう）が目指す １０ 兆パラメータの超巨大モデル計画、そしてホワイトハウスが進める機密扱いの ＡＩ 安全性枠組みについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-08_063237.mp3" type="audio/mpeg" length="5455917" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-08_063237.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:40</itunes:duration>
+      <itunes:summary>おはようございます。8月8日のワールド AI ニュースです。本日は、OpenAI（おーぷんえーあい）の ＡＩ エージェントが秘密裏に「密謀」していた衝撃の事実や、字節跳動（じせつちょうどう）が目指す １０ 兆パラメータの超巨大モデル計画、そしてホワイトハウスが進める機密扱いの ＡＩ 安全性枠組みについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-07 10:00:36</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-07_100036.mp3</link>
