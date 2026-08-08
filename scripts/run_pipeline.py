@@ -17,7 +17,13 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from agents.android import update_feed
 from agents.editor import generate_headline_and_body
 from agents.scout import collect, save_seen_urls
-from agents.voice import get_audio_duration, synthesize
+from agents.voice import (
+    _clean_text_for_tts,
+    _sanitize_text_for_tts,
+    _tts_input_diagnostics,
+    get_audio_duration,
+    synthesize,
+)
 
 
 def _format_srt_time(ms: int) -> str:
@@ -143,9 +149,11 @@ def run() -> None:
                 b = f.read()
                 dur_ms = _wav_exact_duration_ms(b)
                 srt_segments.append((seg_text, dur_ms))
-        except Exception as e:  # noqa: F841
+        except Exception:  # noqa: BLE001
+            clean = _sanitize_text_for_tts(_clean_text_for_tts(seg_text))
             print(f"\n[pipeline] ERROR at segment {i+1}:")
             print(f"Text content: \"{seg_text}\"")
+            print(f"[pipeline] TTS input diagnostics: {_tts_input_diagnostics(clean)}")
             raise
         
         # クォータ（RPM）制限を避けるため十分な待機を入れる

@@ -33,12 +33,36 @@ _RUBY_PATTERN = re.compile(
 _RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 
 # 恒久的エラーとして即時失敗するステータスコード
-_PERMANENT_STATUS_CODES = {400, 401, 403, 404}
+_PERMANENT_STATUS_CODES = {401, 403, 404}
+
+# 400 INVALID_ARGUMENT のうち、API 側の一時的な入力検証拒否とみなして
+# リトライ対象にするメッセージ。無効なモデル名・ボイス名などの恒久的な
+# 400 は message が具体的なので、引き続き即時失敗させる。
+_RETRYABLE_400_MESSAGE_KEYWORDS = ("request contains an invalid argument",)
+
+
+def _error_message(e: Exception) -> str:
+    """APIError の message / details を文字列で取り出す。"""
+    message = getattr(e, "message", None)
+    if message:
+        return str(message)
+    details = getattr(e, "details", None)
+    if details:
+        return str(details)
+    return str(e)
 
 
 def _is_retryable_exception(e: Exception) -> bool:
-    """例外がリトライ可能か判定する。"""
+    """例外がリトライ可能か判定する。
+
+    gemini-*-tts-preview はドキュメント上「ごく一部のリクエストでランダムに
+    失敗する」ため、汎用メッセージの 400 INVALID_ARGUMENT は一時的な失敗と
+    みなして限定的にリトライする。
+    """
     status_code = getattr(e, "code", None) or getattr(e, "status_code", None)
+    if status_code == 400:
+        message = _error_message(e).lower()
+        return any(keyword in message for keyword in _RETRYABLE_400_MESSAGE_KEYWORDS)
     if status_code is not None:
         if status_code in _PERMANENT_STATUS_CODES:
             return False
@@ -143,6 +167,22 @@ def _tts_input_diagnostics(text: str) -> str:
     )
 
 
+def _sanitize_text_for_tts(text: str) -> str:
+    """TTS送信前に不正な文字を除去する防御的サニタイズ。
+
+    U+FFFD（置換文字）や制御文字などを取り除いてから API に送る。
+    通常の日本語テキストは内容を変えずにそのまま通す。
+    """
+    text = text.replace("\ufffd", "")
+    text = "".join(char for char in text if char.isprintable() or char in "\n\t ")
+    return " ".join(text.split())
+
+
+def _build_tts_prompt(request_id: str, persona_instruction: str, clean_script: str) -> str:
+    """TTS API に送信する完全なプロンプトを リクエストID 付きで組み立てる。"""
+    return f"[request_id={request_id}]\n{persona_instruction}{clean_script}"
+
+
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
     """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
@@ -164,17 +204,19 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
         ),
     )
 
-    clean_script = _clean_text_for_tts(script)
+    clean_script = _sanitize_text_for_tts(_clean_text_for_tts(script))
     input_diagnostics = _tts_input_diagnostics(clean_script)
+    print(f"[voice] TTS input: {input_diagnostics}", flush=True)
     if debug:
         debug_script_path = output_path + ".tts.txt"
         with open(debug_script_path, "w", encoding="utf-8") as f:
             f.write(clean_script)
-        print(f"[voice][debug] TTS script saved: {debug_script_path} ({input_diagnostics})")
+        print(f"[voice][debug] TTS script saved: {debug_script_path}")
 
     max_retries = 3
     pcm_data = None
     last_exception: Exception | None = None
+    last_request_id = ""
     total_retries = 0
 
     for attempt in range(1, max_retries + 1):
@@ -187,7 +229,18 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
             # persona_instruction は「読み上げないで」と指示されている部分なので、
             # このIDが音声として出力されることはない。
             request_id = uuid.uuid4().hex[:12]
-            tts_prompt = f"[request_id={request_id}]\n{persona_instruction}{clean_script}"
+            last_request_id = request_id
+            tts_prompt = _build_tts_prompt(request_id, persona_instruction, clean_script)
+            if debug:
+                # 実際に送信される完全なプロンプトをファイルに保存する（試行ごと）
+                debug_prompt_path = output_path + ".tts_prompt.txt"
+                with open(debug_prompt_path, "w", encoding="utf-8") as f:
+                    f.write(tts_prompt)
+                print(
+                    f"[voice][debug] Full TTS prompt saved: {debug_prompt_path} "
+                    f"(request_id={request_id})",
+                    flush=True,
+                )
             response = client.models.generate_content(
                 model=tts_model,
                 contents=tts_prompt,
@@ -232,14 +285,22 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
                 break  # 成功
 
             reason = response.candidates[0].finish_reason if response.candidates else "No candidates"
-            print(f"[voice] API ERROR attempt={attempt} elapsed={elapsed:.1f}s finish_reason={reason}", flush=True)
+            print(
+                f"[voice] API ERROR attempt={attempt} elapsed={elapsed:.1f}s "
+                f"finish_reason={reason} request_id={request_id} {input_diagnostics}",
+                flush=True,
+            )
 
         except Exception as e:
             elapsed = time.perf_counter() - attempt_started
             last_exception = e
             status_code = _get_status_code(e)
             status_str = f" status_code={status_code}" if status_code else ""
-            print(f"[voice] API ERROR attempt={attempt} elapsed={elapsed:.1f}s{status_str} {type(e).__name__}", flush=True)
+            print(
+                f"[voice] API ERROR attempt={attempt} elapsed={elapsed:.1f}s{status_str} "
+                f"{type(e).__name__} request_id={request_id} {input_diagnostics}",
+                flush=True,
+            )
 
             if not _is_retryable_exception(e):
                 print("[voice] Non-retryable error, aborting.", flush=True)
@@ -265,6 +326,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
             print(f"[voice] Last exception: {last_exception}")
         print(f"[voice] Script segment: \"{script[:100]}...\"")
         print(f"[voice] Clean TTS input diagnostics: {input_diagnostics}")
+        print(f"[voice] Last request_id: {last_request_id}")
         if debug:
             print(f"[voice][debug] Full clean TTS input: {debug_script_path}")
         print(f"[voice] Finish reason: {reason}")
