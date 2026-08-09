@@ -45,7 +45,7 @@ rss_feeds:
   language: zh
   weight: 1.2
 - name: 36Kr
-  url: https://36kr.com/feed
+  url: https://36kr.com/feed-newsflash
   language: zh
   weight: 1.1
 - name: The Guardian - Artificial Intelligence
