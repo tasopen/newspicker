@@ -201,3 +201,10 @@
 2026-08-08T23:42:32.476244+00:00	https://www.itmedia.co.jp/news/article/2608/09/2000000463/
 2026-08-08T23:42:32.476244+00:00	https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role
 2026-08-08T23:42:32.476244+00:00	https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/
+2026-08-09T19:41:24.004703+00:00	https://www.theguardian.com/commentisfree/2026/aug/09/slough-famous-the-office-datacentres-locals-hub-europe
+2026-08-09T19:41:24.004703+00:00	https://www.leiphone.com/category/chips/unD456FTBn9p8VyD.html
+2026-08-09T19:41:24.004703+00:00	https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/
+2026-08-09T19:41:24.004703+00:00	https://www.theverge.com/column/976690/ai-writing-detectors-suspicion
+2026-08-09T19:41:24.004703+00:00	https://www.theguardian.com/business/2026/aug/09/ai-push-banks-tech-firms-moodys-risks-financial-sector
+2026-08-09T19:41:24.004703+00:00	https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/
+2026-08-09T19:41:24.004703+00:00	https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/
