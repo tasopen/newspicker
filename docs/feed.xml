@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 10 Aug 2026 04:41:23 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 05:06:24 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-11 04:57:22</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-11_045722.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-11_045722.mp3</guid>
+      <pubDate>Tue, 11 Aug 2026 05:06:24 +0900</pubDate>
+      <description>おはようございます。8月11日のワールド AI ニュースです。本日は、米国の バーニー・サンダース（ばーにー・さんだーす）議員による ＡＩ 開発停止の呼びかけや、Apple の中国市場における戦略の混迷、そして医療や広告分野での国産 ＡＩ 活用の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-11_045722.mp3" type="audio/mpeg" length="5290797" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-11_045722.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:30</itunes:duration>
+      <itunes:summary>おはようございます。8月11日のワールド AI ニュースです。本日は、米国の バーニー・サンダース（ばーにー・さんだーす）議員による ＡＩ 開発停止の呼びかけや、Apple の中国市場における戦略の混迷、そして医療や広告分野での国産 ＡＩ 活用の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-10 04:37:18</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-10_043718.mp3</link>
