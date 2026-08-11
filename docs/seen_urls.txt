@@ -1,10 +1,3 @@
-2026-07-11T21:46:21.381845+00:00	https://36kr.com/p/3891132709206784?f=rss
-2026-07-11T21:46:21.381845+00:00	https://www.theguardian.com/technology/2026/jul/10/apple-sues-openai-trade-secrets
-2026-07-11T21:46:21.381845+00:00	https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
-2026-07-11T21:46:21.381845+00:00	https://36kr.com/p/3890553690192384?f=rss
-2026-07-11T21:46:21.381845+00:00	https://36kr.com/newsflashes/3890734361377539?f=rss
-2026-07-11T21:46:21.381845+00:00	https://www.wired.com/story/openai-head-of-safety-leaving/
-2026-07-11T21:46:21.381845+00:00	https://www.itmedia.co.jp/news/articles/2607/11/news038.html
 2026-07-13T21:54:21.667601+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03648/070900005/
 2026-07-13T21:54:21.667601+00:00	https://www.zdnet.com/article/openai-gutted-chatgpt-desktop-app-for-codex-work/
 2026-07-13T21:54:21.667601+00:00	https://www.itmedia.co.jp/news/articles/2607/13/news090.html
@@ -208,3 +201,10 @@
 2026-08-10T20:06:24.051536+00:00	https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/
 2026-08-10T20:06:24.051536+00:00	https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/
 2026-08-10T20:06:24.051536+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11960/
+2026-08-11T20:05:37.760039+00:00	https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta
+2026-08-11T20:05:37.760039+00:00	https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/
+2026-08-11T20:05:37.760039+00:00	https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/
+2026-08-11T20:05:37.760039+00:00	https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/
+2026-08-11T20:05:37.760039+00:00	https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users
+2026-08-11T20:05:37.760039+00:00	https://www.theguardian.com/commentisfree/2026/aug/11/the-guardian-view-on-ai-money-in-us-politics-not-the-way-to-hold-an-urgent-democratic-debate
+2026-08-11T20:05:37.760039+00:00	https://www.theguardian.com/film/2026/aug/12/ai-boyfriend-dating-chinese-women-replica-miff-documentary
