@@ -208,3 +208,10 @@
 2026-08-11T20:05:37.760039+00:00	https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users
 2026-08-11T20:05:37.760039+00:00	https://www.theguardian.com/commentisfree/2026/aug/11/the-guardian-view-on-ai-money-in-us-politics-not-the-way-to-hold-an-urgent-democratic-debate
 2026-08-11T20:05:37.760039+00:00	https://www.theguardian.com/film/2026/aug/12/ai-boyfriend-dating-chinese-women-replica-miff-documentary
+2026-08-12T20:06:40.477736+00:00	https://www.theguardian.com/technology/2026/aug/12/ai-job-destruction
+2026-08-12T20:06:40.477736+00:00	https://www.theguardian.com/commentisfree/2026/aug/12/openai-anthropic-ai-models
+2026-08-12T20:06:40.477736+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11962/
+2026-08-12T20:06:40.477736+00:00	https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/
+2026-08-12T20:06:40.477736+00:00	https://www.leiphone.com/category/yanxishe/8EasV5NJOerbUpZS.html
+2026-08-12T20:06:40.477736+00:00	https://www.leiphone.com/category/industrynews/2qeAdkpkaQykwWHi.html
+2026-08-12T20:06:40.477736+00:00	https://www.leiphone.com/category/chips/FFL2K4o5EltbstrF.html
