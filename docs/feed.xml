@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 13 Aug 2026 05:06:40 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 05:02:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-14 04:58:07</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-14_045807.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-14_045807.mp3</guid>
+      <pubDate>Fri, 14 Aug 2026 05:02:49 +0900</pubDate>
+      <description>おはようございます。8月14日のワールド AI ニュースです。本日は、OpenAI が最新モデルの １４ 倍の速度を実現する高速モードを発表したほか、ドイツで開催される世界最高峰の ＡＩ 学会 ＩＪＣＡＩ ２０２６（アイジェイシーエーアイ・にぜんにろく）に向けた中国企業の戦略的シフトについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-14_045807.mp3" type="audio/mpeg" length="5174445" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-14_045807.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:23</itunes:duration>
+      <itunes:summary>おはようございます。8月14日のワールド AI ニュースです。本日は、OpenAI が最新モデルの １４ 倍の速度を実現する高速モードを発表したほか、ドイツで開催される世界最高峰の ＡＩ 学会 ＩＪＣＡＩ ２０２６（アイジェイシーエーアイ・にぜんにろく）に向けた中国企業の戦略的シフトについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-13 05:02:46</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-13_050246.mp3</link>

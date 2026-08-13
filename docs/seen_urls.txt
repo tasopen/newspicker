@@ -1,10 +1,3 @@
-2026-07-13T21:54:21.667601+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03648/070900005/
-2026-07-13T21:54:21.667601+00:00	https://www.zdnet.com/article/openai-gutted-chatgpt-desktop-app-for-codex-work/
-2026-07-13T21:54:21.667601+00:00	https://www.itmedia.co.jp/news/articles/2607/13/news090.html
-2026-07-13T21:54:21.667601+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03682/071000001/
-2026-07-13T21:54:21.667601+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/071302068/
-2026-07-13T21:54:21.667601+00:00	https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/
-2026-07-13T21:54:21.667601+00:00	https://ai.watch.impress.co.jp/docs/news/2124781.html
 2026-07-14T21:56:54.739265+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03687/071000001/
 2026-07-14T21:56:54.739265+00:00	https://www.leiphone.com/category/ai/yRE0svXZn6QDTNov.html
 2026-07-14T21:56:54.739265+00:00	https://www.leiphone.com/category/industrynews/AsJkNmGbxJ5mPq93.html
@@ -215,3 +208,10 @@
 2026-08-12T20:06:40.477736+00:00	https://www.leiphone.com/category/yanxishe/8EasV5NJOerbUpZS.html
 2026-08-12T20:06:40.477736+00:00	https://www.leiphone.com/category/industrynews/2qeAdkpkaQykwWHi.html
 2026-08-12T20:06:40.477736+00:00	https://www.leiphone.com/category/chips/FFL2K4o5EltbstrF.html
+2026-08-13T20:02:49.061073+00:00	https://www.theguardian.com/commentisfree/2026/aug/13/mark-zuckerberg-future-of-ai
+2026-08-13T20:02:49.061073+00:00	https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/
+2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/
+2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/
+2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/
+2026-08-13T20:02:49.061073+00:00	https://www.leiphone.com/category/private/s0Uh2zV14wto02c2.html
+2026-08-13T20:02:49.061073+00:00	https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html
