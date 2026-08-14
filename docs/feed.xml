@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 14 Aug 2026 05:02:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 05:01:18 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-15 04:56:04</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-15_045604.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-15_045604.mp3</guid>
+      <pubDate>Sat, 15 Aug 2026 05:01:18 +0900</pubDate>
+      <description>おはようございます。8月15日のワールド AI ニュースです。本日は、中国の 智譜（ジープ）による最強のプログラミング ＡＩ、ＧＬＭ－５．３（ジーエルエム・ごーてんさん）の発表や、物理世界を理解する「世界モデル」の台頭についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-15_045604.mp3" type="audio/mpeg" length="5621805" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-15_045604.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:51</itunes:duration>
+      <itunes:summary>おはようございます。8月15日のワールド AI ニュースです。本日は、中国の 智譜（ジープ）による最強のプログラミング ＡＩ、ＧＬＭ－５．３（ジーエルエム・ごーてんさん）の発表や、物理世界を理解する「世界モデル」の台頭についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-14 04:58:07</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-14_045807.mp3</link>

@@ -1,10 +1,3 @@
-2026-07-14T21:56:54.739265+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03687/071000001/
-2026-07-14T21:56:54.739265+00:00	https://www.leiphone.com/category/ai/yRE0svXZn6QDTNov.html
-2026-07-14T21:56:54.739265+00:00	https://www.leiphone.com/category/industrynews/AsJkNmGbxJ5mPq93.html
-2026-07-14T21:56:54.739265+00:00	https://www.leiphone.com/category/zaobao/mXH74oCuoPfxSBho.html
-2026-07-14T21:56:54.739265+00:00	https://36kr.com/p/3895355856403456?f=rss
-2026-07-14T21:56:54.739265+00:00	https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device
-2026-07-14T21:56:54.739265+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03648/070300002/
 2026-07-15T22:44:07.777391+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020900021/070700221/
 2026-07-15T22:44:07.777391+00:00	https://ai.watch.impress.co.jp/docs/news/2124678.html
 2026-07-15T22:44:07.777391+00:00	https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
@@ -215,3 +208,10 @@
 2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/
 2026-08-13T20:02:49.061073+00:00	https://www.leiphone.com/category/private/s0Uh2zV14wto02c2.html
 2026-08-13T20:02:49.061073+00:00	https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html
+2026-08-14T20:01:18.466765+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/080500183/
+2026-08-14T20:01:18.466765+00:00	https://ai.watch.impress.co.jp/docs/news/2131696.html
+2026-08-14T20:01:18.466765+00:00	https://www.theguardian.com/us-news/2026/aug/13/massachusetts-teen-killing-chatgpt
+2026-08-14T20:01:18.466765+00:00	https://www.zdnet.com/article/chatgpt-computer-history/
+2026-08-14T20:01:18.466765+00:00	https://www.leiphone.com/category/yanxishe/TfPPSAIdcR2ijWkU.html
+2026-08-14T20:01:18.466765+00:00	https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/
+2026-08-14T20:01:18.466765+00:00	https://www.zdnet.com/article/openai-brings-the-chatgpt-desktop-app-to-linux/
