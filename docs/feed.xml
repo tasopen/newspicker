@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 15 Aug 2026 05:01:18 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 04:28:47 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-16 04:24:00</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-16_042400.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-16_042400.mp3</guid>
+      <pubDate>Sun, 16 Aug 2026 04:28:47 +0900</pubDate>
+      <description>おはようございます。8月16日のワールド AI ニュースです。本日は、SpaceX（すぺーすえっくす）による ＡＩ コーディングツール Cursor（かーそる）の買収完了や、Amazon が配信サイト Twitch（とぅいっち）の映像を ＡＩ 学習に利用する動きについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-16_042400.mp3" type="audio/mpeg" length="6123693" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-16_042400.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:22</itunes:duration>
+      <itunes:summary>おはようございます。8月16日のワールド AI ニュースです。本日は、SpaceX（すぺーすえっくす）による ＡＩ コーディングツール Cursor（かーそる）の買収完了や、Amazon が配信サイト Twitch（とぅいっち）の映像を ＡＩ 学習に利用する動きについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-15 04:56:04</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-15_045604.mp3</link>

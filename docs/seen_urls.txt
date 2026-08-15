@@ -1,10 +1,3 @@
-2026-07-15T22:44:07.777391+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020900021/070700221/
-2026-07-15T22:44:07.777391+00:00	https://ai.watch.impress.co.jp/docs/news/2124678.html
-2026-07-15T22:44:07.777391+00:00	https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
-2026-07-15T22:44:07.777391+00:00	https://www.theguardian.com/australia-news/2026/jul/16/albanese-ai-plan-tech-giants-regulating-social-media-analysis
-2026-07-15T22:44:07.777391+00:00	https://ai.watch.impress.co.jp/docs/news/2125296.html
-2026-07-15T22:44:07.777391+00:00	https://www.leiphone.com/category/industrynews/fIqCGTasgYRN21d4.html
-2026-07-15T22:44:07.777391+00:00	https://www.itmedia.co.jp/news/articles/2607/15/news060.html
 2026-07-16T22:04:19.121132+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600007/070700221/
 2026-07-16T22:04:19.121132+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/071300181/
 2026-07-16T22:04:19.121132+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03648/071000006/
@@ -215,3 +208,10 @@
 2026-08-14T20:01:18.466765+00:00	https://www.leiphone.com/category/yanxishe/TfPPSAIdcR2ijWkU.html
 2026-08-14T20:01:18.466765+00:00	https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/
 2026-08-14T20:01:18.466765+00:00	https://www.zdnet.com/article/openai-brings-the-chatgpt-desktop-app-to-linux/
+2026-08-15T19:28:47.931013+00:00	https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/
+2026-08-15T19:28:47.931013+00:00	https://www.theguardian.com/technology/2026/aug/15/uk-ireland-booksellers-suspect-ai-companies-bulk-orders-data-acquisition
+2026-08-15T19:28:47.931013+00:00	https://www.theguardian.com/us-news/video/2026/aug/14/era-of-joyless-decadence-stateside-podcast
+2026-08-15T19:28:47.931013+00:00	https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/
+2026-08-15T19:28:47.931013+00:00	https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/
+2026-08-15T19:28:47.931013+00:00	https://www.zdnet.com/article/victrola-soundstage-review/
+2026-08-15T19:28:47.931013+00:00	https://www.qbitai.com/2026/08/473876.html
