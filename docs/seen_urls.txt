@@ -1,10 +1,3 @@
-2026-07-16T22:04:19.121132+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600007/070700221/
-2026-07-16T22:04:19.121132+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/071300181/
-2026-07-16T22:04:19.121132+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03648/071000006/
-2026-07-16T22:04:19.121132+00:00	https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/
-2026-07-16T22:04:19.121132+00:00	https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/
-2026-07-16T22:04:19.121132+00:00	https://www.leiphone.com/category/yanxishe/twBDwHXZSfeUeRJf.html
-2026-07-16T22:04:19.121132+00:00	https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/
 2026-07-17T21:49:12.086767+00:00	https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company
 2026-07-17T21:49:12.086767+00:00	https://www.theguardian.com/music/2026/jul/17/robert-laidlow-reality-eaters-album-review
 2026-07-17T21:49:12.086767+00:00	https://ai.watch.impress.co.jp/docs/news/2126021.html
@@ -215,3 +208,10 @@
 2026-08-15T19:28:47.931013+00:00	https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/
 2026-08-15T19:28:47.931013+00:00	https://www.zdnet.com/article/victrola-soundstage-review/
 2026-08-15T19:28:47.931013+00:00	https://www.qbitai.com/2026/08/473876.html
+2026-08-16T19:29:51.108529+00:00	https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman
+2026-08-16T19:29:51.108529+00:00	https://www.theguardian.com/film/2026/aug/16/directors-embracing-ai-film-making
+2026-08-16T19:29:51.108529+00:00	https://www.tmtpost.com/8104869.html
+2026-08-16T19:29:51.108529+00:00	https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes
+2026-08-16T19:29:51.108529+00:00	https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai
+2026-08-16T19:29:51.108529+00:00	https://www.theguardian.com/commentisfree/2026/aug/16/the-guardian-view-on-the-changed-world-of-job-interviews-missing-the-human-factor
+2026-08-16T19:29:51.108529+00:00	https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/

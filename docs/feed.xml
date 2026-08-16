@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 16 Aug 2026 04:28:47 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 04:29:51 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-17 04:24:25</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-17_042425.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-17_042425.mp3</guid>
+      <pubDate>Mon, 17 Aug 2026 04:29:51 +0900</pubDate>
+      <description>おはようございます。8月17日のワールド AI ニュースです。本日は、ＡＩ 開発への抗議で初の禁錮刑（きんこけい）が下されたニュースや、映画制作における ＡＩ スタジオの台頭、そして採用活動の自動化がもたらす人間性の欠如についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-17_042425.mp3" type="audio/mpeg" length="4583085" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-17_042425.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:46</itunes:duration>
+      <itunes:summary>おはようございます。8月17日のワールド AI ニュースです。本日は、ＡＩ 開発への抗議で初の禁錮刑（きんこけい）が下されたニュースや、映画制作における ＡＩ スタジオの台頭、そして採用活動の自動化がもたらす人間性の欠如についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-16 04:24:00</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-16_042400.mp3</link>
