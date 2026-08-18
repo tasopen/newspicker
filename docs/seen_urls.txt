@@ -1,10 +1,3 @@
-2026-07-18T21:47:22.541260+00:00	https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation
-2026-07-18T21:47:22.541260+00:00	https://www.theguardian.com/sport/2026/jul/18/mets-andy-green-ai-strategy-mlb-compliance-ottavino-report
-2026-07-18T21:47:22.541260+00:00	https://www.theguardian.com/commentisfree/2026/jul/18/albaneses-ai-speech-was-a-good-start-now-australia-must-confront-these-bigger-questions
-2026-07-18T21:47:22.541260+00:00	https://www.leiphone.com/category/chips/kkSTkmFeAdi2fl5B.html
-2026-07-18T21:47:22.541260+00:00	https://www.leiphone.com/category/industrynews/Xr6FFEeoQ7jUDXSI.html
-2026-07-18T21:47:22.541260+00:00	https://www.leiphone.com/category/CorporateServices/zeMjlByofDUygdIH.html
-2026-07-18T21:47:22.541260+00:00	https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/
 2026-07-19T21:48:09.340664+00:00	https://www.leiphone.com/category/yanxishe/uHHqpDWEcbFxyyvD.html
 2026-07-19T21:48:09.340664+00:00	https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace
 2026-07-19T21:48:09.340664+00:00	https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton
@@ -215,3 +208,10 @@
 2026-08-17T19:38:17.604851+00:00	https://www.theguardian.com/us-news/2026/aug/17/satellites-ai-wildfire-detection
 2026-08-17T19:38:17.604851+00:00	https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips
 2026-08-17T19:38:17.604851+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600009/080700229/
+2026-08-18T19:51:40.197376+00:00	https://www.theguardian.com/technology/2026/aug/18/openai-chatgpt-for-teens
+2026-08-18T19:51:40.197376+00:00	https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/
+2026-08-18T19:51:40.197376+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/081000565/081000001/
+2026-08-18T19:51:40.197376+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00677/071400205/
+2026-08-18T19:51:40.197376+00:00	https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/
+2026-08-18T19:51:40.197376+00:00	https://www.leiphone.com/category/chips/0QUHO5yYZiBX3JEg.html
+2026-08-18T19:51:40.197376+00:00	https://www.leiphone.com/category/yanxishe/NfnH0gxun9dwHGGX.html

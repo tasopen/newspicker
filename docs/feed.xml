@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 18 Aug 2026 04:38:17 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 04:51:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-19 04:47:19</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-19_044719.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-19_044719.mp3</guid>
+      <pubDate>Wed, 19 Aug 2026 04:51:40 +0900</pubDate>
+      <description>おはようございます。8月19日のワールド AI ニュースです。本日は、OpenAI が発表した安全機能を強化したティーン向けの ChatGPT や、中国の DeepSeek（でぃーぷしーく）が直面する「ストレージ税」による利用料金の値上げ、そしてコンサルティング業界の変革についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-19_044719.mp3" type="audio/mpeg" length="5429037" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-19_044719.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:39</itunes:duration>
+      <itunes:summary>おはようございます。8月19日のワールド AI ニュースです。本日は、OpenAI が発表した安全機能を強化したティーン向けの ChatGPT や、中国の DeepSeek（でぃーぷしーく）が直面する「ストレージ税」による利用料金の値上げ、そしてコンサルティング業界の変革についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-18 04:31:34</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-18_043134.mp3</link>
