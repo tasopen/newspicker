@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 19 Aug 2026 04:51:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 04:36:59 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-20 04:33:01</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-20_043301.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-20_043301.mp3</guid>
+      <pubDate>Thu, 20 Aug 2026 04:36:59 +0900</pubDate>
+      <description>おはようございます。8月20日のワールド AI ニュースです。本日は、OpenAI（おーぷんえーあい）が開発スピードを抑制した衝撃の理由や、中国の ＤｅｅｐＳｅｅｋ（でぃーぷしーく）による巨額の資金調達など、ＡＩ（えーあい）業界の大きな転換点となるニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-20_043301.mp3" type="audio/mpeg" length="4533933" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-20_043301.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:43</itunes:duration>
+      <itunes:summary>おはようございます。8月20日のワールド AI ニュースです。本日は、OpenAI（おーぷんえーあい）が開発スピードを抑制した衝撃の理由や、中国の ＤｅｅｐＳｅｅｋ（でぃーぷしーく）による巨額の資金調達など、ＡＩ（えーあい）業界の大きな転換点となるニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-19 04:47:19</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-19_044719.mp3</link>
