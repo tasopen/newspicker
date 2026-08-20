@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 20 Aug 2026 04:36:59 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 04:40:05 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-21 04:35:18</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-21_043518.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-21_043518.mp3</guid>
+      <pubDate>Fri, 21 Aug 2026 04:40:05 +0900</pubDate>
+      <description>おはようございます。8月21日のワールド AI ニュースです。本日は、ウェブ空間の 3 分の 1 が ＡＩ（えーあい）製という衝撃の調査結果や、日立製作所が挑む開発全工程の自動化など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-21_043518.mp3" type="audio/mpeg" length="6662445" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-21_043518.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:56</itunes:duration>
+      <itunes:summary>おはようございます。8月21日のワールド AI ニュースです。本日は、ウェブ空間の 3 分の 1 が ＡＩ（えーあい）製という衝撃の調査結果や、日立製作所が挑む開発全工程の自動化など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-20 04:33:01</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-20_043301.mp3</link>
