@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 21 Aug 2026 04:40:05 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 04:33:14 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-22 04:28:58</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-22_042858.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-22_042858.mp3</guid>
+      <pubDate>Sat, 22 Aug 2026 04:33:14 +0900</pubDate>
+      <description>おはようございます。8月22日のワールド AI ニュースです。本日は、OpenAI の元幹部が警鐘を鳴らす開発スピード抑制の必要性や、利用料高騰による ＡＩ 貧乏のリスクなど、最新のトピックスをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-22_042858.mp3" type="audio/mpeg" length="5328813" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-22_042858.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:33</itunes:duration>
+      <itunes:summary>おはようございます。8月22日のワールド AI ニュースです。本日は、OpenAI の元幹部が警鐘を鳴らす開発スピード抑制の必要性や、利用料高騰による ＡＩ 貧乏のリスクなど、最新のトピックスをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-21 04:35:18</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-21_043518.mp3</link>

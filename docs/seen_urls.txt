@@ -1,10 +1,3 @@
-2026-07-21T22:05:01.315728+00:00	https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai
-2026-07-21T22:05:01.315728+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11904/
-2026-07-21T22:05:01.315728+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03694/071800002/
-2026-07-21T22:05:01.315728+00:00	https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize
-2026-07-21T22:05:01.315728+00:00	https://ai.watch.impress.co.jp/docs/news/2126601.html
-2026-07-21T22:05:01.315728+00:00	https://www.theguardian.com/world/2026/jul/21/pope-leo-speech-human-not-ai-artificial-intelligence
-2026-07-21T22:05:01.315728+00:00	https://ai.watch.impress.co.jp/docs/news/2126560.html
 2026-07-22T22:04:40.493309+00:00	https://www.theguardian.com/technology/2026/jul/22/openai-hugging-face-hacked-data-risks
 2026-07-22T22:04:40.493309+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11908/
 2026-07-22T22:04:40.493309+00:00	https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident
@@ -215,3 +208,10 @@
 2026-08-20T19:40:05.776157+00:00	https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai
 2026-08-20T19:40:05.776157+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/080701485/
 2026-08-20T19:40:05.776157+00:00	https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/
+2026-08-21T19:33:14.850995+00:00	https://www.theguardian.com/commentisfree/2026/aug/21/openai-frontier-ai-speed
+2026-08-21T19:33:14.850995+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/081800064/
+2026-08-21T19:33:14.850995+00:00	https://www.itmedia.co.jp/news/article/2608/21/2000000669/
+2026-08-21T19:33:14.850995+00:00	https://ai.watch.impress.co.jp/docs/news/2134613.html
+2026-08-21T19:33:14.850995+00:00	https://ai.watch.impress.co.jp/docs/news/2134519.html
+2026-08-21T19:33:14.850995+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00989/081800218/
+2026-08-21T19:33:14.850995+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11964/
