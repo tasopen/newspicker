@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 25 Aug 2026 04:38:07 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 04:58:09 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-26 04:53:40</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-26_045340.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-26_045340.mp3</guid>
+      <pubDate>Wed, 26 Aug 2026 04:58:09 +0900</pubDate>
+      <description>おはようございます。8月26日のワールド AI ニュースです。本日は、数学者の職を脅かす ＡＩ（えーあい）の限界や、中国で加速する人型ロボットの実用化など、最新のトピックスをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-26_045340.mp3" type="audio/mpeg" length="5617197" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-26_045340.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:51</itunes:duration>
+      <itunes:summary>おはようございます。8月26日のワールド AI ニュースです。本日は、数学者の職を脅かす ＡＩ（えーあい）の限界や、中国で加速する人型ロボットの実用化など、最新のトピックスをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-25 04:34:42</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-25_043442.mp3</link>
