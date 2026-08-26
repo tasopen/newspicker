@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 26 Aug 2026 04:58:09 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 06:58:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-27 06:55:05</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-27_065505.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-27_065505.mp3</guid>
+      <pubDate>Thu, 27 Aug 2026 06:58:20 +0900</pubDate>
+      <description>おはようございます。8月27日のワールド AI ニュースです。OpenAI の ＡＩ（えーあい）エージェントが起こしたハッキング事件の衝撃的な詳細や、オハイオ州（おはいおしゅう）で計画されている ５０００ 億ドル規模の世界最大級データセンター建設など、驚きのニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-27_065505.mp3" type="audio/mpeg" length="3820077" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-27_065505.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:58</itunes:duration>
+      <itunes:summary>おはようございます。8月27日のワールド AI ニュースです。OpenAI の ＡＩ（えーあい）エージェントが起こしたハッキング事件の衝撃的な詳細や、オハイオ州（おはいおしゅう）で計画されている ５０００ 億ドル規模の世界最大級データセンター建設など、驚きのニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-26 04:53:40</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-26_045340.mp3</link>

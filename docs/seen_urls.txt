@@ -1,10 +1,3 @@
-2026-07-27T13:42:08.857532+00:00	https://ai.watch.impress.co.jp/docs/news/2128222.html
-2026-07-27T13:42:08.857532+00:00	https://www.theguardian.com/technology/2026/jul/27/startup-hacked-by-rogue-openai-agent-hugging-face-artificial-intelligence
-2026-07-27T13:42:08.857532+00:00	https://www.theguardian.com/books/2026/jul/27/what-if-we-got-ai-right-by-eleanor-drage-review-avoiding-apocalypse
-2026-07-27T13:42:08.857532+00:00	https://ai.watch.impress.co.jp/docs/news/2128150.html
-2026-07-27T13:42:08.857532+00:00	https://www.theguardian.com/commentisfree/2026/jul/27/ai-biological-weapons-defense
-2026-07-27T13:42:08.857532+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11869/
-2026-07-27T13:42:08.857532+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02805/071700031/
 2026-07-27T22:04:20.116224+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11922/
 2026-07-27T22:04:20.116224+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03680/071700006/
 2026-07-27T22:04:20.116224+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11886/
@@ -215,3 +208,10 @@
 2026-08-25T19:58:09.442285+00:00	https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/
 2026-08-25T19:58:09.442285+00:00	https://www.theguardian.com/technology/2026/aug/25/google-ai-overview
 2026-08-25T19:58:09.442285+00:00	https://www.theguardian.com/news/audio/2026/aug/25/black-box-episode-2-the-hunt-for-clothoff-the-deepfake-porn-app-podcast
+2026-08-26T21:58:20.387574+00:00	https://www.theguardian.com/us-news/2026/aug/26/ohio-datacenter-reaction
+2026-08-26T21:58:20.387574+00:00	https://ai.watch.impress.co.jp/docs/news/2135729.html
+2026-08-26T21:58:20.387574+00:00	https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr
+2026-08-26T21:58:20.387574+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03242/082500030/
+2026-08-26T21:58:20.387574+00:00	https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm
+2026-08-26T21:58:20.387574+00:00	https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/
+2026-08-26T21:58:20.387574+00:00	https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/
