@@ -208,3 +208,10 @@
 2026-08-29T02:04:52.723178+00:00	https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/
 2026-08-29T02:04:52.723178+00:00	https://www.leiphone.com/category/ai/5weAutjetefMob2a.html
 2026-08-29T02:04:52.723178+00:00	https://www.itmedia.co.jp/news/article/2608/28/2000000892/
+2026-08-29T21:38:32.325667+00:00	https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds
+2026-08-29T21:38:32.325667+00:00	https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades
+2026-08-29T21:38:32.325667+00:00	https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/
+2026-08-29T21:38:32.325667+00:00	https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/
+2026-08-29T21:38:32.325667+00:00	https://www.qbitai.com/2026/08/481372.html
+2026-08-29T21:38:32.325667+00:00	https://www.qbitai.com/2026/08/481318.html
+2026-08-29T21:38:32.325667+00:00	https://www.zdnet.com/article/google-pixel-11-review/
