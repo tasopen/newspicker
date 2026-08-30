@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 30 Aug 2026 06:38:32 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 06:57:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-08-31 06:52:39</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-08-31_065239.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-08-31_065239.mp3</guid>
+      <pubDate>Mon, 31 Aug 2026 06:57:00 +0900</pubDate>
+      <description>おはようございます。8月31日のワールド AI ニュースです。本日は、ＡＩ（えーあい）が静かに引き起こす制御不能（せいぎょふのう）のリスクや、ビジネス現場での劇的な効率化、そして医療分野での量子技術との融合についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-08-31_065239.mp3" type="audio/mpeg" length="5632173" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-08-31_065239.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:51</itunes:duration>
+      <itunes:summary>おはようございます。8月31日のワールド AI ニュースです。本日は、ＡＩ（えーあい）が静かに引き起こす制御不能（せいぎょふのう）のリスクや、ビジネス現場での劇的な効率化、そして医療分野での量子技術との融合についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-30 06:34:49</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-30_063449.mp3</link>
