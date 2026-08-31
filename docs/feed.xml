@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 31 Aug 2026 06:57:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:14:27 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-01 08:10:46</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-01_081046.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-01_081046.mp3</guid>
+      <pubDate>Tue, 01 Sep 2026 08:14:27 +0900</pubDate>
+      <description>おはようございます。9月1日のワールド AI ニュースです。本日は、物理世界を理解する「世界モデル」の可能性や、金融安定を揺るがす経済リスク、そして軍事・ビジネス現場での実装最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-01_081046.mp3" type="audio/mpeg" length="4835757" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-01_081046.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:02</itunes:duration>
+      <itunes:summary>おはようございます。9月1日のワールド AI ニュースです。本日は、物理世界を理解する「世界モデル」の可能性や、金融安定を揺るがす経済リスク、そして軍事・ビジネス現場での実装最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-08-31 06:52:39</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-08-31_065239.mp3</link>
