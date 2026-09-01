@@ -208,3 +208,10 @@
 2026-08-31T23:14:27.073051+00:00	https://ai.watch.impress.co.jp/docs/serial/glossary/2136961.html
 2026-08-31T23:14:27.073051+00:00	https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/
 2026-08-31T23:14:27.073051+00:00	https://www.leiphone.com/category/private/wweqIbvHRVWXnlvh.html
+2026-09-01T21:45:22.824663+00:00	https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us
+2026-09-01T21:45:22.824663+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03734/082800003/
+2026-09-01T21:45:22.824663+00:00	https://ai.watch.impress.co.jp/docs/news/2137389.html
+2026-09-01T21:45:22.824663+00:00	https://www.theguardian.com/commentisfree/2026/sep/01/from-bill-gates-to-bernie-sanders-most-agree-the-ai-arms-race-is-disastrous-only-europe-can-make-it-stop
+2026-09-01T21:45:22.824663+00:00	https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/
+2026-09-01T21:45:22.824663+00:00	https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/
+2026-09-01T21:45:22.824663+00:00	https://www.leiphone.com/category/yanxishe/hFaRe5oZ7oF0U1XC.html

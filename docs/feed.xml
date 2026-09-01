@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 01 Sep 2026 08:14:27 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 06:45:22 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-02 06:40:38</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-02_064038.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-02_064038.mp3</guid>
+      <pubDate>Wed, 02 Sep 2026 06:45:22 +0900</pubDate>
+      <description>おはようございます。9月2日のワールド AI ニュースです。本日は、アリババが放った最新の大規模モデル 通義千問（つうぎせんもん） ３．８－Ｍａｘ（まっくす）の衝撃や、ＡＩ（えーあい）による欺瞞（ぎまん）のリスク、そして医療や広告業界を塗り替える最新の実装ニュースをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-02_064038.mp3" type="audio/mpeg" length="5724333" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-02_064038.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:57</itunes:duration>
+      <itunes:summary>おはようございます。9月2日のワールド AI ニュースです。本日は、アリババが放った最新の大規模モデル 通義千問（つうぎせんもん） ３．８－Ｍａｘ（まっくす）の衝撃や、ＡＩ（えーあい）による欺瞞（ぎまん）のリスク、そして医療や広告業界を塗り替える最新の実装ニュースをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-01 08:10:46</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-01_081046.mp3</link>
