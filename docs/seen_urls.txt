@@ -1,10 +1,3 @@
-2026-08-03T22:06:38.158659+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03673/072700005/
-2026-08-03T22:06:38.158659+00:00	https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/
-2026-08-03T22:06:38.158659+00:00	https://www.theguardian.com/stage/2026/aug/02/disruption-play-review
-2026-08-03T22:06:38.158659+00:00	https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/
-2026-08-03T22:06:38.158659+00:00	https://www.leiphone.com/category/industrynews/7Diei8PsqC81LWzx.html
-2026-08-03T22:06:38.158659+00:00	https://www.leiphone.com/category/industrynews/ioD5Es7RrtPpeM7P.html
-2026-08-03T22:06:38.158659+00:00	https://www.leiphone.com/category/zaobao/sJsXwQ2i70NZsIDQ.html
 2026-08-04T22:09:59.708022+00:00	https://36kr.com/p/3924826666301831?f=rss
 2026-08-04T22:09:59.708022+00:00	https://www.leiphone.com/category/zaobao/5hrzL5QHORl8yoVf.html
 2026-08-04T22:09:59.708022+00:00	https://36kr.com/p/3924467692927369?f=rss
@@ -215,3 +208,10 @@
 2026-09-02T21:43:08.016795+00:00	https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup
 2026-09-02T21:43:08.016795+00:00	https://www.leiphone.com/category/zaobao/8VM0tsh1bX3X7luW.html
 2026-09-02T21:43:08.016795+00:00	https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety
+2026-09-03T21:41:20.080906+00:00	https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html
+2026-09-03T21:41:20.080906+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/083000065/
+2026-09-03T21:41:20.080906+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12013/
+2026-09-03T21:41:20.080906+00:00	https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-happy-accident-episode-3-podcast
+2026-09-03T21:41:20.080906+00:00	https://ai.watch.impress.co.jp/docs/news/2138097.html
+2026-09-03T21:41:20.080906+00:00	https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release
+2026-09-03T21:41:20.080906+00:00	https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down
