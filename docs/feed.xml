@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 04 Sep 2026 06:41:20 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 06:23:49 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-05 06:19:46</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-05_061946.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-05_061946.mp3</guid>
+      <pubDate>Sat, 05 Sep 2026 06:23:49 +0900</pubDate>
+      <description>おはようございます。9月5日のワールド AI ニュースです。本日は、OpenAI の最新モデル GPT-6 Astra（あすとら）の正式リリースと、その驚異的な自律操作能力、そして ByteDance（ばいとだんす）による AI インフラへの巨額投資など、最新のトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-05_061946.mp3" type="audio/mpeg" length="5439405" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-05_061946.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:39</itunes:duration>
+      <itunes:summary>おはようございます。9月5日のワールド AI ニュースです。本日は、OpenAI の最新モデル GPT-6 Astra（あすとら）の正式リリースと、その驚異的な自律操作能力、そして ByteDance（ばいとだんす）による AI インフラへの巨額投資など、最新のトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-04 06:37:22</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-04_063722.mp3</link>

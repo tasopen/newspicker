@@ -1,10 +1,3 @@
-2026-08-04T22:09:59.708022+00:00	https://36kr.com/p/3924826666301831?f=rss
-2026-08-04T22:09:59.708022+00:00	https://www.leiphone.com/category/zaobao/5hrzL5QHORl8yoVf.html
-2026-08-04T22:09:59.708022+00:00	https://36kr.com/p/3924467692927369?f=rss
-2026-08-04T22:09:59.708022+00:00	https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages
-2026-08-04T22:09:59.708022+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/072800034/
-2026-08-04T22:09:59.708022+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03673/072300002/
-2026-08-04T22:09:59.708022+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/11934/
 2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute
 2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/072801473/
 2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03711/080400006/
@@ -215,3 +208,10 @@
 2026-09-03T21:41:20.080906+00:00	https://ai.watch.impress.co.jp/docs/news/2138097.html
 2026-09-03T21:41:20.080906+00:00	https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release
 2026-09-03T21:41:20.080906+00:00	https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down
+2026-09-04T21:23:49.818224+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03373/
+2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138217.html
+2026-09-04T21:23:49.818224+00:00	https://www.leiphone.com/category/zaobao/ufE0wwRendYKuvDo.html
+2026-09-04T21:23:49.818224+00:00	https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/
+2026-09-04T21:23:49.818224+00:00	https://www.itmedia.co.jp/news/article/2609/04/2000001192/
+2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138446.html
+2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138402.html
