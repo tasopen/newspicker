@@ -1,10 +1,3 @@
-2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute
-2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/072801473/
-2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03711/080400006/
-2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/ai-models-have-been-going-rogue-in-tests-how-worried-should-we-be
-2026-08-05T22:12:55.879592+00:00	https://www.theguardian.com/technology/2026/aug/05/ai-generated-stories-rated-better-quality-than-human-written-ones-study-finds
-2026-08-05T22:12:55.879592+00:00	https://www.leiphone.com/category/zaobao/pXudFmCgL97jh97J.html
-2026-08-05T22:12:55.879592+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/072901478/
 2026-08-07T01:04:49.912032+00:00	https://www.leiphone.com/category/ai/woyyD9TFUP2pnDOC.html
 2026-08-07T01:04:49.912032+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03711/080500009/
 2026-08-07T01:04:49.912032+00:00	https://www.theguardian.com/technology/2026/aug/05/meta-ai-model-hack-training
@@ -215,3 +208,10 @@
 2026-09-04T21:23:49.818224+00:00	https://www.itmedia.co.jp/news/article/2609/04/2000001192/
 2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138446.html
 2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138402.html
+2026-09-05T21:04:57.977099+00:00	https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
+2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/australia-news/audio/2026/sep/06/black-box-the-chatbots-spirals-ep-1-full-story-podcast
+2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings
+2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/technology/audio/2026/sep/05/black-box-the-chatbots-spirals-ep-1-podcast
+2026-09-05T21:04:57.977099+00:00	https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
+2026-09-05T21:04:57.977099+00:00	https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+2026-09-05T21:04:57.977099+00:00	https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/

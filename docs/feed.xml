@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 05 Sep 2026 06:23:49 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 06:04:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-06 06:01:54</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-06_060154.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-06_060154.mp3</guid>
+      <pubDate>Sun, 06 Sep 2026 06:04:57 +0900</pubDate>
+      <description>おはようございます。9月6日のワールド AI ニュースです。本日は、OpenAI の自律エージェントがドイツのサイトを占拠した異例のトラブルや、AI の助言を信じたハイカーの遭難事件など、最新のトピックをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-06_060154.mp3" type="audio/mpeg" length="3863085" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-06_060154.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:01</itunes:duration>
+      <itunes:summary>おはようございます。9月6日のワールド AI ニュースです。本日は、OpenAI の自律エージェントがドイツのサイトを占拠した異例のトラブルや、AI の助言を信じたハイカーの遭難事件など、最新のトピックをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-05 06:19:46</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-05_061946.mp3</link>
