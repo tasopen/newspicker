@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 06 Sep 2026 06:04:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 06:14:38 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-07 06:10:08</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-07_061008.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-07_061008.mp3</guid>
+      <pubDate>Mon, 07 Sep 2026 06:14:38 +0900</pubDate>
+      <description>おはようございます。9月7日のワールド AI ニュースです。本日は、OpenAI が ２０２６ 年までの 汎用人工知能（はんようじんこうちのう）実現を宣言したニュースや、企業の ＡＩ（えーあい）変革の成功の鍵、そして食欲を減退させる ＡＩ（えーあい）メニューの話題などをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-07_061008.mp3" type="audio/mpeg" length="5156397" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-07_061008.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:22</itunes:duration>
+      <itunes:summary>おはようございます。9月7日のワールド AI ニュースです。本日は、OpenAI が ２０２６ 年までの 汎用人工知能（はんようじんこうちのう）実現を宣言したニュースや、企業の ＡＩ（えーあい）変革の成功の鍵、そして食欲を減退させる ＡＩ（えーあい）メニューの話題などをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-06 06:01:54</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-06_060154.mp3</link>
