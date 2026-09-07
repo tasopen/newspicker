@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 07 Sep 2026 06:14:38 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 07:02:02 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-08 06:58:01</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-08_065801.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-08_065801.mp3</guid>
+      <pubDate>Tue, 08 Sep 2026 07:02:02 +0900</pubDate>
+      <description>おはようございます。9月8日のワールド AI ニュースです。本日は、OpenAI（おーぷんえーあい）の最新モデルにおける評価データの修正疑惑や、中国での国産チップ大規模採用、そして ２０２８ 年に向けた ＡＩ（えーあい）研究の自動化ロードマップについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-08_065801.mp3" type="audio/mpeg" length="4696365" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-08_065801.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:53</itunes:duration>
+      <itunes:summary>おはようございます。9月8日のワールド AI ニュースです。本日は、OpenAI（おーぷんえーあい）の最新モデルにおける評価データの修正疑惑や、中国での国産チップ大規模採用、そして ２０２８ 年に向けた ＡＩ（えーあい）研究の自動化ロードマップについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-07 06:10:08</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-07_061008.mp3</link>
