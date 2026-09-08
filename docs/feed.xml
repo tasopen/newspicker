@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 08 Sep 2026 07:02:02 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 06:47:16 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-09 06:42:35</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-09_064235.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-09_064235.mp3</guid>
+      <pubDate>Wed, 09 Sep 2026 06:47:16 +0900</pubDate>
+      <description>おはようございます。9月9日のワールド AI ニュースです。本日は、OpenAI が １００ 年来の数学の難問を解決したという驚きのニュースや、自律エージェントによるサイバー攻撃の衝撃的な実態、そして NVIDIA（えぬびでぃあ）の ＣＥＯ（しーいーおー）による ＡＧＩ（えーじーあい）到来宣言についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-09_064235.mp3" type="audio/mpeg" length="6002733" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-09_064235.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:15</itunes:duration>
+      <itunes:summary>おはようございます。9月9日のワールド AI ニュースです。本日は、OpenAI が １００ 年来の数学の難問を解決したという驚きのニュースや、自律エージェントによるサイバー攻撃の衝撃的な実態、そして NVIDIA（えぬびでぃあ）の ＣＥＯ（しーいーおー）による ＡＧＩ（えーじーあい）到来宣言についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-08 06:58:01</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-08_065801.mp3</link>
