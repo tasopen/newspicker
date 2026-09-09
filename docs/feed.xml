@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 09 Sep 2026 06:47:16 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 06:38:32 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-10 06:34:39</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-10_063439.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-10_063439.mp3</guid>
+      <pubDate>Thu, 10 Sep 2026 06:38:32 +0900</pubDate>
+      <description>おはようございます。9月10日のワールド AI ニュースです。本日は、OpenAI による最新の画像生成モデルの発表や、人類滅亡のリスクを訴える研究者の警告、そして宇宙空間での半導体製造という壮大な計画についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-10_063439.mp3" type="audio/mpeg" length="4988973" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-10_063439.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:11</itunes:duration>
+      <itunes:summary>おはようございます。9月10日のワールド AI ニュースです。本日は、OpenAI による最新の画像生成モデルの発表や、人類滅亡のリスクを訴える研究者の警告、そして宇宙空間での半導体製造という壮大な計画についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-09 06:42:35</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-09_064235.mp3</link>
