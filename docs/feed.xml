@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 10 Sep 2026 06:38:32 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 06:35:36 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-11 06:30:42</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-11_063042.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-11_063042.mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 06:35:36 +0900</pubDate>
+      <description>おはようございます。9月11日のワールド AI ニュースです。本日は、Google による台風予測の飛躍的な精度向上や、Meta が放つ高セキュリティな個人向け ＡＩ（えーあい）エージェント、そして ＡＩ（えーあい）の制御喪失を巡る深刻な内部告発についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-11_063042.mp3" type="audio/mpeg" length="5628333" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-11_063042.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:51</itunes:duration>
+      <itunes:summary>おはようございます。9月11日のワールド AI ニュースです。本日は、Google による台風予測の飛躍的な精度向上や、Meta が放つ高セキュリティな個人向け ＡＩ（えーあい）エージェント、そして ＡＩ（えーあい）の制御喪失を巡る深刻な内部告発についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-10 06:34:39</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-10_063439.mp3</link>
