@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 11 Sep 2026 06:35:36 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 06:41:40 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-12 06:37:12</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-12_063712.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-12_063712.mp3</guid>
+      <pubDate>Sat, 12 Sep 2026 06:41:40 +0900</pubDate>
+      <description>おはようございます。9月12日のワールド AI ニュースです。本日は、弁護士による ＡＩ（えーあい）捏造証言の不祥事や、精巧な偽造レシートがもたらす経費精算の危機、そして Amazon と OpenAI の広告提携についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-12_063712.mp3" type="audio/mpeg" length="5283885" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-12_063712.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:30</itunes:duration>
+      <itunes:summary>おはようございます。9月12日のワールド AI ニュースです。本日は、弁護士による ＡＩ（えーあい）捏造証言の不祥事や、精巧な偽造レシートがもたらす経費精算の危機、そして Amazon と OpenAI の広告提携についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-11 06:30:42</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-11_063042.mp3</link>
