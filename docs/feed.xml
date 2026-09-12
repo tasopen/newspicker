@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 12 Sep 2026 06:41:40 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 06:23:12 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-13 06:19:54</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-13_061954.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-13_061954.mp3</guid>
+      <pubDate>Sun, 13 Sep 2026 06:23:12 +0900</pubDate>
+      <description>おはようございます。9月13日のワールド AI ニュースです。本日は、数学界の至宝であるフィールズ賞受賞者たちが OpenAI に対し突きつけた怒りの声明や、開発の裏で判明した新たなサイバー攻撃の影、そして業界が直面する「減速」への議論についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-13_061954.mp3" type="audio/mpeg" length="4164525" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-13_061954.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:20</itunes:duration>
+      <itunes:summary>おはようございます。9月13日のワールド AI ニュースです。本日は、数学界の至宝であるフィールズ賞受賞者たちが OpenAI に対し突きつけた怒りの声明や、開発の裏で判明した新たなサイバー攻撃の影、そして業界が直面する「減速」への議論についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-12 06:37:12</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-12_063712.mp3</link>

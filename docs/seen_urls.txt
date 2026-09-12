@@ -1,10 +1,3 @@
-2026-08-13T20:02:49.061073+00:00	https://www.theguardian.com/commentisfree/2026/aug/13/mark-zuckerberg-future-of-ai
-2026-08-13T20:02:49.061073+00:00	https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/
-2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/
-2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/
-2026-08-13T20:02:49.061073+00:00	https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/
-2026-08-13T20:02:49.061073+00:00	https://www.leiphone.com/category/private/s0Uh2zV14wto02c2.html
-2026-08-13T20:02:49.061073+00:00	https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html
 2026-08-14T20:01:18.466765+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/080500183/
 2026-08-14T20:01:18.466765+00:00	https://ai.watch.impress.co.jp/docs/news/2131696.html
 2026-08-14T20:01:18.466765+00:00	https://www.theguardian.com/us-news/2026/aug/13/massachusetts-teen-killing-chatgpt
@@ -208,3 +201,10 @@
 2026-09-11T21:41:40.035883+00:00	https://www.itmedia.co.jp/news/article/2609/11/2000001396/
 2026-09-11T21:41:40.035883+00:00	https://www.itmedia.co.jp/news/article/2609/11/2000001392/
 2026-09-11T21:41:40.035883+00:00	https://www.theguardian.com/technology/2026/sep/11/children-need-interaction-not-ai
+2026-09-12T21:23:12.587476+00:00	https://www.theguardian.com/science/2026/sep/12/openai-mathematicians-millennium-prize-problem
+2026-09-12T21:23:12.587476+00:00	https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages
+2026-09-12T21:23:12.587476+00:00	https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown
+2026-09-12T21:23:12.587476+00:00	https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
+2026-09-12T21:23:12.587476+00:00	https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/
+2026-09-12T21:23:12.587476+00:00	https://www.tmtpost.com/8137883.html
+2026-09-12T21:23:12.587476+00:00	https://www.tmtpost.com/8137561.html
