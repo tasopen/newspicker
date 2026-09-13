@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 13 Sep 2026 06:23:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 06:22:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-14 06:18:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-14_061816.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-14_061816.mp3</guid>
+      <pubDate>Mon, 14 Sep 2026 06:22:11 +0900</pubDate>
+      <description>おはようございます。9月14日のワールド AI ニュースです。本日は、OpenAI やテスラの首脳陣が異例の団結で見せた ＡＩ（えーあい）開発減速への支持や、日本で加速するディープテックの潮流についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-14_061816.mp3" type="audio/mpeg" length="5259693" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-14_061816.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:summary>おはようございます。9月14日のワールド AI ニュースです。本日は、OpenAI やテスラの首脳陣が異例の団結で見せた ＡＩ（えーあい）開発減速への支持や、日本で加速するディープテックの潮流についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-13 06:19:54</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-13_061954.mp3</link>
