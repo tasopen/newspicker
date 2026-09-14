@@ -1,10 +1,3 @@
-2026-08-15T19:28:47.931013+00:00	https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/
-2026-08-15T19:28:47.931013+00:00	https://www.theguardian.com/technology/2026/aug/15/uk-ireland-booksellers-suspect-ai-companies-bulk-orders-data-acquisition
-2026-08-15T19:28:47.931013+00:00	https://www.theguardian.com/us-news/video/2026/aug/14/era-of-joyless-decadence-stateside-podcast
-2026-08-15T19:28:47.931013+00:00	https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/
-2026-08-15T19:28:47.931013+00:00	https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/
-2026-08-15T19:28:47.931013+00:00	https://www.zdnet.com/article/victrola-soundstage-review/
-2026-08-15T19:28:47.931013+00:00	https://www.qbitai.com/2026/08/473876.html
 2026-08-16T19:29:51.108529+00:00	https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman
 2026-08-16T19:29:51.108529+00:00	https://www.theguardian.com/film/2026/aug/16/directors-embracing-ai-film-making
 2026-08-16T19:29:51.108529+00:00	https://www.tmtpost.com/8104869.html
@@ -208,3 +201,10 @@
 2026-09-13T21:22:11.467532+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00677/090700212/
 2026-09-13T21:22:11.467532+00:00	https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown
 2026-09-13T21:22:11.467532+00:00	https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
+2026-09-14T22:26:03.171803+00:00	https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai
+2026-09-14T22:26:03.171803+00:00	https://www.theguardian.com/australia-news/2026/sep/15/australias-outdated-technology-is-vulnerable-to-ai-hacking-attacks-signals-chief-says
+2026-09-14T22:26:03.171803+00:00	https://www.theguardian.com/technology/2026/sep/14/ai-regulation-anthropic-uk-human-rights-committee-mps-lords
+2026-09-14T22:26:03.171803+00:00	https://ai.watch.impress.co.jp/docs/topic/special/2137745.html
+2026-09-14T22:26:03.171803+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/090900568/090900005/
+2026-09-14T22:26:03.171803+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600003/090900110/
+2026-09-14T22:26:03.171803+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00598/010900381/

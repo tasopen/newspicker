@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 14 Sep 2026 06:22:11 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 07:26:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-15 07:22:22</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-15_072222.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-15_072222.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 07:26:03 +0900</pubDate>
+      <description>おはようございます。9月15日のワールド AI ニュースです。本日は、開発減速の提言が市場に与えた衝撃や、各国政府が直面する ＡＩ（えーあい）の安全保障と規制の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-15_072222.mp3" type="audio/mpeg" length="4639533" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-15_072222.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:49</itunes:duration>
+      <itunes:summary>おはようございます。9月15日のワールド AI ニュースです。本日は、開発減速の提言が市場に与えた衝撃や、各国政府が直面する ＡＩ（えーあい）の安全保障と規制の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-14 06:18:16</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-14_061816.mp3</link>
