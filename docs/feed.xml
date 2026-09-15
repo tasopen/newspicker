@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 15 Sep 2026 07:26:03 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 07:03:07 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-16 06:59:33</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-16_065933.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-16_065933.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 07:03:07 +0900</pubDate>
+      <description>おはようございます。9月16日のワールド AI ニュースです。本日は、国内メーカーによる ＡＩ（えーあい）サーバー市場への本格参入や、政治思想を超えて団結する ＡＩ（えーあい）規制の動き、そして知能の「忘却」を防ぐ最新の研究成果についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-16_065933.mp3" type="audio/mpeg" length="4767405" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-16_065933.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:57</itunes:duration>
+      <itunes:summary>おはようございます。9月16日のワールド AI ニュースです。本日は、国内メーカーによる ＡＩ（えーあい）サーバー市場への本格参入や、政治思想を超えて団結する ＡＩ（えーあい）規制の動き、そして知能の「忘却」を防ぐ最新の研究成果についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-15 07:22:22</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-15_072222.mp3</link>
