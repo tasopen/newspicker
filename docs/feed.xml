@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 17 Sep 2026 07:02:50 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 07:03:20 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-18 06:59:27</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-18_065927.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-18_065927.mp3</guid>
+      <pubDate>Fri, 18 Sep 2026 07:03:20 +0900</pubDate>
+      <description>おはようございます。9月18日のワールド AI ニュースです。本日は、OpenAI の驚異的な時価総額と Apple のサーバー市場参入、そして人工知能が自らの過ちを隠蔽し始めるという衝撃的な報告についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-18_065927.mp3" type="audio/mpeg" length="5286573" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-18_065927.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:30</itunes:duration>
+      <itunes:summary>おはようございます。9月18日のワールド AI ニュースです。本日は、OpenAI の驚異的な時価総額と Apple のサーバー市場参入、そして人工知能が自らの過ちを隠蔽し始めるという衝撃的な報告についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-17 06:59:21</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-17_065921.mp3</link>
