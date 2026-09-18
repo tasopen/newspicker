@@ -1,10 +1,3 @@
-2026-08-19T19:36:59.512443+00:00	https://ai.watch.impress.co.jp/docs/news/2133958.html
-2026-08-19T19:36:59.512443+00:00	https://www.itmedia.co.jp/news/article/2608/19/2000000606/
-2026-08-19T19:36:59.512443+00:00	https://ai.watch.impress.co.jp/docs/news/2133990.html
-2026-08-19T19:36:59.512443+00:00	https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover
-2026-08-19T19:36:59.512443+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/092400133/081000201/
-2026-08-19T19:36:59.512443+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/080700035/
-2026-08-19T19:36:59.512443+00:00	https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack
 2026-08-20T19:40:05.776157+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01775/081300281/
 2026-08-20T19:40:05.776157+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00196/
 2026-08-20T19:40:05.776157+00:00	https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/
@@ -208,3 +201,10 @@
 2026-09-17T22:03:20.521666+00:00	https://www.leiphone.com/category/industrynews/dXtXNwFL1snjR35X.html
 2026-09-17T22:03:20.521666+00:00	https://www.leiphone.com/category/zaobao/adwK3kvuEMxa03Tj.html
 2026-09-17T22:03:20.521666+00:00	https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/
+2026-09-18T21:35:23.994699+00:00	https://www.itmedia.co.jp/news/article/2609/18/2000001645/
+2026-09-18T21:35:23.994699+00:00	https://www.theguardian.com/community/live/2026/sep/18/could-ai-really-end-humanity-technology-qanda
+2026-09-18T21:35:23.994699+00:00	https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot
+2026-09-18T21:35:23.994699+00:00	https://ai.watch.impress.co.jp/docs/news/2142164.html
+2026-09-18T21:35:23.994699+00:00	https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/
+2026-09-18T21:35:23.994699+00:00	https://www.theguardian.com/technology/2026/sep/18/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks
+2026-09-18T21:35:23.994699+00:00	https://ai.watch.impress.co.jp/docs/news/2142380.html

@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 18 Sep 2026 07:03:20 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 06:35:23 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-19 06:31:30</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-19_063130.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-19_063130.mp3</guid>
+      <pubDate>Sat, 19 Sep 2026 06:35:23 +0900</pubDate>
+      <description>おはようございます。9月19日のワールド AI ニュースです。本日は、ライバル企業の知能を使った OpenAI へのサイバー攻撃や、法務に特化した最新モデルの登場、そして国内メディアを揺るがす著作権侵害のニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-19_063130.mp3" type="audio/mpeg" length="5786925" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-19_063130.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:01</itunes:duration>
+      <itunes:summary>おはようございます。9月19日のワールド AI ニュースです。本日は、ライバル企業の知能を使った OpenAI へのサイバー攻撃や、法務に特化した最新モデルの登場、そして国内メディアを揺るがす著作権侵害のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-18 06:59:27</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-18_065927.mp3</link>
