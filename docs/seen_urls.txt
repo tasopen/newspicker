@@ -1,10 +1,3 @@
-2026-08-20T19:40:05.776157+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01775/081300281/
-2026-08-20T19:40:05.776157+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00196/
-2026-08-20T19:40:05.776157+00:00	https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/
-2026-08-20T19:40:05.776157+00:00	https://ai.watch.impress.co.jp/docs/news/2134141.html
-2026-08-20T19:40:05.776157+00:00	https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai
-2026-08-20T19:40:05.776157+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/080701485/
-2026-08-20T19:40:05.776157+00:00	https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/
 2026-08-21T19:33:14.850995+00:00	https://www.theguardian.com/commentisfree/2026/aug/21/openai-frontier-ai-speed
 2026-08-21T19:33:14.850995+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/081800064/
 2026-08-21T19:33:14.850995+00:00	https://www.itmedia.co.jp/news/article/2608/21/2000000669/
@@ -208,3 +201,10 @@
 2026-09-18T21:35:23.994699+00:00	https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/
 2026-09-18T21:35:23.994699+00:00	https://www.theguardian.com/technology/2026/sep/18/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks
 2026-09-18T21:35:23.994699+00:00	https://ai.watch.impress.co.jp/docs/news/2142380.html
+2026-09-19T21:26:54.975950+00:00	https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast
+2026-09-19T21:26:54.975950+00:00	https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack
+2026-09-19T21:26:54.975950+00:00	https://www.theguardian.com/technology/2026/sep/20/your-ai-doomsday-questions-answered-could-ai-technology-really-end-humanity
+2026-09-19T21:26:54.975950+00:00	https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/
+2026-09-19T21:26:54.975950+00:00	https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/
+2026-09-19T21:26:54.975950+00:00	https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/
+2026-09-19T21:26:54.975950+00:00	https://www.wired.com/story/mathematicians-cant-quit-ai/

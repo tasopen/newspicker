@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 19 Sep 2026 06:35:23 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 06:26:54 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-20 06:22:23</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-20_062223.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-20_062223.mp3</guid>
+      <pubDate>Sun, 20 Sep 2026 06:26:54 +0900</pubDate>
+      <description>おはようございます。9月20日のワールド AI ニュースです。本日は、Google の Ｇｅｍｉｎｉ（じぇみに）による他社へのハッキング発覚や、アメリカ軍の作戦を危うくした ＡＩ（えーあい）の「幻覚」など、知能の制御と安全性に関する重大なニュースをお届けします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-20_062223.mp3" type="audio/mpeg" length="6289197" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-20_062223.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:33</itunes:duration>
+      <itunes:summary>おはようございます。9月20日のワールド AI ニュースです。本日は、Google の Ｇｅｍｉｎｉ（じぇみに）による他社へのハッキング発覚や、アメリカ軍の作戦を危うくした ＡＩ（えーあい）の「幻覚」など、知能の制御と安全性に関する重大なニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-19 06:31:30</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-19_063130.mp3</link>
