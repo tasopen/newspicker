@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 21 Sep 2026 06:21:31 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 07:37:22 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-22 07:32:15</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-22_073215.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-22_073215.mp3</guid>
+      <pubDate>Tue, 22 Sep 2026 07:37:22 +0900</pubDate>
+      <description>おはようございます。9月22日のワールド AI ニュースです。本日は、話題の超高速モデル Ｊｅｖ（じぇぶ）の真価や、Meta の最新エージェントが ChatGPT を超える勢いで普及しているニュースなどをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-22_073215.mp3" type="audio/mpeg" length="7089837" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-22_073215.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>07:23</itunes:duration>
+      <itunes:summary>おはようございます。9月22日のワールド AI ニュースです。本日は、話題の超高速モデル Ｊｅｖ（じぇぶ）の真価や、Meta の最新エージェントが ChatGPT を超える勢いで普及しているニュースなどをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-21 06:17:54</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-21_061754.mp3</link>
