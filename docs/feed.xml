@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 22 Sep 2026 07:37:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 06:59:25 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-23 06:54:51</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-23_065451.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-23_065451.mp3</guid>
+      <pubDate>Wed, 23 Sep 2026 06:59:25 +0900</pubDate>
+      <description>おはようございます。9月23日のワールド AI ニュースです。本日は、OpenAI の最新モデル「GPT-6 Sol」の登場や、AI の利用を隠す心理に関する調査、そしてデータセンター建設を巡る政治的な対立などをお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-23_065451.mp3" type="audio/mpeg" length="5083437" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-23_065451.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:17</itunes:duration>
+      <itunes:summary>おはようございます。9月23日のワールド AI ニュースです。本日は、OpenAI の最新モデル「GPT-6 Sol」の登場や、AI の利用を隠す心理に関する調査、そしてデータセンター建設を巡る政治的な対立などをお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-22 07:32:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-22_073215.mp3</link>
