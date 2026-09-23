@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 23 Sep 2026 06:59:25 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 07:13:42 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-24 07:10:21</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-24_071021.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-24_071021.mp3</guid>
+      <pubDate>Thu, 24 Sep 2026 07:13:42 +0900</pubDate>
+      <description>おはようございます。9月24日のワールド AI ニュースです。本日は、国連安全保障理事会で行われた OpenAI と Anthropic のトップによる歴史的な報告や、オーストラリアで起きた AI エージェントによるハッキング事件、そして中国で産声を上げた物理的な知能の新しい潮流についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-24_071021.mp3" type="audio/mpeg" length="4336557" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-24_071021.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:31</itunes:duration>
+      <itunes:summary>おはようございます。9月24日のワールド AI ニュースです。本日は、国連安全保障理事会で行われた OpenAI と Anthropic のトップによる歴史的な報告や、オーストラリアで起きた AI エージェントによるハッキング事件、そして中国で産声を上げた物理的な知能の新しい潮流についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-23 06:54:51</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-23_065451.mp3</link>
