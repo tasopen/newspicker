@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 24 Sep 2026 07:13:42 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 07:12:21 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-25 07:08:02</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-25_070802.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-25_070802.mp3</guid>
+      <pubDate>Fri, 25 Sep 2026 07:12:21 +0900</pubDate>
+      <description>おはようございます。9月25日のワールド AI ニュースです。本日は、オーストラリアで起きたハッキング事件の続報と国家の脆弱性、ニューヨークで激化するテック企業への抗議デモ、そして国内企業の ＡＩ（えーあい）変革の最前線についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-25_070802.mp3" type="audio/mpeg" length="5881773" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-25_070802.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>06:07</itunes:duration>
+      <itunes:summary>おはようございます。9月25日のワールド AI ニュースです。本日は、オーストラリアで起きたハッキング事件の続報と国家の脆弱性、ニューヨークで激化するテック企業への抗議デモ、そして国内企業の ＡＩ（えーあい）変革の最前線についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-24 07:10:21</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-24_071021.mp3</link>
