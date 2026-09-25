@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 25 Sep 2026 07:12:21 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 07:09:06 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-26 07:06:14</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-26_070614.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-26_070614.mp3</guid>
+      <pubDate>Sat, 26 Sep 2026 07:09:06 +0900</pubDate>
+      <description>おはようございます。9月26日のワールド AI ニュースです。本日は、中国の DeepSeek が発表した革新的な訓練インフラや、オーストラリア首相が訴える「制御不能な知能」への懸念、そしてローマ教皇による倫理的警告についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-26_070614.mp3" type="audio/mpeg" length="3900717" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-26_070614.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:03</itunes:duration>
+      <itunes:summary>おはようございます。9月26日のワールド AI ニュースです。本日は、中国の DeepSeek が発表した革新的な訓練インフラや、オーストラリア首相が訴える「制御不能な知能」への懸念、そしてローマ教皇による倫理的警告についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-25 07:08:02</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-25_070802.mp3</link>

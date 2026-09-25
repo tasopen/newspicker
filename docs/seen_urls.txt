@@ -1,10 +1,3 @@
-2026-08-26T21:58:20.387574+00:00	https://www.theguardian.com/us-news/2026/aug/26/ohio-datacenter-reaction
-2026-08-26T21:58:20.387574+00:00	https://ai.watch.impress.co.jp/docs/news/2135729.html
-2026-08-26T21:58:20.387574+00:00	https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr
-2026-08-26T21:58:20.387574+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03242/082500030/
-2026-08-26T21:58:20.387574+00:00	https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm
-2026-08-26T21:58:20.387574+00:00	https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/
-2026-08-26T21:58:20.387574+00:00	https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/
 2026-08-28T02:31:43.052878+00:00	https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/
 2026-08-28T02:31:43.052878+00:00	https://www.zdnet.com/article/chatgpt-can-log-into-your-web-accounts-without-you-now-but-should-you-let-it/
 2026-08-28T02:31:43.052878+00:00	https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/
@@ -208,3 +201,10 @@
 2026-09-24T22:12:21.682727+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/041700482/091700020/
 2026-09-24T22:12:21.682727+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100113/091700195/
 2026-09-24T22:12:21.682727+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100112/091700147/
+2026-09-25T22:09:06.239021+00:00	https://www.theguardian.com/technology/2026/sep/26/openai-hack-australian-government-anxiety-global-dilemma-artificial-intelligence
+2026-09-25T22:09:06.239021+00:00	https://ai.watch.impress.co.jp/docs/news/2143227.html
+2026-09-25T22:09:06.239021+00:00	https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/
+2026-09-25T22:09:06.239021+00:00	https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/
+2026-09-25T22:09:06.239021+00:00	https://www.leiphone.com/category/yanxishe/8IlKEXMO2Pxju8ke.html
+2026-09-25T22:09:06.239021+00:00	https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google
+2026-09-25T22:09:06.239021+00:00	https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit
