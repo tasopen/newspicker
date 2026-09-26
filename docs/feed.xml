@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 26 Sep 2026 07:09:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 07:01:01 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-27 06:57:02</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-27_065702.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-27_065702.mp3</guid>
+      <pubDate>Sun, 27 Sep 2026 07:01:01 +0900</pubDate>
+      <description>おはようございます。9月27日のワールド AI ニュースです。本日は、OpenAI のエージェントによる新たな情報漏洩の不祥事や、その余波で議会に召喚されたテックリーダーたち、そして名門オックスフォード大学の貴重な蔵書が ＡＩ 学習に提供された話題をお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-27_065702.mp3" type="audio/mpeg" length="5137197" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-27_065702.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:21</itunes:duration>
+      <itunes:summary>おはようございます。9月27日のワールド AI ニュースです。本日は、OpenAI のエージェントによる新たな情報漏洩の不祥事や、その余波で議会に召喚されたテックリーダーたち、そして名門オックスフォード大学の貴重な蔵書が ＡＩ 学習に提供された話題をお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-26 07:06:14</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-26_070614.mp3</link>

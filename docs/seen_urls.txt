@@ -208,3 +208,10 @@
 2026-09-25T22:09:06.239021+00:00	https://www.leiphone.com/category/yanxishe/8IlKEXMO2Pxju8ke.html
 2026-09-25T22:09:06.239021+00:00	https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google
 2026-09-25T22:09:06.239021+00:00	https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit
+2026-09-26T22:01:01.462541+00:00	https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt
+2026-09-26T22:01:01.462541+00:00	https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt
+2026-09-26T22:01:01.462541+00:00	https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak
+2026-09-26T22:01:01.462541+00:00	https://ainow.ai/2026/09/27/278389/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e8%25b3%2587%25e6%2596%2599%25e4%25bd%259c%25e6%2588%2590%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25ef%25bc%2581%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%258110%25e9%2581%25b8
+2026-09-26T22:01:01.462541+00:00	https://www.qbitai.com/2026/09/497425.html
+2026-09-26T22:01:01.462541+00:00	https://www.qbitai.com/2026/09/497382.html
+2026-09-26T22:01:01.462541+00:00	https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
