@@ -1,10 +1,3 @@
-2026-08-28T02:31:43.052878+00:00	https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/
-2026-08-28T02:31:43.052878+00:00	https://www.zdnet.com/article/chatgpt-can-log-into-your-web-accounts-without-you-now-but-should-you-let-it/
-2026-08-28T02:31:43.052878+00:00	https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/
-2026-08-28T02:31:43.052878+00:00	https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/
-2026-08-28T02:31:43.052878+00:00	https://www.theguardian.com/news/audio/2026/aug/28/black-box-episode-5-the-white-mask-podcast
-2026-08-28T02:31:43.052878+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100112/082400145/
-2026-08-28T02:31:43.052878+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/082700184/
 2026-08-29T02:04:52.723178+00:00	https://www.leiphone.com/category/ai/B0TkvWHMs5AJIym6.html
 2026-08-29T02:04:52.723178+00:00	https://www.leiphone.com/category/ai/aolA6aSnqLoYTm3d.html
 2026-08-29T02:04:52.723178+00:00	https://ai.watch.impress.co.jp/docs/interview/2134728.html
@@ -215,3 +208,10 @@
 2026-09-26T22:01:01.462541+00:00	https://www.qbitai.com/2026/09/497425.html
 2026-09-26T22:01:01.462541+00:00	https://www.qbitai.com/2026/09/497382.html
 2026-09-26T22:01:01.462541+00:00	https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
+2026-09-27T21:59:33.949508+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01679/073000298/
+2026-09-27T21:59:33.949508+00:00	https://www.theguardian.com/australia-news/2026/sep/28/university-ai-marking-academic-overworked-staff-student-shortcut
+2026-09-27T21:59:33.949508+00:00	https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue
+2026-09-27T21:59:33.949508+00:00	https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb
+2026-09-27T21:59:33.949508+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03712/080500001/
+2026-09-27T21:59:33.949508+00:00	https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/
+2026-09-27T21:59:33.949508+00:00	https://www.qbitai.com/2026/09/498546.html
