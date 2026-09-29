@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 29 Sep 2026 08:50:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 07:56:37 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-09-30 07:55:04</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-09-30_075504.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-09-30_075504.mp3</guid>
+      <pubDate>Wed, 30 Sep 2026 07:56:37 +0900</pubDate>
+      <description>おはようございます。9月30日のワールド AI ニュースです。本日は、OpenAI が開発者会議で発表した常時稼働エージェントやオフィス機能群による既存プラットフォームへの挑戦、そして制御を離れる知能に対する独立規制を求める議論についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-09-30_075504.mp3" type="audio/mpeg" length="2823213" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-09-30_075504.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>02:56</itunes:duration>
+      <itunes:summary>おはようございます。9月30日のワールド AI ニュースです。本日は、OpenAI が開発者会議で発表した常時稼働エージェントやオフィス機能群による既存プラットフォームへの挑戦、そして制御を離れる知能に対する独立規制を求める議論についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-09-29 08:47:49</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-09-29_084749.mp3</link>
