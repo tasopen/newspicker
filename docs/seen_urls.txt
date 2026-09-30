@@ -208,3 +208,10 @@
 2026-09-29T22:56:37.649870+00:00	https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/
 2026-09-29T22:56:37.649870+00:00	https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/
 2026-09-29T22:56:37.649870+00:00	https://www.itmedia.co.jp/news/article/2609/30/2000001868/
+2026-09-30T22:55:06.667470+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/091300255/091300001/
+2026-09-30T22:55:06.667470+00:00	https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html
+2026-09-30T22:55:06.667470+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/092401500/
+2026-09-30T22:55:06.667470+00:00	https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss
+2026-09-30T22:55:06.667470+00:00	https://www.theguardian.com/commentisfree/2026/sep/30/humans-or-ai-bots-uk-civil-service
+2026-09-30T22:55:06.667470+00:00	https://ai.watch.impress.co.jp/docs/news/2144361.html
+2026-09-30T22:55:06.667470+00:00	https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html
