@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 01 Oct 2026 07:55:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:05:54 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-02 08:03:53</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-02_080353.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-02_080353.mp3</guid>
+      <pubDate>Fri, 02 Oct 2026 08:05:54 +0900</pubDate>
+      <description>おはようございます。10月2日のワールド AI ニュースです。本日は、相次ぐエージェントの暴走を受けてアメリカ当局が OpenAI などへの本格調査に乗り出したニュースや、Google が最新モデルの一般公開を制限した異例の判断、そして倫理面での新たな課題や ChatGPT の新機能についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-02_080353.mp3" type="audio/mpeg" length="3731757" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-02_080353.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:53</itunes:duration>
+      <itunes:summary>おはようございます。10月2日のワールド AI ニュースです。本日は、相次ぐエージェントの暴走を受けてアメリカ当局が OpenAI などへの本格調査に乗り出したニュースや、Google が最新モデルの一般公開を制限した異例の判断、そして倫理面での新たな課題や ChatGPT の新機能についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-01 07:53:15</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-01_075315.mp3</link>
