@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 02 Oct 2026 08:05:54 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 07:55:17 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-03 07:53:09</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-03_075309.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-03_075309.mp3</guid>
+      <pubDate>Sat, 03 Oct 2026 07:55:17 +0900</pubDate>
+      <description>おはようございます。10月3日のワールド AI ニュースです。本日は、AI によって秘密投票が暴かれるリスクを巡るアメリカでの緊急会議や、生死を決める自律型兵器への警鐘、さらにオーストラリア政府が直面する巨額のシステム改修問題や、女性の AI 活用を阻む心理的な壁についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-03_075309.mp3" type="audio/mpeg" length="4718637" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-03_075309.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:54</itunes:duration>
+      <itunes:summary>おはようございます。10月3日のワールド AI ニュースです。本日は、AI によって秘密投票が暴かれるリスクを巡るアメリカでの緊急会議や、生死を決める自律型兵器への警鐘、さらにオーストラリア政府が直面する巨額のシステム改修問題や、女性の AI 活用を阻む心理的な壁についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-02 08:03:53</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-02_080353.mp3</link>

@@ -1,10 +1,3 @@
-2026-09-02T21:43:08.016795+00:00	https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/
-2026-09-02T21:43:08.016795+00:00	https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai
-2026-09-02T21:43:08.016795+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00849/00198/
-2026-09-02T21:43:08.016795+00:00	https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting
-2026-09-02T21:43:08.016795+00:00	https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup
-2026-09-02T21:43:08.016795+00:00	https://www.leiphone.com/category/zaobao/8VM0tsh1bX3X7luW.html
-2026-09-02T21:43:08.016795+00:00	https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety
 2026-09-03T21:41:20.080906+00:00	https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html
 2026-09-03T21:41:20.080906+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/083000065/
 2026-09-03T21:41:20.080906+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12013/
@@ -208,3 +201,10 @@
 2026-10-01T23:05:54.044245+00:00	https://www.itmedia.co.jp/news/article/2610/02/2000001945/
 2026-10-01T23:05:54.044245+00:00	https://www.itmedia.co.jp/news/article/2610/01/2000001931/
 2026-10-01T23:05:54.044245+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/092600067/
+2026-10-02T22:55:17.803979+00:00	https://www.itmedia.co.jp/news/article/2610/02/2000001967/
+2026-10-02T22:55:17.803979+00:00	https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy
+2026-10-02T22:55:17.803979+00:00	https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers
+2026-10-02T22:55:17.803979+00:00	https://www.theguardian.com/commentisfree/2026/oct/02/ai-weapons-systems-algorithms-war
+2026-10-02T22:55:17.803979+00:00	https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/
+2026-10-02T22:55:17.803979+00:00	https://ai.watch.impress.co.jp/docs/news/2145220.html
+2026-10-02T22:55:17.803979+00:00	https://ai.watch.impress.co.jp/docs/news/2145117.html
