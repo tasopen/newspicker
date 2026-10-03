@@ -1,10 +1,3 @@
-2026-09-03T21:41:20.080906+00:00	https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html
-2026-09-03T21:41:20.080906+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/083000065/
-2026-09-03T21:41:20.080906+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12013/
-2026-09-03T21:41:20.080906+00:00	https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-happy-accident-episode-3-podcast
-2026-09-03T21:41:20.080906+00:00	https://ai.watch.impress.co.jp/docs/news/2138097.html
-2026-09-03T21:41:20.080906+00:00	https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release
-2026-09-03T21:41:20.080906+00:00	https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down
 2026-09-04T21:23:49.818224+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03373/
 2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138217.html
 2026-09-04T21:23:49.818224+00:00	https://www.leiphone.com/category/zaobao/ufE0wwRendYKuvDo.html
@@ -208,3 +201,10 @@
 2026-10-02T22:55:17.803979+00:00	https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/
 2026-10-02T22:55:17.803979+00:00	https://ai.watch.impress.co.jp/docs/news/2145220.html
 2026-10-02T22:55:17.803979+00:00	https://ai.watch.impress.co.jp/docs/news/2145117.html
+2026-10-03T22:04:19.293902+00:00	https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken
+2026-10-03T22:04:19.293902+00:00	https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection
+2026-10-03T22:04:19.293902+00:00	https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day
+2026-10-03T22:04:19.293902+00:00	https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+2026-10-03T22:04:19.293902+00:00	https://www.qbitai.com/2026/10/501368.html
+2026-10-03T22:04:19.293902+00:00	https://www.tmtpost.com/8158562.html
+2026-10-03T22:04:19.293902+00:00	https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm
