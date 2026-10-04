@@ -1,10 +1,3 @@
-2026-09-04T21:23:49.818224+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03373/
-2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138217.html
-2026-09-04T21:23:49.818224+00:00	https://www.leiphone.com/category/zaobao/ufE0wwRendYKuvDo.html
-2026-09-04T21:23:49.818224+00:00	https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/
-2026-09-04T21:23:49.818224+00:00	https://www.itmedia.co.jp/news/article/2609/04/2000001192/
-2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138446.html
-2026-09-04T21:23:49.818224+00:00	https://ai.watch.impress.co.jp/docs/news/2138402.html
 2026-09-05T21:04:57.977099+00:00	https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
 2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/australia-news/audio/2026/sep/06/black-box-the-chatbots-spirals-ep-1-full-story-podcast
 2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings
@@ -208,3 +201,10 @@
 2026-10-03T22:04:19.293902+00:00	https://www.qbitai.com/2026/10/501368.html
 2026-10-03T22:04:19.293902+00:00	https://www.tmtpost.com/8158562.html
 2026-10-03T22:04:19.293902+00:00	https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm
+2026-10-04T22:17:21.283680+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00148/091800456/
+2026-10-04T22:17:21.283680+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03076/093000031/
+2026-10-04T22:17:21.283680+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03777/100100001/
+2026-10-04T22:17:21.283680+00:00	https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality
+2026-10-04T22:17:21.283680+00:00	https://www.tmtpost.com/8158700.html
+2026-10-04T22:17:21.283680+00:00	https://www.tmtpost.com/8158829.html
+2026-10-04T22:17:21.283680+00:00	https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft
