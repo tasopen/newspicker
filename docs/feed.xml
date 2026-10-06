@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 06 Oct 2026 09:42:53 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 07:59:23 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-07 07:57:22</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-07_075722.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-07_075722.mp3</guid>
+      <pubDate>Wed, 07 Oct 2026 07:59:23 +0900</pubDate>
+      <description>おはようございます。10月7日のワールド AI ニュースです。本日は、OpenAI による ChatGPT への画像広告導入の波紋や、フランスの新興勢力による1兆パラメータの巨大モデル発表、さらに Google が踏み切った無料版 Gemini の制限と、大分市で始まったオープンソース行政知能の取り組みについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-07_075722.mp3" type="audio/mpeg" length="3919533" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-07_075722.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:04</itunes:duration>
+      <itunes:summary>おはようございます。10月7日のワールド AI ニュースです。本日は、OpenAI による ChatGPT への画像広告導入の波紋や、フランスの新興勢力による1兆パラメータの巨大モデル発表、さらに Google が踏み切った無料版 Gemini の制限と、大分市で始まったオープンソース行政知能の取り組みについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-06 09:40:56</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-06_094056.mp3</link>

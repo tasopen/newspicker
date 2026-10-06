@@ -1,10 +1,3 @@
-2026-09-06T21:14:38.565006+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03076/090400030/
-2026-09-06T21:14:38.565006+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01679/073000295/
-2026-09-06T21:14:38.565006+00:00	https://www.theguardian.com/technology/2026/sep/06/ai-food-menu-images
-2026-09-06T21:14:38.565006+00:00	https://www.theguardian.com/technology/2026/sep/06/daniel-susskind-father-studies-ai-artificial-intelligence-what-parents-need-know
-2026-09-06T21:14:38.565006+00:00	https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/
-2026-09-06T21:14:38.565006+00:00	https://www.tmtpost.com/8129268.html
-2026-09-06T21:14:38.565006+00:00	https://www.itmedia.co.jp/news/article/2609/06/2000001202/
 2026-09-07T22:02:02.352311+00:00	https://www.leiphone.com/category/zaobao/Ah6u3x7hPpOKsqIc.html
 2026-09-07T22:02:02.352311+00:00	https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft
 2026-09-07T22:02:02.352311+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12012/
@@ -208,3 +201,10 @@
 2026-10-06T00:42:53.371676+00:00	https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act
 2026-10-06T00:42:53.371676+00:00	https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr
 2026-10-06T00:42:53.371676+00:00	https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads
+2026-10-06T22:59:23.622159+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03777/100500003/
+2026-10-06T22:59:23.622159+00:00	https://www.theguardian.com/film/2026/oct/06/artificial-sam-altman-ai-movie-review
+2026-10-06T22:59:23.622159+00:00	https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all
+2026-10-06T22:59:23.622159+00:00	https://www.theguardian.com/commentisfree/2026/oct/06/ai-sam-altman-billionaire-risks-openai
+2026-10-06T22:59:23.622159+00:00	https://ai.watch.impress.co.jp/docs/news/2145952.html
+2026-10-06T22:59:23.622159+00:00	https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/
+2026-10-06T22:59:23.622159+00:00	https://www.zdnet.com/innovation/google-ai-free-model-access-limited/
