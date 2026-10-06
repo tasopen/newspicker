@@ -1,10 +1,3 @@
-2026-09-05T21:04:57.977099+00:00	https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
-2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/australia-news/audio/2026/sep/06/black-box-the-chatbots-spirals-ep-1-full-story-podcast
-2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings
-2026-09-05T21:04:57.977099+00:00	https://www.theguardian.com/technology/audio/2026/sep/05/black-box-the-chatbots-spirals-ep-1-podcast
-2026-09-05T21:04:57.977099+00:00	https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
-2026-09-05T21:04:57.977099+00:00	https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
-2026-09-05T21:04:57.977099+00:00	https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/
 2026-09-06T21:14:38.565006+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03076/090400030/
 2026-09-06T21:14:38.565006+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01679/073000295/
 2026-09-06T21:14:38.565006+00:00	https://www.theguardian.com/technology/2026/sep/06/ai-food-menu-images
@@ -208,3 +201,10 @@
 2026-10-04T22:17:21.283680+00:00	https://www.tmtpost.com/8158700.html
 2026-10-04T22:17:21.283680+00:00	https://www.tmtpost.com/8158829.html
 2026-10-04T22:17:21.283680+00:00	https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft
+2026-10-06T00:42:53.371676+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03777/100200002/
+2026-10-06T00:42:53.371676+00:00	https://www.theguardian.com/australia-news/2026/oct/06/openai-must-explain-action-taken-to-stop-ai-hacking-australians-private-data-chair-of-federal-inquiry-says
+2026-10-06T00:42:53.371676+00:00	https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks
+2026-10-06T00:42:53.371676+00:00	https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/
+2026-10-06T00:42:53.371676+00:00	https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act
+2026-10-06T00:42:53.371676+00:00	https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr
+2026-10-06T00:42:53.371676+00:00	https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads
