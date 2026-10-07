@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 07 Oct 2026 07:59:23 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 08:32:41 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-08 08:30:32</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-08_083032.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-08_083032.mp3</guid>
+      <pubDate>Thu, 08 Oct 2026 08:32:41 +0900</pubDate>
+      <description>おはようございます。10月8日のワールド AI ニュースです。本日は、対話画面を大きく刷新した ChatGPT の新たな視覚的インターフェースの発表や、OpenAI による数百件もの数学的発見の公開と波紋、さらに10代向け進学支援機能への安全性批判や、豪州議会での不正アクセスを巡る公聴会の続報についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-08_083032.mp3" type="audio/mpeg" length="4004013" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-08_083032.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:10</itunes:duration>
+      <itunes:summary>おはようございます。10月8日のワールド AI ニュースです。本日は、対話画面を大きく刷新した ChatGPT の新たな視覚的インターフェースの発表や、OpenAI による数百件もの数学的発見の公開と波紋、さらに10代向け進学支援機能への安全性批判や、豪州議会での不正アクセスを巡る公聴会の続報についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-07 07:57:22</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-07_075722.mp3</link>
