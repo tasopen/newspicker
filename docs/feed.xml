@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 08 Oct 2026 08:32:41 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 08:43:45 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-09 08:41:59</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-09_084159.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-09_084159.mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 08:43:45 +0900</pubDate>
+      <description>おはようございます。10月9日のワールド AI ニュースです。本日は、AI による新たなゲノム編集酵素の発見と医療への可能性、米新聞大手による OpenAI への巨額著作権訴訟、さらに中国の精鋭研究者集団が率いる新興 AI 企業による大型資金調達の話題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-09_084159.mp3" type="audio/mpeg" length="3098925" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-09_084159.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:13</itunes:duration>
+      <itunes:summary>おはようございます。10月9日のワールド AI ニュースです。本日は、AI による新たなゲノム編集酵素の発見と医療への可能性、米新聞大手による OpenAI への巨額著作権訴訟、さらに中国の精鋭研究者集団が率いる新興 AI 企業による大型資金調達の話題についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-08 08:30:32</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-08_083032.mp3</link>
