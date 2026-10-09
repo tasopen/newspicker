@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 09 Oct 2026 08:43:45 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 08:07:54 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-10 08:06:13</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-10_080613.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-10_080613.mp3</guid>
+      <pubDate>Sat, 10 Oct 2026 08:07:54 +0900</pubDate>
+      <description>おはようございます。10月10日のワールド AI ニュースです。本日は、OpenAI の年間売上予測が大幅に下方修正された波紋や、非テキスト基盤の新星 Jev（じぇぶ）の急成長、国内における ChatGPT 利用者の爆発的な拡大、さらに英映画界の登竜門を揺るがす自動化の影についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-10_080613.mp3" type="audio/mpeg" length="3593133" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-10_080613.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:44</itunes:duration>
+      <itunes:summary>おはようございます。10月10日のワールド AI ニュースです。本日は、OpenAI の年間売上予測が大幅に下方修正された波紋や、非テキスト基盤の新星 Jev（じぇぶ）の急成長、国内における ChatGPT 利用者の爆発的な拡大、さらに英映画界の登竜門を揺るがす自動化の影についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-09 08:41:59</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-09_084159.mp3</link>
