@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 11 Oct 2026 07:21:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:46:30 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-12 07:44:21</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-12_074421.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-12_074421.mp3</guid>
+      <pubDate>Mon, 12 Oct 2026 07:46:30 +0900</pubDate>
+      <description>おはようございます。10月12日のワールド AI ニュースです。本日は、Google がエージェント基盤の強化で OpenAI への反撃を強める動きや、Apple が発表を控える新型スマートホーム機器、実用化の壁に直面する音声知能の現在地、さらに米国政界とシリコンバレーを巡る呼称統一の波紋についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-12_074421.mp3" type="audio/mpeg" length="3860013" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-12_074421.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:01</itunes:duration>
+      <itunes:summary>おはようございます。10月12日のワールド AI ニュースです。本日は、Google がエージェント基盤の強化で OpenAI への反撃を強める動きや、Apple が発表を控える新型スマートホーム機器、実用化の壁に直面する音声知能の現在地、さらに米国政界とシリコンバレーを巡る呼称統一の波紋についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-11 07:19:29</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-11_071929.mp3</link>
