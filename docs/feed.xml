@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 12 Oct 2026 07:46:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 10:11:50 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-13 10:09:50</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-13_100950.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-13_100950.mp3</guid>
+      <pubDate>Tue, 13 Oct 2026 10:11:50 +0900</pubDate>
+      <description>おはようございます。10月13日のワールド AI ニュースです。本日は、英国政府が警告する自律型知能による深刻なサイバー攻撃の危機や、国際法による抜本的規制を訴える英法曹界の声、米国で広がる医療債務の AI 回収、さらに自前モデルで勝負を挑む NEC の変革についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-13_100950.mp3" type="audio/mpeg" length="3969837" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-13_100950.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:08</itunes:duration>
+      <itunes:summary>おはようございます。10月13日のワールド AI ニュースです。本日は、英国政府が警告する自律型知能による深刻なサイバー攻撃の危機や、国際法による抜本的規制を訴える英法曹界の声、米国で広がる医療債務の AI 回収、さらに自前モデルで勝負を挑む NEC の変革についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-12 07:44:21</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-12_074421.mp3</link>
