@@ -1,10 +1,3 @@
-2026-09-13T21:22:11.467532+00:00	https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development
-2026-09-13T21:22:11.467532+00:00	https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns
-2026-09-13T21:22:11.467532+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03719/090800002/
-2026-09-13T21:22:11.467532+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03232/091000005/
-2026-09-13T21:22:11.467532+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00677/090700212/
-2026-09-13T21:22:11.467532+00:00	https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown
-2026-09-13T21:22:11.467532+00:00	https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
 2026-09-14T22:26:03.171803+00:00	https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai
 2026-09-14T22:26:03.171803+00:00	https://www.theguardian.com/australia-news/2026/sep/15/australias-outdated-technology-is-vulnerable-to-ai-hacking-attacks-signals-chief-says
 2026-09-14T22:26:03.171803+00:00	https://www.theguardian.com/technology/2026/sep/14/ai-regulation-anthropic-uk-human-rights-committee-mps-lords
@@ -208,3 +201,10 @@
 2026-10-13T01:11:50.717316+00:00	https://www.theguardian.com/commentisfree/2026/oct/12/ai-regulation-fridge-risk-humanity-public-debate-international-law
 2026-10-13T01:11:50.717316+00:00	https://www.theguardian.com/us-news/2026/oct/12/ai-medical-debt-billing
 2026-10-13T01:11:50.717316+00:00	https://ai.watch.impress.co.jp/docs/news/2147421.html
+2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600010/100500235/
+2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning
+2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12088/
+2026-10-13T23:15:48.291518+00:00	https://ai.watch.impress.co.jp/docs/serial/glossary/2147561.html
+2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device
+2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/100200573/100200001/
+2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/ai-companies-rushed-workers-fallout
