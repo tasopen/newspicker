@@ -208,3 +208,10 @@
 2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device
 2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/100200573/100200001/
 2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/ai-companies-rushed-workers-fallout
+2026-10-14T22:10:29.303315+00:00	https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit
+2026-10-14T22:10:29.303315+00:00	https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit
+2026-10-14T22:10:29.303315+00:00	https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person
+2026-10-14T22:10:29.303315+00:00	https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety
+2026-10-14T22:10:29.303315+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/100601512/
+2026-10-14T22:10:29.303315+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03757/100600001/
+2026-10-14T22:10:29.303315+00:00	https://ai.watch.impress.co.jp/docs/news/2148164.html
