@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 15 Oct 2026 07:10:29 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:02:57 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-16 07:00:55</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-16_070055.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-16_070055.mp3</guid>
+      <pubDate>Fri, 16 Oct 2026 07:02:57 +0900</pubDate>
+      <description>おはようございます。10月16日のワールド AI ニュースです。本日は、計算資源の効率化を担うインフラ技術者の報酬高騰や、安全重視から現実路線へ揺れる Anthropic（あんすろぴっく）の葛藤、声優の権利を守る音声ガイドラインの発表、さらにリコーが開発した最新モデルについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-16_070055.mp3" type="audio/mpeg" length="5174445" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-16_070055.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:23</itunes:duration>
+      <itunes:summary>おはようございます。10月16日のワールド AI ニュースです。本日は、計算資源の効率化を担うインフラ技術者の報酬高騰や、安全重視から現実路線へ揺れる Anthropic（あんすろぴっく）の葛藤、声優の権利を守る音声ガイドラインの発表、さらにリコーが開発した最新モデルについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-15 07:08:34</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-15_070834.mp3</link>
