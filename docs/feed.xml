@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 16 Oct 2026 07:02:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 06:59:41 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-17 06:58:16</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-17_065816.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-17_065816.mp3</guid>
+      <pubDate>Sat, 17 Oct 2026 06:59:41 +0900</pubDate>
+      <description>おはようございます。10月17日のワールド AI ニュースです。本日は、Anthropic の驚くべき先見性が明らかになった極秘計画書の流出や、生命科学分野で加速するモデル開発と生物設計、さらに Chrome のタブを直接読み取る ChatGPT の新機能についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-17_065816.mp3" type="audio/mpeg" length="3756717" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-17_065816.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:54</itunes:duration>
+      <itunes:summary>おはようございます。10月17日のワールド AI ニュースです。本日は、Anthropic の驚くべき先見性が明らかになった極秘計画書の流出や、生命科学分野で加速するモデル開発と生物設計、さらに Chrome のタブを直接読み取る ChatGPT の新機能についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-16 07:00:55</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-16_070055.mp3</link>

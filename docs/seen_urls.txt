@@ -1,10 +1,3 @@
-2026-09-15T22:03:07.291592+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12035/
-2026-09-15T22:03:07.291592+00:00	https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings
-2026-09-15T22:03:07.291592+00:00	https://www.leiphone.com/category/ai/ThVhOdBYKbsqZo8f.html
-2026-09-15T22:03:07.291592+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12026/
-2026-09-15T22:03:07.291592+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03232/091100007/
-2026-09-15T22:03:07.291592+00:00	https://www.theguardian.com/us-news/2026/sep/15/bernie-sanders-steve-bannon-ai-summit
-2026-09-15T22:03:07.291592+00:00	https://www.theguardian.com/us-news/video/2026/sep/15/bernie-sanders-congress-ai-artificial-inteligence-video
 2026-09-16T22:02:50.480836+00:00	https://www.theguardian.com/sport/2026/sep/16/robots-bowling-the-perfect-doosra-are-some-way-off-but-ai-is-already-reshaping-cricket-in-myriad-ways
 2026-09-16T22:02:50.480836+00:00	https://www.theguardian.com/world/2026/sep/16/wednesday-briefing-why-tech-companies-might-be-only-too-happy-for-us-to-believe-ai-will-kill-us-all
 2026-09-16T22:02:50.480836+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12038/
@@ -215,3 +208,10 @@
 2026-10-15T22:02:57.919883+00:00	https://ai.watch.impress.co.jp/docs/news/2148382.html
 2026-10-15T22:02:57.919883+00:00	https://ai.watch.impress.co.jp/docs/news/2148367.html
 2026-10-15T22:02:57.919883+00:00	https://ai.watch.impress.co.jp/docs/serial/nextdoor/2146466.html
+2026-10-16T21:59:41.108940+00:00	https://www.leiphone.com/category/yanxishe/gO1lTcRqFyRtbiFP.html
+2026-10-16T21:59:41.108940+00:00	https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs
+2026-10-16T21:59:41.108940+00:00	https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/
+2026-10-16T21:59:41.108940+00:00	https://ai.watch.impress.co.jp/docs/news/2148854.html
+2026-10-16T21:59:41.108940+00:00	https://ai.watch.impress.co.jp/docs/news/2148770.html
+2026-10-16T21:59:41.108940+00:00	https://ai.watch.impress.co.jp/docs/news/2148778.html
+2026-10-16T21:59:41.108940+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03426/
