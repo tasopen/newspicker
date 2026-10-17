@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 17 Oct 2026 06:59:41 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 06:22:25 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-18 06:20:29</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-18_062029.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-18_062029.mp3</guid>
+      <pubDate>Sun, 18 Oct 2026 06:22:25 +0900</pubDate>
+      <description>おはようございます。10月18日のワールド AI ニュースです。本日は、自律型 AI エージェントの巡回を拒絶し始めたウェブサイトの動向や、安価な中国製オープンモデルが西側に突きつける安全保障上のリスク、さらに開発基盤 Replit（れぷりっと）の標準モデル変更についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-18_062029.mp3" type="audio/mpeg" length="5484333" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-18_062029.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:42</itunes:duration>
+      <itunes:summary>おはようございます。10月18日のワールド AI ニュースです。本日は、自律型 AI エージェントの巡回を拒絶し始めたウェブサイトの動向や、安価な中国製オープンモデルが西側に突きつける安全保障上のリスク、さらに開発基盤 Replit（れぷりっと）の標準モデル変更についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-17 06:58:16</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-17_065816.mp3</link>
