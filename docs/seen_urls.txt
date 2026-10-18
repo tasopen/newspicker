@@ -1,10 +1,3 @@
-2026-09-17T22:03:20.521666+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03079/091700044/
-2026-09-17T22:03:20.521666+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/091400066/
-2026-09-17T22:03:20.521666+00:00	https://www.theguardian.com/technology/2026/sep/17/big-ai-work-universities
-2026-09-17T22:03:20.521666+00:00	https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/
-2026-09-17T22:03:20.521666+00:00	https://www.leiphone.com/category/industrynews/dXtXNwFL1snjR35X.html
-2026-09-17T22:03:20.521666+00:00	https://www.leiphone.com/category/zaobao/adwK3kvuEMxa03Tj.html
-2026-09-17T22:03:20.521666+00:00	https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/
 2026-09-18T21:35:23.994699+00:00	https://www.itmedia.co.jp/news/article/2609/18/2000001645/
 2026-09-18T21:35:23.994699+00:00	https://www.theguardian.com/community/live/2026/sep/18/could-ai-really-end-humanity-technology-qanda
 2026-09-18T21:35:23.994699+00:00	https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot
@@ -215,3 +208,10 @@
 2026-10-17T21:22:25.389544+00:00	https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
 2026-10-17T21:22:25.389544+00:00	https://www.theguardian.com/australia-news/audio/2026/oct/18/black-box-the-chatbots-what-i-saw-at-the-double-six-ranch-ep-6-full-story-podcast
 2026-10-17T21:22:25.389544+00:00	https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/
+2026-10-18T21:21:53.951762+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03788/100700002/
+2026-10-18T21:21:53.951762+00:00	https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries
+2026-10-18T21:21:53.951762+00:00	https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies
+2026-10-18T21:21:53.951762+00:00	https://www.tmtpost.com/8172203.html
+2026-10-18T21:21:53.951762+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02156/100500416/
+2026-10-18T21:21:53.951762+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03791/100700005/
+2026-10-18T21:21:53.951762+00:00	https://www.theguardian.com/technology/2026/oct/18/wikipedia-human-history-ai-future-under-threat

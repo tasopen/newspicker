@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 18 Oct 2026 06:22:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 06:21:53 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-19 06:20:22</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-19_062022.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-19_062022.mp3</guid>
+      <pubDate>Mon, 19 Oct 2026 06:21:53 +0900</pubDate>
+      <description>おはようございます。10月19日のワールド AI ニュースです。本日は、中国の DeepSeek（でぃーぷしーく）が立ち上げた新たな製品部門と収益化への模索や、世界銀行が提唱する途上国向けのスモール AI 構想、さらに企業のレガシー刷新で再注目されるデータ中心アプローチや、AI 時代における Wikipedia（うぃきぺでぃあ）の存続危機についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-19_062022.mp3" type="audio/mpeg" length="4229805" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-19_062022.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:24</itunes:duration>
+      <itunes:summary>おはようございます。10月19日のワールド AI ニュースです。本日は、中国の DeepSeek（でぃーぷしーく）が立ち上げた新たな製品部門と収益化への模索や、世界銀行が提唱する途上国向けのスモール AI 構想、さらに企業のレガシー刷新で再注目されるデータ中心アプローチや、AI 時代における Wikipedia（うぃきぺでぃあ）の存続危機についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-18 06:20:29</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-18_062029.mp3</link>
