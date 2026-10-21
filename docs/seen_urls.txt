@@ -208,3 +208,10 @@
 2026-10-20T22:12:48.884474+00:00	https://www.theguardian.com/puzzles/crossword-blog/2026/oct/20/could-this-be-a-deep-blue-moment-for-the-cryptic-crossword
 2026-10-20T22:12:48.884474+00:00	https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee
 2026-10-20T22:12:48.884474+00:00	https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/
+2026-10-21T22:14:26.814298+00:00	https://ai.watch.impress.co.jp/docs/news/2150032.html
+2026-10-21T22:14:26.814298+00:00	https://www.zdnet.com/innovation/openai-astra-sol-models-disable-safety-monitoring/
+2026-10-21T22:14:26.814298+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03802/101900002/
+2026-10-21T22:14:26.814298+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12107/
+2026-10-21T22:14:26.814298+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03788/101300003/
+2026-10-21T22:14:26.814298+00:00	https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france
+2026-10-21T22:14:26.814298+00:00	https://ai.watch.impress.co.jp/docs/news/2150003.html
