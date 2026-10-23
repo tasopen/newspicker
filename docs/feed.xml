@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 23 Oct 2026 07:14:32 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 06:58:00 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-24 06:56:21</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-24_065621.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-24_065621.mp3</guid>
+      <pubDate>Sat, 24 Oct 2026 06:58:00 +0900</pubDate>
+      <description>おはようございます。10月24日のワールド AI ニュースです。本日は、OpenAI による最先端モデル学習の完全オフライン化や、AI による脆弱性発見がもたらすサイバーセキュリティの激変、さらに中国 DeepSeek（でぃーぷしーく）による約2兆円規模の巨額調達や、テスラによる人型ロボットの量産開始についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-24_065621.mp3" type="audio/mpeg" length="3689133" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-24_065621.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:50</itunes:duration>
+      <itunes:summary>おはようございます。10月24日のワールド AI ニュースです。本日は、OpenAI による最先端モデル学習の完全オフライン化や、AI による脆弱性発見がもたらすサイバーセキュリティの激変、さらに中国 DeepSeek（でぃーぷしーく）による約2兆円規模の巨額調達や、テスラによる人型ロボットの量産開始についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-23 07:12:26</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-23_071226.mp3</link>

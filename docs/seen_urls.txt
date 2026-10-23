@@ -208,3 +208,10 @@
 2026-10-22T22:14:32.405945+00:00	https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance
 2026-10-22T22:14:32.405945+00:00	https://ai.watch.impress.co.jp/docs/news/2150360.html
 2026-10-22T22:14:32.405945+00:00	https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened
+2026-10-23T21:58:00.861200+00:00	https://www.leiphone.com/category/zaobao/IlrVRbBiK9Klcuj1.html
+2026-10-23T21:58:00.861200+00:00	https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
+2026-10-23T21:58:00.861200+00:00	https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability
+2026-10-23T21:58:00.861200+00:00	https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election
+2026-10-23T21:58:00.861200+00:00	https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts
+2026-10-23T21:58:00.861200+00:00	https://ai.watch.impress.co.jp/docs/news/2150697.html
+2026-10-23T21:58:00.861200+00:00	https://ai.watch.impress.co.jp/docs/news/2150587.html
