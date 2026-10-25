@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 25 Oct 2026 06:28:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 06:34:47 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-26 06:32:50</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-26_063250.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-26_063250.mp3</guid>
+      <pubDate>Mon, 26 Oct 2026 06:34:47 +0900</pubDate>
+      <description>おはようございます。10月26日のワールド AI ニュースです。本日は、AI 投資が非テック企業に利益をもたらしていないとする米市場の分析や、安川電機が AWS と挑むフィジカルAIの現場実装、さらにエルヴィス・プレスリー楽曲の無断学習を巡る Anthropic への巨額提訴や、AI の誤情報混入により豪州政府がデロイトへ返金を求めた問題についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-26_063250.mp3" type="audio/mpeg" length="5377965" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-26_063250.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:36</itunes:duration>
+      <itunes:summary>おはようございます。10月26日のワールド AI ニュースです。本日は、AI 投資が非テック企業に利益をもたらしていないとする米市場の分析や、安川電機が AWS と挑むフィジカルAIの現場実装、さらにエルヴィス・プレスリー楽曲の無断学習を巡る Anthropic への巨額提訴や、AI の誤情報混入により豪州政府がデロイトへ返金を求めた問題についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-25 06:27:13</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-25_062713.mp3</link>
