@@ -215,6 +215,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     clean_script = _sanitize_text_for_tts(_clean_text_for_tts(script))
     input_diagnostics = _tts_input_diagnostics(clean_script)
     print(f"[voice] TTS input: {input_diagnostics}", flush=True)
+    debug_script_path: str | None = None
     if debug:
         debug_script_path = output_path + ".tts.txt"
         with open(debug_script_path, "w", encoding="utf-8") as f:
@@ -225,6 +226,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     pcm_data = None
     last_exception: Exception | None = None
     last_request_id = ""
+    request_id = ""
     total_retries = 0
 
     for attempt in range(1, max_retries + 1):
@@ -335,7 +337,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
         print(f"[voice] Script segment: \"{script[:100]}...\"")
         print(f"[voice] Clean TTS input diagnostics: {input_diagnostics}")
         print(f"[voice] Last request_id: {last_request_id}")
-        if debug:
+        if debug and debug_script_path:
             print(f"[voice][debug] Full clean TTS input: {debug_script_path}")
         print(f"[voice] Finish reason: {reason}")
         if response:
