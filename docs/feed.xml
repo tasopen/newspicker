@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 26 Oct 2026 06:34:47 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:06:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-27 08:04:38</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-27_080438.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-27_080438.mp3</guid>
+      <pubDate>Tue, 27 Oct 2026 08:06:11 +0900</pubDate>
+      <description>おはようございます。10月27日のワールド AI ニュースです。本日は、OpenAI の最新モデルが量子実験の自律測定に成功した話題や、古い基幹システムを支える COBOL（こぼる）の危機に挑む AI、さらに豪州サイバー機関による重要インフラ停止への警告や、米国データセンターの巨大化が引き起こす政治的摩擦についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-27_080438.mp3" type="audio/mpeg" length="4249773" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-27_080438.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:summary>おはようございます。10月27日のワールド AI ニュースです。本日は、OpenAI の最新モデルが量子実験の自律測定に成功した話題や、古い基幹システムを支える COBOL（こぼる）の危機に挑む AI、さらに豪州サイバー機関による重要インフラ停止への警告や、米国データセンターの巨大化が引き起こす政治的摩擦についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-26 06:32:50</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-26_063250.mp3</link>
