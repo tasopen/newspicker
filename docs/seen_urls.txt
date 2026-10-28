@@ -208,3 +208,10 @@
 2026-10-27T22:56:23.644974+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/102100578/102100004/
 2026-10-27T22:56:23.644974+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/102100578/102100001/
 2026-10-27T22:56:23.644974+00:00	https://www.theguardian.com/commentisfree/2026/oct/27/elon-musk-cyber-psychosis-ai-tech
+2026-10-28T23:01:23.763016+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/101900258/101900001/
+2026-10-28T23:01:23.763016+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03799/102100003/
+2026-10-28T23:01:23.763016+00:00	https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html
+2026-10-28T23:01:23.763016+00:00	https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/
+2026-10-28T23:01:23.763016+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/102201515/
+2026-10-28T23:01:23.763016+00:00	https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi
+2026-10-28T23:01:23.763016+00:00	https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity

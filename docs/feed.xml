@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 28 Oct 2026 07:56:23 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:01:23 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-29 07:59:40</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-29_075940.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-29_075940.mp3</guid>
+      <pubDate>Thu, 29 Oct 2026 08:01:23 +0900</pubDate>
+      <description>おはようございます。10月29日のワールド AI ニュースです。本日は、みずほグループによる3万人規模の AI エージェント導入や、ChatGPT の減薬指導を巡る OpenAI への提訴、さらにイーロン・マスク氏の xAI によるデータセンター近隣住宅の買収提案や、競技プログラミングで人間を圧倒した AI の改善ループについてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-29_075940.mp3" type="audio/mpeg" length="4700205" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-29_075940.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:53</itunes:duration>
+      <itunes:summary>おはようございます。10月29日のワールド AI ニュースです。本日は、みずほグループによる3万人規模の AI エージェント導入や、ChatGPT の減薬指導を巡る OpenAI への提訴、さらにイーロン・マスク氏の xAI によるデータセンター近隣住宅の買収提案や、競技プログラミングで人間を圧倒した AI の改善ループについてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-28 07:54:45</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-28_075445.mp3</link>
