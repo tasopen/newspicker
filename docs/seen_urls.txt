@@ -208,3 +208,10 @@
 2026-10-29T23:10:16.247762+00:00	https://www.theguardian.com/technology/2026/oct/29/ai-agent-coworker
 2026-10-29T23:10:16.247762+00:00	https://ai.watch.impress.co.jp/docs/news/2152418.html
 2026-10-29T23:10:16.247762+00:00	https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/
+2026-10-30T22:53:12.335646+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12135/
+2026-10-30T22:53:12.335646+00:00	https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting
+2026-10-30T22:53:12.335646+00:00	https://xtech.nikkei.com/atcl/nxt/news/24/03450/
+2026-10-30T22:53:12.335646+00:00	https://ai.watch.impress.co.jp/docs/news/2152654.html
+2026-10-30T22:53:12.335646+00:00	https://ai.watch.impress.co.jp/docs/news/2152276.html
+2026-10-30T22:53:12.335646+00:00	https://www.leiphone.com/category/academic/oi5NEt93WcuWwFr8.html
+2026-10-30T22:53:12.335646+00:00	https://www.leiphone.com/category/robot/EnKFLg1RRmN9SaHJ.html

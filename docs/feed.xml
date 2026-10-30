@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 30 Oct 2026 08:10:16 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 07:53:12 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-10-31 07:51:25</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-10-31_075125.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-10-31_075125.mp3</guid>
+      <pubDate>Sat, 31 Oct 2026 07:53:12 +0900</pubDate>
+      <description>おはようございます。10月31日のワールド AI ニュースです。本日は、AMD による李飛飛（フェイフェイ・リー）氏の新興企業買収と空間知能の加速、ロボットの身体性が抱える課題とフィジカルAIの行方、さらに中央省庁18万人へ提供された国会答弁作成支援基盤や、企業向けセキュリティ支援、オカルト領域に波紋を広げる生成モデルの動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-10-31_075125.mp3" type="audio/mpeg" length="4919853" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-10-31_075125.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:07</itunes:duration>
+      <itunes:summary>おはようございます。10月31日のワールド AI ニュースです。本日は、AMD による李飛飛（フェイフェイ・リー）氏の新興企業買収と空間知能の加速、ロボットの身体性が抱える課題とフィジカルAIの行方、さらに中央省庁18万人へ提供された国会答弁作成支援基盤や、企業向けセキュリティ支援、オカルト領域に波紋を広げる生成モデルの動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-10-30 08:08:44</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-10-30_080844.mp3</link>
