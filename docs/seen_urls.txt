@@ -1,10 +1,3 @@
-2026-10-01T23:05:54.044245+00:00	https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack
-2026-10-01T23:05:54.044245+00:00	https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions
-2026-10-01T23:05:54.044245+00:00	https://www.theguardian.com/technology/2026/oct/01/ai-chatbots-hijabs-muslim-women
-2026-10-01T23:05:54.044245+00:00	https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/
-2026-10-01T23:05:54.044245+00:00	https://www.itmedia.co.jp/news/article/2610/02/2000001945/
-2026-10-01T23:05:54.044245+00:00	https://www.itmedia.co.jp/news/article/2610/01/2000001931/
-2026-10-01T23:05:54.044245+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/092600067/
 2026-10-02T22:55:17.803979+00:00	https://www.itmedia.co.jp/news/article/2610/02/2000001967/
 2026-10-02T22:55:17.803979+00:00	https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy
 2026-10-02T22:55:17.803979+00:00	https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers
@@ -215,3 +208,10 @@
 2026-10-31T22:21:47.418128+00:00	https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west
 2026-10-31T22:21:47.418128+00:00	https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/
 2026-10-31T22:21:47.418128+00:00	https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/
+2026-11-01T22:41:41.078727+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/01679/092800305/
+2026-11-01T22:41:41.078727+00:00	https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/102100330/
+2026-11-01T22:41:41.078727+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03076/102700032/
+2026-11-01T22:41:41.078727+00:00	https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/
+2026-11-01T22:41:41.078727+00:00	https://www.tmtpost.com/8188997.html
+2026-11-01T22:41:41.078727+00:00	https://www.itmedia.co.jp/news/article/2611/01/2000002776/
+2026-11-01T22:41:41.078727+00:00	https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre
