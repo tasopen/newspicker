@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 03 Nov 2026 10:30:32 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 08:56:07 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-04 08:54:05</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-11-04_085405.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-04_085405.mp3</guid>
+      <pubDate>Wed, 04 Nov 2026 08:56:07 +0900</pubDate>
+      <description>おはようございます。11月4日のワールド AI ニュースです。本日は、Google の2割に迫る ChatGPT の検索シェアと Google 検索の完全な AI 統合、パナソニックでの個人情報流出問題、さらにルネサスによる半導体設計のエージェント化や選挙判断での AI 利用への警鐘についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-11-04_085405.mp3" type="audio/mpeg" length="3894573" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-11-04_085405.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:03</itunes:duration>
+      <itunes:summary>おはようございます。11月4日のワールド AI ニュースです。本日は、Google の2割に迫る ChatGPT の検索シェアと Google 検索の完全な AI 統合、パナソニックでの個人情報流出問題、さらにルネサスによる半導体設計のエージェント化や選挙判断での AI 利用への警鐘についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-03 10:28:52</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-11-03_102852.mp3</link>
