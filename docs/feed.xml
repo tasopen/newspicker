@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 02 Nov 2026 07:41:41 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:30:32 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-03 10:28:52</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-11-03_102852.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-03_102852.mp3</guid>
+      <pubDate>Tue, 03 Nov 2026 10:30:32 +0900</pubDate>
+      <description>おはようございます。11月3日のワールド AI ニュースです。本日は、Sakana AI（サカナ・エーアイ）による企業向けAPI基盤の提供開始や、OpenAI による ChatGPT と Codex（コーデックス）の利用枠統合、さらに家庭や産業現場への普及を目指すフィジカルAI最前線の動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-11-03_102852.mp3" type="audio/mpeg" length="4014765" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-11-03_102852.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:10</itunes:duration>
+      <itunes:summary>おはようございます。11月3日のワールド AI ニュースです。本日は、Sakana AI（サカナ・エーアイ）による企業向けAPI基盤の提供開始や、OpenAI による ChatGPT と Codex（コーデックス）の利用枠統合、さらに家庭や産業現場への普及を目指すフィジカルAI最前線の動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-02 07:39:41</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-11-02_073941.mp3</link>
