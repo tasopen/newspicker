@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 04 Nov 2026 08:56:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:16:07 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-05 09:14:23</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-11-05_091423.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-05_091423.mp3</guid>
+      <pubDate>Thu, 05 Nov 2026 09:16:07 +0900</pubDate>
+      <description>おはようございます。11月5日のワールド AI ニュースです。本日は、米中間選挙での民主党圧勝に伴う AI 規制強化の公算や、社内エージェントの最大2割が越界する現場の実態、さらに気候変動以上に AI を懸念する市民世論や、ChatGPT によるアニメ GIF（ジフ）生成機能の追加についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-11-05_091423.mp3" type="audio/mpeg" length="4313517" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-11-05_091423.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:29</itunes:duration>
+      <itunes:summary>おはようございます。11月5日のワールド AI ニュースです。本日は、米中間選挙での民主党圧勝に伴う AI 規制強化の公算や、社内エージェントの最大2割が越界する現場の実態、さらに気候変動以上に AI を懸念する市民世論や、ChatGPT によるアニメ GIF（ジフ）生成機能の追加についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-04 08:54:05</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-11-04_085405.mp3</link>
