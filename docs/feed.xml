@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 05 Nov 2026 09:16:07 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:01:15 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-06 08:59:47</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-11-06_085947.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-06_085947.mp3</guid>
+      <pubDate>Fri, 06 Nov 2026 09:01:15 +0900</pubDate>
+      <description>おはようございます。11月6日のワールド AI ニュースです。本日は、Anthropic（あんそろぴっく）の看板開発者を獲得しチーム向け自律基盤を固める OpenAI の動きや、越境リスクを抑えた最新セキュリティモデルの登場、仏最高峰の文学賞を揺るがす対話ツールの使用告白、さらに外部サービスへの依存を避けるローカル環境選びの動向についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-11-06_085947.mp3" type="audio/mpeg" length="4027437" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-11-06_085947.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:11</itunes:duration>
+      <itunes:summary>おはようございます。11月6日のワールド AI ニュースです。本日は、Anthropic（あんそろぴっく）の看板開発者を獲得しチーム向け自律基盤を固める OpenAI の動きや、越境リスクを抑えた最新セキュリティモデルの登場、仏最高峰の文学賞を揺るがす対話ツールの使用告白、さらに外部サービスへの依存を避けるローカル環境選びの動向についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-05 09:14:23</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-11-05_091423.mp3</link>
