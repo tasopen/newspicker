@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 06 Nov 2026 09:01:15 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 08:43:11 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-07 08:41:27</title>
+      <link>https://tasopen.github.io/newspicker/episodes/2026-11-07_084127.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-07_084127.mp3</guid>
+      <pubDate>Sat, 07 Nov 2026 08:43:11 +0900</pubDate>
+      <description>おはようございます。11月7日のワールド AI ニュースです。本日は、OpenAI の内部安全危機に伴う開発体制の大幅刷新や、OpenAI に迫る中国製モデルのハッキング能力、さらに Google の新動画生成モデルの提供開始や、AI の脅威を恐れ離職するホワイトカラーの心理変化についてお伝えします。</description>
+      <enclosure url="https://tasopen.github.io/newspicker/episodes/2026-11-07_084127.mp3" type="audio/mpeg" length="3964845" />
+      <podcast:transcript url="https://tasopen.github.io/newspicker/episodes/2026-11-07_084127.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:07</itunes:duration>
+      <itunes:summary>おはようございます。11月7日のワールド AI ニュースです。本日は、OpenAI の内部安全危機に伴う開発体制の大幅刷新や、OpenAI に迫る中国製モデルのハッキング能力、さらに Google の新動画生成モデルの提供開始や、AI の脅威を恐れ離職するホワイトカラーの心理変化についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-06 08:59:47</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-11-06_085947.mp3</link>
