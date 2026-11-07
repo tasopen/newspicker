@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 07 Nov 2026 08:43:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 07:34:01 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-08 07:32:38</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-08_073238.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-08_073238.mp3</guid>
+      <pubDate>Sun, 08 Nov 2026 07:34:01 +0900</pubDate>
+      <description>おはようございます。11月8日のワールド AI ニュースです。本日は、企業評価額1兆ドルを突破した OpenAI の巨額資金調達や、米国で運用が始まった完全デジタル航空管制塔、中国大手主導による自律エージェント相互接続の基盤づくり、さらに街を走る自動配送ロボットと市民生活の摩擦についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-08_073238.mp3" type="audio/mpeg" length="4099245" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-08_073238.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:16</itunes:duration>
+      <itunes:summary>おはようございます。11月8日のワールド AI ニュースです。本日は、企業評価額1兆ドルを突破した OpenAI の巨額資金調達や、米国で運用が始まった完全デジタル航空管制塔、中国大手主導による自律エージェント相互接続の基盤づくり、さらに街を走る自動配送ロボットと市民生活の摩擦についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-07 08:41:27</title>
       <link>https://tasopen.github.io/newspicker/episodes/2026-11-07_084127.mp3</link>
