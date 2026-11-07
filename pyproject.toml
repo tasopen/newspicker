@@ -10,6 +10,7 @@ dependencies = [
   "python-dateutil>=2.9.0.post0",
   "google-genai>=1.73.1",
   "pyyaml>=6.0.3",
+  "internetarchive>=5.5.1",
 ]
 
 [tool.pyrefly]

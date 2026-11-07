@@ -26,11 +26,11 @@ wheels = [
 
 [[package]]
 name = "certifi"
-version = "2026.1.4"
+version = "2026.10.23"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz", hash = "sha256:ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120", size = 154268, upload-time = "2026-01-04T02:42:41.825Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz", hash = "sha256:a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd", size = 136225, upload-time = "2026-10-23T11:36:16.478Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e6/ad/3cc14f097111b4de0040c83a525973216457bbeeb63739ef1ed275c1c021/certifi-2026.1.4-py3-none-any.whl", hash = "sha256:9943707519e4add1115f44c2bc244f782c0249876bf51b6599fee1ffbedd685c", size = 152900, upload-time = "2026-01-04T02:42:40.15Z" },
+    { url = "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl", hash = "sha256:e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1", size = 135082, upload-time = "2026-10-23T11:36:14.763Z" },
 ]
 
 [[package]]
@@ -145,6 +145,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/4b/51/8ade005e5ca5b0d80fb4aff72a3775b325bdc3d27408c8113811a7cbe640/charset_normalizer-3.4.4-cp314-cp314-win_amd64.whl", hash = "sha256:8a6562c3700cce886c5be75ade4a5db4214fda19fede41d9792d100288d8f94c", size = 107104, upload-time = "2025-10-14T04:41:51.051Z" },
     { url = "https://files.pythonhosted.org/packages/da/5f/6b8f83a55bb8278772c5ae54a577f3099025f9ade59d0136ac24a0df4bde/charset_normalizer-3.4.4-cp314-cp314-win_arm64.whl", hash = "sha256:de00632ca48df9daf77a2c65a484531649261ec9f25489917f09e455cb09ddb2", size = 100743, upload-time = "2025-10-14T04:41:52.122Z" },
     { url = "https://files.pythonhosted.org/packages/0a/4c/925909008ed5a988ccbb72dcc897407e5d6d3bd72410d69e051fc0c14647/charset_normalizer-3.4.4-py3-none-any.whl", hash = "sha256:7a32c560861a02ff789ad905a2fe94e3f840803362c84fecf1851cb4cf3dc37f", size = 53402, upload-time = "2025-10-14T04:42:31.76Z" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
 ]
 
 [[package]]
@@ -307,12 +316,50 @@ wheels = [
 ]
 
 [[package]]
+name = "internetarchive"
+version = "5.12.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "jsonpatch" },
+    { name = "requests" },
+    { name = "tqdm" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a5/e5/6299a3f04c085c9d3582840e2a086a3845e89b2ae5058fb817fca0a99795/internetarchive-5.12.1.tar.gz", hash = "sha256:fa9589c463a8a64e1c194f19f40bac680e2db9b493a0d9722cf7d30754cde65b", size = 167879, upload-time = "2026-10-22T20:06:06.888Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/86/c6/58f010b88eb3fc13ce821c54f9afb916eb37274b1977ef94d92b3898e243/internetarchive-5.12.1-py3-none-any.whl", hash = "sha256:d6d5e0e776374e956cb0028661193b74c03da6b9b3312b505fbbcd1a1927acb2", size = 130491, upload-time = "2026-10-22T20:06:05.332Z" },
+]
+
+[[package]]
+name = "jsonpatch"
+version = "1.44"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jsonpointer" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/94/e0/5fff51896a5556c44890b4d211278284d6a4c847e509b4e585e5f4616060/jsonpatch-1.44.tar.gz", hash = "sha256:88fc1d9728168b4a9be27bb00de469dfb3cd28e8e5b568b24efb2ac583cba7b9", size = 66776, upload-time = "2026-11-06T11:42:33.614Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6f/56/890cb3357504efa2f9848ffa7df18e9e2583402aeeccbba2dc1c9318f5bb/jsonpatch-1.44-py3-none-any.whl", hash = "sha256:801f9238740d19eb101f9f7cea9c1c4810dbc4746f3edc89f7751d1798b917ff", size = 23283, upload-time = "2026-11-06T11:42:31.234Z" },
+]
+
+[[package]]
+name = "jsonpointer"
+version = "3.10"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/93/f6/d1109cbb2c7cb692b432071802028052ba8d275c613c1a1cce427bc62c97/jsonpointer-3.10.tar.gz", hash = "sha256:69349c0e738c93e9efa501397091f49ad302ae686293effd05d7755c06f88ef0", size = 19950, upload-time = "2026-11-06T11:39:07.229Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2e/66/25cbb926e981a849d1cfcd36817fba6bfa5e9b6a2944c41230fe83ff25d2/jsonpointer-3.10-py3-none-any.whl", hash = "sha256:3b08b9e5239f1b683e31c9561c350d75ce3fa8cdd407130ca8491fdb0c9e56f3", size = 10376, upload-time = "2026-11-06T11:39:06.069Z" },
+]
+
+[[package]]
 name = "newspicker"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "feedparser" },
     { name = "google-genai" },
+    { name = "internetarchive" },
     { name = "python-dateutil" },
     { name = "pyyaml" },
     { name = "requests" },
@@ -327,6 +374,7 @@ dev = [
 requires-dist = [
     { name = "feedparser", specifier = ">=6.0.12" },
     { name = "google-genai", specifier = ">=1.73.1" },
+    { name = "internetarchive", specifier = ">=5.5.1" },
     { name = "python-dateutil", specifier = ">=2.9.0.post0" },
     { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "requests", specifier = ">=2.33.1" },
@@ -555,6 +603,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/47/c6/ee486fd809e357697ee8a44d3d69222b344920433d3b6666ccd9b374630c/tenacity-9.1.4.tar.gz", hash = "sha256:adb31d4c263f2bd041081ab33b498309a57c77f9acf2db65aadf0898179cf93a", size = 49413, upload-time = "2026-02-07T10:45:33.841Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d7/c1/eb8f9debc45d3b7918a32ab756658a0904732f75e555402972246b0b8e71/tenacity-9.1.4-py3-none-any.whl", hash = "sha256:6095a360c919085f28c6527de529e76a06ad89b23659fa881ae0649b867a9d55", size = 28926, upload-time = "2026-02-07T10:45:32.24Z" },
+]
+
+[[package]]
+name = "tqdm"
+version = "4.70.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz", hash = "sha256:cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4", size = 171846, upload-time = "2026-09-11T07:25:16.601Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl", hash = "sha256:c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73", size = 80199, upload-time = "2026-09-11T07:25:14.599Z" },
 ]
 
 [[package]]

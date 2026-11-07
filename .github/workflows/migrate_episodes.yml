@@ -1,0 +1,71 @@
+name: Migrate Episodes to Releases / archive.org
+
+# GitHub Pages の 1 GB 上限を解消するための一度きりの移行用。
+# 既存エピソードを Releases と archive.org へ退避し、feed.xml の URL を差し替える。
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "アップロードせず対象だけ表示する"
+        type: boolean
+        default: true
+      delete_local:
+        description: "退避後に docs/episodes の実体を削除する（Pages 容量が減る）"
+        type: boolean
+        default: false
+      primary:
+        description: "feed.xml の enclosure に使う URL"
+        type: choice
+        options:
+          - github
+          - archive
+        default: github
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Archive all episodes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: |
+          set -x
+          ARGS="--all --primary ${{ inputs.primary }}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ inputs.delete_local }}" = "true" ]; then
+            ARGS="$ARGS --delete-local"
+          fi
+          uv run python scripts/archive_episode.py $ARGS
+
+      - name: Commit and push changes
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          set -x
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "chore: migrate episode media to releases/archive.org [skip ci]"
+          git fetch origin
+          git pull --rebase origin master || true
+          git push origin master || true

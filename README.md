@@ -63,14 +63,40 @@ GitHub リポジトリの Settings → Secrets and variables → Actions に登�
 | 名前 | 取得元 | 役割 |
 |------|--------|------|
 | `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/apikey) | 台本生成, 音声合成, Grounding Search |
+| `IA_ACCESS_KEY` | [archive.org S3 Keys](https://archive.org/account/s3.php) | 音声アーカイブのアップロード |
+| `IA_SECRET_KEY` | 同上（Generate New Keys で同時に発行） | 同上 |
+
+`GITHUB_TOKEN` は Actions が自動で提供するため登録不要です。
 
 ## ⚙️ セットアップ
 
 1. このリポジトリを fork / clone
 2. `config/podcast_meta.yml` の `base_url` を自分の GitHub Pages URL に変更
-3. GitHub Secrets (`GEMINI_API_KEY`) を設定
+3. GitHub Secrets (`GEMINI_API_KEY`, `IA_ACCESS_KEY`, `IA_SECRET_KEY`) を設定
 4. リポジトリの Settings → Pages → Source を `docs/` フォルダに設定
 5. Actions タブから `daily_podcast.yml` を手動実行してテスト
+
+## 💾 音声アーカイブ（Pages 容量対策）
+
+GitHub Pages には **公開サイト 1 GB** の上限があります。音声を `docs/episodes/` に置き続けると必ず超過するため、`scripts/archive_episode.py` で MP3/SRT の実体を外部へ退避します。
+
+- **主系**: GitHub Releases（`episodes-YYYY-MM` タグ、無料・容量無制限）
+- **副系**: archive.org（`newspicker-tasopen-YYYY-MM` アイテム、恒久保存）
+
+`feed.xml` の `<enclosure>` と `<link>` は退避先 URL に書き換わりますが、**`<guid>` は変更しません**。購読者は同じエピソードのまま新 URL から取得できます。
+
+```bash
+# 最新エピソードのみ退避（日次ワークフローが自動実行）
+uv run python scripts/archive_episode.py --latest --delete-local
+
+# 既存分を一括移行（Actions の migrate_episodes.yml から実行）
+uv run python scripts/archive_episode.py --all --delete-local
+
+# 対象の確認だけ
+uv run python scripts/archive_episode.py --all --dry-run
+```
+
+> **注意**: 過去の MP3 を `git rm` しても `.git` のサイズは減りません。履歴から完全に消すには `git filter-repo` が必要です。
 
 ## 🛠 フィード自動メンテナンス
 
