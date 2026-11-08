@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 08 Nov 2026 07:34:01 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 07:44:55 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-09 07:43:15</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-09_074315.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-09_074315.mp3</guid>
+      <pubDate>Mon, 09 Nov 2026 07:44:55 +0900</pubDate>
+      <description>おはようございます。11月9日のワールド AI ニュースです。本日は、Siri（シリ）の自律エージェント化を急ぐ Apple の開発現場や、英国の公的機関を麻痺させる AI 苦情メールの氾濫、さらに米中テック巨頭による創薬への進出や、業務ノウハウによる労働の二極化、そして自立性を重視するソブリン AI の潮流についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-09_074315.mp3" type="audio/mpeg" length="4497837" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-09_074315.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:41</itunes:duration>
+      <itunes:summary>おはようございます。11月9日のワールド AI ニュースです。本日は、Siri（シリ）の自律エージェント化を急ぐ Apple の開発現場や、英国の公的機関を麻痺させる AI 苦情メールの氾濫、さらに米中テック巨頭による創薬への進出や、業務ノウハウによる労働の二極化、そして自立性を重視するソブリン AI の潮流についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-08 07:32:38</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-08_073238.mp3</link>
