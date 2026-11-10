@@ -208,3 +208,10 @@
 2026-11-10T02:07:03.137876+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/110400579/110400003/
 2026-11-10T02:07:03.137876+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/110400579/110400002/
 2026-11-10T02:07:03.137876+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00848/00199/
+2026-11-10T20:18:56.144317+00:00	https://www.theguardian.com/commentisfree/2026/nov/10/chatgpt-teen-mode-cognitive-skills
+2026-11-10T20:18:56.144317+00:00	https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack
+2026-11-10T20:18:56.144317+00:00	https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video
+2026-11-10T20:18:56.144317+00:00	https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/
+2026-11-10T20:18:56.144317+00:00	https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout
+2026-11-10T20:18:56.144317+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03787/100800003/
+2026-11-10T20:18:56.144317+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03816/110900005/

@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 10 Nov 2026 11:07:03 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 05:18:56 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-11 05:17:42</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-11_051742.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-11_051742.mp3</guid>
+      <pubDate>Wed, 11 Nov 2026 05:18:56 +0900</pubDate>
+      <description>おはようございます。11月11日のワールド AI ニュースです。本日は、Googleによる最新モデル「Gemini 4 Carbon」の公開や、オーストラリア政府によるAI企業への法規制強化の動き、さらにOpenAIの新たな機能展開など注目のニュースをお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-11_051742.mp3" type="audio/mpeg" length="3451053" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-11_051742.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:35</itunes:duration>
+      <itunes:summary>おはようございます。11月11日のワールド AI ニュースです。本日は、Googleによる最新モデル「Gemini 4 Carbon」の公開や、オーストラリア政府によるAI企業への法規制強化の動き、さらにOpenAIの新たな機能展開など注目のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-10 11:05:25</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-10_110525.mp3</link>
