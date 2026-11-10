@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Mon, 09 Nov 2026 07:44:55 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 11:07:03 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-10 11:05:25</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-10_110525.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-10_110525.mp3</guid>
+      <pubDate>Tue, 10 Nov 2026 11:07:03 +0900</pubDate>
+      <description>おはようございます。11月10日のワールド AI ニュースです。本日は、ChatGPT で有料会員を含む大規模なアカウント凍結が突如発生した混乱や、4兆ドルを超える AI 投資の回収リスクへの警鐘、さらに顧客現場で実装を担う FDE（エフディーイー）需要の急増、そしてテロ計画への AI 悪用をめぐる豪州の裁判についてお伝えします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-10_110525.mp3" type="audio/mpeg" length="4297005" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-10_110525.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:28</itunes:duration>
+      <itunes:summary>おはようございます。11月10日のワールド AI ニュースです。本日は、ChatGPT で有料会員を含む大規模なアカウント凍結が突如発生した混乱や、4兆ドルを超える AI 投資の回収リスクへの警鐘、さらに顧客現場で実装を担う FDE（エフディーイー）需要の急増、そしてテロ計画への AI 悪用をめぐる豪州の裁判についてお伝えします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-09 07:43:15</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-09_074315.mp3</link>
