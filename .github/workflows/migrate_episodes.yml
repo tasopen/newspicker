@@ -21,6 +21,10 @@ on:
           - github
           - archive
         default: github
+      skip_ia:
+        description: "archive.org へのアップロードを省略する（非常に遅いので推奨）"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -44,12 +48,14 @@ jobs:
 
       - name: Archive all episodes
         env:
+          PYTHONUNBUFFERED: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
           IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+          ARCHIVE_SKIP_IA: ${{ inputs.skip_ia && '1' || '0' }}
         run: |
           set -x
-          ARGS="--all --primary ${{ inputs.primary }}"
+          ARGS="--all --primary ${{ inputs.primary }} --allow-partial"
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
@@ -58,8 +64,9 @@ jobs:
           fi
           uv run python scripts/archive_episode.py $ARGS
 
+      # 部分成功でも feed.xml の書き換えと実体削除をコミットする
       - name: Commit and push changes
-        if: ${{ inputs.dry_run == false }}
+        if: ${{ always() && inputs.dry_run == false }}
         run: |
           set -x
           git config user.name "github-actions[bot]"

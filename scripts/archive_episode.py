@@ -30,6 +30,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+import time
 from urllib.parse import quote
 
 import requests
@@ -57,6 +58,11 @@ EPISODES_DIR = "docs/episodes"
 FEED_PATH = "docs/feed.xml"
 
 GH_API = "https://api.github.com"
+
+
+def log(msg: str) -> None:
+    """Actions のログに即時反映させる（stdout はパイプだとブロックバッファされる）。"""
+    print(msg, flush=True)
 
 
 # --------------------------------------------------------------------------
@@ -96,7 +102,7 @@ def ensure_release(tag: str, token: str, repo: str) -> dict:
         timeout=30,
     )
     r.raise_for_status()
-    print(f"[archive] created release {tag}")
+    log(f"[archive] created release {tag}")
     return r.json()
 
 
@@ -105,7 +111,7 @@ def upload_release_asset(release: dict, path: str, token: str) -> str:
     name = os.path.basename(path)
     for asset in release.get("assets", []):
         if asset.get("name") == name:
-            print(f"[archive] release asset already exists: {name}")
+            log(f"[archive] release asset already exists: {name}")
             return asset["browser_download_url"]
 
     upload_url = release["upload_url"].split("{", 1)[0]
@@ -120,7 +126,7 @@ def upload_release_asset(release: dict, path: str, token: str) -> str:
     )
     r.raise_for_status()
     url = r.json()["browser_download_url"]
-    print(f"[archive] uploaded to release: {name} ({len(payload) / 1e6:.2f} MB)")
+    log(f"[archive] uploaded to release: {name} ({len(payload) / 1e6:.2f} MB)")
     return url
 
 
@@ -154,7 +160,7 @@ def upload_to_archive(paths: list[str], identifier: str, access: str, secret: st
         status = getattr(resp, "status_code", None)
         if status is not None and status >= 400:
             raise RuntimeError(f"archive.org upload failed ({status}): {resp.text[:300]}")
-    print(f"[archive] uploaded {len(paths)} file(s) to archive.org item {identifier}")
+    log(f"[archive] uploaded {len(paths)} file(s) to archive.org item {identifier}")
 
 
 def archive_url(identifier: str, filename: str) -> str:
@@ -202,12 +208,12 @@ def rewrite_feed(feed_path: str, url_map: dict[str, str], dry_run: bool = False)
         with open(feed_path, "w", encoding="utf-8") as f:
             f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
             tree.write(f, encoding="unicode", xml_declaration=False)
-        print(f"[archive] feed.xml updated: {changed} URL(s) rewritten")
+        log(f"[archive] feed.xml updated: {changed} URL(s) rewritten")
         _regenerate_index(feed_path, root)
     elif changed:
-        print(f"[archive] (dry-run) would rewrite {changed} URL(s) in feed.xml")
+        log(f"[archive] (dry-run) would rewrite {changed} URL(s) in feed.xml")
     else:
-        print("[archive] feed.xml already up to date")
+        log("[archive] feed.xml already up to date")
     return changed
 
 
@@ -232,9 +238,9 @@ def _regenerate_index(feed_path: str, root: ET.Element) -> None:
         html = generate_index_html(podcast, episodes)
         index_path = os.path.join(os.path.dirname(feed_path), "index.html")
         _write_index_html(html, index_path)
-        print(f"[archive] index.html regenerated -> {index_path}")
+        log(f"[archive] index.html regenerated -> {index_path}")
     except Exception as exc:  # noqa: BLE001
-        print(f"[archive] index.html regeneration skipped: {exc}")
+        log(f"[archive] index.html regeneration skipped: {exc}")
 
 
 # --------------------------------------------------------------------------
@@ -286,6 +292,14 @@ def main() -> int:
         default="github",
         help="feed.xml の enclosure に使う URL（既定: github）",
     )
+    parser.add_argument(
+        "--allow-partial",
+        action="store_true",
+        help=(
+            "一部の退避に失敗しても続行する。"
+            "URL が確定したファイルだけ削除し、未退避の実体は Pages 配信を継続する"
+        ),
+    )
     args = parser.parse_args()
 
     repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
@@ -306,11 +320,11 @@ def main() -> int:
             )
 
     targets = collect_targets(args.all)
-    print(f"[archive] target episodes: {len(targets)}")
+    log(f"[archive] target episodes: {len(targets)}")
 
     if args.dry_run:
         for mp3 in targets:
-            print(f"  {mp3}  -> tag={_month_tag(mp3)}  item={ia_prefix}-{os.path.basename(mp3)[:7]}")
+            log(f"  {mp3}  -> tag={_month_tag(mp3)}  item={ia_prefix}-{os.path.basename(mp3)[:7]}")
         return 0
 
     # 月ごとにまとめてアップロードする
@@ -321,28 +335,37 @@ def main() -> int:
     url_map: dict[str, str] = {}
     failures: list[str] = []
 
-    for tag, mp3s in sorted(by_month.items()):
+    total_months = len(by_month)
+    for month_idx, (tag, mp3s) in enumerate(sorted(by_month.items()), start=1):
         month = tag.removeprefix(RELEASE_TAG_PREFIX)
         identifier = f"{ia_prefix}-{month}"
         files: list[str] = []
         for mp3 in mp3s:
             files.extend(_episode_files(mp3))
 
+        log(
+            f"[archive] === [{month_idx}/{total_months}] {month}: "
+            f"{len(mp3s)} episode(s), {len(files)} file(s) ==="
+        )
+        started = time.monotonic()
+
         gh_urls: dict[str, str] = {}
         if not skip_github:
             try:
                 release = ensure_release(tag, token, repo)
-                for path in files:
+                for i, path in enumerate(files, start=1):
+                    log(f"[archive]   github {i}/{len(files)}: {os.path.basename(path)}")
                     gh_urls[os.path.basename(path)] = upload_release_asset(release, path, token)
             except Exception as exc:  # noqa: BLE001
-                print(f"[archive] ERROR github release {tag}: {exc}")
+                log(f"[archive] ERROR github release {tag}: {exc}")
                 failures.append(f"github:{tag}")
 
         if not skip_ia:
             try:
+                log(f"[archive]   archive.org: uploading {len(files)} file(s) -> {identifier}")
                 upload_to_archive(files, identifier, ia_access, ia_secret)
             except Exception as exc:  # noqa: BLE001
-                print(f"[archive] ERROR archive.org {identifier}: {exc}")
+                log(f"[archive] ERROR archive.org {identifier}: {exc}")
                 failures.append(f"archive.org:{identifier}")
 
         for path in files:
@@ -354,25 +377,40 @@ def main() -> int:
             elif name in gh_urls:
                 url_map[name] = gh_urls[name]
 
+        log(
+            f"[archive] --- [{month_idx}/{total_months}] {month} done "
+            f"in {time.monotonic() - started:.1f}s ---"
+        )
+
     rewrite_feed(FEED_PATH, url_map)
 
     if failures:
-        # 退避に失敗したファイルは消さない（Pages から配信を継続する）
-        print(f"[archive] completed with failures: {', '.join(failures)}")
-        print("[archive] local files kept to avoid broken enclosures")
-        return 1
+        log(f"[archive] completed with failures: {', '.join(failures)}")
+        if not args.allow_partial:
+            # 退避に失敗したファイルは消さない（Pages から配信を継続する）
+            log("[archive] local files kept to avoid broken enclosures")
+            return 1
+        log("[archive] --allow-partial: deleting only files with a resolved URL")
 
     if args.delete_local:
         removed = 0
+        kept = 0
         for mp3 in targets:
             for path in _episode_files(mp3):
-                if os.path.exists(path):
-                    os.remove(path)
-                    removed += 1
-        print(f"[archive] removed {removed} local file(s) from {EPISODES_DIR}")
+                if not os.path.exists(path):
+                    continue
+                # URL が確定したファイルだけ削除する（未退避の実体は Pages 配信を継続）
+                if os.path.basename(path) not in url_map:
+                    kept += 1
+                    continue
+                os.remove(path)
+                removed += 1
+        log(f"[archive] removed {removed} local file(s) from {EPISODES_DIR}")
+        if kept:
+            log(f"[archive] kept {kept} local file(s) without a resolved URL")
 
-    print("[archive] done")
-    return 0
+    log("[archive] done")
+    return 1 if failures and not args.allow_partial else 0
 
 
 if __name__ == "__main__":
