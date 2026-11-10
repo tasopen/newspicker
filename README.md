@@ -7,7 +7,13 @@
 ## 🏗 アーキテクチャ
 
 ```
-毎朝 6:00 JST (GitHub Actions)   timeout-minutes: 20
+毎朝 5:17 JST
+    │
+    ├─ cron-job.org ──→ workflow_dispatch（正確な時刻で起動）
+    └─ GitHub cron  ──→ schedule '17 20 * * *'（遅延するが保険として残す）
+    │
+    ├─ 同日エピソード存在チェック（feed.xml を grep）
+    │     既にあれば全ステップを skip（二重生成を防止）
     │
     ├─ @scout    agents/scout.py   → 多言語 RSS (日・中・英) → 上位 7 記事
     │                                 [timing] ログ
@@ -20,13 +26,27 @@
     │                                 API timeout: 120s / retry: max 3
     │                                 segment単位の [timing] / [voice] ログ
     │
-    └─ @android  agents/android.py → Podcast RSS (feed.xml) 更新
-                                      [timing] ログ
+    ├─ @android  agents/android.py → Podcast RSS (feed.xml) 更新
+    │                                 [timing] ログ
+    │
+    └─ archive_episode.py → MP3/SRT を GitHub Releases へ退避
+                            → feed.xml の URL 差し替え → コミット
                        │
 毎週日曜 12:00 JST
     └─ @maintenance scripts/maintain_feeds.py → Gemini Grounding Search
                                              → 生存確認・URL復旧・新規発見
 ```
+
+### スケジュール遅延への対策
+
+GitHub Actions の `schedule` イベントは、負荷が高い時間帯（特に毎時 0 分）に大幅に遅延します。実測では `0 19 * * *`（04:00 JST）の予定が **139〜414 分遅れ**（平均 235 分）で起動していました。
+
+対策として二段構えにしています。
+
+1. **cron-job.org から `workflow_dispatch` を叩く**（主系・時刻が正確）
+2. **GitHub cron を `17 20 * * *`（05:17 JST）で残す**（副系・毎時 0 分を回避）
+
+両方が発火しても、`concurrency: daily-podcast` による直列化と同日チェックで **1 日 1 エピソード**に収まります。
 
 ## ⚙️ 独自の内容に変える手順
 
@@ -68,6 +88,24 @@ GitHub リポジトリの Settings → Secrets and variables → Actions に登�
 
 `GITHUB_TOKEN` は Actions が自動で提供するため登録不要です。
 
+### ローカル実行用の `.env`
+
+`scripts/mirror_to_archive_org.py` などローカルから実行するスクリプトは `.env` を自動で読み込みます（`python-dotenv` 不要）。`.env` は `.gitignore` 済みです。
+
+```
+IA_ACCESS_KEY=xxxxxxxx
+IA_SECRET_KEY=xxxxxxxx
+```
+
+### cron-job.org 用の Personal Access Token
+
+外部 cron から `workflow_dispatch` を叩くため、GitHub の PAT を発行して cron-job.org に登録します（Actions の Secrets ではありません）。
+
+- **Fine-grained token**: Repository access で `tasopen/newspicker` を選択 → Permissions → **Actions: Read and write**
+- **Classic token**: scope で **`workflow`** にチェック
+
+有効期限を設定し（例: 1 年）、期限切れ前に更新してください。
+
 ## ⚙️ セットアップ
 
 1. このリポジトリを fork / clone
@@ -75,6 +113,33 @@ GitHub リポジトリの Settings → Secrets and variables → Actions に登�
 3. GitHub Secrets (`GEMINI_API_KEY`, `IA_ACCESS_KEY`, `IA_SECRET_KEY`) を設定
 4. リポジトリの Settings → Pages → Source を `docs/` フォルダに設定
 5. Actions タブから `daily_podcast.yml` を手動実行してテスト
+6. （推奨）cron-job.org で毎朝 5:17 JST に起動するジョブを登録
+
+### cron-job.org の設定
+
+| 項目 | 値 |
+|------|-----|
+| URL | `https://api.github.com/repos/<owner>/<repo>/actions/workflows/daily_podcast.yml/dispatches` |
+| Method | `POST` |
+| Schedule | 毎日 05:17（Timezone: `Asia/Tokyo`） |
+| Headers | `Authorization: Bearer <PAT>`<br>`Accept: application/vnd.github+json`<br>`Content-Type: application/json`<br>`User-Agent: cron-job.org` |
+| Body | `{"ref":"master"}` |
+| Timeout | 30 秒（API は即座に `204 No Content` を返す） |
+
+成功時は `204 No Content` が返ります。ワークフローの完了は待たないため、30 秒で十分です。
+
+curl で書くと以下のとおりです。
+
+```bash
+curl -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_PAT" \
+  -H "Content-Type: application/json" \
+  -H "User-Agent: cron-job.org" \
+  -d '{"ref":"master"}' \
+  -m 30 \
+  https://api.github.com/repos/<owner>/<repo>/actions/workflows/daily_podcast.yml/dispatches
+```
 
 ## 💾 音声アーカイブ（Pages 容量対策）
 
@@ -87,16 +152,62 @@ GitHub Pages には **公開サイト 1 GB** の上限があります。音声�
 
 ```bash
 # 最新エピソードのみ退避（日次ワークフローが自動実行）
-uv run python scripts/archive_episode.py --latest --delete-local
+uv run python scripts/archive_episode.py --latest --delete-local --allow-partial
 
 # 既存分を一括移行（Actions の migrate_episodes.yml から実行）
-uv run python scripts/archive_episode.py --all --delete-local
+uv run python scripts/archive_episode.py --all --delete-local --allow-partial
 
 # 対象の確認だけ
 uv run python scripts/archive_episode.py --all --dry-run
 ```
 
-> **注意**: 過去の MP3 を `git rm` しても `.git` のサイズは減りません。履歴から完全に消すには `git filter-repo` が必要です。
+### `--allow-partial` について
+
+archive.org は非常に遅く（実測 約 0.4 MB/s、GitHub Releases は約 5 MB/s）、タイムアウトも発生します。`--allow-partial` を付けると、**一部が失敗しても続行し、URL が確定したファイルだけ削除**します。未退避の実体は Pages 配信を継続するため、enclosure が壊れません。
+
+付けない場合、1 ファイルでも失敗すると終了コード 1 になり、削除もコミットも行われません（過去にこれが原因で Pages が 1.24 GB まで肥大し、デプロイがタイムアウトしました）。
+
+### 一括移行ワークフロー（`migrate_episodes.yml`）
+
+Actions から手動実行します。入力パラメータは以下のとおりです。
+
+| 入力 | 既定 | 説明 |
+|------|------|------|
+| `dry_run` | `true` | アップロードせず対象だけ表示 |
+| `delete_local` | `false` | 退避後に `docs/episodes` の実体を削除 |
+| `primary` | `github` | `feed.xml` の enclosure に使う URL |
+| `skip_ia` | `true` | archive.org へのアップロードを省略 |
+
+`skip_ia: true`（既定）なら GitHub Releases のみに退避するため、**54 分 → 約 1 分**に短縮されます。archive.org への複製は後からローカルで `mirror_to_archive_org.py` を実行してください。
+
+コミットステップは `always()` で実行されるため、部分成功でも `feed.xml` の書き換えと実体削除が反映されます。
+
+### archive.org への複製（ローカル実行用）
+
+移行後は MP3 の実体が GitHub Releases にしかないため、`archive_episode.py` はそのままでは動きません。`scripts/mirror_to_archive_org.py` が Release からダウンロードして archive.org へ複製します。
+
+```bash
+# 不足分の確認だけ
+uv run python scripts/mirror_to_archive_org.py --dry-run
+
+# 不足分をすべて複製（冪等：既にあるファイルはスキップ）
+uv run python scripts/mirror_to_archive_org.py
+
+# 特定の月だけ
+uv run python scripts/mirror_to_archive_org.py --month 2026-03
+```
+
+ファイル単位で進捗・経過時間・残り時間（ETA）を表示します。
+
+```
+[mirror]   up 34/49 2026-03-24_061110.mp3 (12.6s) | total 34/49 (69%) elapsed 3m27s ETA 1m31s
+```
+
+> **注意 1**: archive.org の metadata API（`/metadata/<id>`）は反映が非常に遅く、実際には配信されているファイルを「無い」と返すことがあります。検証は `/download/<id>/<name>` への HEAD リクエストで行ってください。
+>
+> **注意 2**: archive.org はアップロード成功を返してもファイルを落とすことがあります。アップロード後は必ず配信を確認してください。
+>
+> **注意 3**: 過去の MP3 を `git rm` しても `.git` のサイズは減りません。履歴から完全に消すには `git filter-repo` が必要です。
 
 ## 🛠 フィード自動メンテナンス
 
@@ -149,6 +260,9 @@ uv run python scripts/run_pipeline.py --debug
 - **詳細なエラーログ**: APIレスポンスの詳細（finish_reason や安全しきい値の状態など）が出力されます。
 
 ### 最近の改善点
+- **スケジュール遅延対策**: GitHub の `schedule` は毎時 0 分に大幅に遅延するため、cron-job.org からの `workflow_dispatch` を主系に、GitHub cron を `17 20 * * *`（05:17 JST）の保険として併用。`concurrency` と同日チェックで二重生成を防止。
+- **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。`migrate_episodes.yml` に `skip_ia` 入力を追加（既定 `true`）し、遅い archive.org を外して一括移行を 54 分 → 1 分に短縮。
+- **archive.org バックフィル**: `scripts/mirror_to_archive_org.py` で Release から不足分を複製。153 ファイルを約 15 分で処理し、全 532 ファイルの配信を確認済み。
 - **パイプライン安定化 (3段階防御)**:
   - **実行時間ログ**: 全セクション（@scout, @editor, @voice, @android）とVoice各segmentの実行時間を `[timing]` / `[voice]` ログで出力。どこで時間を消費しているか特定可能。
   - **GitHub Actions タイムアウト**: `Run pipeline` ステップに `timeout-minutes: 60` を設定。長時間のハングを防止。
