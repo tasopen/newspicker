@@ -2,12 +2,19 @@ name: Daily AI Podcast
 
 on:
   schedule:
-    # 毎朝 4:00 JST = UTC 19:00 (前日)
-    - cron: '0 19 * * *'
-  workflow_dispatch:  # 手動実行可能
+    # 毎朝 5:17 JST = UTC 20:17 (前日)
+    # 毎時 0 分は GitHub のスケジューラが最も混雑するため避ける
+    # （実測: 0 19 * * * は 139〜414 分遅延していた）
+    - cron: '17 20 * * *'
+  workflow_dispatch:  # 手動実行可能（外部 cron からも叩ける）
 
 permissions:
   contents: write  # docs/ への git push するのに必要
+
+# 外部 cron と GitHub スケジューラの二重起動を直列化する
+concurrency:
+  group: daily-podcast
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -17,6 +24,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 同日のエピソードが既にある場合は生成しない
+      # （外部 cron とスケジューラが両方発火した場合の二重生成を防ぐ）
+      - name: Check for existing episode today
+        id: guard
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          if grep -q "ニュース ${TODAY}" docs/feed.xml; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "[guard] episode for ${TODAY} already exists - skipping"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[guard] no episode for ${TODAY} - proceeding"
+          fi
+
       - name: Install uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -24,14 +45,17 @@ jobs:
           enable-cache: true
 
       - name: Install ffmpeg
+        if: steps.guard.outputs.skip != 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y --fix-missing ffmpeg
 
       - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: uv sync --locked
 
       - name: Run pipeline
+        if: steps.guard.outputs.skip != 'true'
         timeout-minutes: 60
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -42,6 +66,7 @@ jobs:
       # GitHub Pages の 1 GB 上限を避けるため、音声実体を Releases / archive.org へ退避する
       - name: Archive episode media
         id: archive
+        if: steps.guard.outputs.skip != 'true'
         env:
           PYTHONUNBUFFERED: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -54,7 +79,7 @@ jobs:
 
       # 退避に失敗しても生成済みエピソードを失わないよう、パイプライン成功時は必ずコミットする
       - name: Commit and push episode
-        if: success() || steps.archive.outcome == 'failure'
+        if: steps.guard.outputs.skip != 'true' && (success() || steps.archive.outcome == 'failure')
         run: |
           set -x
           git config user.name "github-actions[bot]"
