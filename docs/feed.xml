@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 11 Nov 2026 05:18:56 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 05:19:26 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-12 05:17:59</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-12_051759.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-12_051759.mp3</guid>
+      <pubDate>Thu, 12 Nov 2026 05:19:26 +0900</pubDate>
+      <description>おはようございます。11月12日のワールド AI ニュースです。OpenAIの四半期売上高が初めて100億ドルを突破したと報じられたほか、同社が企業と利用者をつなぐ新機能を発表するなど、急速に拡大するAI経済圏の最新トレンドをお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-12_051759.mp3" type="audio/mpeg" length="3620013" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-12_051759.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>03:46</itunes:duration>
+      <itunes:summary>おはようございます。11月12日のワールド AI ニュースです。OpenAIの四半期売上高が初めて100億ドルを突破したと報じられたほか、同社が企業と利用者をつなぐ新機能を発表するなど、急速に拡大するAI経済圏の最新トレンドをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-11 05:17:42</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-11_051742.mp3</link>
