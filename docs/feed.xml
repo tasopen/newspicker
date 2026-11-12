@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Thu, 12 Nov 2026 05:19:26 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 05:19:37 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-13 05:17:42</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-13_051742.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-13_051742.mp3</guid>
+      <pubDate>Fri, 13 Nov 2026 05:19:37 +0900</pubDate>
+      <description>おはようございます。11月13日のワールド AI ニュースです。Nvidiaを率いてきたジェンスン・フアン氏の電撃的な辞任報道が世界を揺るがす一方、中国企業の巨額資金調達や、実社会で稼働するフィジカルAIの事業化など、激動の最新動向をお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-13_051742.mp3" type="audio/mpeg" length="4993965" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-13_051742.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:12</itunes:duration>
+      <itunes:summary>おはようございます。11月13日のワールド AI ニュースです。Nvidiaを率いてきたジェンスン・フアン氏の電撃的な辞任報道が世界を揺るがす一方、中国企業の巨額資金調達や、実社会で稼働するフィジカルAIの事業化など、激動の最新動向をお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-12 05:17:59</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-12_051759.mp3</link>
