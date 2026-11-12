@@ -2,10 +2,12 @@ name: Daily AI Podcast
 
 on:
   schedule:
-    # 毎朝 5:17 JST = UTC 20:17 (前日)
+    # 毎朝 5:47 JST = UTC 20:47 (前日)
+    # 主系は cron-job.org の workflow_dispatch（05:17 JST）。
+    # こちらは保険なので、主系と重ならないよう 30 分ずらしている。
     # 毎時 0 分は GitHub のスケジューラが最も混雑するため避ける
     # （実測: 0 19 * * * は 139〜414 分遅延していた）
-    - cron: '17 20 * * *'
+    - cron: '47 20 * * *'
   workflow_dispatch:  # 手動実行可能（外部 cron からも叩ける）
 
 permissions:

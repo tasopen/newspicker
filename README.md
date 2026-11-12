@@ -10,7 +10,7 @@
 毎朝 5:17 JST
     │
     ├─ cron-job.org ──→ workflow_dispatch（正確な時刻で起動）
-    └─ GitHub cron  ──→ schedule '17 20 * * *'（遅延するが保険として残す）
+    └─ GitHub cron  ──→ schedule '47 20 * * *'（05:47 JST・遅延するが保険として残す）
     │
     ├─ 同日エピソード存在チェック（feed.xml を grep）
     │     既にあれば全ステップを skip（二重生成を防止）
@@ -43,10 +43,10 @@ GitHub Actions の `schedule` イベントは、負荷が高い時間帯（特�
 
 対策として二段構えにしています。
 
-1. **cron-job.org から `workflow_dispatch` を叩く**（主系・時刻が正確）
-2. **GitHub cron を `17 20 * * *`（05:17 JST）で残す**（副系・毎時 0 分を回避）
+1. **cron-job.org から `workflow_dispatch` を叩く**（主系・時刻が正確・05:17 JST）
+2. **GitHub cron を `47 20 * * *`（05:47 JST）で残す**（副系・毎時 0 分を回避）
 
-両方が発火しても、`concurrency: daily-podcast` による直列化と同日チェックで **1 日 1 エピソード**に収まります。
+主系と副系が同時刻に重ならないよう 30 分ずらしています。両方が発火しても、`concurrency: daily-podcast` による直列化と同日チェックで **1 日 1 エピソード**に収まります。
 
 ## ⚙️ 独自の内容に変える手順
 
@@ -273,7 +273,7 @@ uv run python scripts/run_pipeline.py --debug
 - **詳細なエラーログ**: APIレスポンスの詳細（finish_reason や安全しきい値の状態など）が出力されます。
 
 ### 最近の改善点
-- **スケジュール遅延対策**: GitHub の `schedule` は毎時 0 分に大幅に遅延するため、cron-job.org からの `workflow_dispatch` を主系に、GitHub cron を `17 20 * * *`（05:17 JST）の保険として併用。`concurrency` と同日チェックで二重生成を防止。
+- **スケジュール遅延対策**: GitHub の `schedule` は毎時 0 分に大幅に遅延するため、cron-job.org からの `workflow_dispatch`（05:17 JST）を主系に、GitHub cron を `47 20 * * *`（05:47 JST）の保険として併用。`concurrency` と同日チェックで二重生成を防止。
 - **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。`migrate_episodes.yml` に `internet_archive` 入力を追加（既定 `false`）し、遅い archive.org を外して一括移行を 54 分 → 1 分に短縮。
 - **archive.org をオプション化**: `config/podcast_meta.yml` の `archive.internet_archive`（既定 `false`）で制御。キー未設定でも警告のみでスキップし、フォークしてもジョブが失敗しない。`--primary archive` は廃止（配信元は常に GitHub Releases）。
 - **archive.org バックフィル**: `scripts/mirror_to_archive_org.py` で Release から不足分を複製。153 ファイルを約 15 分で処理し、全 532 ファイルの配信を確認済み。
