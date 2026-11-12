@@ -64,7 +64,10 @@ jobs:
           set -x
           uv run python scripts/run_pipeline.py
 
-      # GitHub Pages の 1 GB 上限を避けるため、音声実体を Releases / archive.org へ退避する
+      # GitHub Pages の 1 GB 上限を避けるため、音声実体を Releases へ退避する。
+      # archive.org への複製は config/podcast_meta.yml の archive.internet_archive で
+      # 有効化した場合のみ実行される（既定 false）。キー未設定でも警告してスキップするため、
+      # フォークしてもこのステップは失敗しない。
       - name: Archive episode media
         id: archive
         if: steps.guard.outputs.skip != 'true'

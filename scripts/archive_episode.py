@@ -16,14 +16,19 @@ GitHub Pages の 1 GB 上限を回避するため、MP3/SRT の実体を Pages �
 
 必要な環境変数:
   GITHUB_TOKEN     GitHub Releases へのアップロード（Actions では secrets.GITHUB_TOKEN）
-  IA_ACCESS_KEY    archive.org の S3 アクセスキー
-  IA_SECRET_KEY    archive.org の S3 シークレットキー
 
 任意の環境変数:
   GITHUB_REPOSITORY   既定: tasopen/newspicker
   IA_ITEM_PREFIX      既定: newspicker-tasopen
+  IA_ACCESS_KEY       archive.org の S3 アクセスキー（internet_archive 有効時のみ）
+  IA_SECRET_KEY       archive.org の S3 シークレットキー（同上）
   ARCHIVE_SKIP_GITHUB 1 で GitHub Releases へのアップロードを省略
   ARCHIVE_SKIP_IA     1 で archive.org へのアップロードを省略
+
+archive.org への退避は `config/podcast_meta.yml` の
+`archive.internet_archive` で有効化する（既定: false）。
+キーが未設定なら警告を出して自動的にスキップするため、
+フォークしてもジョブは失敗しない。
 """
 from __future__ import annotations
 
@@ -42,6 +47,7 @@ from agents.android import (  # noqa: E402
     CONTENT_NS,
     ITUNES_NS,
     PODCAST_NS,
+    _load_meta,
 )
 
 from xml.etree import ElementTree as ET  # noqa: E402
@@ -168,6 +174,20 @@ def archive_url(identifier: str, filename: str) -> str:
 
 
 # --------------------------------------------------------------------------
+# 設定（config/podcast_meta.yml の archive セクション）
+# --------------------------------------------------------------------------
+def load_archive_config(meta_path: str = "config/podcast_meta.yml") -> dict:
+    """archive セクションを読む。無ければ空 dict（＝既定値を使う）。"""
+    try:
+        meta = _load_meta(meta_path)
+    except Exception as exc:  # noqa: BLE001
+        log(f"[archive] WARNING: cannot read {meta_path}: {exc}")
+        return {}
+    section = (meta or {}).get("archive") or {}
+    return section if isinstance(section, dict) else {}
+
+
+# --------------------------------------------------------------------------
 # feed.xml の URL 差し替え
 # --------------------------------------------------------------------------
 def rewrite_feed(feed_path: str, url_map: dict[str, str], dry_run: bool = False) -> int:
@@ -287,12 +307,6 @@ def main() -> int:
         help="アップロード成功後に docs/episodes の実体を削除する",
     )
     parser.add_argument(
-        "--primary",
-        choices=["github", "archive"],
-        default="github",
-        help="feed.xml の enclosure に使う URL（既定: github）",
-    )
-    parser.add_argument(
         "--allow-partial",
         action="store_true",
         help=(
@@ -308,23 +322,50 @@ def main() -> int:
     ia_access = os.environ.get("IA_ACCESS_KEY", "")
     ia_secret = os.environ.get("IA_SECRET_KEY", "")
 
-    skip_github = os.environ.get("ARCHIVE_SKIP_GITHUB") == "1"
-    skip_ia = os.environ.get("ARCHIVE_SKIP_IA") == "1"
+    cfg = load_archive_config()
+
+    # GitHub Releases は無料・容量無制限なので既定で有効
+    skip_github = os.environ.get("ARCHIVE_SKIP_GITHUB") == "1" or not cfg.get(
+        "github_releases", True
+    )
+
+    # archive.org はサービス依存のため既定で無効。meta で有効化した場合のみ動く
+    ia_enabled = bool(cfg.get("internet_archive", False))
+    ia_env = os.environ.get("ARCHIVE_SKIP_IA")
+    if ia_env == "1":
+        ia_enabled = False
+    elif ia_env == "0":
+        # 明示的に 0 を渡されたら meta の設定より優先して有効化する
+        ia_enabled = True
+    if ia_enabled and not (ia_access and ia_secret):
+        log(
+            "[archive] WARNING: archive.org is enabled but "
+            "IA_ACCESS_KEY / IA_SECRET_KEY are not set - skipping archive.org"
+        )
+        ia_enabled = False
+    skip_ia = not ia_enabled
 
     if not args.dry_run:
+        if skip_github and skip_ia:
+            raise SystemExit(
+                "nothing to do: both GitHub Releases and archive.org are disabled"
+            )
         if not skip_github and not token:
             raise SystemExit("GITHUB_TOKEN is required (or set ARCHIVE_SKIP_GITHUB=1)")
-        if not skip_ia and not (ia_access and ia_secret):
-            raise SystemExit(
-                "IA_ACCESS_KEY / IA_SECRET_KEY are required (or set ARCHIVE_SKIP_IA=1)"
-            )
 
     targets = collect_targets(args.all)
     log(f"[archive] target episodes: {len(targets)}")
+    log(
+        f"[archive] destinations: github_releases={'off' if skip_github else 'on'}, "
+        f"internet_archive={'off' if skip_ia else 'on'}"
+    )
 
     if args.dry_run:
         for mp3 in targets:
-            log(f"  {mp3}  -> tag={_month_tag(mp3)}  item={ia_prefix}-{os.path.basename(mp3)[:7]}")
+            dest = f"tag={_month_tag(mp3)}"
+            if not skip_ia:
+                dest += f"  item={ia_prefix}-{os.path.basename(mp3)[:7]}"
+            log(f"  {mp3}  -> {dest}")
         return 0
 
     # 月ごとにまとめてアップロードする
@@ -370,12 +411,12 @@ def main() -> int:
 
         for path in files:
             name = os.path.basename(path)
-            if args.primary == "github" and name in gh_urls:
+            # 配信元は常に GitHub Releases を優先する。
+            # archive.org は SLA・帯域の保証がないため enclosure には使わない。
+            if name in gh_urls:
                 url_map[name] = gh_urls[name]
             elif not skip_ia:
                 url_map[name] = archive_url(identifier, name)
-            elif name in gh_urls:
-                url_map[name] = gh_urls[name]
 
         log(
             f"[archive] --- [{month_idx}/{total_months}] {month} done "

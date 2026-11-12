@@ -9,6 +9,15 @@ language: ja
 base_url: "https://tasopen.github.io/newspicker"
 category: "Technology"
 explicit: "false"
+
+# 音声アーカイブ（GitHub Pages の 1 GB 上限対策）
+# github_releases は無料・容量無制限なので既定で有効。
+# internet_archive は任意機能。有効にするには IA_ACCESS_KEY / IA_SECRET_KEY も必要。
+# フォークした場合は false のままで動く（毎日失敗しない）。
+archive:
+  github_releases: true
+  internet_archive: false
+
 voice: "Zephyr"
 tts_model: "gemini-3.8-flash-lite-tts"
 editor_model: "gemini-3.8-flash"

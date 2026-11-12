@@ -14,17 +14,10 @@ on:
         description: "退避後に docs/episodes の実体を削除する（Pages 容量が減る）"
         type: boolean
         default: false
-      primary:
-        description: "feed.xml の enclosure に使う URL"
-        type: choice
-        options:
-          - github
-          - archive
-        default: github
-      skip_ia:
-        description: "archive.org へのアップロードを省略する（非常に遅いので推奨）"
+      internet_archive:
+        description: "archive.org にも複製する（非常に遅い。通常は config/podcast_meta.yml で設定）"
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write
@@ -52,10 +45,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
           IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
-          ARCHIVE_SKIP_IA: ${{ inputs.skip_ia && '1' || '0' }}
+          # 既定は archive.org を使わない（config/podcast_meta.yml の設定を上書き）
+          ARCHIVE_SKIP_IA: ${{ inputs.internet_archive && '0' || '1' }}
         run: |
           set -x
-          ARGS="--all --primary ${{ inputs.primary }} --allow-partial"
+          ARGS="--all --allow-partial"
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi

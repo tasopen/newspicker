@@ -80,13 +80,15 @@ GitHub Actions の `schedule` イベントは、負荷が高い時間帯（特�
 
 GitHub リポジトリの Settings → Secrets and variables → Actions に登録：
 
-| 名前 | 取得元 | 役割 |
-|------|--------|------|
-| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/apikey) | 台本生成, 音声合成, Grounding Search |
-| `IA_ACCESS_KEY` | [archive.org S3 Keys](https://archive.org/account/s3.php) | 音声アーカイブのアップロード |
-| `IA_SECRET_KEY` | 同上（Generate New Keys で同時に発行） | 同上 |
+| 名前 | 必須 | 取得元 | 役割 |
+|------|------|--------|------|
+| `GEMINI_API_KEY` | ✅ | [Google AI Studio](https://aistudio.google.com/apikey) | 台本生成, 音声合成, Grounding Search |
+| `IA_ACCESS_KEY` | 任意 | [archive.org S3 Keys](https://archive.org/account/s3.php) | archive.org への複製（`archive.internet_archive: true` のときのみ） |
+| `IA_SECRET_KEY` | 任意 | 同上（Generate New Keys で同時に発行） | 同上 |
 
 `GITHUB_TOKEN` は Actions が自動で提供するため登録不要です。
+
+`IA_ACCESS_KEY` / `IA_SECRET_KEY` は **任意** です。未登録でも `archive.internet_archive` が `false`（既定）なら何も起きず、ジョブも失敗しません。
 
 ### ローカル実行用の `.env`
 
@@ -110,7 +112,7 @@ IA_SECRET_KEY=xxxxxxxx
 
 1. このリポジトリを fork / clone
 2. `config/podcast_meta.yml` の `base_url` を自分の GitHub Pages URL に変更
-3. GitHub Secrets (`GEMINI_API_KEY`, `IA_ACCESS_KEY`, `IA_SECRET_KEY`) を設定
+3. GitHub Secrets に `GEMINI_API_KEY` を設定（`IA_ACCESS_KEY` / `IA_SECRET_KEY` は任意）
 4. リポジトリの Settings → Pages → Source を `docs/` フォルダに設定
 5. Actions タブから `daily_podcast.yml` を手動実行してテスト
 6. （推奨）cron-job.org で毎朝 5:17 JST に起動するジョブを登録
@@ -145,8 +147,20 @@ curl -X POST \
 
 GitHub Pages には **公開サイト 1 GB** の上限があります。音声を `docs/episodes/` に置き続けると必ず超過するため、`scripts/archive_episode.py` で MP3/SRT の実体を外部へ退避します。
 
-- **主系**: GitHub Releases（`episodes-YYYY-MM` タグ、無料・容量無制限）
-- **副系**: archive.org（`newspicker-tasopen-YYYY-MM` アイテム、恒久保存）
+- **主系**: GitHub Releases（`episodes-YYYY-MM` タグ、無料・容量無制限）— 常に有効
+- **副系（任意）**: archive.org（`newspicker-tasopen-YYYY-MM` アイテム、恒久保存）
+
+archive.org への複製は**サービス依存の任意機能**です。`config/podcast_meta.yml` で有効化します。
+
+```yaml
+archive:
+  github_releases: true    # 既定 true（無料・容量無制限）
+  internet_archive: false  # 既定 false。true にする場合は IA_ACCESS_KEY / IA_SECRET_KEY も必要
+```
+
+`internet_archive: false`（既定）のままなら、キー未設定でも警告を出してスキップするだけで**ジョブは失敗しません**。フォークして毎日赤くなることはありません。
+
+> **配信元は常に GitHub Releases** です。archive.org は SLA も帯域も保証がないため、`feed.xml` の enclosure には使いません（`--primary archive` は廃止）。
 
 `feed.xml` の `<enclosure>` と `<link>` は退避先 URL に書き換わりますが、**`<guid>` は変更しません**。購読者は同じエピソードのまま新 URL から取得できます。
 
@@ -175,10 +189,9 @@ Actions から手動実行します。入力パラメータは以下のとおり
 |------|------|------|
 | `dry_run` | `true` | アップロードせず対象だけ表示 |
 | `delete_local` | `false` | 退避後に `docs/episodes` の実体を削除 |
-| `primary` | `github` | `feed.xml` の enclosure に使う URL |
-| `skip_ia` | `true` | archive.org へのアップロードを省略 |
+| `internet_archive` | `false` | archive.org にも複製する（非常に遅い） |
 
-`skip_ia: true`（既定）なら GitHub Releases のみに退避するため、**54 分 → 約 1 分**に短縮されます。archive.org への複製は後からローカルで `mirror_to_archive_org.py` を実行してください。
+`internet_archive: false`（既定）なら GitHub Releases のみに退避するため、**54 分 → 約 1 分**に短縮されます。archive.org への複製は後からローカルで `mirror_to_archive_org.py` を実行してください。
 
 コミットステップは `always()` で実行されるため、部分成功でも `feed.xml` の書き換えと実体削除が反映されます。
 
@@ -261,7 +274,8 @@ uv run python scripts/run_pipeline.py --debug
 
 ### 最近の改善点
 - **スケジュール遅延対策**: GitHub の `schedule` は毎時 0 分に大幅に遅延するため、cron-job.org からの `workflow_dispatch` を主系に、GitHub cron を `17 20 * * *`（05:17 JST）の保険として併用。`concurrency` と同日チェックで二重生成を防止。
-- **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。`migrate_episodes.yml` に `skip_ia` 入力を追加（既定 `true`）し、遅い archive.org を外して一括移行を 54 分 → 1 分に短縮。
+- **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。`migrate_episodes.yml` に `internet_archive` 入力を追加（既定 `false`）し、遅い archive.org を外して一括移行を 54 分 → 1 分に短縮。
+- **archive.org をオプション化**: `config/podcast_meta.yml` の `archive.internet_archive`（既定 `false`）で制御。キー未設定でも警告のみでスキップし、フォークしてもジョブが失敗しない。`--primary archive` は廃止（配信元は常に GitHub Releases）。
 - **archive.org バックフィル**: `scripts/mirror_to_archive_org.py` で Release から不足分を複製。153 ファイルを約 15 分で処理し、全 532 ファイルの配信を確認済み。
 - **パイプライン安定化 (3段階防御)**:
   - **実行時間ログ**: 全セクション（@scout, @editor, @voice, @android）とVoice各segmentの実行時間を `[timing]` / `[voice]` ログで出力。どこで時間を消費しているか特定可能。
