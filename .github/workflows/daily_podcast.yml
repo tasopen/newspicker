@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write  # docs/ への git push するのに必要
+  pages: write     # Pages ビルドの明示的な再要求に必要
 
 # 外部 cron と GitHub スケジューラの二重起動を直列化する
 concurrency:
@@ -90,3 +91,31 @@ jobs:
           git fetch origin
           git pull --rebase origin master || true
           git push origin master || true
+
+      # push 後の Pages 自動ビルドが startup_failure で落ちたり stuck した場合に備え、
+      # 明示的に再ビルドを要求する（2026-11-12 に発生: 11/12 分が Pages に反映されず
+      # Spotify / AntennaPod が 11/11 のまま止まった）
+      - name: Ensure Pages build succeeded
+        if: steps.guard.outputs.skip != 'true' && (success() || steps.archive.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -x
+          SHA=$(git rev-parse HEAD)
+          for i in $(seq 1 10); do
+            sleep 30
+            LATEST=$(gh api "repos/${{ github.repository }}/pages/builds/latest" \
+              --jq '.status + " " + .commit' 2>/dev/null || echo "unknown -")
+            echo "[pages] attempt $i: $LATEST"
+            STATUS=${LATEST%% *}
+            COMMIT=${LATEST##* }
+            if [ "$STATUS" = "built" ] && [ "$COMMIT" = "$SHA" ]; then
+              echo "[pages] build OK for $SHA"
+              exit 0
+            fi
+            if [ "$STATUS" = "errored" ] || [ "$STATUS" = "unknown" ]; then
+              echo "[pages] requesting rebuild"
+              gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+            fi
+          done
+          echo "[pages] WARNING: Pages build did not confirm for $SHA"
