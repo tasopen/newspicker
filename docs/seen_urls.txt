@@ -1,10 +1,3 @@
-2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600010/100500235/
-2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning
-2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12088/
-2026-10-13T23:15:48.291518+00:00	https://ai.watch.impress.co.jp/docs/serial/glossary/2147561.html
-2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device
-2026-10-13T23:15:48.291518+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/100200573/100200001/
-2026-10-13T23:15:48.291518+00:00	https://www.theguardian.com/technology/2026/oct/13/ai-companies-rushed-workers-fallout
 2026-10-14T22:10:29.303315+00:00	https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit
 2026-10-14T22:10:29.303315+00:00	https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit
 2026-10-14T22:10:29.303315+00:00	https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person
@@ -215,3 +208,10 @@
 2026-11-12T20:19:37.662326+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03065/111100023/
 2026-11-12T20:19:37.662326+00:00	https://ai.watch.impress.co.jp/docs/news/2152774.html
 2026-11-12T20:19:37.662326+00:00	https://ai.watch.impress.co.jp/docs/news/2155674.html
+2026-11-13T20:19:32.510166+00:00	https://ai.watch.impress.co.jp/docs/news/2156397.html
+2026-11-13T20:19:32.510166+00:00	https://ai.watch.impress.co.jp/docs/news/2156284.html
+2026-11-13T20:19:32.510166+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12174/
+2026-11-13T20:19:32.510166+00:00	https://ai.watch.impress.co.jp/docs/news/2156132.html
+2026-11-13T20:19:32.510166+00:00	https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
+2026-11-13T20:19:32.510166+00:00	https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html
+2026-11-13T20:19:32.510166+00:00	https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/
