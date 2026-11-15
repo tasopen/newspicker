@@ -9,3 +9,4 @@ venv/
 .secret/
 docs/test_output/
 test/
+.local/
