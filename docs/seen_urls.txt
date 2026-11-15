@@ -1,10 +1,3 @@
-2026-10-15T22:02:57.919883+00:00	https://www.leiphone.com/category/industrynews/azREeBbKSJ84PQTK.html
-2026-10-15T22:02:57.919883+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/101100068/
-2026-10-15T22:02:57.919883+00:00	https://www.itmedia.co.jp/news/article/2610/15/2000002290/
-2026-10-15T22:02:57.919883+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03757/100900005/
-2026-10-15T22:02:57.919883+00:00	https://ai.watch.impress.co.jp/docs/news/2148382.html
-2026-10-15T22:02:57.919883+00:00	https://ai.watch.impress.co.jp/docs/news/2148367.html
-2026-10-15T22:02:57.919883+00:00	https://ai.watch.impress.co.jp/docs/serial/nextdoor/2146466.html
 2026-10-16T21:59:41.108940+00:00	https://www.leiphone.com/category/yanxishe/gO1lTcRqFyRtbiFP.html
 2026-10-16T21:59:41.108940+00:00	https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs
 2026-10-16T21:59:41.108940+00:00	https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/
@@ -215,3 +208,10 @@
 2026-11-14T20:19:19.146638+00:00	https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai
 2026-11-14T20:19:19.146638+00:00	https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world
 2026-11-14T20:19:19.146638+00:00	https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
+2026-11-15T20:20:18.049920+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03826/111000001/
+2026-11-15T20:20:18.049920+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12175/
+2026-11-15T20:20:18.049920+00:00	https://www.theguardian.com/commentisfree/2026/nov/16/is-the-ai-job-apocalypse-finally-here-the-evidence-suggests-otherwise
+2026-11-15T20:20:18.049920+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00086/00427/
+2026-11-15T20:20:18.049920+00:00	https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own
+2026-11-15T20:20:18.049920+00:00	https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam
+2026-11-15T20:20:18.049920+00:00	https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
