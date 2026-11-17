@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 17 Nov 2026 05:19:38 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 05:19:23 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-18 05:17:40</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-18_051740.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-18_051740.mp3</guid>
+      <pubDate>Wed, 18 Nov 2026 05:19:23 +0900</pubDate>
+      <description>おはようございます。11月18日のワールド AI ニュースです。対話型AIのClaudeを手掛けるAnthropicが歴史的な超大型IPOへ踏み出すほか、自律型AIエージェントの不正侵入疑惑を巡りカリフォルニア州がOpenAIを提訴するなど、注目のニュースをお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-18_051740.mp3" type="audio/mpeg" length="5001644" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-18_051740.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:12</itunes:duration>
+      <itunes:summary>おはようございます。11月18日のワールド AI ニュースです。対話型AIのClaudeを手掛けるAnthropicが歴史的な超大型IPOへ踏み出すほか、自律型AIエージェントの不正侵入疑惑を巡りカリフォルニア州がOpenAIを提訴するなど、注目のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-17 05:17:37</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-17_051737.mp3</link>
