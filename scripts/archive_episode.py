@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-"""エピソード音声を GitHub Releases / archive.org へ退避し、feed.xml の URL を差し替える。
+"""エピソード音声を GitHub Releases へ退避し、feed.xml の URL を差し替える。
 
-GitHub Pages の 1 GB 上限を回避するため、MP3/SRT の実体を Pages から追い出す。
+GitHub Pages の 1 GB 上限を回避するため、MP3 の実体を Pages から追い出す。
 `guid` は変更しないので、購読者は同じエピソードのまま新 URL から取得できる。
+
+SRT（字幕）は台本の重複回避のため docs/episodes に残す。
+保持するのは直近 `archive.srt_retention_days`（既定は `dedupe_days`）日分で、
+それより古い SRT は MP3 と同様に削除する（実体は Releases にある）。
 
 使い方:
   # 最新エピソードだけ退避（Actions の日次実行用）
@@ -19,23 +23,17 @@ GitHub Pages の 1 GB 上限を回避するため、MP3/SRT の実体を Pages �
 
 任意の環境変数:
   GITHUB_REPOSITORY   既定: tasopen/newspicker
-  IA_ITEM_PREFIX      既定: newspicker-tasopen
-  IA_ACCESS_KEY       archive.org の S3 アクセスキー（internet_archive 有効時のみ）
-  IA_SECRET_KEY       archive.org の S3 シークレットキー（同上）
   ARCHIVE_SKIP_GITHUB 1 で GitHub Releases へのアップロードを省略
-  ARCHIVE_SKIP_IA     1 で archive.org へのアップロードを省略
-
-archive.org への退避は `config/podcast_meta.yml` の
-`archive.internet_archive` で有効化する（既定: false）。
-キーが未設定なら警告を出して自動的にスキップするため、
-フォークしてもジョブは失敗しない。
 """
 from __future__ import annotations
 
 import argparse
+import glob
 import os
+import re
 import sys
 import time
+from datetime import date, datetime, timedelta, timezone
 from urllib.parse import quote
 
 import requests
@@ -58,10 +56,10 @@ ET.register_namespace("content", CONTENT_NS)
 ET.register_namespace("podcast", PODCAST_NS)
 
 DEFAULT_REPO = "tasopen/newspicker"
-DEFAULT_IA_PREFIX = "newspicker-tasopen"
 RELEASE_TAG_PREFIX = "episodes-"
 EPISODES_DIR = "docs/episodes"
 FEED_PATH = "docs/feed.xml"
+DEFAULT_DEDUPE_DAYS = 6
 
 GH_API = "https://api.github.com"
 
@@ -137,43 +135,6 @@ def upload_release_asset(release: dict, path: str, token: str) -> str:
 
 
 # --------------------------------------------------------------------------
-# archive.org
-# --------------------------------------------------------------------------
-def upload_to_archive(paths: list[str], identifier: str, access: str, secret: str) -> None:
-    """archive.org のアイテムへアップロードする（既存ファイルは上書き）。"""
-    from internetarchive import upload
-
-    metadata = {
-        "title": f"朝刊ワールドAIニュース {identifier.rsplit('-', 1)[-1]}",
-        "mediatype": "audio",
-        "collection": "opensource_audio",
-        "creator": "TasogarePenguin",
-        "language": "jpn",
-        "subject": "podcast; AI news; ポッドキャスト",
-        "description": "AI ニュースのポッドキャスト音声アーカイブ。",
-    }
-    responses = upload(
-        identifier,
-        files=paths,
-        metadata=metadata,
-        access_key=access,
-        secret_key=secret,
-        queue_derive=False,  # 派生ファイル生成を止めて時間と容量を節約
-        retries=3,
-        verbose=True,
-    )
-    for resp in responses:
-        status = getattr(resp, "status_code", None)
-        if status is not None and status >= 400:
-            raise RuntimeError(f"archive.org upload failed ({status}): {resp.text[:300]}")
-    log(f"[archive] uploaded {len(paths)} file(s) to archive.org item {identifier}")
-
-
-def archive_url(identifier: str, filename: str) -> str:
-    return f"https://archive.org/download/{identifier}/{quote(filename)}"
-
-
-# --------------------------------------------------------------------------
 # 設定（config/podcast_meta.yml の archive セクション）
 # --------------------------------------------------------------------------
 def load_archive_config(meta_path: str = "config/podcast_meta.yml") -> dict:
@@ -185,6 +146,100 @@ def load_archive_config(meta_path: str = "config/podcast_meta.yml") -> dict:
         return {}
     section = (meta or {}).get("archive") or {}
     return section if isinstance(section, dict) else {}
+
+
+def _meta_int(key: str, default: int) -> int:
+    """config/podcast_meta.yml の整数値を取得する（不正値は既定値）。"""
+    try:
+        meta = _load_meta() or {}
+    except Exception:  # noqa: BLE001
+        return default
+    try:
+        return max(0, int(meta.get(key, default)))
+    except (TypeError, ValueError):
+        return default
+
+
+def srt_retention_days() -> int:
+    """docs/episodes に残す SRT の日数。
+
+    `archive.srt_retention_days` があればそれを、無ければ editor と同じ
+    `dedupe_days` を使う（参照できない古い SRT は残しても意味がないため）。
+    """
+    cfg = load_archive_config()
+    value = cfg.get("srt_retention_days")
+    if value is not None:
+        try:
+            return max(0, int(value))
+        except (TypeError, ValueError):
+            log(f"[archive] WARNING: invalid archive.srt_retention_days={value!r}")
+    return _meta_int("dedupe_days", DEFAULT_DEDUPE_DAYS)
+
+
+def _is_recent_srt(path: str, days: int, today: date | None = None) -> bool:
+    """ファイル名の日付が保持対象（当日 ～ days 日前）なら True。"""
+    if days <= 0:
+        return False
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})_\d{6}\.srt$", os.path.basename(path))
+    if not m:
+        return False
+    try:
+        d = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    except ValueError:
+        return False
+    today = today or datetime.now(timezone(timedelta(hours=9))).date()
+    return d >= today - timedelta(days=days)
+
+
+def prune_old_srts(
+    days: int,
+    url_map: dict[str, str] | None = None,
+    feed_path: str = FEED_PATH,
+    dry_run: bool = False,
+) -> tuple[int, int]:
+    """保持日数を超えた SRT を削除する。Returns (removed, kept)。
+
+    Releases に実体があると確認できたもの（今回アップロードした url_map、または
+    feed.xml の transcript URL が Pages 以外を指している）だけを削除する。
+    """
+    url_map = url_map or {}
+    archived_in_feed = _archived_srt_names(feed_path)
+    removed = 0
+    kept = 0
+    for path in sorted(glob.glob(os.path.join(EPISODES_DIR, "*.srt"))):
+        if _is_recent_srt(path, days):
+            kept += 1
+            continue
+        name = os.path.basename(path)
+        if name not in url_map and name not in archived_in_feed:
+            log(f"[archive] keep old SRT (not archived yet): {name}")
+            kept += 1
+            continue
+        if dry_run:
+            log(f"[archive] (dry-run) would remove old SRT {path}")
+        else:
+            os.remove(path)
+        removed += 1
+    log(f"[archive] SRT retention: kept {kept}, removed {removed} (days={days})")
+    return removed, kept
+
+
+def _archived_srt_names(feed_path: str) -> set[str]:
+    """feed.xml の transcript URL が Pages 以外を指している SRT 名の集合。"""
+    try:
+        root = ET.parse(feed_path).getroot()
+    except Exception:  # noqa: BLE001
+        return set()
+    names: set[str] = set()
+    for transcript in root.iter(f"{{{PODCAST_NS}}}transcript"):
+        url = transcript.get("url") or ""
+        if not url.endswith(".srt"):
+            continue
+        # base_url 配下（docs/episodes 配信）以外なら退避済みとみなす
+        if not url.startswith("https://github.com/"):
+            continue
+        names.add(os.path.basename(url))
+    return names
 
 
 # --------------------------------------------------------------------------
@@ -317,10 +372,7 @@ def main() -> int:
     args = parser.parse_args()
 
     repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
-    ia_prefix = os.environ.get("IA_ITEM_PREFIX", DEFAULT_IA_PREFIX)
     token = os.environ.get("GITHUB_TOKEN", "")
-    ia_access = os.environ.get("IA_ACCESS_KEY", "")
-    ia_secret = os.environ.get("IA_SECRET_KEY", "")
 
     cfg = load_archive_config()
 
@@ -328,44 +380,21 @@ def main() -> int:
     skip_github = os.environ.get("ARCHIVE_SKIP_GITHUB") == "1" or not cfg.get(
         "github_releases", True
     )
-
-    # archive.org はサービス依存のため既定で無効。meta で有効化した場合のみ動く
-    ia_enabled = bool(cfg.get("internet_archive", False))
-    ia_env = os.environ.get("ARCHIVE_SKIP_IA")
-    if ia_env == "1":
-        ia_enabled = False
-    elif ia_env == "0":
-        # 明示的に 0 を渡されたら meta の設定より優先して有効化する
-        ia_enabled = True
-    if ia_enabled and not (ia_access and ia_secret):
-        log(
-            "[archive] WARNING: archive.org is enabled but "
-            "IA_ACCESS_KEY / IA_SECRET_KEY are not set - skipping archive.org"
-        )
-        ia_enabled = False
-    skip_ia = not ia_enabled
-
     if not args.dry_run:
-        if skip_github and skip_ia:
-            raise SystemExit(
-                "nothing to do: both GitHub Releases and archive.org are disabled"
-            )
-        if not skip_github and not token:
+        if skip_github:
+            raise SystemExit("nothing to do: GitHub Releases is disabled")
+        if not token:
             raise SystemExit("GITHUB_TOKEN is required (or set ARCHIVE_SKIP_GITHUB=1)")
 
     targets = collect_targets(args.all)
     log(f"[archive] target episodes: {len(targets)}")
-    log(
-        f"[archive] destinations: github_releases={'off' if skip_github else 'on'}, "
-        f"internet_archive={'off' if skip_ia else 'on'}"
-    )
+    log(f"[archive] destinations: github_releases={'off' if skip_github else 'on'}")
 
     if args.dry_run:
         for mp3 in targets:
-            dest = f"tag={_month_tag(mp3)}"
-            if not skip_ia:
-                dest += f"  item={ia_prefix}-{os.path.basename(mp3)[:7]}"
-            log(f"  {mp3}  -> {dest}")
+            log(f"  {mp3}  -> tag={_month_tag(mp3)}")
+        log(f"[archive] srt_retention_days={srt_retention_days()}")
+        prune_old_srts(srt_retention_days(), dry_run=True)
         return 0
 
     # 月ごとにまとめてアップロードする
@@ -379,7 +408,6 @@ def main() -> int:
     total_months = len(by_month)
     for month_idx, (tag, mp3s) in enumerate(sorted(by_month.items()), start=1):
         month = tag.removeprefix(RELEASE_TAG_PREFIX)
-        identifier = f"{ia_prefix}-{month}"
         files: list[str] = []
         for mp3 in mp3s:
             files.extend(_episode_files(mp3))
@@ -401,22 +429,7 @@ def main() -> int:
                 log(f"[archive] ERROR github release {tag}: {exc}")
                 failures.append(f"github:{tag}")
 
-        if not skip_ia:
-            try:
-                log(f"[archive]   archive.org: uploading {len(files)} file(s) -> {identifier}")
-                upload_to_archive(files, identifier, ia_access, ia_secret)
-            except Exception as exc:  # noqa: BLE001
-                log(f"[archive] ERROR archive.org {identifier}: {exc}")
-                failures.append(f"archive.org:{identifier}")
-
-        for path in files:
-            name = os.path.basename(path)
-            # 配信元は常に GitHub Releases を優先する。
-            # archive.org は SLA・帯域の保証がないため enclosure には使わない。
-            if name in gh_urls:
-                url_map[name] = gh_urls[name]
-            elif not skip_ia:
-                url_map[name] = archive_url(identifier, name)
+        url_map.update(gh_urls)
 
         log(
             f"[archive] --- [{month_idx}/{total_months}] {month} done "
@@ -436,19 +449,22 @@ def main() -> int:
     if args.delete_local:
         removed = 0
         kept = 0
-        for mp3 in targets:
-            for path in _episode_files(mp3):
-                if not os.path.exists(path):
-                    continue
-                # URL が確定したファイルだけ削除する（未退避の実体は Pages 配信を継続）
-                if os.path.basename(path) not in url_map:
-                    kept += 1
-                    continue
-                os.remove(path)
-                removed += 1
-        log(f"[archive] removed {removed} local file(s) from {EPISODES_DIR}")
+        for path in targets:
+            # MP3 は容量が大きいので退避できた時点で削除する
+            if not os.path.exists(path):
+                continue
+            # URL が確定したファイルだけ削除する（未退避の実体は Pages 配信を継続）
+            if os.path.basename(path) not in url_map:
+                kept += 1
+                continue
+            os.remove(path)
+            removed += 1
+        log(f"[archive] removed {removed} local mp3 file(s) from {EPISODES_DIR}")
         if kept:
-            log(f"[archive] kept {kept} local file(s) without a resolved URL")
+            log(f"[archive] kept {kept} local mp3 file(s) without a resolved URL")
+
+        # SRT は台本の重複回避で editor が参照するため、保持日数分だけ残す
+        prune_old_srts(srt_retention_days(), url_map=url_map)
 
     log("[archive] done")
     return 1 if failures and not args.allow_partial else 0

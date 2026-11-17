@@ -83,22 +83,8 @@ GitHub リポジトリの Settings → Secrets and variables → Actions に登�
 | 名前 | 必須 | 取得元 | 役割 |
 |------|------|--------|------|
 | `GEMINI_API_KEY` | ✅ | [Google AI Studio](https://aistudio.google.com/apikey) | 台本生成, 音声合成, Grounding Search |
-| `IA_ACCESS_KEY` | 任意 | [archive.org S3 Keys](https://archive.org/account/s3.php) | archive.org への複製（`archive.internet_archive: true` のときのみ） |
-| `IA_SECRET_KEY` | 任意 | 同上（Generate New Keys で同時に発行） | 同上 |
 
 `GITHUB_TOKEN` は Actions が自動で提供するため登録不要です。
-
-`IA_ACCESS_KEY` / `IA_SECRET_KEY` は **任意** です。未登録でも `archive.internet_archive` が `false`（既定）なら何も起きず、ジョブも失敗しません。
-
-### ローカル実行用の `.env`
-
-`scripts/mirror_to_archive_org.py` などローカルから実行するスクリプトは `.env` を自動で読み込みます（`python-dotenv` 不要）。`.env` は `.gitignore` 済みです。
-
-```
-IA_ACCESS_KEY=xxxxxxxx
-IA_SECRET_KEY=xxxxxxxx
-```
-
 ### cron-job.org 用の Personal Access Token
 
 外部 cron から `workflow_dispatch` を叩くため、GitHub の PAT を発行して cron-job.org に登録します（Actions の Secrets ではありません）。
@@ -112,7 +98,7 @@ IA_SECRET_KEY=xxxxxxxx
 
 1. このリポジトリを fork / clone
 2. `config/podcast_meta.yml` の `base_url` を自分の GitHub Pages URL に変更
-3. GitHub Secrets に `GEMINI_API_KEY` を設定（`IA_ACCESS_KEY` / `IA_SECRET_KEY` は任意）
+3. GitHub Secrets に `GEMINI_API_KEY` を設定
 4. リポジトリの Settings → Pages → Source を `docs/` フォルダに設定
 5. Actions タブから `daily_podcast.yml` を手動実行してテスト
 6. （推奨）cron-job.org で毎朝 5:17 JST に起動するジョブを登録
@@ -145,22 +131,14 @@ curl -X POST \
 
 ## 💾 音声アーカイブ（Pages 容量対策）
 
-GitHub Pages には **公開サイト 1 GB** の上限があります。音声を `docs/episodes/` に置き続けると必ず超過するため、`scripts/archive_episode.py` で MP3/SRT の実体を外部へ退避します。
-
-- **主系**: GitHub Releases（`episodes-YYYY-MM` タグ、無料・容量無制限）— 常に有効
-- **副系（任意）**: archive.org（`newspicker-tasopen-YYYY-MM` アイテム、恒久保存）
-
-archive.org への複製は**サービス依存の任意機能**です。`config/podcast_meta.yml` で有効化します。
+GitHub Pages には **公開サイト 1 GB** の上限があります。音声を `docs/episodes/` に置き続けると必ず超過するため、`scripts/archive_episode.py` で MP3 の実体を **GitHub Releases**（`episodes-YYYY-MM` タグ、無料・容量無制限）へ退避します。
 
 ```yaml
 archive:
-  github_releases: true    # 既定 true（無料・容量無制限）
-  internet_archive: false  # 既定 false。true にする場合は IA_ACCESS_KEY / IA_SECRET_KEY も必要
+  github_releases: true   # 既定 true
+  # srt_retention_days: 6 # 省略時は dedupe_days を使う
+dedupe_days: 6            # 重複回避で参照する過去エピソードの日数
 ```
-
-`internet_archive: false`（既定）のままなら、キー未設定でも警告を出してスキップするだけで**ジョブは失敗しません**。フォークして毎日赤くなることはありません。
-
-> **配信元は常に GitHub Releases** です。archive.org は SLA も帯域も保証がないため、`feed.xml` の enclosure には使いません（`--primary archive` は廃止）。
 
 `feed.xml` の `<enclosure>` と `<link>` は退避先 URL に書き換わりますが、**`<guid>` は変更しません**。購読者は同じエピソードのまま新 URL から取得できます。
 
@@ -175,9 +153,30 @@ uv run python scripts/archive_episode.py --all --delete-local --allow-partial
 uv run python scripts/archive_episode.py --all --dry-run
 ```
 
+### SRT の保持と重複回避（`dedupe_days`）
+
+`agents/editor.py` は過去の放送内容（SRT）をプロンプトに含めて「同じ話題を繰り返さない」ようにしています。SRT をすべて Releases へ退避すると editor が参照できなくなり、同じニュースを繰り返すため、**直近 `dedupe_days` 日分の SRT は `docs/episodes` に残します**。
+
+| ファイル | docs に残すか | 理由 |
+|----------|---------------|------|
+| `*.mp3` | 退避後に削除 | 容量が大きい（Pages 1 GB 対策の本体） |
+| `*.srt`（直近 `dedupe_days` 日） | **残す** | editor の重複回避で参照する |
+| `*.srt`（それより古い） | 削除 | Releases に実体があり、editor も読まない |
+
+SRT は 1 本 4〜8 KB 程度なので、6 日分でも 50 KB 未満です。古い SRT は**Releases に実体があると確認できたものだけ**削除します（未退避のまま消して enclosure を壊さないため）。
+
+`dedupe_days` を変更したら、それに合わせて古い SRT を戻すか削除できます。
+
+```bash
+# Releases から直近 SRT を取り戻す（冪等・日次ワークフローでも自動実行）
+uv run python scripts/backfill_srts.py
+uv run python scripts/backfill_srts.py --dry-run   # 何を取り戻すか確認
+uv run python scripts/backfill_srts.py --days 14   # 日数を一時的に広げる
+```
+
 ### `--allow-partial` について
 
-archive.org は非常に遅く（実測 約 0.4 MB/s、GitHub Releases は約 5 MB/s）、タイムアウトも発生します。`--allow-partial` を付けると、**一部が失敗しても続行し、URL が確定したファイルだけ削除**します。未退避の実体は Pages 配信を継続するため、enclosure が壊れません。
+`--allow-partial` を付けると、**一部が失敗しても続行し、URL が確定したファイルだけ削除**します。未退避の実体は Pages 配信を継続するため、enclosure が壊れません。
 
 付けない場合、1 ファイルでも失敗すると終了コード 1 になり、削除もコミットも行われません（過去にこれが原因で Pages が 1.24 GB まで肥大し、デプロイがタイムアウトしました）。
 
@@ -188,39 +187,11 @@ Actions から手動実行します。入力パラメータは以下のとおり
 | 入力 | 既定 | 説明 |
 |------|------|------|
 | `dry_run` | `true` | アップロードせず対象だけ表示 |
-| `delete_local` | `false` | 退避後に `docs/episodes` の実体を削除 |
-| `internet_archive` | `false` | archive.org にも複製する（非常に遅い） |
-
-`internet_archive: false`（既定）なら GitHub Releases のみに退避するため、**54 分 → 約 1 分**に短縮されます。archive.org への複製は後からローカルで `mirror_to_archive_org.py` を実行してください。
+| `delete_local` | `false` | 退避後に `docs/episodes` の MP3 を削除 |
 
 コミットステップは `always()` で実行されるため、部分成功でも `feed.xml` の書き換えと実体削除が反映されます。
 
-### archive.org への複製（ローカル実行用）
-
-移行後は MP3 の実体が GitHub Releases にしかないため、`archive_episode.py` はそのままでは動きません。`scripts/mirror_to_archive_org.py` が Release からダウンロードして archive.org へ複製します。
-
-```bash
-# 不足分の確認だけ
-uv run python scripts/mirror_to_archive_org.py --dry-run
-
-# 不足分をすべて複製（冪等：既にあるファイルはスキップ）
-uv run python scripts/mirror_to_archive_org.py
-
-# 特定の月だけ
-uv run python scripts/mirror_to_archive_org.py --month 2026-03
-```
-
-ファイル単位で進捗・経過時間・残り時間（ETA）を表示します。
-
-```
-[mirror]   up 34/49 2026-03-24_061110.mp3 (12.6s) | total 34/49 (69%) elapsed 3m27s ETA 1m31s
-```
-
-> **注意 1**: archive.org の metadata API（`/metadata/<id>`）は反映が非常に遅く、実際には配信されているファイルを「無い」と返すことがあります。検証は `/download/<id>/<name>` への HEAD リクエストで行ってください。
->
-> **注意 2**: archive.org はアップロード成功を返してもファイルを落とすことがあります。アップロード後は必ず配信を確認してください。
->
-> **注意 3**: 過去の MP3 を `git rm` しても `.git` のサイズは減りません。履歴から完全に消すには `git filter-repo` が必要です。
+> **注意**: 過去の MP3 を `git rm` しても `.git` のサイズは減りません。履歴から完全に消すには `git filter-repo` が必要です。
 
 ## 🛠 フィード自動メンテナンス
 
@@ -274,9 +245,8 @@ uv run python scripts/run_pipeline.py --debug
 
 ### 最近の改善点
 - **スケジュール遅延対策**: GitHub の `schedule` は毎時 0 分に大幅に遅延するため、cron-job.org からの `workflow_dispatch`（05:17 JST）を主系に、GitHub cron を `47 20 * * *`（05:47 JST）の保険として併用。`concurrency` と同日チェックで二重生成を防止。
-- **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。`migrate_episodes.yml` に `internet_archive` 入力を追加（既定 `false`）し、遅い archive.org を外して一括移行を 54 分 → 1 分に短縮。
-- **archive.org をオプション化**: `config/podcast_meta.yml` の `archive.internet_archive`（既定 `false`）で制御。キー未設定でも警告のみでスキップし、フォークしてもジョブが失敗しない。`--primary archive` は廃止（配信元は常に GitHub Releases）。
-- **archive.org バックフィル**: `scripts/mirror_to_archive_org.py` で Release から不足分を複製。153 ファイルを約 15 分で処理し、全 532 ファイルの配信を確認済み。
+- **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。MP3 は GitHub Releases へ退避し、直近 `dedupe_days` 日分の SRT は重複回避のため `docs/episodes` に残す。
+- **重複放送の修正**: SRT を全て退避したことで editor が過去放送を参照できず同じニュースを繰り返していた。`dedupe_days`（既定 6）日分の SRT を残し、`scripts/backfill_srts.py` で Releases から復元するように修正。アーカイブ先は GitHub Releases のみ（archive.org 連携は削除）。
 - **パイプライン安定化 (3段階防御)**:
   - **実行時間ログ**: 全セクション（@scout, @editor, @voice, @android）とVoice各segmentの実行時間を `[timing]` / `[voice]` ログで出力。どこで時間を消費しているか特定可能。
   - **GitHub Actions タイムアウト**: `Run pipeline` ステップに `timeout-minutes: 60` を設定。長時間のハングを防止。
