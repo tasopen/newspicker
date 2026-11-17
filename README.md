@@ -231,6 +231,26 @@ uv run python scripts/run_pipeline.py
 uv run python scripts/maintain_feeds.py --auto-add
 ```
 
+### ⚠️ google-genai 3.x と API バージョン（`v1beta` 必須）
+
+google-genai **3.0.0** で破壊的変更があり、Gemini Developer API の既定バージョンが `v1beta` → **`v1`** になりました（Vertex AI / Enterprise は `v1beta1` のまま影響なし）。
+
+`v1` では以下が利用できません。
+
+- TTS モデル（`gemini-3.8-flash-lite-tts` など）と `speech_config`
+- `gemini-flash-latest` / `gemini-pro-latest` などの `-latest` エイリアス、一部の `-preview` モデル
+- Live API、コンテキストキャッシュ（`caches`）
+
+そのため `agents/voice.py` では `HttpOptions` に `api_version="v1beta"` を明示しています。これを外すと次のエラーになります。
+
+```
+400 INVALID_ARGUMENT: Unknown name "speechConfig" at 'generation_config'
+```
+
+コードで指定する代わりに、環境変数 `GOOGLE_GENAI_API_VERSION=v1beta` でも復帰できます（`HttpOptions` の指定が優先）。ただし意図がコードに残らないため、本リポジトリではコード側で明示しています。
+
+> 3.0.0 では既定の HTTP クライアントも `httpx` → `httpx2` に変わり、`httpx` は既定でインストールされなくなりました。`httpx` を直接使うコードを追加する場合は `google-genai[httpx]` を入れてください。
+
 ## 🛠 開発とデバッグ
 
 ### デバッグモードの利用
@@ -244,6 +264,7 @@ uv run python scripts/run_pipeline.py --debug
 - **詳細なエラーログ**: APIレスポンスの詳細（finish_reason や安全しきい値の状態など）が出力されます。
 
 ### 最近の改善点
+- **google-genai 3.x 対応**: SDK の既定 API バージョンが `v1` になり TTS が `400 Unknown name "speechConfig"` で失敗していたため、`agents/voice.py` で `api_version="v1beta"` を明示。
 - **スケジュール遅延対策**: GitHub の `schedule` は毎時 0 分に大幅に遅延するため、cron-job.org からの `workflow_dispatch`（05:17 JST）を主系に、GitHub cron を `47 20 * * *`（05:47 JST）の保険として併用。`concurrency` と同日チェックで二重生成を防止。
 - **Pages 容量対策の完成**: `--allow-partial` により部分成功でも削除・コミットを続行。MP3 は GitHub Releases へ退避し、直近 `dedupe_days` 日分の SRT は重複回避のため `docs/episodes` に残す。
 - **重複放送の修正**: SRT を全て退避したことで editor が過去放送を参照できず同じニュースを繰り返していた。`dedupe_days`（既定 6）日分の SRT を残し、`scripts/backfill_srts.py` で Releases から復元するように修正。アーカイブ先は GitHub Releases のみ（archive.org 連携は削除）。

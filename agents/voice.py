@@ -209,6 +209,9 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
         api_key=api_key,
         http_options=types.HttpOptions(
             timeout=120_000,  # 120秒（ミリ秒）
+            # google-genai 3.x 以降、Gemini Developer API の既定は v1 になった。
+            # TTS モデルと speech_config は v1beta でのみ提供されるため明示する。
+            api_version="v1beta",
         ),
     )
 
