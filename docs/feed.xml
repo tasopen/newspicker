@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Wed, 18 Nov 2026 05:19:23 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:32:44 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-19 05:30:53</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-19_053053.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-19_053053.mp3</guid>
+      <pubDate>Thu, 19 Nov 2026 05:32:44 +0900</pubDate>
+      <description>おはようございます。11月19日のワールド AI ニュースです。OpenAIが最新の次世代モデルを発表したほか、Microsoftが破格の低コストで動く新たなAIコーディングモデルを投入するなど、注目のニュースをお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-19_053053.mp3" type="audio/mpeg" length="4663724" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-19_053053.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:51</itunes:duration>
+      <itunes:summary>おはようございます。11月19日のワールド AI ニュースです。OpenAIが最新の次世代モデルを発表したほか、Microsoftが破格の低コストで動く新たなAIコーディングモデルを投入するなど、注目のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-18 05:17:40</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-18_051740.mp3</link>

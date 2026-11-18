@@ -1,10 +1,3 @@
-2026-10-18T21:21:53.951762+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03788/100700002/
-2026-10-18T21:21:53.951762+00:00	https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries
-2026-10-18T21:21:53.951762+00:00	https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies
-2026-10-18T21:21:53.951762+00:00	https://www.tmtpost.com/8172203.html
-2026-10-18T21:21:53.951762+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02156/100500416/
-2026-10-18T21:21:53.951762+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03791/100700005/
-2026-10-18T21:21:53.951762+00:00	https://www.theguardian.com/technology/2026/oct/18/wikipedia-human-history-ai-future-under-threat
 2026-10-19T22:52:32.943945+00:00	https://www.leiphone.com/category/zaobao/DlLESyleeLkyq5Dy.html
 2026-10-19T22:52:32.943945+00:00	https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie
 2026-10-19T22:52:32.943945+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12100/
@@ -215,3 +208,10 @@
 2026-11-17T20:19:23.495398+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12149/
 2026-11-17T20:19:23.495398+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03479/110400013/
 2026-11-17T20:19:23.495398+00:00	https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai
+2026-11-18T20:32:44.863670+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02653/111300088/
+2026-11-18T20:32:44.863670+00:00	https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human
+2026-11-18T20:32:44.863670+00:00	https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/
+2026-11-18T20:32:44.863670+00:00	https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models
+2026-11-18T20:32:44.863670+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/111302150/
+2026-11-18T20:32:44.863670+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02893/111700018/
+2026-11-18T20:32:44.863670+00:00	https://ai.watch.impress.co.jp/docs/news/2157437.html
