@@ -1,10 +1,3 @@
-2026-10-19T22:52:32.943945+00:00	https://www.leiphone.com/category/zaobao/DlLESyleeLkyq5Dy.html
-2026-10-19T22:52:32.943945+00:00	https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie
-2026-10-19T22:52:32.943945+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12100/
-2026-10-19T22:52:32.943945+00:00	https://www.theguardian.com/technology/2026/oct/19/us-teens-nudify-apps-apple-google-parental-controls
-2026-10-19T22:52:32.943945+00:00	https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/
-2026-10-19T22:52:32.943945+00:00	https://www.leiphone.com/category/industrynews/uCsyLxONvXeV9qXc.html
-2026-10-19T22:52:32.943945+00:00	https://www.leiphone.com/category/ai/wHcf2tZUiQkXGM0i.html
 2026-10-20T22:12:48.884474+00:00	https://ai.watch.impress.co.jp/docs/news/2149590.html
 2026-10-20T22:12:48.884474+00:00	https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
 2026-10-20T22:12:48.884474+00:00	https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html
@@ -215,3 +208,10 @@
 2026-11-18T20:32:44.863670+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00138/111302150/
 2026-11-18T20:32:44.863670+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02893/111700018/
 2026-11-18T20:32:44.863670+00:00	https://ai.watch.impress.co.jp/docs/news/2157437.html
+2026-11-19T20:29:58.728101+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00682/111700221/
+2026-11-19T20:29:58.728101+00:00	https://www.theguardian.com/commentisfree/2026/nov/19/tech-workers-quit-jobs-raise-alarm-worry-ai-humanity-autocracies
+2026-11-19T20:29:58.728101+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03671/111600012/
+2026-11-19T20:29:58.728101+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00692/111900203/
+2026-11-19T20:29:58.728101+00:00	https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec
+2026-11-19T20:29:58.728101+00:00	https://ai.watch.impress.co.jp/docs/news/2157970.html
+2026-11-19T20:29:58.728101+00:00	https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns
