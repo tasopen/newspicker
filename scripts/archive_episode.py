@@ -22,7 +22,8 @@ SRT（字幕）は台本の重複回避のため docs/episodes に残す。
   GITHUB_TOKEN     GitHub Releases へのアップロード（Actions では secrets.GITHUB_TOKEN）
 
 任意の環境変数:
-  GITHUB_REPOSITORY   既定: tasopen/newspicker
+  GITHUB_REPOSITORY   owner/repo。未設定なら git remote origin、
+                      次に config/podcast_meta.yml の base_url から解決する
   ARCHIVE_SKIP_GITHUB 1 で GitHub Releases へのアップロードを省略
 """
 from __future__ import annotations
@@ -47,6 +48,7 @@ from agents.android import (  # noqa: E402
     PODCAST_NS,
     _load_meta,
 )
+from agents.repo import resolve_repo_slug  # noqa: E402
 
 from xml.etree import ElementTree as ET  # noqa: E402
 
@@ -55,7 +57,6 @@ ET.register_namespace("atom", ATOM_NS)
 ET.register_namespace("content", CONTENT_NS)
 ET.register_namespace("podcast", PODCAST_NS)
 
-DEFAULT_REPO = "tasopen/newspicker"
 RELEASE_TAG_PREFIX = "episodes-"
 EPISODES_DIR = "docs/episodes"
 FEED_PATH = "docs/feed.xml"
@@ -371,7 +372,12 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
+    repo = resolve_repo_slug()
+    if not repo:
+        raise SystemExit(
+            "cannot determine GitHub repository: set GITHUB_REPOSITORY=owner/repo "
+            "or configure base_url in config/podcast_meta.yml"
+        )
     token = os.environ.get("GITHUB_TOKEN", "")
 
     cfg = load_archive_config()

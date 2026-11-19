@@ -15,7 +15,8 @@ docs/episodes に戻す。日次のパイプラインからも呼ばれる（冪
 
 任意の環境変数:
   GITHUB_TOKEN        Release 取得用（公開リポジトリなら不要）
-  GITHUB_REPOSITORY   既定: tasopen/newspicker
+  GITHUB_REPOSITORY   owner/repo。未設定なら git remote origin、
+                      次に config/podcast_meta.yml の base_url から解決する
 """
 from __future__ import annotations
 
@@ -29,8 +30,8 @@ import requests
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from agents.editor import DEFAULT_DEDUPE_DAYS, _load_meta, _parse_episode_date  # noqa: E402
+from agents.repo import resolve_repo_slug  # noqa: E402
 
-DEFAULT_REPO = "tasopen/newspicker"
 RELEASE_TAG_PREFIX = "episodes-"
 EPISODES_DIR = "docs/episodes"
 GH_API = "https://api.github.com"
@@ -88,7 +89,13 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=None, help="対象日数（既定: dedupe_days）")
     args = parser.parse_args()
 
-    repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
+    repo = resolve_repo_slug()
+    if not repo:
+        log(
+            "[backfill] cannot determine GitHub repository: "
+            "set GITHUB_REPOSITORY=owner/repo or configure base_url"
+        )
+        return 1
     token = os.environ.get("GITHUB_TOKEN", "")
     days = args.days if args.days is not None else dedupe_days()
     if days <= 0:
