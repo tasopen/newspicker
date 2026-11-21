@@ -209,6 +209,35 @@ Actions から手動実行します。入力パラメータは以下のとおり
 - 新しいテーマに切り替えるときは、まず `editor_prompt_template` を編集して、読み上げ方針や用語ルールを合わせるのがおすすめです。
 - ふりがなについては、括弧は読みのためだけに使い、括弧内はひらがな・カタカナの単純な読みのみとするルールを明示すると、音声化時のノイズを減らせます。
 
+## 📢 臨時メッセージ（お知らせ）
+
+[config/announcements.yml](config/announcements.yml) に放送日を指定して文言を登録すると、その日のエピソードだけ Greeting の直後に読み上げられます。
+
+```
+Greeting → 臨時メッセージ → ニュースのヘッドライン → 本文
+```
+
+```yaml
+announcements:
+  - date: 2026-11-21
+    text: "ごめんなさい。昨日11月20日、間違えて2回配信してしまいました。配信の仕組みを直したので、今日以降は大丈夫なはずです。それでは、本日のニュース。"
+    enabled: true
+```
+
+- `date` は日本時間の `YYYY-MM-DD`。**その日のみ**有効です。
+- `enabled: false` で一時停止できます（省略時は `true`）。
+- 過去日付のエントリは自動的に無視されるため、削除し忘れても実害はありません。
+- 同日に複数件ある場合は、上から順に連結して読み上げます。
+- 文言は LLM を通さず一字一句そのまま音声化されます。TTS に直接渡るため、括弧はふりがな以外に使わず、英語・略語・記号を避けて句点で終えてください。
+- この文言は音声と SRT にのみ含まれ、フィードの `description` は汚しません。
+
+実装は [agents/announcements.py](agents/announcements.py) にあり、`scripts/run_pipeline.py` が読み上げ用の `full_script` にだけ適用します（`update_feed` へは元の headline を渡すため、フィードの説明文は変わりません）。Greeting は `config/podcast_meta.yml` の `prompt_greeting` から `agents/editor.py` と同じ規則で再構成して先頭一致を判定します。
+
+```bash
+# 臨時メッセージのテストのみ実行
+uv run python -m unittest tests.test_announcements -v
+```
+
 ## 📱 アプリでの購読
 
 Podcast アプリ（AntennaPod, Apple Podcasts 等）を開き、以下の URL を登録：
