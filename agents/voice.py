@@ -191,6 +191,20 @@ def _build_tts_prompt(request_id: str, persona_instruction: str, clean_script: s
     return f"[request_id={request_id}]\n{persona_instruction}{clean_script}"
 
 
+def _format_tts_prompt_block(tts_prompt: str, request_id: str) -> str:
+    """コンソール出力用に、送信プロンプトをそのまま囲んだブロックを組み立てる。
+
+    TTS の不具合を後から追跡できるよう、実際に API へ送った文字列を
+    加工せずに出力する（区切り行のみ付加する）。
+    """
+    return (
+        f"[voice] TTS prompt (request_id={request_id}, chars={len(tts_prompt)}):\n"
+        "----- TTS PROMPT BEGIN -----\n"
+        f"{tts_prompt}\n"
+        "----- TTS PROMPT END -----"
+    )
+
+
 def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_meta.yml", debug: bool = False, output_format: str = "mp3") -> str:
     """台本テキストを音声合成して音声ファイルに保存する。output_formatでmp3/wav選択可。output_path を返す。debug=True でPCMも保存。"""
     meta = _load_meta(meta_path)
@@ -199,6 +213,7 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
     title = meta.get("title", "ニュース")
     category = meta.get("category", "Technology")
     short_title = meta.get("short_title", title)
+    log_tts_input = bool(meta.get("log_tts_input", False))
     api_key = os.environ["GEMINI_API_KEY"]
 
     persona_instruction = meta.get(
@@ -244,6 +259,10 @@ def synthesize(script: str, output_path: str, meta_path: str = "config/podcast_m
             request_id = uuid.uuid4().hex[:12]
             last_request_id = request_id
             tts_prompt = _build_tts_prompt(request_id, persona_instruction, clean_script)
+            # 実際に送信するプロンプトをそのままコンソールへ出す（TTS 不具合の事後調査用）
+            # config/podcast_meta.yml の log_tts_input: true のときのみ出力する
+            if log_tts_input:
+                print(_format_tts_prompt_block(tts_prompt, request_id), flush=True)
             if debug:
                 # 実際に送信される完全なプロンプトをファイルに保存する（試行ごと）
                 debug_prompt_path = output_path + ".tts_prompt.txt"

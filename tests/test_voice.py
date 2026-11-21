@@ -6,6 +6,7 @@ import unittest
 from agents.voice import (
     _build_tts_prompt,
     _clean_text_for_tts,
+    _format_tts_prompt_block,
     _is_retryable_exception,
     _sanitize_text_for_tts,
     _tts_input_diagnostics,
@@ -109,6 +110,17 @@ class BuildTtsPromptTests(unittest.TestCase):
         self.assertTrue(
             prompt.startswith("[request_id=abc123]\nPERSONA\n今日のニュースです。")
         )
+
+    def test_prompt_block_embeds_prompt_verbatim(self) -> None:
+        prompt = _build_tts_prompt("abc123", "PERSONA\n", "今日のニュースです。")
+        block = _format_tts_prompt_block(prompt, "abc123")
+
+        self.assertIn("request_id=abc123", block)
+        self.assertIn(f"chars={len(prompt)}", block)
+        self.assertIn("----- TTS PROMPT BEGIN -----", block)
+        self.assertIn("----- TTS PROMPT END -----", block)
+        # プロンプト本文は加工されずにそのまま含まれる
+        self.assertIn(prompt, block)
 
 
 if __name__ == "__main__":
