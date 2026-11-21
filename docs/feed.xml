@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sat, 21 Nov 2026 05:19:46 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 05:19:41 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-22 05:17:56</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-22_051756.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-22_051756.mp3</guid>
+      <pubDate>Sun, 22 Nov 2026 05:19:41 +0900</pubDate>
+      <description>おはようございます。11月22日のワールド AI ニュースです。AnthropicのAIが数学の未解決難問であるリーマン予想の証明を支援したと発表されたほか、OpenAIの最新モデルがフィジカルAIの領域で大きな突破口を開くなど、注目のニュースをお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-22_051756.mp3" type="audio/mpeg" length="4898732" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-22_051756.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>05:06</itunes:duration>
+      <itunes:summary>おはようございます。11月22日のワールド AI ニュースです。AnthropicのAIが数学の未解決難問であるリーマン予想の証明を支援したと発表されたほか、OpenAIの最新モデルがフィジカルAIの領域で大きな突破口を開くなど、注目のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-21 05:17:41</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-21_051741.mp3</link>
