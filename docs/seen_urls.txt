@@ -1,10 +1,3 @@
-2026-10-22T22:14:32.405945+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00682/102100219/
-2026-10-22T22:14:32.405945+00:00	https://ai.watch.impress.co.jp/docs/news/2150308.html
-2026-10-22T22:14:32.405945+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100113/101600197/
-2026-10-22T22:14:32.405945+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/102100189/
-2026-10-22T22:14:32.405945+00:00	https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance
-2026-10-22T22:14:32.405945+00:00	https://ai.watch.impress.co.jp/docs/news/2150360.html
-2026-10-22T22:14:32.405945+00:00	https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened
 2026-10-23T21:58:00.861200+00:00	https://www.leiphone.com/category/zaobao/IlrVRbBiK9Klcuj1.html
 2026-10-23T21:58:00.861200+00:00	https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
 2026-10-23T21:58:00.861200+00:00	https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability
@@ -215,3 +208,10 @@
 2026-11-21T20:19:41.390081+00:00	https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/
 2026-11-21T20:19:41.390081+00:00	https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/
 2026-11-21T20:19:41.390081+00:00	https://www.qbitai.com/2026/11/511779.html
+2026-11-22T20:19:31.818443+00:00	https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy
+2026-11-22T20:19:31.818443+00:00	https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems
+2026-11-22T20:19:31.818443+00:00	https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html
+2026-11-22T20:19:31.818443+00:00	https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds
+2026-11-22T20:19:31.818443+00:00	https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/
+2026-11-22T20:19:31.818443+00:00	https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html
+2026-11-22T20:19:31.818443+00:00	https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html
