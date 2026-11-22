@@ -80,7 +80,6 @@ selection:
   max_articles: 7
   hours_lookback: 24
   max_per_source: 3
-  # フィード取得のタイムアウト（秒）。応答しないフィードで止まらないようにする
   request_timeout_sec: 15
 maintenance:
   check_interval_weeks: 1
