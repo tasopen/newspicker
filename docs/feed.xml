@@ -14,7 +14,18 @@
       <itunes:name>TasogarePenguin</itunes:name>
       <itunes:email>tasopenservices@gmail.com</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 24 Nov 2026 05:19:21 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 05:19:28 +0900</lastBuildDate>
+    <item>
+      <title>ワールド AI ニュース 2026-11-25 05:17:39</title>
+      <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-25_051739.mp3</link>
+      <guid isPermaLink="false">https://tasopen.github.io/newspicker/episodes/2026-11-25_051739.mp3</guid>
+      <pubDate>Wed, 25 Nov 2026 05:19:28 +0900</pubDate>
+      <description>おはようございます。11月25日のワールド AI ニュースです。NVIDIAのジェンスン・フアン氏が最高経営責任者に電撃復帰を果たしたほか、Metaの買い物代行AIエージェントがイギリスへ展開を開始するなど、注目のニュースをお届けします。</description>
+      <enclosure url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-25_051739.mp3" type="audio/mpeg" length="4403372" />
+      <podcast:transcript url="https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-25_051739.srt" type="application/x-subrip" rel="captions" />
+      <itunes:duration>04:35</itunes:duration>
+      <itunes:summary>おはようございます。11月25日のワールド AI ニュースです。NVIDIAのジェンスン・フアン氏が最高経営責任者に電撃復帰を果たしたほか、Metaの買い物代行AIエージェントがイギリスへ展開を開始するなど、注目のニュースをお届けします。</itunes:summary>
+    </item>
     <item>
       <title>ワールド AI ニュース 2026-11-24 05:17:38</title>
       <link>https://github.com/tasopen/newspicker/releases/download/episodes-2026-11/2026-11-24_051738.mp3</link>
