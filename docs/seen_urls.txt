@@ -1,10 +1,3 @@
-2026-10-25T21:34:47.767925+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/00001/12110/
-2026-10-25T21:34:47.767925+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03762/091500001/
-2026-10-25T21:34:47.767925+00:00	https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music
-2026-10-25T21:34:47.767925+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03798/101900001/
-2026-10-25T21:34:47.767925+00:00	https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
-2026-10-25T21:34:47.767925+00:00	https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai
-2026-10-25T21:34:47.767925+00:00	https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie
 2026-10-26T23:06:11.085846+00:00	https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns
 2026-10-26T23:06:11.085846+00:00	https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video
 2026-10-26T23:06:11.085846+00:00	https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic
@@ -215,3 +208,10 @@
 2026-11-24T20:19:28.140255+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03832/111300002/
 2026-11-24T20:19:28.140255+00:00	https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis
 2026-11-24T20:19:28.140255+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/111500581/111500003/
+2026-11-25T20:19:26.433844+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03832/111300003/
+2026-11-25T20:19:26.433844+00:00	https://www.leiphone.com/category/zaobao/1ER4gdHHQ4gNFpKi.html
+2026-11-25T20:19:26.433844+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03794/111700004/
+2026-11-25T20:19:26.433844+00:00	https://www.theguardian.com/commentisfree/2026/nov/25/ai-mathematics-human-knowledge-progress-technology-industry
+2026-11-25T20:19:26.433844+00:00	https://ai.watch.impress.co.jp/docs/news/2159153.html
+2026-11-25T20:19:26.433844+00:00	https://www.theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation
+2026-11-25T20:19:26.433844+00:00	https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
