@@ -1,10 +1,3 @@
-2026-10-27T22:56:23.644974+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041800013/101900108/
-2026-10-27T22:56:23.644974+00:00	https://ai.watch.impress.co.jp/docs/news/2151539.html
-2026-10-27T22:56:23.644974+00:00	https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/
-2026-10-27T22:56:23.644974+00:00	https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update
-2026-10-27T22:56:23.644974+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/102100578/102100004/
-2026-10-27T22:56:23.644974+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nc/18/102100578/102100001/
-2026-10-27T22:56:23.644974+00:00	https://www.theguardian.com/commentisfree/2026/oct/27/elon-musk-cyber-psychosis-ai-tech
 2026-10-28T23:01:23.763016+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/101900258/101900001/
 2026-10-28T23:01:23.763016+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03799/102100003/
 2026-10-28T23:01:23.763016+00:00	https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html
@@ -215,3 +208,10 @@
 2026-11-26T20:19:40.401618+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/03832/111300004/
 2026-11-26T20:19:40.401618+00:00	https://xtech.nikkei.com/atcl/nxt/column/18/02737/112200071/
 2026-11-26T20:19:40.401618+00:00	https://www.theguardian.com/technology/2026/nov/26/employers-do-you-have-concerns-about-the-rollout-of-muse-and-other-ai-agents
+2026-11-27T20:18:58.664282+00:00	https://www.leiphone.com/category/zaobao/VrpGC0c4wtt3NcEi.html
+2026-11-27T20:18:58.664282+00:00	https://www.leiphone.com/category/ai/IMi92BFX4KU0R8uh.html
+2026-11-27T20:18:58.664282+00:00	https://www.leiphone.com/category/yanxishe/e60A2os7y71EKeLI.html
+2026-11-27T20:18:58.664282+00:00	https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041800013/111700109/
+2026-11-27T20:18:58.664282+00:00	https://www.theguardian.com/commentisfree/2026/nov/27/donald-trump-destroying-us-law-tech-titans-jensen-huang-nvidia
+2026-11-27T20:18:58.664282+00:00	https://www.theguardian.com/commentisfree/2026/nov/27/the-guardian-view-on-ai-and-the-riemann-hypothesis-a-triumph-of-intelligence-a-test-of-democracy
+2026-11-27T20:18:58.664282+00:00	https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer
